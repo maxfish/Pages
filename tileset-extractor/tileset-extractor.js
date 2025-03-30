@@ -16,6 +16,7 @@ function onLoad() {
     const downloadTiledTMXLink = document.querySelector("a[download-tmx]");
     const processButton = document.getElementById("process-button");
     const allowFlippingCheckbox = document.getElementById("allow-flipping");
+    const exportColumnsInput = document.getElementById("export-columns-input");
 
     let map = null;
     let tiles = null;
@@ -56,6 +57,7 @@ function onLoad() {
         tileHeight = 0;
         extractedTilesWidth = 0;
         extractedTilesHeight = 0;
+        processButton.disabled = true;
     }
 
     function log(header, content) {
@@ -75,7 +77,6 @@ function onLoad() {
         line.setAttribute("error", "");
         line.textContent = msg;
         consoleLayer.appendChild(line);
-        processButton.disabled = false;
     }
 
     function checkSourceSize() {
@@ -108,9 +109,15 @@ function onLoad() {
         source.onload = function () {
             readUI();
             log("Image loaded:", `${source.width} x ${source.height}px`);
+            if (checkSourceSize()) {
+                processButton.disabled = false;
+            } else {
+                processButton.disabled = true;
+            }
         };
         source.onerror = function () {
             error("Could not load image.");
+            processButton.disabled = true;
         };
     }
 
@@ -138,6 +145,10 @@ function onLoad() {
         xmlTileSet.setAttribute("name", "tiles");
         xmlTileSet.setAttribute("tilewidth", tileWidth);
         xmlTileSet.setAttribute("tileheight", tileHeight);
+        xmlTileSet.setAttribute("tilecount", tiles.length);
+        const desiredExportColsTMX = parseInt(exportColumnsInput.value, 10) || 8;
+        const actualExportColsTMX = Math.min(desiredExportColsTMX, tiles.length);
+        xmlTileSet.setAttribute("columns", actualExportColsTMX);
         const xmlImage = document.createElement("image");
         xmlImage.setAttribute("source", "tiles.png");
         xmlImage.setAttribute("width", extractedTilesWidth);
@@ -145,26 +156,70 @@ function onLoad() {
         xmlTileSet.appendChild(xmlImage);
         xmlMap.appendChild(xmlTileSet);
         const xmlLayer = document.createElement("layer");
+        xmlLayer.setAttribute("id", "1");
         xmlLayer.setAttribute("name", "layer");
         xmlLayer.setAttribute("width", numCols);
         xmlLayer.setAttribute("height", numRows);
         const xmlData = document.createElement("data");
+        xmlData.setAttribute("encoding", "csv");
+
+        const FLIPPED_HORIZONTALLY_FLAG = 0x80000000;
+        const FLIPPED_VERTICALLY_FLAG = 0x40000000;
+
+        const gidArray = [];
+
         for (let i = 0, n = map.length; i < n; ++i) {
-            const xmlTile = document.createElement("tile");
-            xmlTile.setAttribute("gid", map[i] + 1);
-            xmlData.appendChild(xmlTile);
+            const mapEntry = map[i];
+            const baseGid = mapEntry.index + 1;
+            let finalGid = baseGid;
+
+            switch (mapEntry.orientation) {
+                case 'hflip':
+                    finalGid |= FLIPPED_HORIZONTALLY_FLAG;
+                    break;
+                case 'vflip':
+                    finalGid |= FLIPPED_VERTICALLY_FLAG;
+                    break;
+                case 'hvflip':
+                    finalGid |= FLIPPED_HORIZONTALLY_FLAG | FLIPPED_VERTICALLY_FLAG;
+                    break;
+            }
+
+            const unsignedGid = finalGid >>> 0;
+
+            gidArray.push(unsignedGid);
         }
+
+        xmlData.textContent = gidArray.join(',');
+
         xmlLayer.appendChild(xmlData);
         xmlMap.appendChild(xmlLayer);
+
+        const desiredExportCols = parseInt(exportColumnsInput.value, 10) || 8;
+        const actualExportCols = Math.min(desiredExportCols, tiles.length);
+
+        console.log("TMX Export Debug:");
+        console.log(" - Map Dims:", numCols, "x", numRows);
+        console.log(" - Tile Dims:", tileWidth, "x", tileHeight);
+        console.log(" - Tileset: tilecount=", tiles.length, "columns=", actualExportCols);
+        console.log(" - Tileset Image Dims:", extractedTilesWidth, "x", extractedTilesHeight);
+        console.log(" - Layer Dims:", numCols, "x", numRows);
+        console.log(" - CSV Data (first 100 chars):", gidArray.join(',').substring(0, 100), "...");
+
         return '<?xml version="1.0" encoding="UTF-8"?>\n' + new XMLSerializer().serializeToString(xmlMap);
     }
 
     function beginExtractionWorker() {
         reset();
+        processButton.disabled = true;
+
         readUI();
         if (!checkSourceSize()) {
+            processButton.disabled = false;
             return;
         }
+
+        console.log("beginExtractionWorker: Using source:", source ? source.src.substring(0, 100) + '...' : 'null');
 
         log("Processing started...", "");
         worker = new Worker('tileset-extractor-worker.js');
@@ -184,30 +239,43 @@ function onLoad() {
                 log("Time:", data.time + "ms");
                 showExtractedTiles();
                 showTileset();
+
+                const exportMap = map.map(entry => {
+                    if (entry.orientation === 'normal') {
+                        return { index: entry.index };
+                    }
+                    return entry;
+                });
+
                 downloadMapLink.download = "map.json";
                 downloadMapLink.href = window.URL.createObjectURL(new Blob([JSON.stringify({
-                    map: map,
+                    map: exportMap,
                     numCols: numCols,
                     numRows: numRows
                 })], { type: 'text/plain' }));
                 downloadTiledTMXLink.download = "tiled.tmx";
                 downloadTiledTMXLink.href = window.URL.createObjectURL(new Blob([exportTiledFormat()], { type: 'text/xml' }));
+
+                processButton.disabled = false;
             }
         };
         worker.onerror = function (e) {
             error("Worker error: " + e.message);
             progress.setAttribute("hidden", "");
+            processButton.disabled = false;
             worker = null;
         };
 
         const allowFlipping = allowFlippingCheckbox.checked;
+        const imageData = extractSourceData(source);
+        console.log("beginExtractionWorker: Extracted imageData dimensions:", imageData.width, "x", imageData.height);
 
         worker.postMessage({
             action: "extract",
             tileWidth: tileWidth,
             tileHeight: tileHeight,
             tolerance: toleranceInput.value * 1024,
-            imageData: extractSourceData(source),
+            imageData: imageData,
             allowFlipping: allowFlipping
         });
     }
@@ -230,9 +298,47 @@ function onLoad() {
         canvas.setAttribute("height", sourceHeight.toString());
         const context = canvas.getContext('2d');
         let index = 0;
-        for (let y = 0; y < numRows; ++y)
-            for (let x = 0; x < numCols; ++x)
-                context.putImageData(tiles[map[index++]], x * tileWidth, y * tileHeight);
+        for (let y = 0; y < numRows; ++y) {
+            for (let x = 0; x < numCols; ++x) {
+                const mapEntry = map[index++];
+                const tileIndex = mapEntry.index;
+                const orientation = mapEntry.orientation;
+                const tile = tiles[tileIndex];
+
+                if (!tile) {
+                    console.error(`Tile not found for index: ${tileIndex} at map pos ${x},${y}`);
+                    continue;
+                }
+
+                const drawX = x * tileWidth;
+                const drawY = y * tileHeight;
+
+                context.save();
+
+                let scaleH = 1, scaleV = 1;
+                if (orientation === 'hflip' || orientation === 'hvflip') {
+                    scaleH = -1;
+                }
+                if (orientation === 'vflip' || orientation === 'hvflip') {
+                    scaleV = -1;
+                }
+
+                const tempCanvas = document.createElement('canvas');
+                tempCanvas.width = tileWidth;
+                tempCanvas.height = tileHeight;
+                tempCanvas.getContext('2d').putImageData(tile, 0, 0);
+
+                if (scaleH === -1 || scaleV === -1) {
+                    context.translate(drawX + tileWidth / 2, drawY + tileHeight / 2);
+                    context.scale(scaleH, scaleV);
+                    context.drawImage(tempCanvas, -tileWidth / 2, -tileHeight / 2);
+                } else {
+                    context.drawImage(tempCanvas, drawX, drawY);
+                }
+
+                context.restore();
+            }
+        }
         tilesetLayer.appendChild(canvas);
         downloadTileMapLink.href = canvas.toDataURL();
         downloadTileMapLink.download = "tilemap.png";
@@ -240,8 +346,10 @@ function onLoad() {
 
     function createTilesDataURL() {
         const numTiles = tiles.length;
-        const numRows = Math.sqrt(numTiles) | 0;
-        const numCols = Math.ceil(numTiles / numRows) | 0;
+        const desiredCols = parseInt(exportColumnsInput.value, 10) || 8;
+        const numCols = Math.min(desiredCols, numTiles);
+        const numRows = (numTiles > 0) ? Math.ceil(numTiles / numCols) : 1;
+        
         extractedTilesWidth = numCols * tileWidth;
         extractedTilesHeight = numRows * tileHeight;
         const canvas = document.createElement("canvas");
@@ -249,8 +357,10 @@ function onLoad() {
         canvas.setAttribute("height", (extractedTilesHeight).toString());
         const context = canvas.getContext('2d');
         for (let i = 0; i < numTiles; ++i) {
-            const x = (i % numCols) * tileWidth;
-            const y = ((i / numCols) | 0) * tileHeight;
+            const col = i % numCols;
+            const row = Math.floor(i / numCols);
+            const x = col * tileWidth;
+            const y = row * tileHeight;
             context.putImageData(tiles[i], x, y);
         }
         return canvas.toDataURL();
@@ -271,6 +381,8 @@ function onLoad() {
             loadImage(e.target.result);
         };
         reader.readAsDataURL(file);
+
+        e.target.value = null;
     });
     loadDemoButton.addEventListener("click", function () {
         loadImage('tileset-extractor-demo.png');
@@ -288,9 +400,27 @@ function onLoad() {
     [tileWidthInput, tileHeightInput].forEach(input => {
         input.addEventListener('change', () => {
             readUI();
-            if (source && !checkSourceSize()) {
-                 error("Dimensions are now invalid for the loaded image.");
+            if (source) {
+                if (!checkSourceSize()) {
+                    processButton.disabled = true;
+                } else {
+                    processButton.disabled = false;
+                }
+            } else {
+                processButton.disabled = true;
             }
         });
+    });
+
+    // Add listener to update downloads when export columns change
+    exportColumnsInput.addEventListener('change', () => {
+        if (tiles && tiles.length > 0) { // Only update if results exist
+            // Regenerate tiles.png with new column count
+            downloadTilesLink.href = createTilesDataURL(); 
+            // Regenerate tiled.tmx with new column count
+            downloadTiledTMXLink.href = window.URL.createObjectURL(new Blob([exportTiledFormat()], { type: 'text/xml' }));
+            // Note: The visual tile display in div[tiles] does not need to change, 
+            // only the downloaded tiles.png layout.
+        }
     });
 }
