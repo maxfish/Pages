@@ -15,6 +15,7 @@ function onLoad() {
     const downloadTileMapLink = document.querySelector("a[download-tilemap]");
     const downloadTiledTMXLink = document.querySelector("a[download-tmx]");
     const processButton = document.getElementById("process-button");
+    const allowFlippingCheckbox = document.getElementById("allow-flipping");
 
     let map = null;
     let tiles = null;
@@ -210,12 +211,16 @@ function onLoad() {
             processButton.disabled = false;
             worker = null;
         };
+
+        const allowFlipping = allowFlippingCheckbox.checked;
+
         worker.postMessage({
             action: "extract",
             tileWidth: tileWidth,
             tileHeight: tileHeight,
             tolerance: toleranceInput.value * 1024,
-            imageData: extractSourceData(source)
+            imageData: extractSourceData(source),
+            allowFlipping: allowFlipping
         });
     }
 
