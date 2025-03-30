@@ -14,6 +14,7 @@ function onLoad() {
     const downloadTilesLink = document.querySelector("a[download-tiles]");
     const downloadTileMapLink = document.querySelector("a[download-tilemap]");
     const downloadTiledTMXLink = document.querySelector("a[download-tmx]");
+    const processButton = document.getElementById("process-button");
 
     let map = null;
     let tiles = null;
@@ -40,6 +41,7 @@ function onLoad() {
         tilesetLayer.innerHTML = "";
         progress.value = 0;
         resultLayer.setAttribute("hidden", "");
+        processButton.disabled = true;
     }
 
     function fullReset() {
@@ -72,6 +74,7 @@ function onLoad() {
         line.setAttribute("error", "");
         line.textContent = msg;
         consoleLayer.appendChild(line);
+        processButton.disabled = false;
     }
 
     function checkSourceSize() {
@@ -97,17 +100,22 @@ function onLoad() {
         }
     }
 
-    function extract(src) {
+    function loadImage(src) {
+        fullReset();
         source = new Image();
         source.src = src;
         source.onload = function () {
             readUI();
+            log("Image loaded:", `${source.width} x ${source.height}px`);
             if (checkSourceSize()) {
-                beginExtractionWorker();
+                processButton.disabled = false;
+            } else {
+                processButton.disabled = true;
             }
         };
-        source.onError = function () {
+        source.onerror = function () {
             error("Could not load image.");
+            processButton.disabled = true;
         };
     }
 
@@ -157,8 +165,16 @@ function onLoad() {
     }
 
     function beginExtractionWorker() {
-        log("Size:", sourceWidth + " x " + sourceHeight + "px");
-        log("Map:", numCols + " x " + numRows);
+        reset();
+        processButton.disabled = true;
+
+        readUI();
+        if (!checkSourceSize()) {
+            processButton.disabled = false;
+            return;
+        }
+
+        log("Processing started...", "");
         worker = new Worker('tileset-extractor-worker.js');
         worker.onmessage = function (event) {
             const data = event.data;
@@ -181,10 +197,18 @@ function onLoad() {
                     map: map,
                     numCols: numCols,
                     numRows: numRows
-                })], {type: 'text/plain'}));
+                })], { type: 'text/plain' }));
                 downloadTiledTMXLink.download = "tiled.tmx";
-                downloadTiledTMXLink.href = window.URL.createObjectURL(new Blob([exportTiledFormat()], {type: 'text/xml'}));
+                downloadTiledTMXLink.href = window.URL.createObjectURL(new Blob([exportTiledFormat()], { type: 'text/xml' }));
+
+                processButton.disabled = false;
             }
+        };
+        worker.onerror = function (e) {
+            error("Worker error: " + e.message);
+            progress.setAttribute("hidden", "");
+            processButton.disabled = false;
+            worker = null;
         };
         worker.postMessage({
             action: "extract",
@@ -222,8 +246,6 @@ function onLoad() {
     }
 
     function createTilesDataURL() {
-        // Try to get as squared as possible
-        //
         const numTiles = tiles.length;
         const numRows = Math.sqrt(numTiles) | 0;
         const numCols = Math.ceil(numTiles / numRows) | 0;
@@ -242,35 +264,45 @@ function onLoad() {
     }
 
     choose.addEventListener("change", function (e) {
-        fullReset();
         const file = e.target.files[0];
         if (!file) {
             error("No file selected.");
+            processButton.disabled = true;
             return;
         }
-        if (file.type !== "image/png" && file.type !== "image/gif") {
-            error("Not a png or gif file.");
+        if (!file.type.match('image/png') && !file.type.match('image/gif')) {
+            error("File must be png or gif.");
+            processButton.disabled = true;
             return;
         }
-        extract(URL.createObjectURL(file));
+        const reader = new FileReader();
+        reader.onload = function (e) {
+            loadImage(e.target.result);
+        };
+        reader.readAsDataURL(file);
     });
     loadDemoButton.addEventListener("click", function () {
-        fullReset();
-        extract("tileset-extractor-demo.png");
+        loadImage('tileset-extractor-demo.png');
     });
     loadDemoBigButton.addEventListener("click", function () {
-        fullReset();
-        extract("tileset-extractor-demo-big.png");
+        loadImage('tileset-extractor-demo-big.png');
     });
-    let changeListener = () => {
-        if (null === source) {
-            return;
+    processButton.addEventListener('click', function() {
+        if (source) {
+            beginExtractionWorker();
+        } else {
+            error("No image loaded to process.");
         }
-        reset();
-        readUI();
-        beginExtractionWorker();
-    };
-    toleranceInput.addEventListener("change", changeListener);
-    tileWidthInput.addEventListener("change", changeListener);
-    tileHeightInput.addEventListener("change", changeListener);
+    });
+    [tileWidthInput, tileHeightInput].forEach(input => {
+        input.addEventListener('change', () => {
+            readUI();
+            if (source && !checkSourceSize()) {
+                 error("Dimensions are now invalid for the loaded image.");
+                 processButton.disabled = true;
+            } else if (source) {
+                processButton.disabled = false;
+            }
+        });
+    });
 }
