@@ -108,15 +108,9 @@ function onLoad() {
         source.onload = function () {
             readUI();
             log("Image loaded:", `${source.width} x ${source.height}px`);
-            if (checkSourceSize()) {
-                processButton.disabled = false;
-            } else {
-                processButton.disabled = true;
-            }
         };
         source.onerror = function () {
             error("Could not load image.");
-            processButton.disabled = true;
         };
     }
 
@@ -167,11 +161,8 @@ function onLoad() {
 
     function beginExtractionWorker() {
         reset();
-        processButton.disabled = true;
-
         readUI();
         if (!checkSourceSize()) {
-            processButton.disabled = false;
             return;
         }
 
@@ -201,14 +192,11 @@ function onLoad() {
                 })], { type: 'text/plain' }));
                 downloadTiledTMXLink.download = "tiled.tmx";
                 downloadTiledTMXLink.href = window.URL.createObjectURL(new Blob([exportTiledFormat()], { type: 'text/xml' }));
-
-                processButton.disabled = false;
             }
         };
         worker.onerror = function (e) {
             error("Worker error: " + e.message);
             progress.setAttribute("hidden", "");
-            processButton.disabled = false;
             worker = null;
         };
 
@@ -272,12 +260,10 @@ function onLoad() {
         const file = e.target.files[0];
         if (!file) {
             error("No file selected.");
-            processButton.disabled = true;
             return;
         }
         if (!file.type.match('image/png') && !file.type.match('image/gif')) {
             error("File must be png or gif.");
-            processButton.disabled = true;
             return;
         }
         const reader = new FileReader();
@@ -304,9 +290,6 @@ function onLoad() {
             readUI();
             if (source && !checkSourceSize()) {
                  error("Dimensions are now invalid for the loaded image.");
-                 processButton.disabled = true;
-            } else if (source) {
-                processButton.disabled = false;
             }
         });
     });
