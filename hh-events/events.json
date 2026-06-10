@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T19:38:12.134Z",
+  "generated_at": "2026-06-10T19:41:49.134Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -19,7 +19,6 @@
   "event_count": 105,
   "events": [
     {
-      "row_number": 2,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-dein-mikroabenteuer-fuer-den-sommer-fuer-mehr-selbstbewusstsein-im-leben?eventDateId=30353014&widgetToken=22vcqFKw4GE.&",
       "name": "Dein Mikroabenteuer Für Den Sommer -- Für Mehr Selbstbewusstsein Im Leben",
       "start_date": "2026/06/11",
@@ -32,12 +31,8 @@
       "context": "Wassersport / Mikroabenteuer",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:56:58.895Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-dein-mikroabenteuer-fuer-den-sommer-fuer-mehr-selbstbewusstsein-im-leben?eventDateId=30353014&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|08:00-18:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Dein Mikroabenteuer Für Den Sommer -- Für Mehr Selbstbewusstsein Im Leben\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"08:00-18:00\",\n  \"venue\": \"Hafen Buxtehude, Hafenbrücke 1, 21614 Buxtehude\",\n  \"context\": \"Wassersport / Mikroabenteuer\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -46,7 +41,6 @@
       "include": true
     },
     {
-      "row_number": 3,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-frauenfruehstueck-6?eventDateId=30292627&widgetToken=22vcqFKw4GE.&",
       "name": "IB-Frühstückstreff",
       "start_date": "2026/06/11",
@@ -59,12 +53,8 @@
       "context": "Begegnungsangebote",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:57:09.304Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-frauenfruehstueck-6?eventDateId=30292627&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|09:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"IB-Frühstückstreff\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"09:00-11:30\",\n  \"venue\": \"IB Jugend- und Familiendienst, Am Markt 5, 19273 Neuhaus\",\n  \"context\": \"Begegnungsangebote\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -73,7 +63,6 @@
       "include": true
     },
     {
-      "row_number": 6,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-punkt-punkt-strich?eventDateId=29853734&widgetToken=22vcqFKw4GE.&",
       "name": ".Punkt .Punkt -Strich",
       "start_date": "2026/06/11",
@@ -86,18 +75,13 @@
       "context": "Theater",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:57:40.262Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-punkt-punkt-strich?eventDateId=29853734&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00-10:45 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \".Punkt .Punkt -Strich\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00-10:45\",\n  \"venue\": \"HoheLuftschiff Kindertheater, Hamburg\",\n  \"context\": \"Theater\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 8,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-besichtigung-der-ostseestation-travemuende?eventDateId=30050057&widgetToken=22vcqFKw4GE.&",
       "name": "Besichtigung der Ostseestation Travemünde",
       "start_date": "2026/06/11",
@@ -110,12 +94,8 @@
       "context": "Familientipp",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:58:01.697Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-besichtigung-der-ostseestation-travemuende?eventDateId=30050057&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Besichtigung der Ostseestation Travemünde\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00-17:00\",\n  \"venue\": \"Ostseestation Travemünde, Priwallpromenade 29-31, 23570 Travemünde\",\n  \"context\": \"Familientipp\",\n  \"age\": \"bis 14 Jahre\",\n  \"min_age\": 0,\n  \"max_age\": 14,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -123,7 +103,6 @@
       "include": true
     },
     {
-      "row_number": 9,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-helme-heine-es-war-einmal-ausstellung?eventDateId=30186736&widgetToken=22vcqFKw4GE.&",
       "name": "Helme Heine \"Es war einmal...\" Ausstellung",
       "start_date": "2026/06/11",
@@ -136,12 +115,8 @@
       "context": "Bilderbuchkünstler / Kinder- und Jugendbibliothek",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:58:11.575Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-helme-heine-es-war-einmal-ausstellung?eventDateId=30186736&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00-19:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": false,\n  \"exclude_reason\": \"outside the city\",\n  \"name\": \"Helme Heine \\\"Es war einmal...\\\" Ausstellung\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00-19:00\",\n  \"venue\": \"Stadtbibliothek Lübeck, Lübeck\",\n  \"context\": \"Bilderbuchkünstler / Kinder- und Jugendbibliothek\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -149,7 +124,6 @@
       "include": true
     },
     {
-      "row_number": 10,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-kletterwald-travemuende?eventDateId=29928171&widgetToken=22vcqFKw4GE.&",
       "name": "Kletterwald Travemünde",
       "start_date": "2026/06/11",
@@ -162,12 +136,8 @@
       "context": "Kletterereignis für Groß und Klein!",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:58:22.110Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-kletterwald-travemuende?eventDateId=29928171&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00-18:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": false,\n  \"exclude_reason\": \"outside the city\",\n  \"name\": \"Kletterwald Travemünde\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00-18:00\",\n  \"venue\": \"Kletterwald Travemünde, Parkallee 3, 23570 Lübeck\",\n  \"context\": \"Kletterereignis für Groß und Klein!\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -176,7 +146,6 @@
       "include": true
     },
     {
-      "row_number": 11,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-kreative-ferien-ein-toepferworkshop-ab-5-jahren?eventDateId=30269575&widgetToken=22vcqFKw4GE.&",
       "name": "Kreative Ferien - Ein Töpferworkshop ab 5 Jahren",
       "start_date": "2026/06/11",
@@ -189,12 +158,8 @@
       "context": "Kreativer Ferienspaß mit Ton: Gestalte kleine Kunstwerke zum Mitnehmen und werde selbst zum Künstler.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:58:32.865Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-kreative-ferien-ein-toepferworkshop-ab-5-jahren?eventDateId=30269575&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00-11:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Kreative Ferien - Ein Töpferworkshop ab 5 Jahren\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00-11:30\",\n  \"venue\": \"Kunstwerkel, Schulstraße 5, 23730 Neustadt\",\n  \"context\": \"Kreativer Ferienspaß mit Ton: Gestalte kleine Kunstwerke zum Mitnehmen und werde selbst zum Künstler.\",\n  \"age\": \"ab 5 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -203,7 +168,6 @@
       "include": true
     },
     {
-      "row_number": 12,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-mobile-kinderwelten-was-kinder-schon-immer-bewegt-hat?eventDateId=29462356&widgetToken=22vcqFKw4GE.&",
       "name": "Mobile Kinderwelten – Was Kinder schon immer bewegt hat",
       "start_date": "2026/06/11",
@@ -216,18 +180,13 @@
       "context": "Alles, was Räder hat und Kinder mobil machte und macht: Fahrrad, Tretroller Rollschuh sind in dieser Sammlung zu sehen",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:59:09.228Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-mobile-kinderwelten-was-kinder-schon-immer-bewegt-hat?eventDateId=29462356&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mobile Kinderwelten – Was Kinder schon immer bewegt hat\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00\",\n  \"venue\": \"Dithmarscher Landesmuseum, Bütjestraße 2-4, 25704 Meldorf\",\n  \"context\": \"Alles, was Räder hat und Kinder mobil machte und macht: Fahrrad, Tretroller Rollschuh sind in dieser Sammlung zu sehen\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 14,
       "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-die-mucklas-und-wie-sie-zu-pettersson-und-findus-kamen-1?eventDateId=30179266&widgetToken=22vcqFKw4GE.&",
       "name": "Die Mucklas und wie sie zu Pettersson und Findus kamen",
       "start_date": "2026/06/11",
@@ -240,12 +199,8 @@
       "context": "Theater & Bühne",
       "exclude_reason": "",
       "cached_at": "2026-06-10T12:59:28.282Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
       "event_cache_key": "url|https://hamburgwhl.infomaxnet.de/standard_widget_de/e-die-mucklas-und-wie-sie-zu-pettersson-und-findus-kamen-1?eventDateId=30179266&widgetToken=22vcqFKw4GE.&|2026/06/11|2026/06/11|10:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Die Mucklas und wie sie zu Pettersson und Findus kamen\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00\",\n  \"venue\": \"Kulturpalast Hamburg, Öjendorfer Weg 30a, 22119 Hamburg\",\n  \"context\": \"Theater & Bühne\",\n  \"age\": \"Speziell für Kinder oder Familien\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -254,7 +209,6 @@
       "include": true
     },
     {
-      "row_number": 18,
       "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "name": "Outdoor Fitness für Familien",
       "start_date": "2026/06/11",
@@ -267,12 +221,8 @@
       "context": "Gemeinsam bewegen, für jedes Alter und Level. Während die Eltern trainieren, können die Kinder mitmachen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:00:31.287Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "event_cache_key": "url|https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/|2026/06/11|2026/06/11|17:00-18:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Outdoor Fitness für Familien\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"17:00-18:00\",\n  \"venue\": \"Feldpark I FitnessFeld\",\n  \"context\": \"Gemeinsam bewegen, für jedes Alter und Level. Während die Eltern trainieren, können die Kinder mitmachen.\",\n  \"age\": \"für jede Altersgruppe geeignet\",\n  \"min_age\": 0,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor"
       ],
@@ -280,7 +230,6 @@
       "include": true
     },
     {
-      "row_number": 19,
       "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "name": "Kangatraining mit Carolin",
       "start_date": "2026/06/12",
@@ -293,12 +242,8 @@
       "context": "du wirst fit, dein Baby macht mit! Mit deinem Baby in der Trage oder im Kinderwagen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:00:51.470Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "event_cache_key": "url|https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/|2026/06/12|2026/06/12|11:00-12:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Kangatraining mit Carolin\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"11:00-12:00\",\n  \"venue\": \"Treffpunkt Haupteingang\",\n  \"context\": \"du wirst fit, dein Baby macht mit! Mit deinem Baby in der Trage oder im Kinderwagen.\",\n  \"age\": \"\",\n  \"min_age\": 0,\n  \"max_age\": 17,\n  \"tags\": [\n    \"outdoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor"
       ],
@@ -306,7 +251,6 @@
       "include": true
     },
     {
-      "row_number": 20,
       "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "name": "Holsteiner Kultursommer",
       "start_date": "2026/06/12",
@@ -319,18 +263,13 @@
       "context": "Willis Puppentheater \"Fauli auf Schatzsuche\". Ein Theaterspaß für die ganze Familie. Empfohlen für Kinder ab 4 Jahren.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:01:11.720Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "event_cache_key": "url|https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/|2026/06/12|2026/06/12|16:00-16:45 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Holsteiner Kultursommer\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"16:00-16:45\",\n  \"venue\": \"Klasse! Im Waldpark\",\n  \"context\": \"Willis Puppentheater \\\"Fauli auf Schatzsuche\\\". Ein Theaterspaß für die ganze Familie. Empfohlen für Kinder ab 4 Jahren.\",\n  \"age\": \"ab 4 Jahren\",\n  \"min_age\": 4,\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 22,
       "url": "https://pretix.eu/loki-schmidt-stiftung/2026-jbh22/",
       "name": "Ein Bad im Grünen",
       "start_date": "2026/06/14",
@@ -343,12 +282,8 @@
       "context": "Im wunderschönen Stadtpark Norderstedt begeben wir uns auf eine ruhige Sinnenreise, die uns durch die verschiedenen Landschaften wie See-, Wald- und Feldpark führt. Dabei wollen wir achtsam die Natur erfahren sowie durch kleine Übungen unseren Geist und unsere Körper in Balance bringen. Bei dem entspannenden Bad im Park schulen wir unsere Wahrnehmung und fokussieren unsere Aufmerksamkeit. Poesie und Wassermalerei r운다 das Programm ab.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:01:55.802Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "event_cache_key": "url|https://pretix.eu/loki-schmidt-stiftung/2026-jbh22/|2026/06/14|2026/06/14|14:00-16:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Ein Bad im Grünen\",\n  \"start_date\": \"2026/06/14\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"14:00-16:30\",\n  \"venue\": \"Strandbad im Stadtpark Norderstedt (beim Trinkbrunnen), Am Kulturwerk 1, 22844 Norderstedt\",\n  \"context\": \"Im wunderschönen Stadtpark Norderstedt begeben wir uns auf eine ruhige Sinnenreise, die uns durch die verschiedenen Landschaften wie See-, Wald- und Feldpark führt. Dabei wollen wir achtsam die Natur erfahren sowie durch kleine Übungen unseren Geist und unsere Körper in Balance bringen. Bei dem entspannenden Bad im Park schulen wir unsere Wahrnehmung und fokussieren unsere Aufmerksamkeit. Poesie und Wassermalerei r운다 das Programm ab.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -357,7 +292,6 @@
       "include": true
     },
     {
-      "row_number": 25,
       "url": "https://www.buecherhallen.de/wilhelmsburg-termin/kompostwuermer-in-der-buecherhalle-23623/datum/20260610.html",
       "name": "Kompostwürmer in der Bücherhalle",
       "start_date": "2026/06/08",
@@ -370,12 +304,8 @@
       "context": "Eine Woche lang ist eine kleine Wurmbox mit Sichtfenster mit ca. 200 Kompostwürmern in der Bücherhalle aufgestellt.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:02:24.649Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/wilhelmsburg-termin/kompostwuermer-in-der-buecherhalle-23623/datum/20260610.html|2026/06/08|2026/06/13|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Kompostwürmer in der Bücherhalle\",\n  \"start_date\": \"2026/06/08\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"\",\n  \"venue\": \"Bücherhalle Wilhelmsburg, Vogelhüttendeich 45, 21107 Hamburg\",\n  \"context\": \"Eine Woche lang ist eine kleine Wurmbox mit Sichtfenster mit ca. 200 Kompostwürmern in der Bücherhalle aufgestellt.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -383,7 +313,6 @@
       "include": true
     },
     {
-      "row_number": 27,
       "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260610.html",
       "name": "Buchfragen",
       "start_date": "2026/06/10",
@@ -396,12 +325,8 @@
       "context": "Ihr dürft euch in der Bücherhalle Steilshoop Bücher ausleihen, in denen ein Fragenbogen enthalten ist. Wenn ihr das Buch ausleiht und lest und anschließend die Fragen beantwortet, dürft ihr in unsere Überraschungskiste greifen und ein Geschenk herausnehmen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:02:35.133Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260610.html|2026/06/10|2026/06/10|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Buchfragen\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"\",\n  \"venue\": \"Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg\",\n  \"context\": \"Ihr dürft euch in der Bücherhalle Steilshoop Bücher ausleihen, in denen ein Fragenbogen enthalten ist. Wenn ihr das Buch ausleiht und lest und anschließend die Fragen beantwortet, dürft ihr in unsere Überraschungskiste greifen und ein Geschenk herausnehmen.\",\n  \"age\": \"Ab 6 Jahren\",\n  \"min_age\": 6,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -410,7 +335,6 @@
       "include": true
     },
     {
-      "row_number": 28,
       "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/mittwochs-meisterwerke-zum-selbermachen/datum/20260610.html",
       "name": "Mittwochs-Meisterwerke zum Selbermachen",
       "start_date": "2026/06/10",
@@ -423,12 +347,8 @@
       "context": "Jeden Mittwoch könnt ihr euch an unserem Basteltisch kreativ austoben und euer persönliches \"Mittwochs-Meisterwerk\" gestalten, das ihr anschließend mit nach Hause nehmen könnt.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:02:39.928Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/muemmelmannsberg-termin/mittwochs-meisterwerke-zum-selbermachen/datum/20260610.html|2026/06/10|2026/06/10|14:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mittwochs-Meisterwerke zum Selbermachen\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"14:00-17:00\",\n  \"venue\": \"Bücherhalle Mümmelmannsberg, Feiningerstraße 8, 22115 Hamburg\",\n  \"context\": \"Jeden Mittwoch könnt ihr euch an unserem Basteltisch kreativ austoben und euer persönliches \\\"Mittwochs-Meisterwerk\\\" gestalten, das ihr anschließend mit nach Hause nehmen könnt.\",\n  \"age\": \"Kinder\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -436,7 +356,6 @@
       "include": true
     },
     {
-      "row_number": 30,
       "url": "https://www.buecherhallen.de/zentralbibliothek-termin/gedichte-fuer-wichte-7141/datum/20260610.html",
       "name": "Gedichte für Wichte",
       "start_date": "2026/06/10",
@@ -449,18 +368,13 @@
       "context": "Event listed under children's category.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:02:48.522Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/zentralbibliothek-termin/gedichte-fuer-wichte-7141/datum/20260610.html|2026/06/10|2026/06/10|15:00-15:45 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Gedichte für Wichte\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"15:00-15:45\",\n  \"venue\": \"Zentralbibliothek, Kinderbibliothek - Traumhaus, Ebene 1\",\n  \"context\": \"\",\n  \"age\": \"1 bis 3 Jahre\",\n  \"min_age\": 1,\n  \"max_age\": 3,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 31,
       "url": "https://www.buecherhallen.de/wilhelmsburg-termin/makerbib-tuefteln-mit-robotern-und-programmierung-jetzt-wieder-in-der-buecherhalle/datum/20260610.html",
       "name": "MakerBib - Tüfteln mit Robotern und Programmierung - jetzt wieder in der Bücherhalle!",
       "start_date": "2026/06/10",
@@ -473,12 +387,8 @@
       "context": "Robotik-Nachmittag zum spielerischen Programmieren und Ausprobieren von Robotern.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:02:53.917Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/wilhelmsburg-termin/makerbib-tuefteln-mit-robotern-und-programmierung-jetzt-wieder-in-der-buecherhalle/datum/20260610.html|2026/06/10|2026/06/10|15:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"MakerBib - Tüfteln mit Robotern und Programmierung - jetzt wieder in der Bücherhalle!\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"15:00-17:00\",\n  \"venue\": \"Bücherhalle Wilhelmsburg, Vogelhüttendeich 45, 21107 Hamburg\",\n  \"context\": \"Robotik-Nachmittag zum spielerischen Programmieren und Ausprobieren von Robotern.\",\n  \"age\": \"Ab 5 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -487,7 +397,6 @@
       "include": true
     },
     {
-      "row_number": 32,
       "url": "https://www.buecherhallen.de/niendorf-termin/gedichte-fuer-wichte/datum/20260610.html",
       "name": "Gedichte für Wichte",
       "start_date": "2026/06/10",
@@ -500,12 +409,8 @@
       "context": "In dieser offenen Gruppe können Eltern (oder Großeltern) jederzeit kostenlos mit ihren Babys und Kleinkindern von 0 bis 3 Jahren mitmachen. Gemeinsam werden Lieder gesungen, Finger- und Bewegungsspiele gemacht und altersgerechte Pappbilderbücher angeschaut.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:13.683Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/niendorf-termin/gedichte-fuer-wichte/datum/20260610.html|2026/06/10|2026/06/10|15:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Gedichte für Wichte\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"15:30\",\n  \"venue\": \"Bücherhalle Niendorf, Gruppenraum, Tibarg 41 (im Tibarg-Center), 22459 Hamburg\",\n  \"context\": \"In dieser offenen Gruppe können Eltern (oder Großeltern) jederzeit kostenlos mit ihren Babys und Kleinkindern von 0 bis 3 Jahren mitmachen. Gemeinsam werden Lieder gesungen, Finger- und Bewegungsspiele gemacht und altersgerechte Pappbilderbücher angeschaut.\",\n  \"age\": \"0 bis 3 Jahre\",\n  \"min_age\": 0,\n  \"max_age\": 3,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -514,7 +419,6 @@
       "include": true
     },
     {
-      "row_number": 33,
       "url": "https://www.buecherhallen.de/barmbek-termin/storytime-in-english-19800/datum/20260610.html",
       "name": "Storytime in English",
       "start_date": "2026/06/10",
@@ -527,12 +431,8 @@
       "context": "Join us every Wednesday for movement, music and books! Together we will sing songs, learn fingerplays & rhymes and read picture books. This playful environment is the perfect way to introduce children to language and help them develop early literacy skills. All are welcome!",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:18.756Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/barmbek-termin/storytime-in-english-19800/datum/20260610.html|2026/06/10|2026/06/10|15:30-16:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Storytime in English\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"15:30-16:00\",\n  \"venue\": \"Bücherhalle Barmbek, Poppenhusenstraße 12, 22305 Hamburg\",\n  \"context\": \"Join us every Wednesday for movement, music and books! Together we will sing songs, learn fingerplays & rhymes and read picture books. This playful environment is the perfect way to introduce children to language and help them develop early literacy skills. All are welcome!\",\n  \"age\": \"0 bis 4 Jahre\",\n  \"min_age\": 0,\n  \"max_age\": 4,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -540,7 +440,6 @@
       "include": true
     },
     {
-      "row_number": 34,
       "url": "https://www.buecherhallen.de/fuhlsbuettel-termin/storytime/datum/20260610.html",
       "name": "Storytime - Vorlesen auf Deutsch und Englisch",
       "start_date": "2026/06/10",
@@ -553,12 +452,8 @@
       "context": "Wir präsentieren Bilderbuch-Geschichten auf Deutsch und Englisch. Setzt euch dazu und lauscht ein bisschen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:23.621Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/fuhlsbuettel-termin/storytime/datum/20260610.html|2026/06/10|2026/06/10|16:00-16:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Storytime - Vorlesen auf Deutsch und Englisch\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00-16:30\",\n  \"venue\": \"Bücherhalle Fuhlsbüttel, Ratsmühlendamm 23, 22335 Hamburg\",\n  \"context\": \"Wir präsentieren Bilderbuch-Geschichten auf Deutsch und Englisch. Setzt euch dazu und lauscht ein bisschen.\",\n  \"age\": \"Ab 4 Jahren\",\n  \"min_age\": 4,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -567,7 +462,6 @@
       "include": true
     },
     {
-      "row_number": 35,
       "url": "https://www.buecherhallen.de/harburg-termin/vorlesen-fuer-kinder-16046/datum/20260610.html",
       "name": "Vorlesen für Kinder",
       "start_date": "2026/06/10",
@@ -580,12 +474,8 @@
       "context": "Jeden Mittwoch wird in Zusammenarbeit mit Lesewelt Hamburg e.V. in der Bücherhalle vorgelesen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:28.326Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/harburg-termin/vorlesen-fuer-kinder-16046/datum/20260610.html|2026/06/10|2026/06/10|16:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Vorlesen für Kinder\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00-17:00\",\n  \"venue\": \"Bücherhalle Harburg, Eddelbüttelstraße 47a, 21073 Hamburg\",\n  \"context\": \"Jeden Mittwoch wird in Zusammenarbeit mit Lesewelt Hamburg e.V. in der Bücherhalle vorgelesen.\",\n  \"age\": \"4 bis 10 Jahre\",\n  \"min_age\": 4,\n  \"max_age\": 10,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -594,7 +484,6 @@
       "include": true
     },
     {
-      "row_number": 36,
       "url": "https://www.buecherhallen.de/lokstedt-termin/vorlesen-fuer-kinder-18879/datum/20260610.html",
       "name": "Vorlesen für Kinder",
       "start_date": "2026/06/10",
@@ -607,12 +496,8 @@
       "context": "In Zusammenarbeit mit Lesewelt Hamburg e.V. wird jeden Mittwoch von 16:00 bis 17:00 Uhr bei uns in der Bücherhalle vorgelesen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:33.272Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/lokstedt-termin/vorlesen-fuer-kinder-18879/datum/20260610.html|2026/06/10|2026/06/10|16:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Vorlesen für Kinder\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00-17:00\",\n  \"venue\": \"Bücherhalle Lokstedt, Kollaustraße 1, 22529 Hamburg\",\n  \"context\": \"In Zusammenarbeit mit Lesewelt Hamburg e.V. wird jeden Mittwoch von 16:00 bis 17:00 Uhr bei uns in der Bücherhalle vorgelesen.\",\n  \"age\": \"4 bis 10 Jahre\",\n  \"min_age\": 4,\n  \"max_age\": 10,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -620,7 +505,6 @@
       "include": true
     },
     {
-      "row_number": 37,
       "url": "https://www.buecherhallen.de/eimsbuettel-termin/bilderbuchkino-21841/datum/20260610.html",
       "name": "Bilderbuchkino",
       "start_date": "2026/06/10",
@@ -633,12 +517,8 @@
       "context": "Jeden Mittwoch um 16:00 Uhr zeigen wir euch eine Bilderbuchkinogeschichte in unserem großen Gruppenraum.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:38.126Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/eimsbuettel-termin/bilderbuchkino-21841/datum/20260610.html|2026/06/10|2026/06/10|16:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Bilderbuchkino\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00\",\n  \"venue\": \"Bücherhalle Eimsbüttel, Doormannsweg 12 (im Hamburg-Haus), 20259 Hamburg\",\n  \"context\": \"Jeden Mittwoch um 16:00 Uhr zeigen wir euch eine Bilderbuchkinogeschichte in unserem großen Gruppenraum.\",\n  \"age\": \"Ab 4 Jahren\",\n  \"min_age\": 4,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -647,7 +527,6 @@
       "include": true
     },
     {
-      "row_number": 38,
       "url": "https://www.buecherhallen.de/volksdorf-termin/bilderbuchkino-anpfiff-fuer-dr-brumm/datum/20260610.html",
       "name": "Bilderbuchkino \"Anpfiff für Dr. Brumm\"",
       "start_date": "2026/06/10",
@@ -660,12 +539,8 @@
       "context": "Bauer Hackenpiep hat Dr. Brumm und seine Freunde zu einem Fußball-Match herausgefordert: Hackenpiep und seine Neffen, die bald in der Jugend-Otter-Nationalmannschaft spielen sollen, gegen Dr. Brumms \"Gurkentruppe\". Von wegen Gurkentruppe! Dr. Brumm und seine Freunde wollen beweisen, dass sie es draufhaben! Und tatsächlich erleben Hackenpiep und seine Neffen schon bald eine echte Überraschung ...",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:44.394Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/volksdorf-termin/bilderbuchkino-anpfiff-fuer-dr-brumm/datum/20260610.html|2026/06/10|2026/06/10|16:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Bilderbuchkino \\\"Anpfiff für Dr. Brumm\\\"\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00\",\n  \"venue\": \"Bücherhalle Volksdorf, Eulenkrugstraße 55 (Unser Viertel), 22359 Hamburg\",\n  \"context\": \"Bauer Hackenpiep hat Dr. Brumm und seine Freunde zu einem Fußball-Match herausgefordert: Hackenpiep und seine Neffen, die bald in der Jugend-Otter-Nationalmannschaft spielen sollen, gegen Dr. Brumms \\\"Gurkentruppe\\\". Von wegen Gurkentruppe! Dr. Brumm und seine Freunde wollen beweisen, dass sie es draufhaben! Und tatsächlich erleben Hackenpiep und seine Neffen schon bald eine echte Überraschung ...\",\n  \"age\": \"Ab 4 Jahren\",\n  \"min_age\": 4,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -674,7 +549,6 @@
       "include": true
     },
     {
-      "row_number": 39,
       "url": "https://www.buecherhallen.de/lokstedt-termin/lesefoerderung-mit-hund/datum/20260610.html",
       "name": "Leseförderung mit Hündin Juna",
       "start_date": "2026/06/10",
@@ -687,12 +561,8 @@
       "context": "Wir bieten ein spezielles Einzel-Lesetraining mit unserer ausgebildeten Lesehündin Juna an. Was machen wir? Tiergestützte, spielerische Leseförderung und Hilfe bei Lesehemmungen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:49.838Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/lokstedt-termin/lesefoerderung-mit-hund/datum/20260610.html|2026/06/10|2026/06/10|16:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Leseförderung mit Hündin Juna\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00-17:00\",\n  \"venue\": \"Bücherhalle Lokstedt\",\n  \"context\": \"Wir bieten ein spezielles Einzel-Lesetraining mit unserer ausgebildeten Lesehündin Juna an. Was machen wir? Tiergestützte, spielerische Leseförderung und Hilfe bei Lesehemmungen.\",\n  \"age\": \"6 bis 10 Jahre\",\n  \"min_age\": 6,\n  \"max_age\": 10,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -701,7 +571,6 @@
       "include": true
     },
     {
-      "row_number": 40,
       "url": "https://www.buecherhallen.de/neugraben-termin/bilderbuchkino/datum/20260610.html",
       "name": "Bilderbuchkino",
       "start_date": "2026/06/10",
@@ -714,12 +583,8 @@
       "context": "Jeden Mittwoch laden wir alle Kinder ab 4 Jahren ein, mit uns ein Buch zu lesen. Die Bilder werden für alle gut sichtbar am Smartboard gezeigt.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:54.449Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/neugraben-termin/bilderbuchkino/datum/20260610.html|2026/06/10|2026/06/10|16:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Bilderbuchkino\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00\",\n  \"venue\": \"Bücherhalle Neugraben\",\n  \"context\": \"Jeden Mittwoch laden wir alle Kinder ab 4 Jahren ein, mit uns ein Buch zu lesen. Die Bilder werden für alle gut sichtbar am Smartboard gezeigt.\",\n  \"age\": \"Ab 4 Jahren\",\n  \"min_age\": 4,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -728,7 +593,6 @@
       "include": true
     },
     {
-      "row_number": 41,
       "url": "https://www.buecherhallen.de/wandsbek-termin/mehrsprachiges-lesen-spielen/datum/20260610.html",
       "name": "Mehrsprachiges Lesen & Spielen",
       "start_date": "2026/06/10",
@@ -741,12 +605,8 @@
       "context": "Gemeinsam lesen wir spannende Geschichten und spielen Spiele. Sprachen: Arabisch, Deutsch, Russisch & Ukrainisch.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:03:59.213Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "event_cache_key": "url|https://www.buecherhallen.de/wandsbek-termin/mehrsprachiges-lesen-spielen/datum/20260610.html|2026/06/10|2026/06/10|16:00-17:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mehrsprachiges Lesen & Spielen\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"16:00-17:00\",\n  \"venue\": \"Bücherhalle Wandsbek\",\n  \"context\": \"Gemeinsam lesen wir spannende Geschichten und spielen Spiele. Sprachen: Arabisch, Deutsch, Russisch & Ukrainisch.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -755,7 +615,6 @@
       "include": true
     },
     {
-      "row_number": 43,
       "url": "https://www.bangerang.de/events/aufgewacht-die-sonne-lacht-mit-allen-sinnen-durch-den-sommer/?occ_dtstart=2026-06-11T09:00",
       "name": "Aufgewacht, die Sonne lacht! Mit allen Sinnen durch den Sommer",
       "start_date": "2026/06/11",
@@ -768,18 +627,13 @@
       "context": "Kinder & Familie, Kurse",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:04:37.994Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/aufgewacht-die-sonne-lacht-mit-allen-sinnen-durch-den-sommer/?occ_dtstart=2026-06-11T09:00|2026/06/11|2026/06/11|09:00-10:30",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Aufgewacht, die Sonne lacht! Mit allen Sinnen durch den Sommer\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/07/02\",\n  \"time\": \"09:00-10:30\",\n  \"venue\": \"FBS Pinneberg, Bahnhofstraße 18 - 22 , 25421 Pinneberg\",\n  \"context\": \"Kinder & Familie, Kurse\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 44,
       "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-11T09:30",
       "name": "Polaris und das Rätsel der Polarnacht",
       "start_date": "2026/06/11",
@@ -792,12 +646,8 @@
       "context": "Vorträge & Lesungen",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:04:48.725Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-11T09:30|2026/06/11|2026/06/11|09:30-10:15",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Polaris und das Rätsel der Polarnacht\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"09:30-10:15\",\n  \"venue\": \"Planetarium Hamburg\",\n  \"context\": \"Vorträge & Lesungen\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -805,7 +655,6 @@
       "include": true
     },
     {
-      "row_number": 45,
       "url": "https://www.bangerang.de/events/die-mucklas-und-wie-sie-zu-pettersson-und-findus-kamen/?occ_dtstart=2026-06-11T10:00",
       "name": "Die Mucklas und wie sie zu Pettersson und Findus kamen",
       "start_date": "2026/06/11",
@@ -818,12 +667,8 @@
       "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:04:55.737Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/die-mucklas-und-wie-sie-zu-pettersson-und-findus-kamen/?occ_dtstart=2026-06-11T10:00|2026/06/11|2026/06-11|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Die Mucklas und wie sie zu Pettersson und Findus kamen\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00\",\n  \"venue\": \"Stiftung Kulturpalast Hamburg\",\n  \"context\": \"5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -831,7 +676,6 @@
       "include": true
     },
     {
-      "row_number": 46,
       "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-11T10:00",
       "name": "Mit Ella durch das Museum",
       "start_date": "2026/06/11",
@@ -844,12 +688,8 @@
       "context": "bis 7 Jahre",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:05:06.639Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-11T10:00|2026/06/11|2026/06/11|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mit Ella durch das Museum\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00\",\n  \"venue\": \"Tuch + Technik Textilmuseum Neumünster\",\n  \"context\": \"bis 7 Jahre\",\n  \"age\": \"bis 7 Jahre\",\n  \"min_age\": 0,\n  \"max_age\": 7,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -858,7 +698,6 @@
       "include": true
     },
     {
-      "row_number": 47,
       "url": "https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-06-11T15:00",
       "name": "Kleiner Stern im großen All",
       "start_date": "2026/06/11",
@@ -871,12 +710,8 @@
       "context": "5 bis 9 Jahre , ab 10 Jahren",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:05:16.915Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-06-11T15:00|2026/06/11|2026/06/11|15:00-15:45",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Kleiner Stern im großen All\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"15:00-15:45\",\n  \"venue\": \"Planetarium Hamburg\",\n  \"context\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"age\": \"Empfohlen ab 6 Jahren\",\n  \"min_age\": 6,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -884,7 +719,6 @@
       "include": true
     },
     {
-      "row_number": 48,
       "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-12T10:00",
       "name": "Mit Ella durch das Museum",
       "start_date": "2026/06/12",
@@ -897,12 +731,8 @@
       "context": "bis 7 Jahre",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:05:27.656Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-12T10:00|2026/06/12|2026/06/12|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mit Ella durch das Museum\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"10:00\",\n  \"venue\": \"Tuch + Technik Textilmuseum Neumünster\",\n  \"context\": \"bis 7 Jahre\",\n  \"age\": \"bis 7 Jahre\",\n  \"min_age\": 0,\n  \"max_age\": 7,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -911,7 +741,6 @@
       "include": true
     },
     {
-      "row_number": 49,
       "url": "https://www.bangerang.de/events/mit-juri-durchs-sonnensystem/?occ_dtstart=2026-06-12T10:00",
       "name": "Mit Juri durchs Sonnensystem",
       "start_date": "2026/06/12",
@@ -924,12 +753,8 @@
       "context": "ab 10 Jahren, Kinder & Familie",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:05:37.691Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/mit-juri-durchs-sonnensystem/?occ_dtstart=2026-06-12T10:00|2026/06/12|2026/06/12|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mit Juri durchs Sonnensystem\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"10:00\",\n  \"venue\": \"Planetarium Hamburg\",\n  \"context\": \"ab 10 Jahren, Kinder & Familie\",\n  \"age\": \"ab 5 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -938,7 +763,6 @@
       "include": true
     },
     {
-      "row_number": 50,
       "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-12T15:00",
       "name": "Polaris und das Rätsel der Polarnacht",
       "start_date": "2026/06/12",
@@ -951,12 +775,8 @@
       "context": "Vorträge & Lesungen",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:05:48.497Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-12T15:00|2026/06/12|2026/06/12|15:00-15:45",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Polaris und das Rätsel der Polarnacht\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"15:00-15:45\",\n  \"venue\": \"Planetarium Hamburg\",\n  \"context\": \"Vorträge & Lesungen\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -964,7 +784,6 @@
       "include": true
     },
     {
-      "row_number": 51,
       "url": "https://www.bangerang.de/events/eltern-kind-yoga/?occ_dtstart=2026-06-12T15:00",
       "name": "Eltern - Kind - Yoga",
       "start_date": "2026/06/12",
@@ -977,12 +796,8 @@
       "context": "Kinder & Familie, Kurse",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:05:55.551Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/eltern-kind-yoga/?occ_dtstart=2026-06-12T15:00|2026/06/12|2026/06/12|15:00-16:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Eltern - Kind - Yoga\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"15:00-16:00\",\n  \"venue\": \"Elternschule Altona\",\n  \"context\": \"Kinder & Familie, Kurse\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -990,7 +805,6 @@
       "include": true
     },
     {
-      "row_number": 53,
       "url": "https://www.bangerang.de/events/mit-lego%C2%AE-steinen-bauen/?occ_dtstart=2026-06-13T10:00",
       "name": "Mit LEGO® Steinen bauen",
       "start_date": "2026/06/13",
@@ -1003,12 +817,8 @@
       "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:06:35.716Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/mit-lego%C2%AE-steinen-bauen/?occ_dtstart=2026-06-13T10:00|2026/06/13|2026/06/13|10:00-12:30",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mit LEGO® Steinen bauen\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"10:00-12:30\",\n  \"venue\": \"Bücherhalle Billstedt\",\n  \"context\": \"5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1016,7 +826,6 @@
       "include": true
     },
     {
-      "row_number": 54,
       "url": "https://www.bangerang.de/events/brettspiele/?occ_dtstart=2026-06-13T10:00",
       "name": "Brettspielezimmer",
       "start_date": "2026/06/13",
@@ -1029,18 +838,13 @@
       "context": "0 bis 4 Jahre, 5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:06:45.412Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/brettspiele/?occ_dtstart=2026-06-13T10:00|2026/06/13|2026/06/13|10:00-14:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Brettspielezimmer\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"10:00-14:00\",\n  \"venue\": \"Bücherhalle Osdorfer Born\",\n  \"context\": \"0 bis 4 Jahre, 5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie\",\n  \"age\": \"ab 1 Jahr\",\n  \"min_age\": 1,\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 55,
       "url": "https://www.bangerang.de/events/patchwork-f%C3%BCr-kids/?occ_dtstart=2026-06-13T10:00",
       "name": "Patchwork für Kids",
       "start_date": "2026/06/13",
@@ -1053,12 +857,8 @@
       "context": "5 bis 9 Jahre , ab 10 Jahren , Kreatives",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:06:51.776Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/patchwork-f%C3%BCr-kids/?occ_dtstart=2026-06-13T10:00|2026/06/13|2026/06/13|10:00-14:00",
-      "raw_text": "```json\n{\n  \"include\": false,\n  \"exclude_reason\": \"outside the city\",\n  \"name\": \"Patchwork für Kids\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"10:00-14:00\",\n  \"venue\": \"Tuch + Technik Textilmuseum Neumünster\",\n  \"context\": \"5 bis 9 Jahre , ab 10 Jahren , Kreatives\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1066,7 +866,6 @@
       "include": true
     },
     {
-      "row_number": 56,
       "url": "https://www.bangerang.de/events/familienzeit/?occ_dtstart=2026-06-13T11:00",
       "name": "Familienzeit",
       "start_date": "2026/06/13",
@@ -1079,12 +878,8 @@
       "context": "5 bis 13 Jahren",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:07:00.805Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/familienzeit/?occ_dtstart=2026-06-13T11:00|2026/06/13|2026/06/13|11:00-13:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienzeit\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"11:00-13:00\",\n  \"venue\": \"Hamburger Kunsthalle\",\n  \"context\": \"5 bis 13 Jahren\",\n  \"age\": \"5 bis 13 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": 13,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1092,7 +887,6 @@
       "include": true
     },
     {
-      "row_number": 57,
       "url": "https://www.bangerang.de/events/nachstes-abenteuer-heisst-rugby/?occ_dtstart=2026-06-13T11:30",
       "name": "Dein nächstes Abenteuer heißt RUGBY",
       "start_date": "2026/06/13",
@@ -1105,18 +899,13 @@
       "context": "Sport & Bewegung",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:07:11.170Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/nachstes-abenteuer-heisst-rugby/?occ_dtstart=2026-06-13T11:30|2026/06/13|2026/06/13|11:30-13:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Dein nächstes Abenteuer heißt RUGBY\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"11:30-13:00\",\n  \"venue\": \"Hamburger Rugby-Club\",\n  \"context\": \"Sport & Bewegung\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 58,
       "url": "https://www.bangerang.de/events/familienzeit_Kunsthalle/?occ_dtstart=2026-06-13T13:15",
       "name": "Familienzeit",
       "start_date": "2026/06/13",
@@ -1129,12 +918,8 @@
       "context": "5 bis 13 Jahre, drinnen, Führungen, Kinder & Familie",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:07:20.333Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/familienzeit_Kunsthalle/?occ_dtstart=2026-06-13T13:15|2026/06/13|2026/06/13|13:15",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienzeit\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"13:15\",\n  \"venue\": \"Hamburger Kunsthalle\",\n  \"context\": \"5 bis 13 Jahre, drinnen, Führungen, Kinder & Familie\",\n  \"age\": \"5 bis 13 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": 13,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1142,7 +927,6 @@
       "include": true
     },
     {
-      "row_number": 59,
       "url": "https://www.bangerang.de/events/das-geheimnis-der-papierrakete/?occ_dtstart=2026-06-13T13:30",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/06/13",
@@ -1155,12 +939,8 @@
       "context": "5 bis 9 Jahre , ab 10 Jahren",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:07:30.330Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/das-geheimnis-der-papierrakete/?occ_dtstart=2026-06-13T13:30|2026/06/13|2026/06/13|13:30-14:15",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Das Geheimnis der Papierrakete\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"13:30-14:15\",\n  \"venue\": \"Planetarium Hamburg\",\n  \"context\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"age\": \"5 bis 9 Jahre , ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1168,7 +948,6 @@
       "include": true
     },
     {
-      "row_number": 61,
       "url": "https://www.bangerang.de/events/eddie-will-ins-all-%E2%80%93-ein-hamster-hebt-ab/?occ_dtstart=2026-06-13T14:45",
       "name": "Eddie will ins All – Ein Hamster hebt ab",
       "start_date": "2026/06/13",
@@ -1181,12 +960,8 @@
       "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:07:51.744Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/eddie-will-ins-all-%E2%80%93-ein-hamster-hebt-ab/?occ_dtstart=2026-06-13T14:45|2026/06/13|2026/06/13|14:45",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Eddie will ins All – Ein Hamster hebt ab\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"14:45\",\n  \"venue\": \"Planetarium Hamburg\",\n  \"context\": \"5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie\",\n  \"age\": \"5 bis 9 Jahre, ab 10 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1195,7 +970,6 @@
       "include": true
     },
     {
-      "row_number": 62,
       "url": "https://www.bangerang.de/events/in-der-buchdruck-werkstatt/?occ_dtstart=2026-06-13T15:00",
       "name": "In der Buchdruck-Werkstatt",
       "start_date": "2026/06/13",
@@ -1208,12 +982,8 @@
       "context": "6 -12 Jahren",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:08:14.088Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "event_cache_key": "url|https://www.bangerang.de/events/in-der-buchdruck-werkstatt/?occ_dtstart=2026-06-13T15:00|2026/06/13|2026/06/13|15:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"In der Buchdruck-Werkstatt\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"15:00\",\n  \"venue\": \"Museum der Arbeit\",\n  \"context\": \"6 -12 Jahren\",\n  \"age\": \"6 -12 Jahren\",\n  \"min_age\": 6,\n  \"max_age\": 12,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1222,7 +992,6 @@
       "include": true
     },
     {
-      "row_number": 63,
       "url": "https://www.elbphilharmonie.de/de/programm/ndr-familienkonzert/24144",
       "name": "NDR Familienkonzert",
       "start_date": "2026/06/14",
@@ -1235,12 +1004,8 @@
       "context": "»Sing & Swing« / Für Kinder ab 6 Jahren",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:08:19.153Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
       "event_cache_key": "url|https://www.elbphilharmonie.de/de/programm/ndr-familienkonzert/24144|2026/06/14|2026/06/14|15:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"NDR Familienkonzert\",\n  \"start_date\": \"2026/06/14\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"15:30\",\n  \"venue\": \"Rolf-Liebermann-Studio\",\n  \"context\": \"»Sing & Swing« / Für Kinder ab 6 Jahren\",\n  \"age\": \"ab 6 Jahren\",\n  \"min_age\": 6,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1249,7 +1014,6 @@
       "include": true
     },
     {
-      "row_number": 64,
       "url": "https://www.elbphilharmonie.de/de/programm/gipfeltreffen-der-klangstrolche/27781",
       "name": "Gipfeltreffen der Klangstrolche",
       "start_date": "2026/06/16",
@@ -1262,12 +1026,8 @@
       "context": "Gipfeltreffen der Klangstrolche",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:08:25.659Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
       "event_cache_key": "url|https://www.elbphilharmonie.de/de/programm/gipfeltreffen-der-klangstrolche/27781|2026/06/16|2026/06/16|10:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Gipfeltreffen der Klangstrolche\",\n  \"start_date\": \"2026/06/16\",\n  \"end_date\": \"2026/06/16\",\n  \"time\": \"10:30\",\n  \"venue\": \"Laeiszhalle Großer Saal\",\n  \"context\": \"Gipfeltreffen der Klangstrolche\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\",\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid",
         "indoor"
@@ -1276,7 +1036,6 @@
       "include": true
     },
     {
-      "row_number": 67,
       "url": "https://www.elbphilharmonie.de/de/programm/schulkonzert-bad-bugs/24189",
       "name": "Schulkonzert »Bad Bugs«",
       "start_date": "2026/06/22",
@@ -1289,12 +1048,8 @@
       "context": "Schulkonzerte / Klasse 1–4, Klasse 3–6",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:08:52.294Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
       "event_cache_key": "url|https://www.elbphilharmonie.de/de/programm/schulkonzert-bad-bugs/24189|2026/06/22|2026/06/22|9:30 uhr/11:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Schulkonzert »Bad Bugs«\",\n  \"start_date\": \"2026/06/22\",\n  \"end_date\": \"2026/06/22\",\n  \"time\": \"09:30-12:20\",\n  \"venue\": \"Elbphilharmonie Kleiner Saal\",\n  \"context\": \"Schulkonzerte / Klasse 1–4, Klasse 3–6\",\n  \"age\": \"Klasse 1–4, Klasse 3–6\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1302,7 +1057,6 @@
       "include": true
     },
     {
-      "row_number": 68,
       "url": "https://www.elbphilharmonie.de/de/programm/schulkonzert-bad-bugs/24191",
       "name": "Schulkonzert »Bad Bugs«",
       "start_date": "2026/06/23",
@@ -1315,12 +1069,8 @@
       "context": "Schulkonzerte / Klasse 1–4, Schulkonzerte / Klasse 3–6",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:09:01.460Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
       "event_cache_key": "url|https://www.elbphilharmonie.de/de/programm/schulkonzert-bad-bugs/24191|2026/06/23|2026/06/23|9:30 uhr/11:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Schulkonzert »Bad Bugs«\",\n  \"start_date\": \"2026/06/23\",\n  \"end_date\": \"2026/06/23\",\n  \"time\": \"09:30-12:20\",\n  \"venue\": \"Elbphilharmonie Kleiner Saal\",\n  \"context\": \"Schulkonzerte / Klasse 1–4, Schulkonzerte / Klasse 3–6\",\n  \"age\": \"Klasse 1–4, Klasse 3–6\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1328,7 +1078,6 @@
       "include": true
     },
     {
-      "row_number": 74,
       "url": "https://hoheluftschiff.de/blog/wir-wollen-weiter-spielen",
       "name": "Internationales Theaterfestival WIR WOLLEN SPIELEN!",
       "start_date": "2026/06/21",
@@ -1341,12 +1090,8 @@
       "context": "Internationales Theaterfestival für Kinder",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:09:58.297Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/blog/wir-wollen-weiter-spielen|2026/06/21|2026/06/28|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Internationales Theaterfestival WIR WOLLEN SPIELEN!\",\n  \"start_date\": \"2026/06/21\",\n  \"end_date\": \"2026/06/28\",\n  \"time\": \"\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Internationales Theaterfestival für Kinder\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "indoor"
@@ -1355,7 +1100,6 @@
       "include": true
     },
     {
-      "row_number": 77,
       "url": "https://hoheluftschiff.de/stueck/ovo/20260623-1100",
       "name": "OvO (WIR WOLLEN SPIELEN!)",
       "start_date": "2026/06/23",
@@ -1368,12 +1112,8 @@
       "context": "Theater performance, 1 – 2 Jahre",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:13.294Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/ovo/20260623-1100|2026/06/23|2026/06/23|11:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"OvO (WIR WOLLEN SPIELEN!)\",\n  \"start_date\": \"2026/06/23\",\n  \"end_date\": \"2026/06/23\",\n  \"time\": \"11:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance, 1 – 2 Jahre\",\n  \"age\": \"1 – 2 Jahre\",\n  \"min_age\": 1,\n  \"max_age\": 2,\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1381,7 +1121,6 @@
       "include": true
     },
     {
-      "row_number": 78,
       "url": "https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260611-1000",
       "name": ".Punkt .Punkt -Strich",
       "start_date": "2026/06/11",
@@ -1394,12 +1133,8 @@
       "context": "Theater performance, 3 – 6 Jahre",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:17.872Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260611-1000|2026/06/11|2026/06/11|10:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \".Punkt .Punkt -Strich\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance, 3 – 6 Jahre\",\n  \"age\": \"3 – 6 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 6,\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1407,7 +1142,6 @@
       "include": true
     },
     {
-      "row_number": 79,
       "url": "https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260611-1130",
       "name": "Punkt .Punkt -Strich",
       "start_date": "2026/06/11",
@@ -1420,18 +1154,13 @@
       "context": "Theater performance",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:21.994Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260611-1130|2026/06/11|2026/06/11|11:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Punkt .Punkt -Strich\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"11:30\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance\",\n  \"age\": \"3 – 6 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 6,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 80,
       "url": "https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260612-1000",
       "name": "Punkt .Punkt -Strich",
       "start_date": "2026/06/12",
@@ -1444,12 +1173,8 @@
       "context": "Theater performance",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:26.246Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260612-1000|2026/06/12|2026/06/12|10:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Punkt .Punkt -Strich\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"10:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance\",\n  \"age\": \"3 – 6 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 6,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1457,7 +1182,6 @@
       "include": true
     },
     {
-      "row_number": 81,
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260621-1500",
       "name": "Unsichtbares (WIR WOLLEN SPIELEN! – Premiere)",
       "start_date": "2026/06/21",
@@ -1470,12 +1194,8 @@
       "context": "Theater performance, 3+",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:30.874Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/unsichtbares/20260621-1500|2026/06/21|2026/06/21|15:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Unsichtbares (WIR WOLLEN SPIELEN! – Premiere)\",\n  \"start_date\": \"2026/06/21\",\n  \"end_date\": \"2026/06/21\",\n  \"time\": \"15:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance, 3+\",\n  \"age\": \"3 – 8 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 8,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1483,7 +1203,6 @@
       "include": true
     },
     {
-      "row_number": 82,
       "url": "https://hoheluftschiff.de/stueck/ovo/20260623-930",
       "name": "OvO (WIR WOLLEN SPIELEN!)",
       "start_date": "2026/06/23",
@@ -1496,18 +1215,13 @@
       "context": "Theater performance, 1+",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:48.692Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/ovo/20260623-930|2026/06/23|2026/06/23|9:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"OvO (WIR WOLLEN SPIELEN!)\",\n  \"start_date\": \"2026/06/23\",\n  \"end_date\": \"2026/06/23\",\n  \"time\": \"09:30\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance, 1+\",\n  \"age\": \"1 – 2 Jahre\",\n  \"min_age\": 1,\n  \"max_age\": 2,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 83,
       "url": "https://hoheluftschiff.de/stueck/ovo/20260623-1600",
       "name": "OvO (WIR WOLLEN SPIELEN!)",
       "start_date": "2026/06/23",
@@ -1520,18 +1234,13 @@
       "context": "Theater performance, 1+",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:53.632Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/ovo/20260623-1600|2026/06/23|2026/06/23|16:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"OvO (WIR WOLLEN SPIELEN!)\",\n  \"start_date\": \"2026/06/23\",\n  \"end_date\": \"2026/06/23\",\n  \"time\": \"16:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Theater performance, 1+\",\n  \"age\": \"1 – 2 Jahre\",\n  \"min_age\": 1,\n  \"max_age\": 2,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 84,
       "url": "https://hoheluftschiff.de/stueck/eye-wink/20260624-1000",
       "name": "Eye.Wink. (WIR WOLLEN SPIELEN!)",
       "start_date": "2026/06/24",
@@ -1544,12 +1253,8 @@
       "context": "Internationales Theaterfestival für Kinder",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:10:58.647Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/eye-wink/20260624-1000|2026/06/24|2026/06/24|10:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Eye.Wink. (WIR WOLLEN SPIELEN!)\",\n  \"start_date\": \"2026/06/24\",\n  \"end_date\": \"2026/06/24\",\n  \"time\": \"10:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Internationales Theaterfestival für Kinder\",\n  \"age\": \"3 – 9 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 9,\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -1557,7 +1262,6 @@
       "include": true
     },
     {
-      "row_number": 85,
       "url": "https://hoheluftschiff.de/stueck/eye-wink/20260624-1600",
       "name": "Eye.Wink. (WIR WOLLEN SPIELEN!)",
       "start_date": "2026/06/24",
@@ -1570,18 +1274,13 @@
       "context": "Internationales Theaterfestival für Kinder",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:11:03.595Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hoheluftschiff.de/",
       "event_cache_key": "url|https://hoheluftschiff.de/stueck/eye-wink/20260624-1600|2026/06/24|2026/06/24|16:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Eye.Wink. (WIR WOLLEN SPIELEN!)\",\n  \"start_date\": \"2026/06/24\",\n  \"end_date\": \"2026/06/24\",\n  \"time\": \"16:00\",\n  \"venue\": \"HoheLuftschiff Kindertheater\",\n  \"context\": \"Internationales Theaterfestival für Kinder\",\n  \"age\": \"3 – 9 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 9,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 88,
       "url": "https://www.elbphilharmonie.de/de/programm/hasi-konzert/23809",
       "name": "Hasi-Konzert",
       "start_date": "2026/06/13",
@@ -1594,12 +1293,8 @@
       "context": "Mit dem Kuscheltier ins Konzert. Gemeinsam mit KiKA-Moderator Juri Tetzlaff und seinem besten Freund »Hasi« erleben die Kinder spannende und lustige Kuscheltierkonzerte im Studio E der Laeiszhalle.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:11:18.953Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "event_cache_key": "url|https://www.elbphilharmonie.de/de/programm/hasi-konzert/23809|2026/06/13|2026/06/13|14:30 uhr/16 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Hasi-Konzert\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"14:30-18:00\",\n  \"venue\": \"Laeiszhalle, Studio E\",\n  \"context\": \"Mit dem Kuscheltier ins Konzert. Gemeinsam mit KiKA-Moderator Juri Tetzlaff und seinem besten Freund »Hasi« erleben die Kinder spannende und lustige Kuscheltierkonzerte im Studio E der Laeiszhalle.\",\n  \"age\": \"3–6 Jährige\",\n  \"min_age\": 3,\n  \"max_age\": 6,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1608,7 +1303,6 @@
       "include": true
     },
     {
-      "row_number": 89,
       "url": "https://www.elbphilharmonie.de/de/programm/hasi-konzert/23807",
       "name": "Hasi-Konzert",
       "start_date": "2026/06/14",
@@ -1621,12 +1315,8 @@
       "context": "Mit dem Kuscheltier ins Konzert. Gemeinsam mit KiKA-Moderator Juri Tetzlaff und seinem besten Freund »Hasi« erleben die Kinder spannende und lustige Kuscheltierkonzerte im Studio E der Laeiszhalle.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:11:24.950Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "event_cache_key": "url|https://www.elbphilharmonie.de/de/programm/hasi-konzert/23807|2026/06/14|2026/06/14|11 uhr/14:30 uhr/16 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Hasi-Konzert\",\n  \"start_date\": \"2026/06/14\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"11:00-16:00\",\n  \"venue\": \"Laeiszhalle, Studio E\",\n  \"context\": \"Mit dem Kuscheltier ins Konzert. Gemeinsam mit KiKA-Moderator Juri Tetzlaff und seinem besten Freund »Hasi« erleben die Kinder spannende und lustige Kuscheltierkonzerte im Studio E der Laeiszhalle.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1635,7 +1325,6 @@
       "include": true
     },
     {
-      "row_number": 108,
       "url": "https://www.elbsommer.com/veranstaltungen/piratensommer",
       "name": "Piratensommer für Groß und Klein",
       "start_date": "2026/06/13",
@@ -1648,12 +1337,8 @@
       "context": "Piratenspielplatz, Schatzsuche & Piratenabenteuer für Kinder jeden Alters",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:12:46.730Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "event_cache_key": "url|https://www.elbsommer.com/veranstaltungen/piratensommer|2026/06/13|2026/06/13|15-18 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Piratensommer für Groß und Klein\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"15:00-18:00\",\n  \"venue\": \"Gemeinschaftshaus Grasbrookpark, Am Grasbrookpark 20457 Hamburg\",\n  \"context\": \"Piratenspielplatz, Schatzsuche & Piratenabenteuer für Kinder jeden Alters\",\n  \"age\": \"Groß und Klein\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1662,7 +1347,6 @@
       "include": true
     },
     {
-      "row_number": 110,
       "url": "https://www.altonale.de/altonale-festival/theater/altona-macht-auf/",
       "name": "Altona macht auf!",
       "start_date": "2026/06/15",
@@ -1675,18 +1359,13 @@
       "context": "Nachbar*innen öffnen ihre Fenster und treten auf ihre Balkone, um von ihren Sehnsüchten zu erzählen, ihre Wünsche zu tanzen und ihre Visionen von einem gemeinsamen Leben in Altona auf die Straße hinunterzusingen!",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:12:56.141Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "event_cache_key": "url|https://www.altonale.de/altonale-festival/theater/altona-macht-auf/|2026/06/15|2026/06/17|17:30-23 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Altona macht auf!\",\n  \"start_date\": \"2026/06/15\",\n  \"end_date\": \"2026/06/17\",\n  \"time\": \"\",\n  \"venue\": \"Altona, Hamburg\",\n  \"context\": \"Nachbar*innen öffnen ihre Fenster und treten auf ihre Balkone, um von ihren Sehnsüchten zu erzählen, ihre Wünsche zu tanzen und ihre Visionen von einem gemeinsamen Leben in Altona auf die Straße hinunterzusingen!\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 111,
       "url": "https://kinderkinder.de/programm/laut-und-luise/",
       "name": "laut und luise",
       "start_date": "2026/06/21",
@@ -1699,12 +1378,8 @@
       "context": "Tag der Musik",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:13:01.530Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "event_cache_key": "url|https://kinderkinder.de/programm/laut-und-luise/|2026/06/21|2026/06/21|13-18 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"laut und luise\",\n  \"start_date\": \"2026/06/21\",\n  \"end_date\": \"2026/06/21\",\n  \"time\": \"13:00-18:00\",\n  \"venue\": \"Planten un Blomen\",\n  \"context\": \"Tag der Musik\",\n  \"age\": \"(0 bis 99 Jahre)\",\n  \"min_age\": 0,\n  \"max_age\": 99,\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -1713,7 +1388,6 @@
       "include": true
     },
     {
-      "row_number": 112,
       "url": "https://mozarthamburg.de/mozart-nature-fest-2026/",
       "name": "Mozart Nature Fest 2026",
       "start_date": "2026/05/28",
@@ -1726,18 +1400,13 @@
       "context": "Festival mit Konzerten und Naturerlebnissen zur Sensibilisierung für natürliche Lebensräume.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:13:26.277Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "event_cache_key": "url|https://mozarthamburg.de/mozart-nature-fest-2026/|2026/06/21|2026/06/21|konzert 1: 11:30 uhr, konzert 2: 14:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Mozart Nature Fest 2026\",\n  \"start_date\": \"2026/05/28\",\n  \"end_date\": \"2026/07/12\",\n  \"time\": \"\",\n  \"venue\": \"Hamburg\",\n  \"context\": \"Festival mit Konzerten und Naturerlebnissen zur Sensibilisierung für natürliche Lebensräume.\",\n  \"age\": \"für Familien\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 117,
       "url": "https://www.kinderkinder.de/programm/laut-und-luise/",
       "name": "laut und luise",
       "start_date": "2026/06/21",
@@ -1750,12 +1419,8 @@
       "context": "Tag der Musik für alle von 0 bis 99 Jahren, umsonst & draußen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:13:53.491Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.kinderkinder.de/programm/",
       "event_cache_key": "url|https://www.kinderkinder.de/programm/laut-und-luise/|2026/06/21|2026/06/21|13:00-18:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"laut und luise\",\n  \"start_date\": \"2026/06/21\",\n  \"end_date\": \"2026/06/21\",\n  \"time\": \"13:00-18:00\",\n  \"venue\": \"Planten un Blomen\",\n  \"context\": \"Tag der Musik für alle von 0 bis 99 Jahren, umsonst & draußen.\",\n  \"age\": \"0 bis 99 Jahre\",\n  \"min_age\": 0,\n  \"max_age\": 99,\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -1764,7 +1429,6 @@
       "include": true
     },
     {
-      "row_number": 118,
       "url": "https://www.hamburg.de/freizeit/kinder/fest-der-kleinen-wichte-337846",
       "name": "Fest der kleinen Wichte",
       "start_date": "2026/06/17",
@@ -1777,12 +1441,8 @@
       "context": "für alle kleinen Bücherwürmer und solche, die es noch werden möchten",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:13:59.177Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "event_cache_key": "url|https://www.hamburg.de/freizeit/kinder/fest-der-kleinen-wichte-337846|2024/06/01|2024/06/30|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Fest der kleinen Wichte\",\n  \"start_date\": \"2026/06/17\",\n  \"end_date\": \"2026/06/17\",\n  \"time\": \"15:00-18:00\",\n  \"venue\": \"Großer Spielplatz in Planten un Blomen (\\\"bei den Bullerbergen\\\"), Eingang Marseiller Straße\",\n  \"context\": \"für alle kleinen Bücherwürmer und solche, die es noch werden möchten\",\n  \"age\": \"unter 3 Jahren\",\n  \"min_age\": 0,\n  \"max_age\": 3,\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -1791,7 +1451,6 @@
       "include": true
     },
     {
-      "row_number": 119,
       "url": "https://www.hamburg.de/freizeit/langer-tag-der-stadtnatur-309294",
       "name": "Langer Tag der StadtNatur",
       "start_date": "2026/06/13",
@@ -1804,12 +1463,8 @@
       "context": "An zwei Tagen bietet der Lange des Tag der StadtNatur mehr als 250 Veranstaltungen, um die Flora und Fauna Hamburgs zu entdecken.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:14:05.608Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "event_cache_key": "url|https://www.hamburg.de/freizeit/langer-tag-der-stadtnatur-309294|2024/06/01|2024/06/30|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Langer Tag der StadtNatur\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"\",\n  \"venue\": \"Hamburg und Metropolregion Hamburg\",\n  \"context\": \"An zwei Tagen bietet der Lange des Tag der StadtNatur mehr als 250 Veranstaltungen, um die Flora und Fauna Hamburgs zu entdecken.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor"
       ],
@@ -1817,7 +1472,6 @@
       "include": true
     },
     {
-      "row_number": 133,
       "url": "https://www.kindaling.de/kindertheater-shows/punkt-punkt-strich/hamburg-hoheluft-west",
       "name": "Punkt Punkt Strich",
       "start_date": "2026/06/10",
@@ -1830,12 +1484,8 @@
       "context": "kindertheater-shows",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:16:49.070Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "event_cache_key": "url|https://www.kindaling.de/kindertheater-shows/punkt-punkt-strich/hamburg-hoheluft-west|2024/06/11|2024/06/11|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Punkt Punkt Strich\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:00-10:45\",\n  \"venue\": \"HoheLuftschiff Kindertheater, Kaiser-Friedrich-Ufer 23, 20253 Hamburg Hoheluft-West\",\n  \"context\": \"kindertheater-shows\",\n  \"age\": \"3 – 6 Jahre\",\n  \"min_age\": 3,\n  \"max_age\": 6,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1844,7 +1494,6 @@
       "include": true
     },
     {
-      "row_number": 125,
       "url": "https://www.kindaling.de/kindertheater-shows/die-schoenen-und-das-biest/hamburg-barmbek-nord",
       "name": "Die Schönen und das Biest",
       "start_date": "2026/06/10",
@@ -1857,12 +1506,8 @@
       "context": "kindertheater-shows",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:15:16.848Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "event_cache_key": "url|https://www.kindaling.de/kindertheater-shows/die-schoenen-und-das-biest/hamburg-barmbek-nord|2024/06/10|2024/06/10|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Die Schönen und das Biest\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:30-10:30\",\n  \"venue\": \"Junges SchauSpielHaus Hamburg Wiesendamm 28 22305 Hamburg Barmbek-Nord\",\n  \"context\": \"kindertheater-shows\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1870,7 +1515,6 @@
       "include": true
     },
     {
-      "row_number": 126,
       "url": "https://www.kindaling.de/sonstige-veranstaltungen/wie-spielt-man-das-entdecke-das-pokemon-sammelkartenspiel/hamburg-wandsbek",
       "name": "Wie spielt man das - Entdecke das Pokemon Sammelkartenspiel",
       "start_date": "2026/06/10",
@@ -1883,12 +1527,8 @@
       "context": "sonstige veranstaltungen",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:15:26.579Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "event_cache_key": "url|https://www.kindaling.de/sonstige-veranstaltungen/wie-spielt-man-das-entdecke-das-pokemon-sammelkartenspiel/hamburg-wandsbek|2024/06/10|2024/06/10|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Wie spielt man das - Entdecke das Pokemon Sammelkartenspiel\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"15:00\",\n  \"venue\": \"Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg Wandsbek\",\n  \"context\": \"sonstige veranstaltungen\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -1897,7 +1537,6 @@
       "include": true
     },
     {
-      "row_number": 137,
       "url": "https://www.kindaling.de/kinderkonzerte/wasserspiele-und-wasserlichtkonzerte/hamburg-neustadt",
       "name": "Wasserspiele und Wasserlichtkonzerte",
       "start_date": "2026/05/01",
@@ -1910,12 +1549,8 @@
       "context": "kinderkonzerte",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:17:24.382Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "event_cache_key": "url|https://www.kindaling.de/kinderkonzerte/wasserspiele-und-wasserlichtkonzerte/hamburg-neustadt|2024/06/11|2024/06/11|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Wasserspiele und Wasserlichtkonzerte\",\n  \"start_date\": \"2026/05/01\",\n  \"end_date\": \"2026/09/30\",\n  \"time\": \"16:00-22:00\",\n  \"venue\": \"Planten un Blomen (Parksee) St. Petersburger Straße 20355 Hamburg Neustadt\",\n  \"context\": \"kinderkonzerte\",\n  \"age\": \"4 - 18 J\",\n  \"min_age\": 4,\n  \"max_age\": 18,\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -1924,7 +1559,6 @@
       "include": true
     },
     {
-      "row_number": 134,
       "url": "https://www.kindaling.de/kindertheater-shows/die-schoenen-und-das-biest/hamburg-barmbek-nord",
       "name": "Die Schönen und das Biest",
       "start_date": "2026/06/10",
@@ -1937,12 +1571,8 @@
       "context": "kindertheater-shows",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:16:57.006Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "event_cache_key": "url|https://www.kindaling.de/kindertheater-shows/die-schoenen-und-das-biest/hamburg-barmbek-nord|2024/06/11|2024/06/11|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Die Schönen und das Biest\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/11\",\n  \"time\": \"10:30\",\n  \"venue\": \"Junges SchauSpielHaus Hamburg Wiesendamm 28 22305 Hamburg Barmbek-Nord\",\n  \"context\": \"kindertheater-shows\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -1950,7 +1580,6 @@
       "include": true
     },
     {
-      "row_number": 143,
       "url": "https://heuteinhamburg.de/guide/bucketlist-sommer-in-hamburg",
       "name": "Open-Air Schanzenkino",
       "start_date": "2026/06/01",
@@ -1963,12 +1592,8 @@
       "context": "Open-Air Schanzenkino im Schanzenpark",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:18:54.579Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://heuteinhamburg.de/kategorie/familie",
       "event_cache_key": "url|https://heuteinhamburg.de/guide/bucketlist-sommer-in-hamburg|2026/06/01|2026/08/31|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Open-Air Schanzenkino\",\n  \"start_date\": \"\",\n  \"end_date\": \"\",\n  \"time\": \"\",\n  \"venue\": \"Schanzenpark, Sternschanze 1A, 20357 Hamburg\",\n  \"context\": \"Open-Air Schanzenkino im Schanzenpark\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -1977,7 +1602,6 @@
       "include": true
     },
     {
-      "row_number": 145,
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/back-to-work-strong-coaching-reiki-for-mothers-returning-to-work/",
       "name": "BACK TO WORK STRONG – Coaching & Reiki for Mothers Returning to Work Workshops",
       "start_date": "2026/06/12",
@@ -1990,12 +1614,8 @@
       "context": "Returning to work after parental leave can bring not only organizational challenges, but also emotional and mental pressure for many mothers. The group course “BACK TO WORK STRONG” supports women in entering this new chapter feeling grounded, confident, and energized.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:39:13.531Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "event_cache_key": "url|https://www.hamburg-travel.com/see-explore/events/events-calendar/back-to-work-strong-coaching-reiki-for-mothers-returning-to-work/|2026/06/12|2026/06/12|09:30",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"BACK TO WORK STRONG – Coaching & Reiki for Mothers Returning to Work Workshops\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/26\",\n  \"time\": \"09:30-11:00\",\n  \"venue\": \"MamaSport Hamburg\",\n  \"context\": \"Returning to work after parental leave can bring not only organizational challenges, but also emotional and mental pressure for many mothers. The group course “BACK TO WORK STRONG” supports women in entering this new chapter feeling grounded, confident, and energized.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -2003,7 +1623,6 @@
       "include": true
     },
     {
-      "row_number": 146,
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
       "name": "Familienführung - Der Hafen für Kinder",
       "start_date": "2026/06/13",
@@ -2016,18 +1635,13 @@
       "context": "A guided city tour including a short ferry ride for children (6-12 years) accompanied by an adult (HVV ticket required).",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:39:25.180Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "event_cache_key": "url|https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/|2026/06/13|2026/06/13|11:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienführung - Der Hafen für Kinder\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/10/31\",\n  \"time\": \"\",\n  \"venue\": \"Deichstraße / Steintwiete 1, 20459 Hamburg\",\n  \"context\": \"A guided city tour including a short ferry ride for children (6-12 years) accompanied by an adult (HVV ticket required).\",\n  \"age\": \"6-12 years\",\n  \"min_age\": 6,\n  \"max_age\": 12,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 147,
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/kinderflohmarkt-eppendorf-2/",
       "name": "Kinderflohmarkt Eppendorf",
       "start_date": "2026/06/14",
@@ -2040,12 +1654,8 @@
       "context": "The large outdoor children's flea market on Marie-Jonas-Platz in the heart of Eppendorf awaits you with a well-stocked, well-maintained, non-commercial, i.e. exclusively private mix of products for children, clothing up to size 176, with wide paths suitable for strollers, relaxed visitors and friendly vendors. When the weather is good, the stands remain fully set up from 10 a.m. to 3 p.m.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:39:33.455Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "event_cache_key": "url|https://www.hamburg-travel.com/see-explore/events/events-calendar/kinderflohmarkt-eppendorf-2/|2026/06/14|2026/06/14|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Kinderflohmarkt Eppendorf\",\n  \"start_date\": \"2026/06/14\",\n  \"end_date\": \"2026/08/23\",\n  \"time\": \"10:00-15:00\",\n  \"venue\": \"Marie-Jonas-Platz\",\n  \"context\": \"The large outdoor children's flea market on Marie-Jonas-Platz in the heart of Eppendorf awaits you with a well-stocked, well-maintained, non-commercial, i.e. exclusively private mix of products for children, clothing up to size 176, with wide paths suitable for strollers, relaxed visitors and friendly vendors. When the weather is good, the stands remain fully set up from 10 a.m. to 3 p.m.\",\n  \"age\": \"up to size 176\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor"
       ],
@@ -2053,7 +1663,6 @@
       "include": true
     },
     {
-      "row_number": 149,
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
       "name": "Töpferstube - Große Wallanlagen",
       "start_date": "2026/06/16",
@@ -2066,18 +1675,13 @@
       "context": "Workshops. Recommended age: 5 years and up.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:39:54.948Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "event_cache_key": "url|https://www.hamburg-travel.com/see-explore/events/events-calendar/|2026/06/16|2026/06/16|15:00",
-      "raw_text": "```json\n{\n  \"include\": false,\n  \"exclude_reason\": \"Event is not found in the provided HTML content.\",\n  \"name\": \"Töpferstube - Große Wallanlagen\",\n  \"start_date\": \"\",\n  \"end_date\": \"\",\n  \"time\": \"\",\n  \"venue\": \"Planten un Blomen (Große Wallanlagen)\",\n  \"context\": \"Workshops. Recommended age: 5 years and up.\",\n  \"age\": \"\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 150,
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
       "name": "Töpferstube - Große Wallanlagen",
       "start_date": "2026/06/17",
@@ -2090,18 +1694,13 @@
       "context": "Workshops. Recommended age: 5 years and up.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:40:09.156Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "event_cache_key": "url|https://www.hamburg-travel.com/see-explore/events/events-calendar/|2026/06/17|2026/06/17|15:00",
-      "raw_text": "```json\n{\n  \"include\": false,\n  \"exclude_reason\": \"Event is not found in the provided HTML content.\",\n  \"name\": \"Töpferstube - Große Wallanlagen\",\n  \"start_date\": \"\",\n  \"end_date\": \"\",\n  \"time\": \"\",\n  \"venue\": \"Planten un Blomen (Große Wallanlagen)\",\n  \"context\": \"Workshops. Recommended age: 5 years and up.\",\n  \"age\": \"5 years and up\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 151,
       "url": "https://hagenbeck.de/de/tierpark/zooschule/startseite.php",
       "name": "Zooschule hautnah erleben",
       "start_date": "2026/04/18",
@@ -2114,18 +1713,13 @@
       "context": "Mit der LI-Zooschule lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:41:17.586Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "event_cache_key": "url|https://hagenbeck.de/de/tierpark/zooschule/startseite.php|2026/04/18|2026/08/08|12:00 bis 15:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Zooschule hautnah erleben\",\n  \"start_date\": \"\",\n  \"end_date\": \"\",\n  \"time\": \"\",\n  \"venue\": \"LI-Zooschule bei Hagenbeck, Lokstedter Grenzstraße 2, 22527 Hamburg\",\n  \"context\": \"Mit der LI-Zooschule lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen.\",\n  \"age\": \"4-16 Jahre\",\n  \"min_age\": 4,\n  \"max_age\": 16,\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 152,
       "url": "https://tagderstadtnaturhamburg.de/programm&amp;kat=alle?filter=hagenbeck",
       "name": "Exklusivführungen und Abendvortrag zum Langen Tag der Stadtnatur",
       "start_date": "2026/06/13",
@@ -2138,18 +1732,13 @@
       "context": "Exklusivführungen und Abendvortrag zum Langen Tag der Stadtnatur",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:41:24.382Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "event_cache_key": "url|https://tagderstadtnaturhamburg.de/programm&amp;kat=alle?filter=hagenbeck|2026/06/13|2026/06/14|führungen 13:00, 14:00, 15:00 uhr; vortrag ab 18:30 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Exklusivführungen und Abendvortrag zum Langen Tag der Stadtnatur\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"\",\n  \"venue\": \"Tierpark Hagenbeck\",\n  \"context\": \"Exklusivführungen und Abendvortrag zum Langen Tag der Stadtnatur\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 153,
       "url": "https://hagenbeck.de/de/_events/welt_kamel_tag.php",
       "name": "Aktionstag zum Welt-Kamel-Tag",
       "start_date": "2026/06/22",
@@ -2162,12 +1751,8 @@
       "context": "Erfahren Sie spannende Fakten über Trampeltiere.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:41:32.425Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "event_cache_key": "url|https://hagenbeck.de/de/_events/welt_kamel_tag.php|2026/06/22|2026/06/22|10:00 bis 15:00 uhr",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Aktionstag zum Welt-Kamel-Tag\",\n  \"start_date\": \"2026/06/22\",\n  \"end_date\": \"2026/06/22\",\n  \"time\": \"10:00-15:00\",\n  \"venue\": \"Tierpark Hagenbeck\",\n  \"context\": \"Erfahren Sie spannende Fakten über Trampeltiere.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -2175,7 +1760,6 @@
       "include": true
     },
     {
-      "row_number": 163,
       "url": "https://rausgegangen.de/en/events/ratsel-der-tierwelt-hamburg-16/",
       "name": "Rätsel der Tierwelt",
       "start_date": "2026/06/10",
@@ -2188,12 +1772,8 @@
       "context": "Family. City. Escape Games: Discover the new family adventure!",
       "exclude_reason": "",
       "cached_at": "2026-06-10T14:04:35.315Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/ratsel-der-tierwelt-hamburg-16/|2024/06/10|2024/06/10|08:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Rätsel der Tierwelt\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/08/18\",\n  \"time\": \"08:00-23:00\",\n  \"venue\": \"Hamburg am Hauptbahnhof Glockengießerwall 8 20095 Hamburg\",\n  \"context\": \"Family. City. Escape Games: Discover the new family adventure!\",\n  \"age\": \"6 and over\",\n  \"min_age\": 6,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -2202,7 +1782,6 @@
       "include": true
     },
     {
-      "row_number": 164,
       "url": "https://rausgegangen.de/en/events/shift-open-kids-studio-kinder-farbe-freiheit-12/",
       "name": "shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT",
       "start_date": "2026/06/10",
@@ -2215,12 +1794,8 @@
       "context": "Children can be bold here with color, shapes and their owneas. It's not about right or wrong, but about expression and joy.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:43:58.429Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/shift-open-kids-studio-kinder-farbe-freiheit-12/|2024/06/10|2024/06/10|15:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT\",\n  \"start_date\": \"2026/06/10\",\n  \"end_date\": \"2026/06/10\",\n  \"time\": \"15:00-17:30\",\n  \"venue\": \"KULTUR&GUT WORKSHOPS\",\n  \"context\": \"Children can be bold here with color, shapes and their owneas. It's not about right or wrong, but about expression and joy.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "paid"
       ],
@@ -2228,7 +1803,6 @@
       "include": true
     },
     {
-      "row_number": 166,
       "url": "https://rausgegangen.de/en/events/leo-lausemaus-puppentheater-live-in-hamburg-44/",
       "name": "LEO LAUSEMAUS PUPPENTHEATER - live in Hamburg",
       "start_date": "2026/06/11",
@@ -2241,12 +1815,8 @@
       "context": "A great puppet theater experience for the whole family!",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:44:25.343Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/leo-lausemaus-puppentheater-live-in-hamburg-44/|2024/06/11|2024/06/11|16:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"LEO LAUSEMAUS PUPPENTHEATER - live in Hamburg\",\n  \"start_date\": \"2026/06/11\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"16:00-17:15\",\n  \"venue\": \"Horner Rennbahn\",\n  \"context\": \"A great puppet theater experience for the whole family!\",\n  \"age\": \"From 2 years\",\n  \"min_age\": 2,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor"
       ],
@@ -2254,7 +1824,6 @@
       "include": true
     },
     {
-      "row_number": 167,
       "url": "https://rausgegangen.de/en/events/back-to-work-strong-mentales-und-energetisches-krafttraining-4/",
       "name": "BACK TO WORK STRONG – Mentales und energetisches Krafttraining für deinen Wiedereinstieg",
       "start_date": "2026/06/12",
@@ -2267,18 +1836,13 @@
       "context": "Venue name 'MamaSport' suggests parenting/moms focus.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:44:36.078Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/back-to-work-strong-mentales-und-energetisches-krafttraining-4/|2024/06/12|2024/06/12|09:30",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"BACK TO WORK STRONG – Mentales und energetisches Krafttraining für deinen Wiedereinstieg\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"09:30-11:00\",\n  \"venue\": \"MamaSport\",\n  \"context\": \"\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 168,
       "url": "https://rausgegangen.de/en/events/match-a-mom-l-picknick-talk-0/",
       "name": "match a mom l picknick & talk",
       "start_date": "2026/06/12",
@@ -2291,12 +1855,8 @@
       "context": "Match a Mom Picnic & Talk. We meet at elephants Superfood Bar in Eppendorf, get a drink together and then walk over to Innocentiapark.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:44:47.743Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/match-a-mom-l-picknick-talk-0/|2024/06/12|2024/06/12|14:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"match a mom l picknick & talk\",\n  \"start_date\": \"2026/06/12\",\n  \"end_date\": \"2026/06/12\",\n  \"time\": \"14:00-16:30\",\n  \"venue\": \"elephants Superfood Bar\",\n  \"context\": \"Match a Mom Picnic & Talk. We meet at elephants Superfood Bar in Eppendorf, get a drink together and then walk over to Innocentiapark.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor",
         "paid"
@@ -2305,7 +1865,6 @@
       "include": true
     },
     {
-      "row_number": 169,
       "url": "https://rausgegangen.de/en/events/familienzeit-9713/",
       "name": "Familienzeit",
       "start_date": "2026/06/13",
@@ -2318,12 +1877,8 @@
       "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:44:59.907Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/familienzeit-9713/|2024/06/13|2024/06/13|11:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienzeit\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"11:00-13:00\",\n  \"venue\": \"Hamburger Kunsthalle\",\n  \"context\": \"Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte.\",\n  \"age\": \"Kinder von 5 bis 13 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": 13,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2332,7 +1887,6 @@
       "include": true
     },
     {
-      "row_number": 170,
       "url": "https://rausgegangen.de/en/events/familienzeit-9712/",
       "name": "Familienzeit",
       "start_date": "2026/06/13",
@@ -2345,12 +1899,8 @@
       "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte. Wenn alle genug gesehen haben, bieten unsere Atelierräume die Möglichkeit, das Erlebte in die Praxis umzusetzen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:45:39.313Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/familienzeit-9712/|2024/06/13|2024/06/13|13:15",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienzeit\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"13:15-15:15\",\n  \"venue\": \"Hamburger Kunsthalle\",\n  \"context\": \"Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte. Wenn alle genug gesehen haben, bieten unsere Atelierräume die Möglichkeit, das Erlebte in die Praxis umzusetzen.\",\n  \"age\": \"Kinder von 5 bis 13 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": 13,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2359,7 +1909,6 @@
       "include": true
     },
     {
-      "row_number": 171,
       "url": "https://rausgegangen.de/en/events/piratensommer-fur-gro-und-klein-1/",
       "name": "Piratensommer für Groß und Klein",
       "start_date": "2026/06/13",
@@ -2372,18 +1921,13 @@
       "context": "Title 'Groß und Klein' (big and small) implies family/children.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:45:48.260Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/piratensommer-fur-gro-und-klein-1/|2024/06/13|2024/06/13|15:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Piratensommer für Groß und Klein\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"15:00-18:00\",\n  \"venue\": \"Gemeinschaftshaus Grasbrookpark\",\n  \"context\": \"\",\n  \"age\": \"young and old\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 172,
       "url": "https://rausgegangen.de/en/events/die-versammlung-der-dinge-ab-6-jahre-2/",
       "name": "Die Versammlung der Dinge (ab 6 Jahre)",
       "start_date": "2026/06/13",
@@ -2396,12 +1940,8 @@
       "context": "Title specifies age 'ab 6 Jahre' (from 6 years).",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:45:58.926Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/die-versammlung-der-dinge-ab-6-jahre-2/|2024/06/13|2024/06/13|16:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Die Versammlung der Dinge (ab 6 Jahre)\",\n  \"start_date\": \"2026/06/13\",\n  \"end_date\": \"2026/06/13\",\n  \"time\": \"16:00-18:00\",\n  \"venue\": \"FUNDUS THEATER\",\n  \"context\": \"\",\n  \"age\": \"ab 6 Jahre\",\n  \"min_age\": 6,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2410,7 +1950,6 @@
       "include": true
     },
     {
-      "row_number": 173,
       "url": "https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-14/",
       "name": "Kinder/Jugend Spielenachmittag",
       "start_date": "2026/06/14",
@@ -2423,18 +1962,13 @@
       "context": "Title includes 'Kinder/Jugend' (children/youth).",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:46:13.325Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-14/|2024/06/14|2024/06/14|00:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Kinder/Jugend Spielenachmittag\",\n  \"start_date\": \"2026/06/14\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"00:00-23:45\",\n  \"venue\": \"Moxy Finkenwerder\",\n  \"context\": \"\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 174,
       "url": "https://rausgegangen.de/en/events/film-matinee-die-versammlung-der-dinge-ab-6-jahre-0/",
       "name": "Film-Matinée & Die Versammlung der Dinge (ab 6 Jahre)",
       "start_date": "2026/06/14",
@@ -2447,12 +1981,8 @@
       "context": "Title specifies age 'ab 6 Jahre'.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:46:24.643Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/film-matinee-die-versammlung-der-dinge-ab-6-jahre-0/|2024/06/14|2024/06/14|11:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Film-Matinée & Die Versammlung der Dinge (ab 6 Jahre)\",\n  \"start_date\": \"2026/06/14\",\n  \"end_date\": \"2026/06/14\",\n  \"time\": \"11:00-13:00\",\n  \"venue\": \"FUNDUS THEATER\",\n  \"context\": \"\",\n  \"age\": \"ab 6 Jahre\",\n  \"min_age\": 6,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2461,7 +1991,6 @@
       "include": true
     },
     {
-      "row_number": 176,
       "url": "https://rausgegangen.de/en/events/13-gipfeltreffen-der-klangstrolche-0/",
       "name": "13. Gipfeltreffen der Klangstrolche",
       "start_date": "2026/06/16",
@@ -2474,12 +2003,8 @@
       "context": "The concert is suitable for children aged 3 and over.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:46:48.844Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/13-gipfeltreffen-der-klangstrolche-0/|2024/06/16|2024/06/16|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"13. Gipfeltreffen der Klangstrolche\",\n  \"start_date\": \"2026/06/16\",\n  \"end_date\": \"2026/06/16\",\n  \"time\": \"10:00\",\n  \"venue\": \"Laeiszhalle, großer Saal\",\n  \"context\": \"The concert is suitable for children aged 3 and over.\",\n  \"age\": \"suitable for children aged 3 and over\",\n  \"min_age\": 3,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2488,7 +2013,6 @@
       "include": true
     },
     {
-      "row_number": 178,
       "url": "https://rausgegangen.de/en/events/vorlese-und-kreativangebot-aquarellfarben-entdecken-0/",
       "name": "Vorlese- und Kreativangebot Aquarellfarben entdecken",
       "start_date": "2026/06/18",
@@ -2501,18 +2025,13 @@
       "context": "Reading/creative offers are typical for children's activities.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:47:10.077Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/vorlese-und-kreativangebot-aquarellfarben-entdecken-0/|2024/06/18|2024/06/18|15:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Vorlese- und Kreativangebot Aquarellfarben entdecken\",\n  \"start_date\": \"2026/06/18\",\n  \"end_date\": \"2026/06/18\",\n  \"time\": \"15:00-17:00\",\n  \"venue\": \"Fröbel-Buchwerkstatt\",\n  \"context\": \"\",\n  \"age\": \"from 5 years\",\n  \"min_age\": 5,\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
     },
     {
-      "row_number": 179,
       "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-0/",
       "name": "match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken",
       "start_date": "2026/06/19",
@@ -2525,12 +2044,8 @@
       "context": "A curated mommy meetup in Hamburg - for real connection, great conversations and selected preloved kidswear.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:47:23.094Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-0/|2024/06/19|2024/06/19|14:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken\",\n  \"start_date\": \"2026/06/19\",\n  \"end_date\": \"2026/06/19\",\n  \"time\": \"14:00-16:00\",\n  \"venue\": \"elephants Superfood Bar\",\n  \"context\": \"A curated mommy meetup in Hamburg - for real connection, great conversations and selected preloved kidswear.\",\n  \"age\": \"Babies & small children are of course very welcome\",\n  \"min_age\": 0,\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2539,7 +2054,6 @@
       "include": true
     },
     {
-      "row_number": 180,
       "url": "https://rausgegangen.de/en/events/ikea-samstag-hh-schnelsen-kinder-und-familienflohmarkt-0/",
       "name": "IKEA Samstag HH-Schnelsen Kinder- und Familienflohmarkt",
       "start_date": "2026/06/20",
@@ -2552,12 +2066,8 @@
       "context": "This flea market takes place under the motto \"Children and Family\" parallel to IKEA's store opening on Saturday. It is only possible to sell items related to this theme.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:47:59.919Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/ikea-samstag-hh-schnelsen-kinder-und-familienflohmarkt-0/|2024/06/20|2024/06/20|10:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"IKEA Samstag HH-Schnelsen Kinder- und Familienflohmarkt\",\n  \"start_date\": \"2026/06/20\",\n  \"end_date\": \"2026/06/20\",\n  \"time\": \"10:00-16:00\",\n  \"venue\": \"IKEA HH-Schnelsen, Wunderbrunnen 1, 22457 Hamburg\",\n  \"context\": \"This flea market takes place under the motto \\\"Children and Family\\\" parallel to IKEA's store opening on Saturday. It is only possible to sell items related to this theme.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2566,7 +2076,6 @@
       "include": true
     },
     {
-      "row_number": 181,
       "url": "https://rausgegangen.de/en/events/familienzeit-9693/",
       "name": "Familienzeit",
       "start_date": "2026/06/20",
@@ -2579,12 +2088,8 @@
       "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte. Wenn alle genug gesehen haben, bieten unsere Atelierräume die Möglichkeit, das Erlebte in die Praxis umzusetzen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:48:12.093Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/familienzeit-9693/|2024/06/20|2024/06/20|11:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienzeit\",\n  \"start_date\": \"2026/06/20\",\n  \"end_date\": \"2026/06/20\",\n  \"time\": \"11:00-13:00\",\n  \"venue\": \"Hamburger Kunsthalle\",\n  \"context\": \"Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte. Wenn alle genug gesehen haben, bieten unsere Atelierräume die Möglichkeit, das Erlebte in die Praxis umzusetzen.\",\n  \"age\": \"Kinder von 5 bis 13 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": 13,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2593,7 +2098,6 @@
       "include": true
     },
     {
-      "row_number": 182,
       "url": "https://rausgegangen.de/en/events/familienzeit-9694/",
       "name": "Familienzeit",
       "start_date": "2026/06/20",
@@ -2606,12 +2110,8 @@
       "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:48:24.066Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/familienzeit-9694/|2024/06/20|2024/06/20|13:15",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienzeit\",\n  \"start_date\": \"2026/06/20\",\n  \"end_date\": \"2026/06/20\",\n  \"time\": \"13:15-15:15\",\n  \"venue\": \"Hamburger Kunsthalle\",\n  \"context\": \"Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte.\",\n  \"age\": \"Kinder von 5 bis 13 Jahren\",\n  \"min_age\": 5,\n  \"max_age\": 13,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2620,7 +2120,6 @@
       "include": true
     },
     {
-      "row_number": 183,
       "url": "https://rausgegangen.de/en/events/familienkonzert-mozart-in-der-wilden-natur-0/",
       "name": "Familienkonzert. Mozart in der wilden Natur",
       "start_date": "2026/06/20",
@@ -2633,12 +2132,8 @@
       "context": "Title includes 'Familienkonzert' (family concert).",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:48:37.670Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/familienkonzert-mozart-in-der-wilden-natur-0/|2024/06/20|2024/06/20|14:30",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Familienkonzert. Mozart in der wilden Natur\",\n  \"start_date\": \"2026/06/20\",\n  \"end_date\": \"2026/06/20\",\n  \"time\": \"14:30-15:30\",\n  \"venue\": \"Fabrik Hamburg\",\n  \"context\": \"\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2647,7 +2142,6 @@
       "include": true
     },
     {
-      "row_number": 184,
       "url": "https://rausgegangen.de/en/events/workshop-entdecke-zukunftsberufe-4-0/",
       "name": "Workshop: Entdecke Zukunftsberufe! #4",
       "start_date": "2026/06/23",
@@ -2660,12 +2154,8 @@
       "context": "Schülerforschungszentrum (Student research center) is for students/children.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:48:46.784Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/workshop-entdecke-zukunftsberufe-4-0/|2024/06/23|2024/06/23|14:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Workshop: Entdecke Zukunftsberufe! #4\",\n  \"start_date\": \"2026/06/23\",\n  \"end_date\": \"2026/06/23\",\n  \"time\": \"14:00-18:30\",\n  \"venue\": \"Schülerforschungszentrum Hamburg, Grindelallee 117, 20146 Hamburg\",\n  \"context\": \"Schülerforschungszentrum (Student research center) is for students/children.\",\n  \"age\": \"from grade 8\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2674,7 +2164,6 @@
       "include": true
     },
     {
-      "row_number": 185,
       "url": "https://rausgegangen.de/en/events/unsichtbare-nachbarn-was-lebt-im-wasser-der-osterbek-eine-to-0/",
       "name": "Unsichtbare Nachbarn – Was lebt im Wasser der Osterbek? Eine Tour für Kinder und Familien mit dem Mikroskop",
       "start_date": "2026/06/23",
@@ -2687,12 +2176,8 @@
       "context": "On this family tour for children aged between 4 and 12, we'll dive into the hidden world of tiny creatures together.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:48:59.158Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "event_cache_key": "url|https://rausgegangen.de/en/events/unsichtbare-nachbarn-was-lebt-im-wasser-der-osterbek-eine-to-0/|2024/06/23|2024/06/23|16:00",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Unsichtbare Nachbarn – Was lebt im Wasser der Osterbek? Eine Tour für Kinder und Familien mit dem Mikroskop\",\n  \"start_date\": \"2026/06/23\",\n  \"end_date\": \"2026/06/23\",\n  \"time\": \"16:00-17:30\",\n  \"venue\": \"LIFE HAMBURG Pop-Up\",\n  \"context\": \"On this family tour for children aged between 4 and 12, we'll dive into the hidden world of tiny creatures together.\",\n  \"age\": \"between 4 and 12\",\n  \"min_age\": 4,\n  \"max_age\": 12,\n  \"tags\": [\n    \"indoor\",\n    \"paid\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "indoor",
         "paid"
@@ -2701,7 +2186,6 @@
       "include": true
     },
     {
-      "row_number": 187,
       "url": "https://hamburg.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/was-singt-denn-da/index.html",
       "name": "Was singt denn da? - Führungen 2026",
       "start_date": "2026/03/07",
@@ -2714,12 +2198,8 @@
       "context": "Vogelkundliche Führungen zur Entdeckung der heimischen Vogelwelt.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:51:27.200Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburg.nabu.de/",
       "event_cache_key": "url|https://hamburg.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/was-singt-denn-da/index.html|2026/01/01|2026/01/30|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Was singt denn da? - Führungen 2026\",\n  \"start_date\": \"2026/03/07\",\n  \"end_date\": \"2026/06/30\",\n  \"time\": \"\",\n  \"venue\": \"Hamburg\",\n  \"context\": \"Vogelkundliche Führungen zur Entdeckung der heimischen Vogelwelt.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [\n    \"outdoor\"\n  ],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [
         "outdoor"
       ],
@@ -2727,7 +2207,6 @@
       "include": true
     },
     {
-      "row_number": 188,
       "url": "https://hamburg.nabu.de/umwelt-und-ressourcen/oekologisch-leben/36251.html",
       "name": "Stadtradeln 2026 in Hamburg",
       "start_date": "2026/06/04",
@@ -2740,12 +2219,8 @@
       "context": "Die Aktion läuft vom 4. bis 24. Juni und soll motivieren, möglichst viele Wege mit dem Rad zurückzulegen.",
       "exclude_reason": "",
       "cached_at": "2026-06-10T13:51:50.502Z",
-      "cache_version": 5,
-      "error_detail": "",
       "index_url": "https://hamburg.nabu.de/",
       "event_cache_key": "url|https://hamburg.nabu.de/umwelt-und-ressourcen/oekologisch-leben/36251.html|2026/06/04|2026/06/24|",
-      "raw_text": "```json\n{\n  \"include\": true,\n  \"exclude_reason\": \"\",\n  \"name\": \"Stadtradeln 2026 in Hamburg\",\n  \"start_date\": \"2026/06/04\",\n  \"end_date\": \"2026/06/24\",\n  \"time\": \"\",\n  \"venue\": \"Hamburg\",\n  \"context\": \"Die Aktion läuft vom 4. bis 24. Juni und soll motivieren, möglichst viele Wege mit dem Rad zurückzulegen.\",\n  \"age\": \"\",\n  \"min_age\": \"\",\n  \"max_age\": \"\",\n  \"tags\": [],\n  \"error\": \"\"\n}\n```",
-      "analysis_model": "gemma-4-26b-a4b-it-qat-mlx",
       "tags": [],
       "has_age": "",
       "include": true
