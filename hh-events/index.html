@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="events-json" content="events.json">
+  <title>Hamburg Family Events</title>
+  <style>
+    :root {
+      --bg: #f5efe2;
+      --bg-accent: #efe4cf;
+      --card: rgba(255, 251, 244, 0.92);
+      --card-strong: #fffaf1;
+      --text: #213229;
+      --muted: #6a746e;
+      --line: rgba(33, 50, 41, 0.12);
+      --accent: #da6b2d;
+      --accent-strong: #9f3f19;
+      --accent-soft: rgba(218, 107, 45, 0.14);
+      --forest: #2b6a4b;
+      --forest-soft: rgba(43, 106, 75, 0.14);
+      --shadow: 0 18px 50px rgba(74, 51, 21, 0.12);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --radius-sm: 999px;
+      --content-width: 1160px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(218, 107, 45, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(43, 106, 75, 0.12), transparent 22%),
+        linear-gradient(180deg, var(--bg-accent) 0%, var(--bg) 42%, #faf6ee 100%);
+      min-height: 100vh;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: auto;
+      pointer-events: none;
+      z-index: 0;
+      filter: blur(10px);
+    }
+
+    body::before {
+      width: 320px;
+      height: 320px;
+      left: -100px;
+      top: 140px;
+      background: rgba(218, 107, 45, 0.08);
+      border-radius: 50%;
+    }
+
+    body::after {
+      width: 420px;
+      height: 420px;
+      right: -120px;
+      top: 360px;
+      background: rgba(43, 106, 75, 0.07);
+      border-radius: 50%;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 32px), var(--content-width));
+      margin: 0 auto;
+      padding: 28px 0 56px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(255, 250, 241, 0.88), rgba(255, 246, 230, 0.95)),
+        linear-gradient(135deg, rgba(218, 107, 45, 0.14), rgba(43, 106, 75, 0.10));
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius-xl);
+      padding: 30px 28px 24px;
+      animation: fadeSlide 600ms ease both;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -50px;
+      top: -70px;
+      width: 240px;
+      height: 240px;
+      background: radial-gradient(circle, rgba(218, 107, 45, 0.18), transparent 62%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent-strong);
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Optima", "Avenir Next Condensed", "Gill Sans", sans-serif;
+      font-size: clamp(2.1rem, 5vw, 4.4rem);
+      line-height: 0.94;
+      letter-spacing: -0.04em;
+      max-width: 10ch;
+    }
+
+    .hero-subtitle {
+      margin: 14px 0 0;
+      max-width: 58ch;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .stat-chip {
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      min-width: 120px;
+      backdrop-filter: blur(8px);
+    }
+
+    .stat-label {
+      display: block;
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .stat-value {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .panel {
+      margin-top: 22px;
+      background: var(--card);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius-xl);
+      padding: 24px;
+      backdrop-filter: blur(10px);
+      animation: fadeSlide 680ms ease both;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .filter-group {
+      min-width: min(100%, 260px);
+      flex: 1 1 280px;
+    }
+
+    .filter-group h2,
+    .results-header h2 {
+      margin: 0 0 10px;
+      font-size: 0.82rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .filter-buttons,
+    .tag-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .filter-button,
+    .tag-button {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.75);
+      color: var(--text);
+      padding: 10px 14px;
+      font: inherit;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .filter-button:hover,
+    .tag-button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(218, 107, 45, 0.35);
+    }
+
+    .filter-button.is-active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      box-shadow: 0 12px 22px rgba(218, 107, 45, 0.24);
+    }
+
+    .tag-button.is-active {
+      background: var(--forest);
+      border-color: var(--forest);
+      color: #fff;
+      box-shadow: 0 12px 22px rgba(43, 106, 75, 0.18);
+    }
+
+    .hint {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.45;
+    }
+
+    .results-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin: 10px 0 18px;
+    }
+
+    .results-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .event-card {
+      background: var(--card-strong);
+      border: 1px solid rgba(33, 50, 41, 0.08);
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      box-shadow: 0 14px 32px rgba(80, 62, 32, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      animation: cardIn 320ms ease both;
+    }
+
+    .event-date {
+      display: inline-flex;
+      align-self: flex-start;
+      padding: 7px 12px;
+      border-radius: var(--radius-sm);
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+
+    .event-name {
+      margin: 0;
+      font-size: 1.22rem;
+      line-height: 1.15;
+      font-family: "Optima", "Avenir Next Condensed", "Gill Sans", sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .event-name a {
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 160ms ease, color 160ms ease;
+    }
+
+    .event-name a:hover {
+      color: var(--accent-strong);
+      border-color: currentColor;
+    }
+
+    .event-details {
+      display: grid;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      line-height: 1.45;
+    }
+
+    .event-detail strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .tag-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      background: var(--forest-soft);
+      color: var(--forest);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .status,
+    .empty-state,
+    .error-state {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px dashed rgba(33, 50, 41, 0.16);
+    }
+
+    .error-state {
+      color: #8b2d1f;
+      background: rgba(255, 241, 238, 0.88);
+      border-style: solid;
+      border-color: rgba(139, 45, 31, 0.16);
+    }
+
+    .footer-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+
+    @keyframes fadeSlide {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes cardIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.985);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        width: min(calc(100% - 20px), var(--content-width));
+        padding-top: 18px;
+        padding-bottom: 32px;
+      }
+
+      .hero,
+      .panel {
+        padding: 20px 18px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        max-width: none;
+      }
+
+      .filter-row,
+      .results-header {
+        display: block;
+      }
+
+      .results-meta {
+        margin-top: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">Family Events Browser</div>
+      <h1>Hamburg family events</h1>
+      <p class="hero-subtitle">
+        Live filters over the JSON published from n8n. Upload this file beside the generated JSON on GitHub Pages or any static host.
+      </p>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-chip">
+          <span class="stat-label">Status</span>
+          <span class="stat-value" id="status-label">Loading</span>
+        </div>
+        <div class="stat-chip">
+          <span class="stat-label">Events</span>
+          <span class="stat-value" id="event-count">0</span>
+        </div>
+        <div class="stat-chip">
+          <span class="stat-label">Updated</span>
+          <span class="stat-value" id="updated-at">-</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="filter-row">
+        <div class="filter-group">
+          <h2>Age</h2>
+          <div class="filter-buttons" id="age-filters"></div>
+          <div class="hint">Age filters are exclusive. <strong>No age</strong> means no age filter is applied.</div>
+        </div>
+        <div class="filter-group">
+          <h2>Tags</h2>
+          <div class="tag-buttons" id="tag-filters"></div>
+          <div class="hint">Select multiple tags to keep events that match any selected tag.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="results-header">
+        <div>
+          <h2>Results</h2>
+          <div class="results-meta" id="results-meta">Waiting for data</div>
+        </div>
+      </div>
+      <div id="results-region">
+        <div class="status">Loading events…</div>
+      </div>
+      <p class="footer-note">
+        For GitHub Pages, upload this file into the same published folder as the JSON file. If the JSON is not named <code>events.json</code>, either change the
+        <code>&lt;meta name="events-json"&gt;</code> value above or open the page as <code>index.html?data=your-file.json</code>.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    const DEFAULT_JSON_FILE = "events.json";
+    const AGE_OPTIONS = [
+      { id: "none", label: "no age", age: null },
+      { id: "4", label: "4y", age: 4 },
+      { id: "5", label: "5y", age: 5 }
+    ];
+
+    const state = {
+      sourceUrl: "",
+      sourceLabel: "",
+      dataset: null,
+      events: [],
+      visibleEvents: [],
+      selectedAge: null,
+      selectedTags: new Set()
+    };
+
+    const ageFiltersEl = document.getElementById("age-filters");
+    const tagFiltersEl = document.getElementById("tag-filters");
+    const resultsRegionEl = document.getElementById("results-region");
+    const resultsMetaEl = document.getElementById("results-meta");
+    const statusLabelEl = document.getElementById("status-label");
+    const eventCountEl = document.getElementById("event-count");
+    const updatedAtEl = document.getElementById("updated-at");
+
+    function cleanText(value) {
+      if (value === undefined || value === null) return "";
+      return String(value).trim();
+    }
+
+    function normalizeDateValue(value) {
+      const text = cleanText(value);
+      if (!text) return "";
+      const flexible = text.match(/^(\d{4})[/-](\d{1,2})[/-](\d{1,2})$/);
+      if (!flexible) return text;
+      const year = flexible[1];
+      const month = String(Number(flexible[2])).padStart(2, "0");
+      const day = String(Number(flexible[3])).padStart(2, "0");
+      return year + "/" + month + "/" + day;
+    }
+
+    function parseDate(dateString) {
+      const text = normalizeDateValue(dateString);
+      if (!/^\d{4}\/\d{2}\/\d{2}$/.test(text)) return null;
+      const [year, month, day] = text.split("/").map(Number);
+      const date = new Date(Date.UTC(year, month - 1, day));
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function formatDateForDisplay(dateString) {
+      const date = parseDate(dateString);
+      if (!date) return cleanText(dateString) || "Date TBD";
+      return new Intl.DateTimeFormat("en-GB", {
+        weekday: "short",
+        day: "2-digit",
+        month: "short",
+        timeZone: "UTC"
+      }).format(date);
+    }
+
+    function formatEventDate(event) {
+      const start = normalizeDateValue(event.start_date || event.date || "");
+      const end = normalizeDateValue(event.end_date || event.start_date || event.date || "");
+      if (!start && !end) return "Date TBD";
+      if (!end || start === end) return formatDateForDisplay(start || end);
+      return formatDateForDisplay(start) + " - " + formatDateForDisplay(end);
+    }
+
+    function formatTimestamp(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "-";
+      return new Intl.DateTimeFormat("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(date);
+    }
+
+    function escapeHtml(value) {
+      return cleanText(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function normalizeTags(value) {
+      const seen = new Set();
+      const tags = [];
+
+      function pushTag(tagValue) {
+        const tag = cleanText(tagValue);
+        if (!tag) return;
+        const key = tag.toLowerCase();
+        if (seen.has(key)) return;
+        seen.add(key);
+        tags.push(tag);
+      }
+
+      function consume(rawValue) {
+        if (rawValue === undefined || rawValue === null || rawValue === "") return;
+        if (Array.isArray(rawValue)) {
+          rawValue.forEach(consume);
+          return;
+        }
+        if (typeof rawValue === "object") {
+          if (Array.isArray(rawValue.tags)) {
+            consume(rawValue.tags);
+          }
+          return;
+        }
+
+        const text = cleanText(rawValue);
+        if (!text) return;
+
+        if ((text.startsWith("[") && text.endsWith("]")) || (text.startsWith("{") && text.endsWith("}"))) {
+          try {
+            consume(JSON.parse(text));
+            return;
+          } catch (error) {
+          }
+        }
+
+        const parts = text.split(/\s*[,;\n|]\s*/).filter(Boolean);
+        if (parts.length > 1) {
+          parts.forEach(pushTag);
+          return;
+        }
+
+        pushTag(text);
+      }
+
+      consume(value);
+      return tags;
+    }
+
+    function normalizeAgeBound(value) {
+      if (value === undefined || value === null || value === "") return "";
+      if (typeof value === "number") return Number.isFinite(value) ? value : "";
+      const parsed = Number(cleanText(value).replace(",", "."));
+      return Number.isFinite(parsed) ? parsed : "";
+    }
+
+    function parseAgeRangeFromText(ageText) {
+      const original = cleanText(ageText);
+      if (!original) return { min: "", max: "" };
+
+      const text = original
+        .toLowerCase()
+        .replace(/,/g, ".")
+        .replace(/jahre|jahren|year old|years old|years|year|yrs|yr/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (/(all ages|alle altersgruppen|ohne altersbeschraenkung|ohne altersbeschränkung|no age restriction)/.test(text)) {
+        return { min: "", max: "" };
+      }
+
+      let match = text.match(/(?:under|unter)\s*(\d+(?:\.\d+)?)/);
+      if (match) {
+        const upper = Number(match[1]);
+        return { min: 0, max: Number.isFinite(upper) ? Math.max(0, upper - 1) : "" };
+      }
+
+      match = text.match(/(?:ab|from)\s*(\d+(?:\.\d+)?)/);
+      if (match) {
+        const min = Number(match[1]);
+        return { min: Number.isFinite(min) ? min : "", max: "" };
+      }
+
+      match = text.match(/(\d+(?:\.\d+)?)\s*\+/);
+      if (match) {
+        const min = Number(match[1]);
+        return { min: Number.isFinite(min) ? min : "", max: "" };
+      }
+
+      match = text.match(/(\d+(?:\.\d+)?)\s*(?:-|–|—|to|bis)\s*(\d+(?:\.\d+)?)/);
+      if (match) {
+        const min = Number(match[1]);
+        const max = Number(match[2]);
+        return {
+          min: Number.isFinite(min) ? min : "",
+          max: Number.isFinite(max) ? max : ""
+        };
+      }
+
+      return { min: "", max: "" };
+    }
+
+    function eventAgeRange(event) {
+      const explicitMin = normalizeAgeBound(event.min_age);
+      const explicitMax = normalizeAgeBound(event.max_age);
+      if (explicitMin !== "" || explicitMax !== "") {
+        return { min: explicitMin, max: explicitMax };
+      }
+      return parseAgeRangeFromText(event.age);
+    }
+
+    function overlapsTargetAge(event, targetAge) {
+      if (targetAge === null) return true;
+      const range = eventAgeRange(event);
+      if (range.min === "" && range.max === "") return true;
+      if (range.min !== "" && range.min > targetAge) return false;
+      if (range.max !== "" && range.max < targetAge) return false;
+      return true;
+    }
+
+    function compareEvents(a, b) {
+      const aStart = normalizeDateValue(a.start_date || a.date || "") || "9999/99/99";
+      const bStart = normalizeDateValue(b.start_date || b.date || "") || "9999/99/99";
+      if (aStart !== bStart) return aStart.localeCompare(bStart);
+
+      const aEnd = normalizeDateValue(a.end_date || a.start_date || a.date || "") || aStart;
+      const bEnd = normalizeDateValue(b.end_date || b.start_date || b.date || "") || bStart;
+      if (aEnd !== bEnd) return aEnd.localeCompare(bEnd);
+
+      const aTime = cleanText(a.time).toLowerCase();
+      const bTime = cleanText(b.time).toLowerCase();
+      if (aTime !== bTime) return aTime.localeCompare(bTime);
+
+      return cleanText(a.name).localeCompare(cleanText(b.name));
+    }
+
+    function normalizeEvent(rawEvent) {
+      const event = rawEvent || {};
+      return {
+        ...event,
+        name: cleanText(event.name),
+        url: cleanText(event.url),
+        start_date: normalizeDateValue(event.start_date || event.date || ""),
+        end_date: normalizeDateValue(event.end_date || event.start_date || event.date || ""),
+        time: cleanText(event.time),
+        venue: cleanText(event.venue),
+        context: cleanText(event.context),
+        age: cleanText(event.age),
+        tags: normalizeTags(event.tags || event.tag_list || event.labels || event.tags_json || "")
+      };
+    }
+
+    function resolveDataUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const queryPath = cleanText(params.get("data"));
+      const metaPath = cleanText(document.querySelector('meta[name="events-json"]')?.content);
+      const sourcePath = queryPath || metaPath || DEFAULT_JSON_FILE;
+      return {
+        url: new URL(sourcePath, window.location.href).toString(),
+        label: sourcePath
+      };
+    }
+
+    function renderAgeFilters() {
+      ageFiltersEl.innerHTML = "";
+      AGE_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.selectedAge === option.age ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.selectedAge = option.age;
+          renderAgeFilters();
+          renderResults();
+        });
+        ageFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderTagFilters() {
+      const allTags = Array.from(new Set(state.events.flatMap((event) => event.tags || [])))
+        .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+
+      tagFiltersEl.innerHTML = "";
+      if (!allTags.length) {
+        tagFiltersEl.innerHTML = "<div class=\"hint\">No tags found in the JSON payload.</div>";
+        return;
+      }
+
+      allTags.forEach((tag) => {
+        const normalizedTag = tag.toLowerCase();
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "tag-button" + (state.selectedTags.has(normalizedTag) ? " is-active" : "");
+        button.textContent = tag;
+        button.addEventListener("click", () => {
+          if (state.selectedTags.has(normalizedTag)) {
+            state.selectedTags.delete(normalizedTag);
+          } else {
+            state.selectedTags.add(normalizedTag);
+          }
+          renderTagFilters();
+          renderResults();
+        });
+        tagFiltersEl.appendChild(button);
+      });
+    }
+
+    function eventMatchesTags(event) {
+      if (!state.selectedTags.size) return true;
+      return (event.tags || []).some((tag) => state.selectedTags.has(tag.toLowerCase()));
+    }
+
+    function getVisibleEvents() {
+      return state.events
+        .filter((event) => overlapsTargetAge(event, state.selectedAge))
+        .filter(eventMatchesTags)
+        .sort(compareEvents);
+    }
+
+    function renderEventCard(event) {
+      const details = [];
+
+      if (event.time) {
+        details.push("<div class=\"event-detail\"><strong>Time:</strong> " + escapeHtml(event.time) + "</div>");
+      }
+
+      if (event.venue) {
+        details.push("<div class=\"event-detail\"><strong>Venue:</strong> " + escapeHtml(event.venue) + "</div>");
+      }
+
+      if (event.context) {
+        details.push("<div class=\"event-detail\">" + escapeHtml(event.context) + "</div>");
+      }
+
+      if (event.age) {
+        details.push("<div class=\"event-detail\"><strong>Age:</strong> " + escapeHtml(event.age) + "</div>");
+      }
+
+      const tagsHtml = (event.tags || []).length
+        ? "<div class=\"tag-list\">" + event.tags.map((tag) => "<span class=\"tag-pill\">" + escapeHtml(tag) + "</span>").join("") + "</div>"
+        : "";
+
+      const title = event.url
+        ? "<a href=\"" + escapeHtml(event.url) + "\" target=\"_blank\" rel=\"noreferrer\">" + escapeHtml(event.name || "Untitled event") + "</a>"
+        : escapeHtml(event.name || "Untitled event");
+
+      return [
+        "<article class=\"event-card\">",
+        "<div class=\"event-date\">" + escapeHtml(formatEventDate(event)) + "</div>",
+        "<h3 class=\"event-name\">" + title + "</h3>",
+        "<div class=\"event-details\">" + details.join("") + "</div>",
+        tagsHtml,
+        "</article>"
+      ].join("");
+    }
+
+    function renderResults() {
+      state.visibleEvents = getVisibleEvents();
+      const visibleCount = state.visibleEvents.length;
+      const totalCount = state.events.length;
+      eventCountEl.textContent = String(visibleCount);
+      resultsMetaEl.textContent = visibleCount + " of " + totalCount + " events shown" + (state.selectedTags.size ? " · tags filtered" : "");
+
+      if (!visibleCount) {
+        resultsRegionEl.innerHTML = "<div class=\"empty-state\">No events match the current filters.</div>";
+        return;
+      }
+
+      resultsRegionEl.innerHTML = "<div class=\"events-grid\">" + state.visibleEvents.map(renderEventCard).join("") + "</div>";
+    }
+
+    function renderLoadedState() {
+      statusLabelEl.textContent = "Ready";
+      updatedAtEl.textContent = formatTimestamp(state.dataset.generated_at);
+      renderAgeFilters();
+      renderTagFilters();
+      renderResults();
+    }
+
+    function renderError(message) {
+      statusLabelEl.textContent = "Error";
+      updatedAtEl.textContent = "-";
+      eventCountEl.textContent = "0";
+      resultsMetaEl.textContent = "Unable to load data";
+      resultsRegionEl.innerHTML = "<div class=\"error-state\">" + escapeHtml(message) + "</div>";
+    }
+
+    async function loadEvents() {
+      if (window.location.protocol === "file:") {
+        renderError("This page must be served from GitHub Pages or another web server. Opening index.html directly from your filesystem will block the JSON fetch.");
+        return;
+      }
+
+      const source = resolveDataUrl();
+      state.sourceUrl = source.url;
+      state.sourceLabel = source.label;
+
+      try {
+        const response = await fetch(source.url, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error("Could not load " + source.label + " (" + response.status + " " + response.statusText + ")");
+        }
+
+        const payload = await response.json();
+        const events = Array.isArray(payload.events) ? payload.events.map(normalizeEvent) : [];
+
+        state.dataset = payload;
+        state.events = events.sort(compareEvents);
+
+        statusLabelEl.textContent = "Loaded";
+        updatedAtEl.textContent = formatTimestamp(payload.generated_at);
+        renderLoadedState();
+      } catch (error) {
+        renderError(error.message || "Unknown load error");
+      }
+    }
+
+    renderAgeFilters();
+    loadEvents();
+  </script>
+</body>
+</html>
