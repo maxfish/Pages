@@ -110,15 +110,6 @@
       pointer-events: none;
     }
 
-    .eyebrow {
-      font-size: 0.78rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--accent-strong);
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-
     h1 {
       margin: 0;
       font-family: "Optima", "Avenir Next Condensed", "Gill Sans", sans-serif;
@@ -416,16 +407,8 @@
 <body>
   <main class="page">
     <section class="hero">
-      <div class="eyebrow">Family Events Browser</div>
       <h1>Hamburg family events</h1>
-      <p class="hero-subtitle">
-        Live filters over the JSON published from n8n. Upload this file beside the generated JSON on GitHub Pages or any static host.
-      </p>
       <div class="hero-stats" id="hero-stats">
-        <div class="stat-chip">
-          <span class="stat-label">Status</span>
-          <span class="stat-value" id="status-label">Loading</span>
-        </div>
         <div class="stat-chip">
           <span class="stat-label">Events</span>
           <span class="stat-value" id="event-count">0</span>
@@ -462,17 +445,13 @@
       <div id="results-region">
         <div class="status">Loading events…</div>
       </div>
-      <p class="footer-note">
-        For GitHub Pages, upload this file into the same published folder as the JSON file. If the JSON is not named <code>events.json</code>, either change the
-        <code>&lt;meta name="events-json"&gt;</code> value above or open the page as <code>index.html?data=your-file.json</code>.
-      </p>
     </section>
   </main>
 
   <script>
     const DEFAULT_JSON_FILE = "events.json";
     const AGE_OPTIONS = [
-      { id: "none", label: "no age", age: null },
+      { id: "none", label: "All", age: null },
       { id: "4", label: "4y", age: 4 },
       { id: "5", label: "5y", age: 5 }
     ];
@@ -491,7 +470,6 @@
     const tagFiltersEl = document.getElementById("tag-filters");
     const resultsRegionEl = document.getElementById("results-region");
     const resultsMetaEl = document.getElementById("results-meta");
-    const statusLabelEl = document.getElementById("status-label");
     const eventCountEl = document.getElementById("event-count");
     const updatedAtEl = document.getElementById("updated-at");
 
@@ -833,7 +811,6 @@
     }
 
     function renderLoadedState() {
-      statusLabelEl.textContent = "Ready";
       updatedAtEl.textContent = formatTimestamp(state.dataset.generated_at);
       renderAgeFilters();
       renderTagFilters();
@@ -841,7 +818,6 @@
     }
 
     function renderError(message) {
-      statusLabelEl.textContent = "Error";
       updatedAtEl.textContent = "-";
       eventCountEl.textContent = "0";
       resultsMetaEl.textContent = "Unable to load data";
@@ -870,7 +846,6 @@
         state.dataset = payload;
         state.events = events.sort(compareEvents);
 
-        statusLabelEl.textContent = "Loaded";
         updatedAtEl.textContent = formatTimestamp(payload.generated_at);
         renderLoadedState();
       } catch (error) {
