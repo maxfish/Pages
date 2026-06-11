@@ -255,6 +255,35 @@
       font-size: 0.88rem;
     }
 
+    .event-topline {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .event-meta-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 6px;
+      margin-left: auto;
+    }
+
+    .event-meta-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid rgba(33, 50, 41, 0.08);
+      color: var(--text);
+      font-size: 0.76rem;
+      font-weight: 700;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
     .event-name {
       margin: 0;
       font-size: 1.22rem;
@@ -770,9 +799,13 @@
 
     function renderEventCard(event) {
       const details = [];
+      const topMeta = [];
 
+      if (event.age) {
+        topMeta.push("<span class=\"event-meta-pill\">" + escapeHtml(event.age) + "</span>");
+      }
       if (event.time) {
-        details.push("<div class=\"event-detail\"><strong>Time:</strong> " + escapeHtml(event.time) + "</div>");
+        topMeta.push("<span class=\"event-meta-pill\">" + escapeHtml(event.time) + "</span>");
       }
 
       if (event.venue) {
@@ -797,7 +830,7 @@
 
       return [
         "<article class=\"event-card\">",
-        "<div class=\"event-date\">" + escapeHtml(formatEventDate(event)) + "</div>",
+        "<div class=\"event-topline\"><div class=\"event-date\">" + escapeHtml(formatEventDate(event)) + "</div><div class=\"event-meta-top\">" + topMeta.join("") + "</div></div>",
         "<h3 class=\"event-name\">" + title + "</h3>",
         "<div class=\"event-details\">" + details.join("") + "</div>",
         tagsHtml,
