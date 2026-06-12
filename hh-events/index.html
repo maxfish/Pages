@@ -132,6 +132,43 @@
       border-top: 1px solid rgba(33, 50, 41, 0.08);
     }
 
+    .filter-toolbar {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-top: 6px;
+    }
+
+    .filter-toggle {
+      border: 1px solid rgba(33, 50, 41, 0.12);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--muted);
+      padding: 6px 10px;
+      font: inherit;
+      font-size: 0.78rem;
+      line-height: 1;
+      cursor: pointer;
+      transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+    }
+
+    .filter-toggle:hover {
+      transform: translateY(-1px);
+      border-color: rgba(218, 107, 45, 0.28);
+      color: var(--text);
+    }
+
+    .secondary-filters.is-hidden {
+      display: none;
+    }
+
+    .secondary-filters {
+      display: flex;
+      flex: 999 1 640px;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+    }
+
     .panel {
       margin-top: 14px;
       background: var(--card);
@@ -156,9 +193,25 @@
       flex: 1 1 280px;
     }
 
+    .filter-group--age {
+      flex: 999 1 420px;
+    }
+
+    .filter-group-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 7px;
+    }
+
+    .filter-group-head .filter-buttons {
+      flex: 1 1 auto;
+      align-items: center;
+    }
+
     .filter-group h2,
     .results-header h2 {
-      margin: 0 0 7px;
+      margin: 0;
       font-size: 0.74rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -244,6 +297,13 @@
       animation: cardIn 320ms ease both;
     }
 
+    .event-card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
     .event-date {
       display: inline-flex;
       align-self: flex-start;
@@ -253,6 +313,31 @@
       color: var(--accent-strong);
       font-weight: 700;
       font-size: 0.88rem;
+    }
+
+    .calendar-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid rgba(33, 50, 41, 0.1);
+      background: rgba(255, 255, 255, 0.86);
+      color: var(--forest);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1;
+      text-decoration: none;
+      box-shadow: 0 8px 18px rgba(80, 62, 32, 0.08);
+      transition: transform 160ms ease, border-color 160ms ease, color 160ms ease, background-color 160ms ease;
+    }
+
+    .calendar-button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(43, 106, 75, 0.26);
+      background: #fff;
+      color: var(--accent-strong);
     }
 
     .event-name {
@@ -383,20 +468,36 @@
       <div class="hero-updated">Last updated <span id="updated-at">-</span></div>
       <div class="hero-filters">
         <div class="filter-row">
-        <div class="filter-group">
-          <h2>Age</h2>
-          <div class="filter-buttons" id="age-filters"></div>
-          <div class="hint">Age filters are exclusive. <strong>All</strong> means no age filter is applied.</div>
+        <div class="filter-group filter-group--age">
+          <div class="filter-group-head">
+            <h2>Age</h2>
+            <div class="filter-buttons" id="age-filters"></div>
+          </div>
+          <div class="filter-toolbar">
+            <button type="button" class="filter-toggle" id="filter-toggle">Show filters</button>
+          </div>
         </div>
+        <div class="secondary-filters" id="secondary-filters">
         <div class="filter-group">
           <h2>When</h2>
-          <div class="filter-buttons" id="time-filters"></div>
-          <div class="hint">Weekend includes any event happening on Saturday or Sunday.</div>
+          <div class="filter-buttons" id="when-filters"></div>
+          <div class="hint">Weekend and weekday use the event date range.</div>
+        </div>
+        <div class="filter-group">
+          <h2>Where</h2>
+          <div class="filter-buttons" id="where-filters"></div>
+          <div class="hint">Indoor and outdoor are inferred from tags and event text.</div>
+        </div>
+        <div class="filter-group">
+          <h2>Cost</h2>
+          <div class="filter-buttons" id="cost-filters"></div>
+          <div class="hint">Free and paid are inferred from tags and event text.</div>
         </div>
         <div class="filter-group">
           <h2>Tags</h2>
           <div class="tag-buttons" id="tag-filters"></div>
           <div class="hint">Select multiple tags to keep events that match any selected tag.</div>
+        </div>
         </div>
       </div>
       </div>
@@ -424,10 +525,29 @@
       { id: "5", label: "5y", age: 5 },
       { id: "6", label: "6y", age: 6 }
     ];
-    const TIME_OPTIONS = [
-      { id: "all", label: "All", weekendOnly: false },
-      { id: "weekend", label: "Weekend", weekendOnly: true }
+    const WHEN_OPTIONS = [
+      { id: "all", label: "All", mode: "all" },
+      { id: "weekend", label: "Weekend", mode: "weekend" },
+      { id: "weekday", label: "Weekday", mode: "weekday" }
     ];
+    const WHERE_OPTIONS = [
+      { id: "all", label: "All", mode: "all" },
+      { id: "indoor", label: "Indoor", mode: "indoor" },
+      { id: "outdoor", label: "Outdoor", mode: "outdoor" }
+    ];
+    const COST_OPTIONS = [
+      { id: "all", label: "All", mode: "all" },
+      { id: "free", label: "Free", mode: "free" },
+      { id: "paid", label: "Paid", mode: "paid" }
+    ];
+    const TAG_FILTER_EXCLUSIONS = new Set([
+      "indoor",
+      "outdoor",
+      "free",
+      "paid",
+      "weekend",
+      "weekday"
+    ]);
 
     const state = {
       sourceUrl: "",
@@ -436,13 +556,20 @@
       events: [],
       visibleEvents: [],
       selectedAge: null,
-      weekendOnly: false,
+      whenMode: "all",
+      whereMode: "all",
+      costMode: "all",
+      filtersExpanded: false,
       selectedTags: new Set()
     };
 
     const ageFiltersEl = document.getElementById("age-filters");
-    const timeFiltersEl = document.getElementById("time-filters");
+    const whenFiltersEl = document.getElementById("when-filters");
+    const whereFiltersEl = document.getElementById("where-filters");
+    const costFiltersEl = document.getElementById("cost-filters");
     const tagFiltersEl = document.getElementById("tag-filters");
+    const filterToggleEl = document.getElementById("filter-toggle");
+    const secondaryFiltersEl = document.getElementById("secondary-filters");
     const resultsRegionEl = document.getElementById("results-region");
     const resultsMetaEl = document.getElementById("results-meta");
     const updatedAtEl = document.getElementById("updated-at");
@@ -488,6 +615,46 @@
       if (!start && !end) return "Date TBD";
       if (!end || start === end) return formatDateForDisplay(start || end);
       return formatDateForDisplay(start) + " - " + formatDateForDisplay(end);
+    }
+
+    function addDays(dateString, days) {
+      const date = parseDate(dateString);
+      if (!date) return "";
+      const next = new Date(date.getTime());
+      next.setUTCDate(next.getUTCDate() + days);
+      const year = next.getUTCFullYear();
+      const month = String(next.getUTCMonth() + 1).padStart(2, "0");
+      const day = String(next.getUTCDate()).padStart(2, "0");
+      return "" + year + month + day;
+    }
+
+    function toCalendarStamp(dateString) {
+      return normalizeDateValue(dateString).replace(/\//g, "");
+    }
+
+    function buildCalendarUrl(event) {
+      const startDate = normalizeDateValue(event.start_date || event.date || "");
+      const endDate = normalizeDateValue(event.end_date || event.start_date || event.date || "") || startDate;
+      if (!startDate || !parseDate(startDate) || !parseDate(endDate)) return "";
+
+      const timedMatch = cleanText(event.time).match(/^(\d{1,2}):(\d{2})$/);
+      let dates = "";
+
+      if (timedMatch && startDate === endDate) {
+        const startHour = String(Number(timedMatch[1])).padStart(2, "0");
+        const startMinute = timedMatch[2];
+        const endHour = String((Number(startHour) + 1) % 24).padStart(2, "0");
+        dates = toCalendarStamp(startDate) + "T" + startHour + startMinute + "00/" + toCalendarStamp(endDate) + "T" + endHour + startMinute + "00";
+      } else {
+        dates = toCalendarStamp(startDate) + "/" + addDays(endDate, 1);
+      }
+
+      const details = [cleanText(event.context), cleanText(event.url)].filter(Boolean).join("\n\n");
+      return "https://calendar.google.com/calendar/render?action=TEMPLATE"
+        + "&text=" + encodeURIComponent(cleanText(event.name || "Event"))
+        + "&dates=" + encodeURIComponent(dates)
+        + "&location=" + encodeURIComponent(cleanText(event.venue || ""))
+        + "&details=" + encodeURIComponent(details);
     }
 
     function formatTimestamp(value) {
@@ -664,6 +831,92 @@
       };
     }
 
+    function buildEventSearchText(event) {
+      return [
+        event.name,
+        event.venue,
+        event.context,
+        event.age,
+        ...(event.tags || [])
+      ]
+        .map(cleanText)
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+    }
+
+    function containsAny(text, patterns) {
+      return patterns.some((pattern) => pattern.test(text));
+    }
+
+    function inferWhereMode(event) {
+      const text = buildEventSearchText(event);
+      const outdoorPatterns = [
+        /\boutdoor\b/,
+        /\bopen air\b/,
+        /\bfreiluft\b/,
+        /\bdrau(?:ß|ss)en\b/,
+        /\bau(?:ß|ss)en\b/,
+        /\bpark\b/,
+        /\bspielplatz\b/,
+        /\bwald\b/,
+        /\bstrand\b/
+      ];
+      const indoorPatterns = [
+        /\bindoor\b/,
+        /\bdrinnen\b/,
+        /\binnen\b/,
+        /\bmuseum\b/,
+        /\bhalle\b/,
+        /\btheater\b/,
+        /\bkino\b/,
+        /\bbibliothek\b/,
+        /\bworkshopraum\b/,
+        /\bstudio\b/
+      ];
+
+      const isOutdoor = containsAny(text, outdoorPatterns);
+      const isIndoor = containsAny(text, indoorPatterns);
+
+      if (isOutdoor && !isIndoor) return "outdoor";
+      if (isIndoor && !isOutdoor) return "indoor";
+      return "unknown";
+    }
+
+    function inferCostMode(event) {
+      const text = buildEventSearchText(event);
+      const freePatterns = [
+        /\bfree\b/,
+        /\bfor free\b/,
+        /\bgratis\b/,
+        /\bkostenlos\b/,
+        /\bkostenfrei\b/,
+        /\beintritt frei\b/,
+        /\bno charge\b/
+      ];
+      const paidPatterns = [
+        /\bpaid\b/,
+        /\bticket\b/,
+        /\btickets\b/,
+        /\beintritt\b/,
+        /\bgeb(?:ü|u)hr\b/,
+        /\bcost\b/,
+        /\bprice\b/,
+        /\bpreise?\b/,
+        /\bbooking\b/,
+        /\breservierung\b/,
+        /€|\beur\b/
+      ];
+
+      const isFree = containsAny(text, freePatterns);
+      const isPaid = containsAny(text, paidPatterns);
+
+      if (isFree && !isPaid) return "free";
+      if (isPaid && !isFree) return "paid";
+      if (isFree) return "free";
+      return "unknown";
+    }
+
     function resolveDataUrl() {
       const params = new URLSearchParams(window.location.search);
       const queryPath = cleanText(params.get("data"));
@@ -691,24 +944,57 @@
       });
     }
 
-    function renderTimeFilters() {
-      timeFiltersEl.innerHTML = "";
-      TIME_OPTIONS.forEach((option) => {
+    function renderWhenFilters() {
+      whenFiltersEl.innerHTML = "";
+      WHEN_OPTIONS.forEach((option) => {
         const button = document.createElement("button");
         button.type = "button";
-        button.className = "filter-button" + (state.weekendOnly === option.weekendOnly ? " is-active" : "");
+        button.className = "filter-button" + (state.whenMode === option.mode ? " is-active" : "");
         button.textContent = option.label;
         button.addEventListener("click", () => {
-          state.weekendOnly = option.weekendOnly;
-          renderTimeFilters();
+          state.whenMode = option.mode;
+          renderWhenFilters();
           renderResults();
         });
-        timeFiltersEl.appendChild(button);
+        whenFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderWhereFilters() {
+      whereFiltersEl.innerHTML = "";
+      WHERE_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.whereMode === option.mode ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.whereMode = option.mode;
+          renderWhereFilters();
+          renderResults();
+        });
+        whereFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderCostFilters() {
+      costFiltersEl.innerHTML = "";
+      COST_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.costMode === option.mode ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.costMode = option.mode;
+          renderCostFilters();
+          renderResults();
+        });
+        costFiltersEl.appendChild(button);
       });
     }
 
     function renderTagFilters() {
       const allTags = Array.from(new Set(state.events.flatMap((event) => event.tags || [])))
+        .filter((tag) => !TAG_FILTER_EXCLUSIONS.has(tag.toLowerCase()))
         .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
 
       tagFiltersEl.innerHTML = "";
@@ -741,8 +1027,8 @@
       return (event.tags || []).some((tag) => state.selectedTags.has(tag.toLowerCase()));
     }
 
-    function eventMatchesWeekend(event) {
-      if (!state.weekendOnly) return true;
+    function eventMatchesWhen(event) {
+      if (state.whenMode === "all") return true;
 
       const start = parseDate(event.start_date || event.date || "");
       const end = parseDate(event.end_date || event.start_date || event.date || "");
@@ -753,17 +1039,37 @@
 
       while (current.getTime() <= finalDate.getTime()) {
         const day = current.getUTCDay();
-        if (day === 0 || day === 6) return true;
+        const isWeekend = day === 0 || day === 6;
+        if (state.whenMode === "weekend" && isWeekend) return true;
+        if (state.whenMode === "weekday" && !isWeekend) return true;
         current.setUTCDate(current.getUTCDate() + 1);
       }
 
       return false;
     }
 
+    function eventMatchesWhere(event) {
+      if (state.whereMode === "all") return true;
+      return inferWhereMode(event) === state.whereMode;
+    }
+
+    function eventMatchesCost(event) {
+      if (state.costMode === "all") return true;
+      return inferCostMode(event) === state.costMode;
+    }
+
+    function renderFilterVisibility() {
+      secondaryFiltersEl.classList.toggle("is-hidden", !state.filtersExpanded);
+      filterToggleEl.textContent = state.filtersExpanded ? "Hide filters" : "Show filters";
+      filterToggleEl.setAttribute("aria-expanded", String(state.filtersExpanded));
+    }
+
     function getVisibleEvents() {
       return state.events
         .filter((event) => overlapsTargetAge(event, state.selectedAge))
-        .filter(eventMatchesWeekend)
+        .filter(eventMatchesWhen)
+        .filter(eventMatchesWhere)
+        .filter(eventMatchesCost)
         .filter(eventMatchesTags)
         .sort(compareEvents);
     }
@@ -793,10 +1099,14 @@
       const title = event.url
         ? "<a href=\"" + escapeHtml(event.url) + "\" target=\"_blank\" rel=\"noreferrer\">" + escapeHtml(event.name || "Untitled event") + "</a>"
         : escapeHtml(event.name || "Untitled event");
+      const calendarUrl = buildCalendarUrl(event);
+      const calendarButton = calendarUrl
+        ? "<a class=\"calendar-button\" href=\"" + escapeHtml(calendarUrl) + "\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Add " + escapeHtml(event.name || "event") + " to calendar\" title=\"Add to calendar\">+</a>"
+        : "";
 
       return [
         "<article class=\"event-card\">",
-        "<div class=\"event-date\">" + escapeHtml(formatEventDate(event)) + "</div>",
+        "<div class=\"event-card-top\"><div class=\"event-date\">" + escapeHtml(formatEventDate(event)) + "</div>" + calendarButton + "</div>",
         "<h3 class=\"event-name\">" + title + "</h3>",
         "<div class=\"event-details\">" + details.join("") + "</div>",
         tagsHtml,
@@ -821,8 +1131,11 @@
     function renderLoadedState() {
       updatedAtEl.textContent = formatTimestamp(state.dataset.generated_at);
       renderAgeFilters();
-      renderTimeFilters();
+      renderWhenFilters();
+      renderWhereFilters();
+      renderCostFilters();
       renderTagFilters();
+      renderFilterVisibility();
       renderResults();
     }
 
@@ -861,8 +1174,16 @@
       }
     }
 
+    filterToggleEl.addEventListener("click", () => {
+      state.filtersExpanded = !state.filtersExpanded;
+      renderFilterVisibility();
+    });
+
     renderAgeFilters();
-    renderTimeFilters();
+    renderWhenFilters();
+    renderWhereFilters();
+    renderCostFilters();
+    renderFilterVisibility();
     loadEvents();
   </script>
 </body>
