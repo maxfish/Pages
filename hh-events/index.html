@@ -132,6 +132,13 @@
       border-top: 1px solid rgba(33, 50, 41, 0.08);
     }
 
+    .filters-primary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      align-items: flex-start;
+    }
+
     .filter-toolbar {
       display: flex;
       justify-content: flex-end;
@@ -467,17 +474,19 @@
       <h1>Hamburg family events</h1>
       <div class="hero-updated">Last updated <span id="updated-at">-</span></div>
       <div class="hero-filters">
-        <div class="filter-row">
-        <div class="filter-group filter-group--age">
-          <div class="filter-group-head">
-            <h2>Age</h2>
-            <div class="filter-buttons" id="age-filters"></div>
-          </div>
-          <div class="filter-toolbar">
-            <button type="button" class="filter-toggle" id="filter-toggle">Show filters</button>
+        <div class="filters-primary">
+          <div class="filter-group filter-group--age">
+            <div class="filter-group-head">
+              <h2>Age</h2>
+              <div class="filter-buttons" id="age-filters"></div>
+            </div>
+            <div class="filter-toolbar">
+              <button type="button" class="filter-toggle" id="filter-toggle">Show filters</button>
+            </div>
           </div>
         </div>
         <div class="secondary-filters" id="secondary-filters">
+          <div class="filter-row">
         <div class="filter-group">
           <h2>When</h2>
           <div class="filter-buttons" id="when-filters"></div>
@@ -498,8 +507,8 @@
           <div class="tag-buttons" id="tag-filters"></div>
           <div class="hint">Select multiple tags to keep events that match any selected tag.</div>
         </div>
+          </div>
         </div>
-      </div>
       </div>
     </section>
 
