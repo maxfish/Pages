@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:46:15.744Z",
+  "generated_at": "2026-06-13T05:48:28.265Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -9,47 +9,15 @@
   },
   "stats": {
     "input_count": 257,
-    "excluded_error_count": 94,
+    "excluded_error_count": 92,
     "excluded_invalid_count": 4,
     "excluded_durable_count": 0,
-    "excluded_window_count": 75,
-    "excluded_age_count": 6,
-    "included_count": 78
+    "excluded_window_count": 84,
+    "excluded_age_count": 5,
+    "included_count": 72
   },
-  "event_count": 78,
+  "event_count": 72,
   "events": [
-    {
-      "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "name": "Kangatraining mit Carolin",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "11:00-12:00",
-      "age": "",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Treffpunkt Haupteingang",
-      "context": "du wirst fit, dein Baby macht mit! Mit deinem Baby in der Trage oder im Kinderwagen.",
-      "cached_at": "2026-06-10T13:00:51.470Z",
-      "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "name": "Holsteiner Kultursommer",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "16:00-16:45",
-      "age": "ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Klasse! Im Waldpark",
-      "context": "Willis Puppentheater \"Fauli auf Schatzsuche\". Ein Theaterspaß für die ganze Familie. Empfohlen für Kinder ab 4 Jahren.",
-      "cached_at": "2026-06-10T13:01:11.720Z",
-      "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "tags": []
-    },
     {
       "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
       "name": "Biodiversi-Was?",
@@ -114,76 +82,6 @@
       "cached_at": "2026-06-10T13:04:37.994Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-12T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "bis 7 Jahre",
-      "cached_at": "2026-06-10T13:05:27.656Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-juri-durchs-sonnensystem/?occ_dtstart=2026-06-12T10:00",
-      "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "10:00",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "ab 10 Jahren, Kinder & Familie",
-      "cached_at": "2026-06-10T13:05:37.691Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-12T15:00",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "15:00-15:45",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Vorträge & Lesungen",
-      "cached_at": "2026-06-10T13:05:48.497Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/eltern-kind-yoga/?occ_dtstart=2026-06-12T15:00",
-      "name": "Eltern - Kind - Yoga",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "15:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elternschule Altona",
-      "context": "Kinder & Familie, Kurse",
-      "cached_at": "2026-06-10T13:05:55.551Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://www.bangerang.de/events/mit-lego%C2%AE-steinen-bauen/?occ_dtstart=2026-06-13T10:00",
@@ -407,6 +305,24 @@
       ]
     },
     {
+      "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-l-bad-bugs/23206",
+      "name": "Funkelkonzert L / Bad Bugs",
+      "start_date": "2026/06/21",
+      "end_date": "2026/06/21",
+      "time": "11:00-14:50",
+      "age": "ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Elbphilharmonie Kleiner Saal",
+      "context": "für Familien mit Kindern ab 6 Jahren",
+      "cached_at": "2026-06-12T16:04:07.730Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.elbphilharmonie.de/de/programm/schulkonzert-bad-bugs/24189",
       "name": "Schulkonzert »Bad Bugs«",
       "start_date": "2026/06/22",
@@ -508,23 +424,6 @@
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/punkt-punkt-strich/20260612-1000",
-      "name": "Punkt .Punkt -Strich",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "10:00",
-      "age": "3 – 6 Jahre",
-      "min_age": 3,
-      "max_age": 6,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Theater performance",
-      "cached_at": "2026-06-10T13:10:26.246Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "indoor"
       ]
     },
     {
@@ -660,6 +559,24 @@
       ]
     },
     {
+      "url": "https://www.elbphilharmonie.de/de/programm/workshop-klassiko-saiteninstrumente/23580",
+      "name": "Workshop: Klassiko Saiteninstrumente",
+      "start_date": "2026/06/14",
+      "end_date": "2026/06/14",
+      "time": "12:00-13:30",
+      "age": "ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Elbphilharmonie, Kaistudio 2",
+      "context": "für Familien mit Kindern ab 6 Jahren",
+      "cached_at": "2026-06-12T16:04:22.238Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.elbsommer.com/veranstaltungen/piratensommer",
       "name": "Piratensommer für Groß und Klein",
       "start_date": "2026/06/13",
@@ -724,6 +641,24 @@
       "cached_at": "2026-06-10T13:13:26.277Z",
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "tags": []
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/wir-wollen-spielen",
+      "name": "Wir wollen spielen! - Internationales Theaterfestival",
+      "start_date": "2026/06/27",
+      "end_date": "2026/06/28",
+      "time": "",
+      "age": "2 – 12 Jahre",
+      "min_age": 2,
+      "max_age": 12,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "Internationales Kindertheater für Kinder ab 2 Jahren",
+      "cached_at": "2026-06-10T13:13:29.485Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "outdoor",
+        "indoor"
+      ]
     },
     {
       "url": "https://www.kinderkinder.de/programm/laut-und-luise/",
@@ -988,39 +923,6 @@
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "indoor"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/back-to-work-strong-mentales-und-energetisches-krafttraining-4/",
-      "name": "BACK TO WORK STRONG – Mentales und energetisches Krafttraining für deinen Wiedereinstieg",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "09:30-11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "MamaSport",
-      "context": "Venue name 'MamaSport' suggests parenting/moms focus.",
-      "cached_at": "2026-06-10T13:44:36.078Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": []
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/match-a-mom-l-picknick-talk-0/",
-      "name": "match a mom l picknick & talk",
-      "start_date": "2026/06/12",
-      "end_date": "2026/06/12",
-      "time": "14:00-16:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "elephants Superfood Bar",
-      "context": "Match a Mom Picnic & Talk. We meet at elephants Superfood Bar in Eppendorf, get a drink together and then walk over to Innocentiapark.",
-      "cached_at": "2026-06-10T13:44:47.743Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "outdoor",
-        "paid"
       ]
     },
     {
