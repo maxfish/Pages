@@ -542,17 +542,14 @@
         <div class="filter-group">
           <h2>When</h2>
           <div class="filter-buttons" id="when-filters"></div>
-          <div class="hint">Weekend and weekday use the event date range.</div>
         </div>
         <div class="filter-group">
           <h2>Where</h2>
           <div class="filter-buttons" id="where-filters"></div>
-          <div class="hint">Indoor and outdoor are inferred from tags and event text.</div>
         </div>
         <div class="filter-group">
           <h2>Cost</h2>
           <div class="filter-buttons" id="cost-filters"></div>
-          <div class="hint">Free and paid are inferred from tags and event text.</div>
         </div>
         <div class="filter-group">
           <h2>Tags</h2>
@@ -580,6 +577,7 @@
     const DEFAULT_JSON_FILE = "events.json";
     const AGE_OPTIONS = [
       { id: "none", label: "All", age: null },
+      { id: "2", label: "2y", age: 2 },
       { id: "3", label: "3y", age: 3 },
       { id: "4", label: "4y", age: 4 },
       { id: "5", label: "5y", age: 5 },
