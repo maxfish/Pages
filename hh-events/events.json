@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T05:00:16.953Z",
+  "generated_at": "2026-06-17T05:00:16.743Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 113,
     "excluded_invalid_count": 4,
     "excluded_durable_count": 0,
-    "excluded_window_count": 130,
-    "excluded_age_count": 8,
-    "included_count": 89
+    "excluded_window_count": 151,
+    "excluded_age_count": 6,
+    "included_count": 70
   },
-  "event_count": 89,
+  "event_count": 70,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/back-to-work-strong-coaching-reiki-for-mothers-returning-to-work/",
@@ -47,21 +47,6 @@
       "venue": "Treffpunkt: Deichstraße / Steintwiete, 20459 Hamburg",
       "context": "A guided city tour including a short ferry ride for children (6-12 years) accompanied by an adult (HVV ticket required).",
       "cached_at": "2026-06-13T05:56:11.787Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "Töpferstube - Große Wallanlagen",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:00",
-      "age": "5 years and up",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planten un Blomen (Große Wallanlagen)",
-      "context": "Recommended age: 5 years and up. Last entry from 5:00 PM onwards, to give the children…",
-      "cached_at": "2026-06-14T03:19:16.756Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
     },
@@ -111,23 +96,6 @@
       "context": "Erfahren Sie spannende Fakten über Trampeltiere.",
       "cached_at": "2026-06-13T06:00:44.765Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/13-gipfeltreffen-der-klangstrolche-0/",
-      "name": "13. Gipfeltreffen der Klangstrolche",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "10:00",
-      "age": "3 and over",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Laeiszhalle, großer Saal",
-      "context": "The summit meeting is a charity concert at which all the city's Klangstrolche show how important music is for children. A musical program with prominent guests awaits young and old.",
-      "cached_at": "2026-06-13T06:06:07.726Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
       ]
@@ -303,23 +271,6 @@
       ]
     },
     {
-      "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "name": "Kangatraining mit Carolin",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "10:30-11:30",
-      "age": "",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "Treffpunkt Haupteingang",
-      "context": "du wirst fit, dein Baby macht mit! Mit deinem Baby in der Trage oder im Kinderwagen.",
-      "cached_at": "2026-06-13T06:11:02.628Z",
-      "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
       "url": "https://www.bangerang.de/events/aufgewacht-die-sonne-lacht-mit-allen-sinnen-durch-den-sommer/?occ_dtstart=2026-06-11T09:00",
       "name": "Aufgewacht, die Sonne lacht! Mit allen Sinnen durch den Sommer",
       "start_date": "2026/06/18",
@@ -365,23 +316,6 @@
       "venue": "Tuch + Technik Textilmuseum Neumünster",
       "context": "bis 7 Jahre, Kinder & Familie",
       "cached_at": "2026-06-13T06:13:59.357Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-06-11T15:00",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "09:30-10:15",
-      "age": "Empfohlen ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , ab 10 Jahren",
-      "cached_at": "2026-06-13T06:14:09.744Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "indoor"
@@ -452,24 +386,6 @@
       "cached_at": "2026-06-13T06:15:13.183Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.elbphilharmonie.de/de/programm/gipfeltreffen-der-klangstrolche/27781",
-      "name": "Gipfeltreffen der Klangstrolche",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "10:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Laeiszhalle Großer Saal",
-      "context": "Gipfeltreffen der Klangstrolche",
-      "cached_at": "2026-06-13T06:17:23.722Z",
-      "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
-      "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -1105,230 +1021,6 @@
       ]
     },
     {
-      "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260616.html",
-      "name": "Buchfragen",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
-      "context": "Ihr dürft euch in der Bücherhalle Steilshoop Bücher ausleihen, in denen ein Fragenbogen enthalten ist. Wenn ihr das Buch ausleiht und lest und anschließend die Fragen beantwortet, dürft ihr in unsere Überraschungskiste greifen und ein Geschenk herausnehmen.",
-      "cached_at": "2026-06-14T03:27:11.530Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/jenfelder-au-termin/spiel-dich-smart-23358/datum/20260616.html",
-      "name": "Spiel dich SMART",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:00-17:00",
-      "age": "Ab 3 Jahren",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Bücherhalle Jenfelder Au, Wilsonstraße 77, 22045 Hamburg",
-      "context": "Du spielst gerne und hast Spaß daran, knifflige Rätsel zu lösen? Dann komme am 16. Juni zu uns in die Bücherhalle und probiere unsere SMART-GAMES aus.",
-      "cached_at": "2026-06-14T03:27:16.705Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/osdorf-termin/brettspielzimmer-osdorfer-born/datum/20260616.html",
-      "name": "Brettspielzimmer",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:00-18:00",
-      "age": "Ab 1 Jahr",
-      "min_age": 1,
-      "max_age": "",
-      "venue": "Bücherhalle Osdorfer Born",
-      "context": "Nachmittags öffnen wir für euch die Tür zu unserem Brettspielzimmer!",
-      "cached_at": "2026-06-14T03:27:21.839Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/finkenwerder-termin/lego-r-nachmittag-22534/datum/20260616.html",
-      "name": "LEGO® Nachmittag",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:30-17:30",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Bücherhalle Finkenwerder, Ostfrieslandstraße 5, 21129 Hamburg",
-      "context": "An diesem Nachmittag könnt ihr bei uns eure eigenen LEGO®-Welten bauen und gestalten.",
-      "cached_at": "2026-06-14T03:27:43.577Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/neugraben-termin/malwerkstatt-langer-tag-der-stadtnatur/datum/20260616.html",
-      "name": "Malwerkstatt (Langer Tag der StadtNatur)",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:30-16:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Neugraben, Neugrabener Markt 7, 21149 Hamburg",
-      "context": "Wir bauen unseren Maltisch auf und werden mit Buntstiften kreativ. Zum langen Tag der Stadtnatur gestalten wir dieses Mal gemeinsam Papier-Wackelschiffe.",
-      "cached_at": "2026-06-14T03:27:48.756Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/rahlstedt-termin/mintmachtage-stressbaelle-basteln/datum/20260616.html",
-      "name": "MINTmachtage: Stressbälle basteln",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:30-16:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Rahlstedt, Amtsstraße 3a, 22143 Hamburg",
-      "context": "Kneten, drücken, entspannen! Bei den MINTmachtagen 2026 basteln wir gemeinsam bunte Stressbälle. Lerne wie du mit Stress um해할 수 있는지, 그리고 스트레스 해소가 몸과 마음에 얼마나 중요한지 배워보세요.",
-      "cached_at": "2026-06-14T03:27:54.230Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/lokstedt-termin/open-makerbib-tuefteln-mit-programmierung-und-robotern-21789/datum/20260616.html",
-      "name": "Open RoboLab: Roboter programmieren!",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:30-17:00",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Lokstedt",
-      "context": "Bei unserem neuen Format \"Open MakerBib\" hast du die Möglichkeit verschiedene Roboter und Programmierungen selbstständig auszuprobieren, mit anderen gemeinsam zu tüfteln, Lösungswege zu finden und so kreativ und spielerisch Neues zu lernen.",
-      "cached_at": "2026-06-14T03:28:04.739Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/niendorf-termin/kamishibai-die-olchis-aus-schmuddelfing-23493/datum/20260616.html",
-      "name": "Kamishibai: \"Die Olchis aus Schmuddelfing\"",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "15:30",
-      "age": "Ab 3 Jahren",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Bücherhalle Niendorf",
-      "context": "Kamishibai (paper theater) is a child-oriented storytelling method.",
-      "cached_at": "2026-06-14T03:28:09.399Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/kirchdorf-termin/vorlesen-fuer-kinder-kirchdorf/datum/20260616.html",
-      "name": "Vorlesen für Kinder",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "16:00-17:00",
-      "age": "4 bis 10 Jahre",
-      "min_age": 4,
-      "max_age": 10,
-      "venue": "Bücherhalle Kirchdorf",
-      "context": "Explicitly for children (für Kinder).",
-      "cached_at": "2026-06-14T03:28:13.909Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/neuallermoehe-termin/vorlesen-fuer-kinder-neuallermoehe/datum/20260616.html",
-      "name": "Vorlesen für Kinder",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "16:00-17:00",
-      "age": "4 bis 10 Jahre",
-      "min_age": 4,
-      "max_age": 10,
-      "venue": "Bücherhalle Neuallermöhe, Fleetplatz 2-4, 21035 Hamburg",
-      "context": "In Zusammenarbeit mit Lesewelt Hamburg e. V. wird jeden Dienstag von 16 bis 17 Uhr bei uns in der Bücherhalle vorgelesen.",
-      "cached_at": "2026-06-14T03:28:19.232Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/eidelstedt-termin/vorlesen-fuer-kinder-7395/datum/20260616.html",
-      "name": "Vorlesen für Kinder",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "16:00-17:00",
-      "age": "4 bis 10 Jahre",
-      "min_age": 4,
-      "max_age": 10,
-      "venue": "Bücherhalle Eidelstedt",
-      "context": "Explicitly for children (für Kinder).",
-      "cached_at": "2026-06-14T03:28:23.822Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wandsbek-termin/kamishibai-geschichten-fuer-kleine-leser/datum/20260616.html",
-      "name": "Kamishibai - Geschichten für kleine Leser",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "16:00",
-      "age": "3 bis 6 Jahre",
-      "min_age": 3,
-      "max_age": 6,
-      "venue": "Bücherhalle Wandsbek",
-      "context": "Kamishibai for 'little readers' (kleine Leser) is child-oriented.",
-      "cached_at": "2026-06-14T03:28:28.317Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/barmbek-termin/vorlesen-fuer-kinder-21788/datum/20260616.html",
-      "name": "Vorlesen für Kinder",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "16:00-17:00",
-      "age": "4 bis 10 Jahre",
-      "min_age": 4,
-      "max_age": 10,
-      "venue": "Bücherhalle Barmbek, Poppenhusenstraße 12, 22305 Hamburg",
-      "context": "Jeden Dienstag, von 16:00 bis 17:00 Uhr, wird in Zusammenarbeit mit Lesewelt Hamburg e.V. in der Bücherhalle vorgelesen.",
-      "cached_at": "2026-06-14T03:29:15.545Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
       "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-15T10:00",
       "name": "Mit Ella durch das Museum",
       "start_date": "2026/06/15",
@@ -1340,23 +1032,6 @@
       "venue": "Tuch + Technik Textilmuseum Neumünster",
       "context": "age tags: 5 bis 9 Jahre, ab 10 Jahren; category: Kinder & Familie",
       "cached_at": "2026-06-14T03:31:28.807Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-06-16T09:30",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/16",
-      "time": "09:30-10:15",
-      "age": "Empfohlen ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "age tags: 5 bis 9 Jahre, ab 10 Jahren; title refers to 'Kleiner Stern'",
-      "cached_at": "2026-06-14T03:32:06.696Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "indoor"
