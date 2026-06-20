@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T05:00:16.291Z",
+  "generated_at": "2026-06-20T05:00:17.117Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -9,14 +9,14 @@
   },
   "stats": {
     "input_count": 425,
-    "excluded_error_count": 129,
+    "excluded_error_count": 126,
     "excluded_invalid_count": 7,
     "excluded_durable_count": 0,
-    "excluded_window_count": 197,
+    "excluded_window_count": 220,
     "excluded_age_count": 7,
-    "included_count": 85
+    "included_count": 65
   },
-  "event_count": 85,
+  "event_count": 65,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/back-to-work-strong-coaching-reiki-for-mothers-returning-to-work/",
@@ -81,23 +81,6 @@
       "context": "Erfahren Sie spannende Fakten über Trampeltiere.",
       "cached_at": "2026-06-13T06:00:44.765Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-0/",
-      "name": "match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "14:00-16:00",
-      "age": "Babies & small children are of course very welcome",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "elephants Superfood Bar",
-      "context": "Title mentions 'Mamas' and 'Kids-Pieces'.",
-      "cached_at": "2026-06-13T06:07:18.071Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
       ]
@@ -217,108 +200,6 @@
       "context": "Title includes 'Eltern & Kinder' (parents & children).",
       "cached_at": "2026-06-13T06:08:41.393Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-11T09:30",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "16:30-17:15",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre, ab 10 Jahren",
-      "cached_at": "2026-06-13T06:13:41.061Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-11T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/15",
-      "end_date": "2026/06/19",
-      "time": "10:00-",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "bis 7 Jahre, Kinder & Familie",
-      "cached_at": "2026-06-13T06:13:59.357Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-12T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/15",
-      "end_date": "2026/06/19",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "bis 7 Jahre, Kinder & Familie",
-      "cached_at": "2026-06-13T06:14:20.679Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-juri-durchs-sonnensystem/?occ_dtstart=2026-06-12T10:00",
-      "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "10:00",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-06-13T06:14:56.450Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-12T15:00",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "16:30-17:15",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , ab 10 Jahren",
-      "cached_at": "2026-06-13T06:15:07.027Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/eltern-kind-yoga/?occ_dtstart=2026-06-12T15:00",
-      "name": "Eltern - Kind - Yoga",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "15:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elternschule Altona",
-      "context": "Kinder & Familie, Kurse",
-      "cached_at": "2026-06-13T06:15:13.183Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "paid"
       ]
@@ -788,40 +669,6 @@
       ]
     },
     {
-      "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "name": "Kangatraining mit Carolin",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "11:00-12:00",
-      "age": "",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "Treffpunkt Haupteingang",
-      "context": "du wirst fit, dein Baby macht mit! Dein bestes Workout in Geborgenheit - jetzt auch wieder outdoor in Norderstedt!",
-      "cached_at": "2026-06-14T03:25:55.099Z",
-      "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "name": "Yoga",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "17:00-18:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Treffpunkt Aussichtssteg",
-      "context": "Feierabend für dein Nervensystem. Bist du mental dauerhaft im Planungs-, Organisations- und Verantwortungsmodus. Immer angespannt. Du hast wenig Zeit, und fühlst dich überlastet? Dein Nervensystem ist im Alarmmodus gefangen. Gedanken sind nicht mehr hörbar und To-Do Liste endlos lang. Wenn du dich wiederkennst, dann bist du hier genau richtig. Als Mama von 2en - I feel you.",
-      "cached_at": "2026-06-14T03:26:35.089Z",
-      "index_url": "https://stadtpark-norderstedt.de/veranstaltungen-im-stadtpark-norderstedt/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
       "url": "https://www.buecherhallen.de/winterhude-termin/mintmachtage/datum/20260616.html",
       "name": "MINTmachtage",
       "start_date": "2026/06/16",
@@ -853,57 +700,6 @@
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-15T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/15",
-      "end_date": "2026/06/19",
-      "time": "10:00-",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "age tags: 5 bis 9 Jahre, ab 10 Jahren; category: Kinder & Familie",
-      "cached_at": "2026-06-14T03:31:28.807Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-16T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/15",
-      "end_date": "2026/06/19",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "age tags: 5 bis 9 Jahre, ab 10 Jahren; category: Kinder & Familie",
-      "cached_at": "2026-06-14T03:32:17.723Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/leben-im-neandertalerlager/?occ_dtstart=2026-06-16T11:00",
-      "name": "Leben im Neandertalerlager",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/19",
-      "time": "11:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Steinzeitpark Dithmarschen",
-      "context": "category: Kinder & Familie",
-      "cached_at": "2026-06-14T03:32:26.626Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
       ]
     },
     {
@@ -1159,108 +955,6 @@
       ]
     },
     {
-      "url": "https://www.bangerang.de/events/leben-im-neandertalerlager/?occ_dtstart=2026-06-18T11:00",
-      "name": "Leben im Neandertalerlager",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/19",
-      "time": "11:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Steinzeitpark Dithmarschen",
-      "context": "draußen, Kinder & Familie",
-      "cached_at": "2026-06-18T03:18:09.057Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-19T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "bis 7 Jahre, Kinder & Familie",
-      "cached_at": "2026-06-18T03:18:27.494Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-juri-durchs-sonnensystem/?occ_dtstart=2026-06-19T10:00",
-      "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "10:00",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinder & Familie; Juri ist eine Fledermaus",
-      "cached_at": "2026-06-18T03:18:37.796Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/leben-im-neandertalerlager/?occ_dtstart=2026-06-19T11:00",
-      "name": "Leben im Neandertalerlager",
-      "start_date": "2026/06/16",
-      "end_date": "2026/06/19",
-      "time": "11:00 - 17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Steinzeitpark Dithmarschen",
-      "context": "draußen, Kinder & Familie",
-      "cached_at": "2026-06-18T03:18:44.907Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/eltern-kind-yoga/?occ_dtstart=2026-06-19T15:00",
-      "name": "Eltern - Kind - Yoga",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "15:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elternschule Altona",
-      "context": "Kinder & Familie, Kurse; Eltern-Kind-Yoga für gemeinsame Bewegung",
-      "cached_at": "2026-06-18T03:19:17.466Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-19T16:30",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "16:30-17:15",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Vorträge & Lesungen",
-      "cached_at": "2026-06-18T03:19:35.985Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://www.bangerang.de/events/brettspiele/?occ_dtstart=2026-06-20T10:00",
       "name": "Brettspielezimmer",
       "start_date": "2026/06/20",
@@ -1390,40 +1084,6 @@
       "tags": [
         "outdoor",
         "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kreatives/gestalte-dein-eigenes-aquarium/hamburg-wandsbek",
-      "name": "Gestalte dein eigenes Aquarium",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "15:30-16:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg Wandsbek",
-      "context": "kreatives",
-      "cached_at": "2026-06-18T03:24:08.034Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kindertheater-shows/oh-europa-dangerours-games/hamburg-hamm",
-      "name": "Oh Europa - Dangerous Games",
-      "start_date": "2026/06/19",
-      "end_date": "2026/06/19",
-      "time": "19:00-20:20",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "FUNDUS THEATER Sievekingdamm 3 20535 Hamburg Hamm",
-      "context": "category: kindertheater-shows",
-      "cached_at": "2026-06-18T03:24:45.874Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
       ]
     },
     {
