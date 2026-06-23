@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:00:16.774Z",
+  "generated_at": "2026-06-23T05:00:16.865Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -9,14 +9,14 @@
   },
   "stats": {
     "input_count": 511,
-    "excluded_error_count": 142,
+    "excluded_error_count": 141,
     "excluded_invalid_count": 9,
     "excluded_durable_count": 0,
-    "excluded_window_count": 247,
-    "excluded_age_count": 13,
-    "included_count": 100
+    "excluded_window_count": 257,
+    "excluded_age_count": 11,
+    "included_count": 93
   },
-  "event_count": 100,
+  "event_count": 93,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/back-to-work-strong-coaching-reiki-for-mothers-returning-to-work/",
@@ -69,23 +69,6 @@
       ]
     },
     {
-      "url": "https://hagenbeck.de/de/_events/welt_kamel_tag.php",
-      "name": "Aktionstag zum Welt-Kamel-Tag",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "10:00-15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Tierpark Hagenbeck",
-      "context": "Erfahren Sie spannende Fakten über Trampeltiere.",
-      "cached_at": "2026-06-13T06:00:44.765Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/workshop-entdecke-zukunftsberufe-4-0/",
       "name": "Workshop: Entdecke Zukunftsberufe! #4",
       "start_date": "2026/06/23",
@@ -132,23 +115,6 @@
       "context": "Title includes 'Eltern & Kinder' (parents & children).",
       "cached_at": "2026-06-13T06:08:41.393Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.elbphilharmonie.de/de/programm/schulkonzert-bad-bugs/24189",
-      "name": "Schulkonzert »Bad Bugs«",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "09:30-12:20",
-      "age": "Klasse 1–4, Klasse 3–6",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elbphilharmonie Kleiner Saal",
-      "context": "Schulkonzerte / Klasse 1–4, Schulkonzerte / Klasse 3–6",
-      "cached_at": "2026-06-13T06:17:51.385Z",
-      "index_url": "https://www.elbphilharmonie.de/de/programm/6JA/KON/",
       "tags": [
         "paid"
       ]
@@ -753,36 +719,6 @@
       "tags": []
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/school-concert-bad-bugs/",
-      "name": "School Concert »Bad Bugs«",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "09:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elbphilharmonie (Kleiner Saal)",
-      "context": "School concert about insects.",
-      "cached_at": "2026-06-22T03:13:12.129Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/school-concert-bad-bugs-1/",
-      "name": "School Concert »Bad Bugs«",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "11:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elbphilharmonie (Kleiner Saal)",
-      "context": "School concert about insects.",
-      "cached_at": "2026-06-22T03:13:18.635Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/school-concert-bad-bugs-2/",
       "name": "School Concert »Bad Bugs«",
       "start_date": "2026/06/23",
@@ -1099,41 +1035,6 @@
       ]
     },
     {
-      "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260622.html",
-      "name": "Buchfragen",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
-      "context": "Ihr dürft euch in der Bücherhalle Steilshoop Bücher ausleihen, in denen ein Fragenbogen enthalten ist. Wenn ihr das Buch ausleiht und lest und anschließend die Fragen beantwortet, dürft ihr in unsere Überraschungskiste greifen und ein Geschenk herausnehmen.",
-      "cached_at": "2026-06-22T03:19:32.858Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/zeit-fuer-mint/datum/20260622.html",
-      "name": "Zeit für MINT",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "15:30-16:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Zentralbibliothek, Kinderbibliothek Lernwerkstatt, Ebene 1",
-      "context": "Komm in die Kibi und forsche mit uns. In unserer Lernwerkstatt kannst du kleine Experimente rund um Technik und Naturwissenschaften durchführen.",
-      "cached_at": "2026-06-22T03:19:37.816Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
       "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260623.html",
       "name": "Buchfragen",
       "start_date": "2026/06/23",
@@ -1369,23 +1270,6 @@
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-22T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/22",
-      "end_date": "2026/06/22",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-06-22T03:21:30.270Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
       ]
     },
     {
