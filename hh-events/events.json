@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T05:00:17.047Z",
+  "generated_at": "2026-06-25T05:00:16.841Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 141,
     "excluded_invalid_count": 9,
     "excluded_durable_count": 0,
-    "excluded_window_count": 285,
-    "excluded_age_count": 9,
-    "included_count": 67
+    "excluded_window_count": 294,
+    "excluded_age_count": 8,
+    "included_count": 59
   },
-  "event_count": 67,
+  "event_count": 59,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/back-to-work-strong-coaching-reiki-for-mothers-returning-to-work/",
@@ -138,38 +138,6 @@
       ]
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/eye-wink/20260624-1000",
-      "name": "Eye.Wink. (WIR WOLLEN SPIELEN!)",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "10:00",
-      "age": "3 – 9 Jahre",
-      "min_age": 3,
-      "max_age": 9,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Theater performance, 3+ years old",
-      "cached_at": "2026-06-13T06:20:02.030Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": []
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/eye-wink/20260624-1600",
-      "name": "Eye.Wink. (WIR WOLLEN SPIELEN!)",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "16:00",
-      "age": "3 – 9 Jahre",
-      "min_age": 3,
-      "max_age": 9,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Theater performance, 3+ years old",
-      "cached_at": "2026-06-13T06:20:07.327Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260625-1000",
       "name": "Unsichtbares (WIR WOLLEN SPIELEN!)",
       "start_date": "2026/06/25",
@@ -232,21 +200,6 @@
       "tags": [
         "outdoor"
       ]
-    },
-    {
-      "url": "https://hamburg.nabu.de/umwelt-und-ressourcen/oekologisch-leben/36251.html",
-      "name": "Stadtradeln 2026 in Hamburg",
-      "start_date": "2026/06/04",
-      "end_date": "2026/06/24",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Hamburg",
-      "context": "Der NABU Hamburg ist vom 4.-24. Juni als Team dabei und lädt alle seine Aktiven und Mitglieder zum Mitmachen ein.",
-      "cached_at": "2026-06-13T06:23:10.781Z",
-      "index_url": "https://hamburg.nabu.de/",
-      "tags": []
     },
     {
       "url": "https://www.kindaling.de/kinderkonzerte/wasserspiele-und-wasserlichtkonzerte/hamburg-neustadt",
@@ -424,21 +377,6 @@
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
       "name": "Töpferstube - Große Wallanlagen",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "15:00",
-      "age": "",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planten un Blomen (Große Wallanlagen)",
-      "context": "Workshops. Recommended age: 5 years and up.",
-      "cached_at": "2026-06-18T03:13:11.246Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "Töpferstube - Große Wallanlagen",
       "start_date": "2026/06/25",
       "end_date": "2026/06/25",
       "time": "15:00",
@@ -450,23 +388,6 @@
       "cached_at": "2026-06-18T03:13:25.399Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/shift-open-kids-studio-kinder-farbe-freiheit-14/",
-      "name": "shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "15:00-17:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "KULTUR&GUT WORKSHOPS",
-      "context": "Children can be bold here with color, shapes and their owneas. It's not about right or wrong, but about expression and joy.",
-      "cached_at": "2026-06-22T03:15:58.667Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://rausgegangen.de/en/events/gefuhle-entdecken-und-spielen-bilderbuch-theater-mit-jasmink-0/",
@@ -645,23 +566,6 @@
       "cached_at": "2026-06-22T03:14:37.733Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/miradas-fucking-beautiful-0/",
-      "name": "MIRADAS | fucking beautiful",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "19:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "monsun.theater",
-      "context": "Performance at a theater.",
-      "cached_at": "2026-06-22T03:16:09.920Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://rausgegangen.de/en/events/back-to-work-strong-mentales-und-energetisches-krafttraining-6/",
@@ -854,38 +758,6 @@
         "outdoor",
         "free"
       ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-06-24T10:30",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "10:00-10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-06-22T03:22:24.386Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/last-check-geburt-vom-wir-vorher-gewusst-hatten.../?occ_dtstart=2026-06-24T10:30",
-      "name": "Last Check vor der Geburt: \"Vom ich zum wir\" - wenn wir das vorher gewusst hätten...",
-      "start_date": "2026/06/24",
-      "end_date": "2026/06/24",
-      "time": "10:30-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "SOS-Kinderdorf Hamburg, Straßburger Platz Hamburg",
-      "context": "Ein offener Raum für Schwangere im letzten Drittel – gemeinsam mit einer vertrauten Begleitperson. Real Talk über Geburt, Wochenbett & das neue Wir.",
-      "cached_at": "2026-06-22T03:22:37.022Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
     },
     {
       "url": "https://www.bangerang.de/events/aufgewacht-die-sonne-lacht-mit-allen-sinnen-durch-den-sommer/?occ_dtstart=2026-06-25T09:00",
