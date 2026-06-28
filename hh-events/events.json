@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T05:00:16.787Z",
+  "generated_at": "2026-06-28T05:00:16.520Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 158,
     "excluded_invalid_count": 8,
     "excluded_durable_count": 0,
-    "excluded_window_count": 348,
+    "excluded_window_count": 374,
     "excluded_age_count": 7,
-    "included_count": 79
+    "included_count": 53
   },
-  "event_count": 79,
+  "event_count": 53,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -186,59 +186,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/familienzeit-9689/",
-      "name": "Familienzeit",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:00-13:00",
-      "age": "Kinder von 5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Title mentions 'Familienzeit' (Family time)",
-      "cached_at": "2026-06-14T03:24:20.834Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderflohmarkt-27626-11-15uhr-0/",
-      "name": "KINDER -KITA - FLOHMARKT 27.6.26 11-15Uhr",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:00-15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Kita Stadtküken Treudelberg, Lemsahler Landstraße 80, 22397 Hamburg",
-      "context": "KITA-FLOHMARKT on the outdoor area of our beautiful daycare center.",
-      "cached_at": "2026-06-14T03:24:30.818Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/out-of-the-box/20260627-1130",
-      "name": "Out of the Box (WIR WOLLEN SPIELEN!)",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:30",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "HoheLuftschiff",
-      "context": "Kindertheater, 5+",
-      "cached_at": "2026-06-27T03:06:19.812Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/flohmaerkte/kinderflohmarkt-eppendorf-0-100-j/hamburg-eppendorf",
       "name": "Kinderflohmarkt Eppendorf",
       "start_date": "2026/06/14",
@@ -269,74 +216,6 @@
       "context": "Kamishibai - Geschichten für kleine Leser",
       "cached_at": "2026-06-14T03:35:48.718Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/gefuhle-entdecken-und-spielen-bilderbuch-theater-mit-jasmink-0/",
-      "name": "Gefühle entdecken und spielen Bilderbuch-Theater mit Jasminka Franck-Petersen",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "13:00-15:00",
-      "age": "Recommended from 4 years.",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Fröbel-Buchwerkstatt",
-      "context": "Title mentions 'Bilderbuch-Theater' (Picture book theater).",
-      "cached_at": "2026-06-18T03:13:50.073Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/familienzeit-9690/",
-      "name": "Familienzeit",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "13:15-15:15",
-      "age": "Kinder von 5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Title 'Familienzeit' (Family time).",
-      "cached_at": "2026-06-18T03:14:02.156Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/mach-mit-kunst-workshop-fur-gross-klein-gemeinsam-kreativ-be-0/",
-      "name": "Mach mit! Kunst Workshop für gross &klein ! Gemeinsam kreativ beim Stadtteilfest Fuhlsbüttel",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "14:00-18:00",
-      "age": "gross &klein",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "Backstube Fuhlsbüttel e.V",
-      "context": "Title mentions 'gross &klein' (big and small/all ages).",
-      "cached_at": "2026-06-18T03:14:13.633Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/100-jahre-thcc-familienfest-sommerparty-0/",
-      "name": "100 Jahre THCC Familienfest + Sommerparty",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "15:00-23:45",
-      "age": "",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "THCC Rot-Gelb Hamburg e. V.",
-      "context": "Sommerfest, Spiele, Musik & gute Laune garantiert!",
-      "cached_at": "2026-06-18T03:14:24.248Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
       ]
@@ -392,36 +271,6 @@
       "tags": []
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "Töpferstube - Große Wallanlagen",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "15:00",
-      "age": "",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planten un Blomen (Große Wallanlagen)",
-      "context": "Workshop. Recommended age: 5 years and up.",
-      "cached_at": "2026-06-22T03:14:09.496Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "Familienzeit - Ausstellung: Sammlung",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:00",
-      "age": "5 bis 13 Jahre",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Creative journey for the whole family (children aged 5 to 13).",
-      "cached_at": "2026-06-22T03:14:25.108Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
       "name": "Familienführung - Der Hafen für Kinder",
       "start_date": "2026/06/27",
@@ -450,41 +299,6 @@
       "cached_at": "2026-06-26T03:12:18.266Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/escape-room-mystery-house-377/",
-      "name": "Escape Room Mystery House",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "10:00-20:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Mystery House Hamburg",
-      "context": "Activity/Entertainment.",
-      "cached_at": "2026-06-22T03:16:31.978Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kunst-begegnung-in-der-amsinck-villa-5/",
-      "name": "Kunst & Begegnung in der Amsinck-Villa",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:00-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Amsinck-Villa",
-      "context": "Creative workshops for adults, children & generations",
-      "cached_at": "2026-06-22T03:16:42.798Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "indoor"
-      ]
     },
     {
       "url": "https://rausgegangen.de/en/events/familienzeit-9700/",
@@ -623,102 +437,6 @@
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/brettspiele/?occ_dtstart=2026-06-27T10:00",
-      "name": "Brettspielezimmer",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "10:00-14:00",
-      "age": "ab 1 Jahr",
-      "min_age": 1,
-      "max_age": "",
-      "venue": "Bücherhalle Osdorfer Born",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-06-22T03:24:35.554Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/feldenkrais-workshop/?occ_dtstart=2026-06-27T10:00",
-      "name": "FELDENKRAIS Workshop",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "10:00-14:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Familienbildungsstätte Niendorf-Lokstedt",
-      "context": "Kinder & Familie, Kurse",
-      "cached_at": "2026-06-22T03:24:41.734Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/peter-und-der-wolf_2/?occ_dtstart=2026-06-27T11:00",
-      "name": "Peter und der Wolf",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Elbphilharmonie",
-      "context": "5 bis 9 Jahre , ab 10 Jahren",
-      "cached_at": "2026-06-22T03:24:47.716Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/familienzeit/?occ_dtstart=2026-06-27T11:00",
-      "name": "Familienzeit",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:00-13:00",
-      "age": "5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "5 bis 13 Jahren",
-      "cached_at": "2026-06-22T03:24:57.067Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/nachstes-abenteuer-heisst-rugby/?occ_dtstart=2026-06-27T11:30",
-      "name": "Dein nächstes Abenteuer heißt RUGBY",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "11:30-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Hamburger Rugby-Club",
-      "context": "Sport & Bewegung",
-      "cached_at": "2026-06-27T03:03:53.754Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/gefuhle-entdecken-spielen-bilderbuch-theater-jasminka-franck-petersen-1/?occ_dtstart=2026-06-27T13:00",
-      "name": "Gefühle entdecken und spielen: Bilderbuch-Theater mit Jasminka Franck-Petersen",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "13:00-15:00",
-      "age": "ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Fröbel-Buchwerkstatt",
-      "context": "Kinder & Familie, kostenlos , Vorträge & Lesungen",
-      "cached_at": "2026-06-22T03:25:15.616Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
         "free"
       ]
     },
@@ -939,20 +657,19 @@
       ]
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/mischmatsch/20260627-1330",
-      "name": "Mischmatsch (WIR WOLLEN SPIELEN!)",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "13:30",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff",
-      "context": "Kindertheater, 3+",
-      "cached_at": "2026-06-26T03:21:11.618Z",
-      "index_url": "https://hoheluftschiff.de/",
+      "url": "https://rausgegangen.de/en/events/hvv-familientag-1/",
+      "name": "hvv Familientag",
+      "start_date": "2026/07/12",
+      "end_date": "2026/07/12",
+      "time": "11:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Museum der Arbeit",
+      "context": "title mentions Familientag (family day)",
+      "cached_at": "2026-06-26T03:17:43.319Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
-        "outdoor",
         "free"
       ]
     },
@@ -968,42 +685,6 @@
       "venue": "HoheLuftschiff",
       "context": "Internationales Theaterfestival für Kinder",
       "cached_at": "2026-06-26T03:21:16.777Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/sunshine-power-kids-chorkonzert/20260627-1530",
-      "name": "Sunshine Power Kids Chorkonzert (WIR WOLLEN SPIELEN!)",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "15:30",
-      "age": "Ab 1 Jahren",
-      "min_age": 1,
-      "max_age": "",
-      "venue": "HoheLuftschiff",
-      "context": "Kindertheater, 1+",
-      "cached_at": "2026-06-26T03:21:26.069Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/out-of-the-box/20260627-1630",
-      "name": "Out of the Box (WIR WOLLEN SPIELEN!)",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "16:30",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "HoheLuftschiff",
-      "context": "Kindertheater, 5+",
-      "cached_at": "2026-06-26T03:21:31.165Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "outdoor",
@@ -1065,23 +746,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/selbstbehauptungstraining/stark-fuers-leben-selbstbehauptungskurse/hamburg-eppendorf",
-      "name": "Stark fürs Leben - Selbstbehauptungskurse",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "10:30-13:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Anscharhöhe (Eppendorf) Tarpenbeckstraße 107 20251 Hamburg Eppendorf",
-      "context": "selbstbehauptungstraining category",
-      "cached_at": "2026-06-26T03:27:12.861Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/sonstige-veranstaltungen/stadtfuehrung-mit-allen-sinnen-alter-elbtunnel/hamburg-st-pauli",
       "name": "Stadtführung mit allen Sinnen: Alter Elbtunnel",
       "start_date": "2026/06/27",
@@ -1117,23 +781,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/kindertheater-shows/bilderbuch-theater-mit-jasminka-franck-petersen/hamburg-klein-flottbek",
-      "name": "Bilderbuch-Theater mit Jasminka Franck-Petersen",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "13:00-15:00",
-      "age": "ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Fröbel-Buchwerkstatt, Osdorfer Landstraße 137, 22609 Hamburg Klein Flottbek",
-      "context": "kindertheater-shows category, Bilderbuch-Theater",
-      "cached_at": "2026-06-26T03:27:53.418Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-marie-jonas-platz/hamburg-eppendorf",
       "name": "Flohmarkt Marie Jonas Platz",
       "start_date": "2026/06/28",
@@ -1166,91 +813,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/familienzeit_Kunsthalle/?occ_dtstart=2026-06-27T13:15",
-      "name": "Familienzeit",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "13:15",
-      "age": "5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-06-27T03:04:02.214Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-allen-sinnen-durch-den-wald/?occ_dtstart=2026-06-27T14:00",
-      "name": "Mit allen Sinnen durch den Wald",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "14:00",
-      "age": "6-12 Jahren",
-      "min_age": 6,
-      "max_age": 12,
-      "venue": "Erlebniswald Trappenkamp",
-      "context": "6-12 Jahren, Kinder & Familie",
-      "cached_at": "2026-06-27T03:04:09.155Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/eddie-will-ins-all-%E2%80%93-ein-hamster-hebt-ab/?occ_dtstart=2026-06-27T15:00",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "15:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
-      "cached_at": "2026-06-27T03:04:29.689Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/j%C3%A4ger-der-l%C3%BCfte_1/?occ_dtstart=2026-06-27T16:00",
-      "name": "Jäger der Lüfte",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "16:00-16:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Wildpark Lüneburger Heide",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-06-27T03:04:39.787Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-06-27T16:15",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/06/27",
-      "end_date": "2026/06/27",
-      "time": "16:15-17:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre, ab 10 Jahren",
-      "cached_at": "2026-06-27T03:04:50.332Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
       ]
     },
     {
