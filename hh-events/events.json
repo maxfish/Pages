@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T05:00:17.729Z",
+  "generated_at": "2026-07-03T05:00:16.785Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 166,
     "excluded_invalid_count": 8,
     "excluded_durable_count": 0,
-    "excluded_window_count": 432,
+    "excluded_window_count": 435,
     "excluded_age_count": 9,
-    "included_count": 63
+    "included_count": 60
   },
-  "event_count": 63,
+  "event_count": 60,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -354,21 +354,6 @@
         "outdoor",
         "free"
       ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "Töpferstube - Große Wallanlagen",
-      "start_date": "2026/07/02",
-      "end_date": "2026/07/02",
-      "time": "15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planten un Blomen (Große Wallanlagen)",
-      "context": "Workshop recommended for age 5 years and up.",
-      "cached_at": "2026-06-26T03:12:46.603Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
     },
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
@@ -829,23 +814,6 @@
       ]
     },
     {
-      "url": "https://www.bangerang.de/events/aufgewacht-die-sonne-lacht-mit-allen-sinnen-durch-den-sommer/?occ_dtstart=2026-07-02T09:00",
-      "name": "Aufgewacht, die Sonne lacht! Mit allen Sinnen durch den Sommer",
-      "start_date": "2026/07/02",
-      "end_date": "2026/07/02",
-      "time": "09:00-10:30",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "FBS Pinneberg, Bahnhofstraße 18 - 22 , 25421 Pinneberg",
-      "context": "Kinder & Familie, Kurse",
-      "cached_at": "2026-07-01T03:04:26.386Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-07-02T10:00",
       "name": "Mit Ella durch das Museum",
       "start_date": "2026/07/01",
@@ -860,24 +828,6 @@
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-kunst-und-kegel_2/?occ_dtstart=2026-07-02T10:00",
-      "name": "Mit Kunst und Kegel",
-      "start_date": "2026/07/02",
-      "end_date": "2026/07/02",
-      "time": "10:00-11:00",
-      "age": "0 bis 4 Jahre",
-      "min_age": 0,
-      "max_age": 4,
-      "venue": "Bucerius Kunst Forum",
-      "context": "Jeden ersten und dritten Donnerstag im Monat laden wir junge Eltern ein, die Ausstellung Kinder, Kinder! in einem ganz besonderen Rahmen zu erleben. Unsere speziell konzipierte Führung Mit Kunst und Kegel bietet Eltern und ihren Babys die Möglichkeit, Kunst in einer entspannten und babyfreundlichen Atmosphäre zu genießen.",
-      "cached_at": "2026-07-01T03:04:45.839Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor",
-        "paid"
       ]
     },
     {
