@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T05:00:16.785Z",
+  "generated_at": "2026-07-04T05:00:17.697Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 678,
-    "excluded_error_count": 166,
+    "input_count": 795,
+    "excluded_error_count": 186,
     "excluded_invalid_count": 8,
     "excluded_durable_count": 0,
-    "excluded_window_count": 435,
-    "excluded_age_count": 9,
-    "included_count": 60
+    "excluded_window_count": 480,
+    "excluded_age_count": 15,
+    "included_count": 106
   },
-  "event_count": 60,
+  "event_count": 106,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -104,12 +104,12 @@
       "start_date": "2026/05/01",
       "end_date": "2026/09/30",
       "time": "16:00-22:00",
-      "age": "0 - 99 J",
-      "min_age": 0,
-      "max_age": 99,
+      "age": "",
+      "min_age": "",
+      "max_age": "",
       "venue": "Planten un Blomen (Parksee) St. Petersburger Straße 20355 Hamburg Neustadt",
       "context": "category: Kinderkonzerte",
-      "cached_at": "2026-06-30T03:23:29.209Z",
+      "cached_at": "2026-07-04T03:33:13.310Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
@@ -251,23 +251,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/nachhaltigkeit-zum-anfassen-fur-die-ganze-familie-kreativwer-0/",
-      "name": "Nachhaltigkeit zum Anfassen - für die ganze Familie (Kreativwerkstadt)",
-      "start_date": "2026/07/03",
-      "end_date": "2026/07/03",
-      "time": "12:00-18:00",
-      "age": "für die ganze Familie",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "1KOMMA5° Showroom Hamburg",
-      "context": "Title 'für die ganze Familie' (for the whole family).",
-      "cached_at": "2026-06-22T03:17:58.803Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/familien-radtour-abwechslungsreiche-elbinsel-0/",
       "name": "Familien-Radtour: Abwechslungsreiche Elbinsel",
       "start_date": "2026/07/04",
@@ -354,21 +337,6 @@
         "outdoor",
         "free"
       ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "Töpferstube - Große Wallanlagen",
-      "start_date": "2026/07/03",
-      "end_date": "2026/07/03",
-      "time": "15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planten un Blomen (Große Wallanlagen)",
-      "context": "Workshop recommended for age 5 years and up.",
-      "cached_at": "2026-06-26T03:13:20.152Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
     },
     {
       "url": "https://hagenbeck.de/de/_events/zoomobil.php",
@@ -761,6 +729,40 @@
       ]
     },
     {
+      "url": "https://rausgegangen.de/en/events/familienzeit-9703/",
+      "name": "Familienzeit",
+      "start_date": "2026/07/18",
+      "end_date": "2026/07/18",
+      "time": "11:00-13:00",
+      "age": "Kinder von 5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Title includes 'Familienzeit' (Family time)",
+      "cached_at": "2026-06-30T03:16:38.326Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-9702/",
+      "name": "Familienzeit",
+      "start_date": "2026/07/18",
+      "end_date": "2026/07/18",
+      "time": "13:15-15:15",
+      "age": "Kinder von 5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte.",
+      "cached_at": "2026-06-30T03:16:51.204Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
       "url": "https://www.kindaling.de/lesungen/kamishibai-geschichten-fuer-kleine-leser/hamburg-wandsbek",
       "name": "Kamishibai Geschichten für kleine Leser",
       "start_date": "2026/06/30",
@@ -831,58 +833,6 @@
       ]
     },
     {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-07-03T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/07/03",
-      "end_date": "2026/07/03",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-07-01T03:04:56.338Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-juri-durchs-sonnensystem/?occ_dtstart=2026-07-03T10:00",
-      "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/07/03",
-      "end_date": "2026/07/03",
-      "time": "10:00",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinder & Familie; Juri ist eine Fledermaus",
-      "cached_at": "2026-07-01T03:05:03.944Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-07-03T15:00",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/07/03",
-      "end_date": "2026/07/03",
-      "time": "15:00-15:45",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , ab 10 Jahren , drinnen , Film &amp; Kino",
-      "cached_at": "2026-07-01T03:05:14.195Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://www.bangerang.de/events/brettspiele/?occ_dtstart=2026-07-04T10:00",
       "name": "Brettspielezimmer",
       "start_date": "2026/07/04",
@@ -943,7 +893,7 @@
       "max_age": 13,
       "venue": "Hamburger Kunsthalle",
       "context": "5 bis 13 Jahren",
-      "cached_at": "2026-07-01T03:06:23.927Z",
+      "cached_at": "2026-07-04T03:19:55.336Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "indoor"
@@ -959,8 +909,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Hamburger Rugby-Club",
-      "context": "Sport & Bewegung; Teamgeist, Respekt & Fairplay",
-      "cached_at": "2026-07-01T03:06:34.430Z",
+      "context": "Sport & Bewegung",
+      "cached_at": "2026-07-04T03:20:05.239Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": []
     },
@@ -991,8 +941,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Wildpark Lüneburger Heide",
-      "context": "Kinder & Familie; Greifvögel in Aktion",
-      "cached_at": "2026-07-01T03:07:04.387Z",
+      "context": "draußen, Kinder & Familie",
+      "cached_at": "2026-07-04T03:20:33.239Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "outdoor"
@@ -1031,6 +981,833 @@
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
+      "name": "Baby concert",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "11:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Kulturpalast Hamburg",
+      "context": "Classical music on a play mat – the whole young family in the concert hall.",
+      "cached_at": "2026-07-04T03:14:52.978Z",
+      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "tags": []
+    },
+    {
+      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
+      "name": "Töpferstube - Große Wallanlagen",
+      "start_date": "2026/07/07",
+      "end_date": "2026/07/07",
+      "time": "15:00",
+      "age": "5 years and up",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planten un Blomen (Große Wallanlagen)",
+      "context": "Recommended age: 5 years and up. Last entry from 5:00 PM onwards, to give the children...",
+      "cached_at": "2026-07-04T03:15:06.528Z",
+      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "tags": []
+    },
+    {
+      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
+      "name": "Töpferstube - Große Wallanlagen",
+      "start_date": "2026/07/08",
+      "end_date": "2026/07/08",
+      "time": "15:00",
+      "age": "5 years and up",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planten un Blomen (Große Wallanlagen)",
+      "context": "Recommended age: 5 years and up. Last entry from 5:00 PM onwards, to give the children...",
+      "cached_at": "2026-07-04T03:15:20.495Z",
+      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "tags": []
+    },
+    {
+      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
+      "name": "Familienführung - Der Hafen für Kinder",
+      "start_date": "2026/07/04",
+      "end_date": "2026/10/31",
+      "time": "11:00",
+      "age": "6-12 years",
+      "min_age": 6,
+      "max_age": 12,
+      "venue": "Deichstraße / Steintwiete 1, 20459 Hamburg",
+      "context": "A guided city tour including a short ferry ride for children (6-12 years) accompanied by an adult (HVV ticket required).",
+      "cached_at": "2026-07-04T03:16:13.138Z",
+      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "tags": []
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/kinder-malworkshop-mit-karen-reese-auf-dem-markt-der-mglichk-5/",
+      "name": "Kinder-Malworkshop mit Karen Reese auf dem Markt der Møglichkeiten",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "14:00-14:30",
+      "age": "",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "Gleishalle Oberhafen",
+      "context": "title contains 'Kinder-Malworkshop' (children painting workshop)",
+      "cached_at": "2026-07-04T03:16:26.540Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-1/",
+      "name": "match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken",
+      "start_date": "2026/07/14",
+      "end_date": "2026/07/14",
+      "time": "14:30-16:30",
+      "age": "Babies and little kids are, of course, more than welcome",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "tiny Hamburg",
+      "context": "title contains 'Mamas' and 'Kids-Pieces'",
+      "cached_at": "2026-07-04T03:16:52.487Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/elbvororte-termin/sommerferien-tueten-zum-mitnehmen/datum/20260704.html",
+      "name": "„Sommerferien-Tüten“ zum Mitnehmen",
+      "start_date": "2026/07/02",
+      "end_date": "2026/07/09",
+      "time": "",
+      "age": "6 bis 10 Jahre",
+      "min_age": 6,
+      "max_age": 10,
+      "venue": "Bücherhalle Elbvororte, Sülldorfer Kirchenweg 1b, 22587 Hamburg",
+      "context": "Sommerferienprogramm",
+      "cached_at": "2026-07-04T03:16:57.422Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260704.html",
+      "name": "Buchfragen",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "",
+      "age": "Ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
+      "context": "Literatur, Spiele, Kinder",
+      "cached_at": "2026-07-04T03:17:24.934Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/osdorf-termin/brettspielzimmer/datum/20260704.html",
+      "name": "Brettspielzimmer",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "10:00-14:00",
+      "age": "ab 1 Jahr",
+      "min_age": 1,
+      "max_age": "",
+      "venue": "Bücherhalle Osdorfer Born",
+      "context": "Brettspielzimmer",
+      "cached_at": "2026-07-04T03:17:29.765Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/niendorf-termin/tibargfest/datum/20260704.html",
+      "name": "Tibargfest",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "10:00-17:00",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Niendorf",
+      "context": "Tibargfest",
+      "cached_at": "2026-07-04T03:17:34.574Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/osdorf-termin/lesezirkel-fuer-kinder-20687/datum/20260704.html",
+      "name": "bee4change: Lesekreis für Kinder",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "10:00-11:00",
+      "age": "6 bis 9 Jahre",
+      "min_age": 6,
+      "max_age": 9,
+      "venue": "Bücherhalle Osdorfer Born",
+      "context": "Lesekreis für Kinder",
+      "cached_at": "2026-07-04T03:17:39.608Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/fuhlsbuettel-termin/flohmarkt-im-garten-alles-muss-raus/datum/20260704.html",
+      "name": "Flohmarkt im Garten - Alles muss raus",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "10:00-14:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Fuhlsbüttel, Ratsmühlendamm 23, 22335 Hamburg",
+      "context": "Flohmarkt im Garten - Alles muss raus",
+      "cached_at": "2026-07-04T03:17:45.018Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/horn-termin/wm-2026-stickertauschboerse/datum/20260704.html",
+      "name": "WM 2026 - Stickertauschbörse",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-13:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Horn, Am Gojenboom 46 (Horner Freiheit), 22111 Hamburg",
+      "context": "WM 2026 - Stickertauschbörse",
+      "cached_at": "2026-07-04T03:17:55.168Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/holstenstrasse-termin/sammelsticker-tauschboerse-fussball-wm/datum/20260704.html",
+      "name": "Sammelsticker-Tauschbörse: Fußball WM",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-12:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Holstenstraße",
+      "context": "Sammelsticker-Tauschbörse: Fußball WM",
+      "cached_at": "2026-07-04T03:17:59.696Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/wandsbek-termin/panini-tauschboerse/datum/20260704.html",
+      "name": "Panini-Tauschbörse",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-13:00",
+      "age": "4 bis 99 Jahre",
+      "min_age": 4,
+      "max_age": 99,
+      "venue": "Bücherhalle Wandsbek",
+      "context": "Panini-Tauschbörse",
+      "cached_at": "2026-07-04T03:18:04.485Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/steilshoop-termin/qualle-origami-oder-papierqualle-mit-kordelflechtung/datum/20260704.html",
+      "name": "Qualle- Origami oder Papierqualle mit Kordelflechtung",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
+      "context": "Nadine bastelt mit euch kreative Quallen!",
+      "cached_at": "2026-07-04T03:18:27.756Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/wandsbek-termin/mehrsprachiges-basteln/datum/20260704.html",
+      "name": "Mehrsprachiges Basteln",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-13:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg",
+      "context": "Gemeinsam basteln wir.",
+      "cached_at": "2026-07-04T03:18:32.464Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/medien-kids-am-samstag/datum/20260704.html",
+      "name": "Medien-Kids am Samstag",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Zentralbibliothek, Kinderbibliothek, E1, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
+      "context": "Medien-Kids am Samstag",
+      "cached_at": "2026-07-04T03:18:37.666Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "indoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/buecherflohmarkt/datum/20260704.html",
+      "name": "Bücherflohmarkt",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Zentralbibliothek, Säulenhalle, EG",
+      "context": "Bücherflohmarkt",
+      "cached_at": "2026-07-04T03:18:42.441Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/langenhorn-termin/fussball-sammelbilder-tauschboerse/datum/20260704.html",
+      "name": "Fußball Sammelbilder Tauschbörse",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-13:00",
+      "age": "Für Jung und Alt",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Langenhorn",
+      "context": "Fußball Sammelbilder Tauschbörse",
+      "cached_at": "2026-07-04T03:18:47.047Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/wilhelmsburg-termin/brick-saturday-kreativ-mit-lego-r/datum/20260704.html",
+      "name": "Brick Saturday - Kreativ mit LEGO®",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:00-12:30",
+      "age": "5 bis 99 Jahre",
+      "min_age": 5,
+      "max_age": 99,
+      "venue": "Bücherhalle Wilhelmsburg",
+      "context": "Brick Saturday - Kreativ mit LEGO®",
+      "cached_at": "2026-07-04T03:18:51.898Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/neugraben-termin/kreativer-samstag-fuer-familien-24162/datum/20260704.html",
+      "name": "Kreativer Samstag für Familien",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "11:30-12:30",
+      "age": "3 bis 6 Jahre",
+      "min_age": 3,
+      "max_age": 6,
+      "venue": "Bücherhalle Neugraben",
+      "context": "Kreatives Werkstattangebot für Familien mit Kindern ab 3 Jahren.",
+      "cached_at": "2026-07-04T03:18:56.671Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/neugraben-termin/sammelsticker-tauschboerse-23199/datum/20260704.html",
+      "name": "Sammelsticker Tauschbörse",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "12:00-13:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Neugraben, Neugrabener Markt 7, 21149 Hamburg",
+      "context": "Sammelsticker Tauschbörse",
+      "cached_at": "2026-07-04T03:19:01.627Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "indoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/die-buecherhalle-beim-stadtteilfest-muemmelmannsberg/datum/20260704.html",
+      "name": "Freundschaftsfest Mümmelmannsberg",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "13:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Parkplatz vor dem MSV, Kandinskyallee 27, 22115 Hamburg",
+      "context": "Mümmelmannsberg feiert und wir feiern natürlich mit: Am Bücherhallen-Stand erwarten euch tolle Kreativprojekte, die ihr im Anschluss mit nach Hause nehmen könnt!",
+      "cached_at": "2026-07-04T03:19:06.944Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/disc-golf-kaltehofe-1/?occ_dtstart=2026-07-04T10:00",
+      "name": "Disc Golf auf Kaltehofe",
+      "start_date": "2026/07/04",
+      "end_date": "2026/08/30",
+      "time": "10:00-18:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Stiftung Wasserkunst Elbinsel Kaltehofe",
+      "context": "Sport & Bewegung, kostenlos",
+      "cached_at": "2026-07-04T03:19:16.989Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/lesen-park-natur-tiergeschichten-bucherfahrrad-geschichtenpicknick/?occ_dtstart=2026-07-04T12:00",
+      "name": "Lesen im Park: Natur- und Tiergeschichten - Bücherfahrrad und Geschichtenpicknick",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "12:00-14:00",
+      "age": "Empfohlen ab 2 Jahren",
+      "min_age": 2,
+      "max_age": "",
+      "venue": "Fröbel-Buchwerkstatt",
+      "context": "draußen, Kinder & Familie, kostenlos",
+      "cached_at": "2026-07-04T03:20:12.661Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/disc-golf-kaltehofe-1/?occ_dtstart=2026-07-05T10:00",
+      "name": "Disc Golf auf Kaltehofe",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "10:00-18:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Stiftung Wasserkunst Elbinsel Kaltehofe",
+      "context": "draußen, kostenlos, Sport & Bewegung",
+      "cached_at": "2026-07-04T03:20:42.895Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/sterntaler/?occ_dtstart=2026-07-05T11:00",
+      "name": "Sterntaler - Vom Universum belohnt",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "11:00",
+      "age": "Empfohlen ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , drinnen , Kinder & Familie",
+      "cached_at": "2026-07-04T03:20:53.243Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/tag-der-imkerei_2/?occ_dtstart=2026-07-05T11:00",
+      "name": "Tag der Imkerei",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "11:00-16:00",
+      "age": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Wildpark Schwarze Berge",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-07-04T03:20:59.956Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/das-geheimnis-der-papierrakete/?occ_dtstart=2026-07-05T13:45",
+      "name": "Das Geheimnis der Papierrakete",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "13:45-14:30",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , drinnen",
+      "cached_at": "2026-07-04T03:21:08.318Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/wildes-basteln_1/?occ_dtstart=2026-07-05T14:00",
+      "name": "WIldes Basteln",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "14:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Zentralbibliothek, Hühnerposten 1 , 20097 Hamburg",
+      "context": "Kinder & Familie",
+      "cached_at": "2026-07-04T03:21:40.340Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": []
+    },
+    {
+      "url": "https://www.bangerang.de/events/malen-basteln-werkeln_2/?occ_dtstart=2026-07-05T14:00",
+      "name": "Malen, Basteln, Werkeln!",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "14:00-17:00",
+      "age": "3–96+ Jahre",
+      "min_age": 3,
+      "max_age": 96,
+      "venue": "Bucerius Kunst Forum",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-07-04T03:21:47.924Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/faszination-wolf_So/?occ_dtstart=2026-07-05T14:30",
+      "name": "Faszination Wolf",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "14:30-15:30",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Wildpark Lüneburger Heide",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , draußen , Führungen , Kinder &amp; Familie",
+      "cached_at": "2026-07-04T03:21:57.684Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
+      "name": "Minimöbel: Stühle für Kinder",
+      "start_date": "2026/04/17",
+      "end_date": "2026/11/01",
+      "time": "",
+      "age": "",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "Museum für Kunst und Gewerbe Hamburg",
+      "context": "Welche Funktionen kann ein Stuhl haben? Wollen Kinder sich lieber bewegen, schaukeln und spielen, als still zu sitzen? Aus Sicht von Kindern – braucht es überhaupt einen Stuhl?",
+      "cached_at": "2026-07-04T03:23:54.673Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.polizei.hamburg/save-the-date--899974",
+      "name": "Kinder-Hit-Tag 2026",
+      "start_date": "2026/07/14",
+      "end_date": "2026/07/14",
+      "time": "10:00-15:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Carl Cohn Straße 39, 22297 Hamburg",
+      "context": "Ein spannender Tag mit Einsatzfahrzeugen, Polizei, Feuerwehr und vielen Erlebnissen für Kinder.",
+      "cached_at": "2026-07-04T03:25:07.772Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://sternstundenfestival.de/",
+      "name": "Sternstunden Festival",
+      "start_date": "2026/07/17",
+      "end_date": "2026/07/18",
+      "time": "15:00-",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hamburger Sternwarte, Gojenbergsweg 112, 21029 Hamburg",
+      "context": "Festival with music and astronomy, including a special children's program.",
+      "cached_at": "2026-07-04T03:25:12.596Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.wildpark-schwarze-berge.de/event/sommerspass-1/",
+      "name": "Sommerspaß Tag 1",
+      "start_date": "2026/07/18",
+      "end_date": "2026/07/19",
+      "time": "11:00-18:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Wildpark Schwarze Berge",
+      "context": "Beim Sommerspaß im Wildpark Schwarze Berge erwarten Euch viele tolle Aktionen. Rundtouren mit dem Esel oder den Alpakas sowie Seilklettern, Basteln, toben im Strohnest, Hüpfburgen und Futtertouren, am 18. und 19. Juli 2026 kommt jeder auf seine Kosten.",
+      "cached_at": "2026-07-04T03:25:24.736Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.elbsommer.com/veranstaltungen/kinderspass-im-lohsepark",
+      "name": "Kinderspaß im Lohsepark",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "13:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Lohsepark, 20457 Hamburg",
+      "context": "Bauen, Basteln und Entdecken beim Kinderspaß im Lohsepark.",
+      "cached_at": "2026-07-04T03:25:29.868Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "outdoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.hamburg.de/freizeit/strassenfeste",
+      "name": "Straßen- und Stadtteilfeste 2026",
+      "start_date": "2026/07/03",
+      "end_date": "2026/12/06",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hamburg",
+      "context": "Gemeinsam mit der Nachbarschaft zu Live-Musik tanzen, Kinderprogramm, Flohmarkt &amp; Festmeilen entdecken und Hamburgs Stadtteilkultur kennenlernen – auf diesen Festen wird von Altona bis Winterhude gefeiert.",
+      "cached_at": "2026-07-04T03:31:46.138Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": []
+    },
+    {
+      "url": "https://www.kindaling.de/feste/tibargfest/hamburg-niendorf",
+      "name": "Tibargfest",
+      "start_date": "2026/07/03",
+      "end_date": "2026/07/05",
+      "time": "",
+      "age": "0 - 99 J",
+      "min_age": 0,
+      "max_age": 99,
+      "venue": "Tibarg 22459 Hamburg Niendorf",
+      "context": "category: Feste",
+      "cached_at": "2026-07-04T03:31:56.625Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": []
+    },
+    {
+      "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-kreativhaus-eimsbuettel/hamburg-eimsbuettel",
+      "name": "Flohmarkt Kreativhaus Eimsbüttel",
+      "start_date": "2026/07/04",
+      "end_date": "2026/10/03",
+      "time": "11:00-16:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Telemannstraße 10 20255 Hamburg Eimsbüttel",
+      "context": "category: Flohmärkte",
+      "cached_at": "2026-07-04T03:32:04.772Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/sonstige-veranstaltungen/panini-tauschboerse/hamburg-wandsbek",
+      "name": "Panini Tauschbörse",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/11",
+      "time": "11:00-13:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg Wandsbek",
+      "context": "Sonstige Veranstaltungen",
+      "cached_at": "2026-07-04T03:32:24.001Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "indoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/flohmaerkte/buecherflohmarkt-hamburg-hammerbrook/hamburg-hammerbrook",
+      "name": "Bücherflohmarkt Hamburg-Hammerbrook",
+      "start_date": "2026/07/04",
+      "end_date": "2026/09/12",
+      "time": "11:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hühnerposten 1, 20097 Hamburg Hammerbrook",
+      "context": "category: Flohmärkte",
+      "cached_at": "2026-07-04T03:32:55.969Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/lesungen/lesen-im-park-natur-und-tiergeschichten/hamburg-klein-flottbek",
+      "name": "Lesen im Park: Natur- und Tiergeschichten",
+      "start_date": "2026/07/04",
+      "end_date": "2026/07/04",
+      "time": "12:00-14:00",
+      "age": "ab 2 Jahren",
+      "min_age": 2,
+      "max_age": "",
+      "venue": "Fröbel-Buchwerkstatt, Osdorfer Landstraße 137, 22609 Hamburg Klein Flottbek",
+      "context": "category: Lesungen; topic: Natur- und Tiergeschichten",
+      "cached_at": "2026-07-04T03:33:04.595Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/feste/tibargfest/hamburg-niendorf",
+      "name": "Tibargfest",
+      "start_date": "2026/07/03",
+      "end_date": "2026/07/05",
+      "time": "10:00-23:59",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Tibarg 22459 Hamburg Niendorf",
+      "context": "category: Feste",
+      "cached_at": "2026-07-04T03:33:23.621Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": []
+    },
+    {
+      "url": "https://www.kindaling.de/sonstige-veranstaltungen/disc-golf-auf-kaltehofe/hamburg-rothenburgsort",
+      "name": "Disc Golf auf Kaltehofe",
+      "start_date": "2026/07/04",
+      "end_date": "2026/08/30",
+      "time": "10:00-18:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Wasserkunst Elbinsel Kaltehofe, Kaltehofe-Hauptdeich 6-7, 20539 Hamburg Rothenburgsort",
+      "context": "category: Sonstige Veranstaltungen",
+      "cached_at": "2026-07-04T03:33:41.628Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/tiere-natur/tag-der-imkerei-im-wildpark-schwarze-berge/rosengarten",
+      "name": "Tag der Imkerei im Wildpark Schwarze Berge",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "11:00-16:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Wildpark Schwarze Berge, Am Wildpark 1, 21224 Rosengarten",
+      "context": "Tiere & Natur",
+      "cached_at": "2026-07-04T03:33:55.906Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/kinderkonzerte/website-gehackt-tickets-hier-klangschalen-babykonzert/hamburg",
+      "name": "Website gehackt: Tickets hier - Klangschalen-Babykonzert",
+      "start_date": "2026/07/05",
+      "end_date": "2026/07/05",
+      "time": "11:00-11:45",
+      "age": "0 - 3 J",
+      "min_age": 0,
+      "max_age": 3,
+      "venue": "Kulturpalast Hamburg Öjendorfer Weg 30a 20119 Hamburg",
+      "context": "category: Kinderkonzerte; topic: Babykonzert",
+      "cached_at": "2026-07-04T03:34:05.986Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/tiere-natur/fundberatung-mineralien-und-gesteine/hamburg-rotherbaum",
+      "name": "Fundberatung Mineralien und Gesteine",
+      "start_date": "2026/07/05",
+      "end_date": "2026/09/06",
+      "time": "13:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Museum der Natur Hamburg - Mineralogie Grindelallee 48 20146 Hamburg Rotherbaum",
+      "context": "category: Tiere & Natur",
+      "cached_at": "2026-07-04T03:34:16.544Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "indoor",
+        "free"
       ]
     }
   ]
