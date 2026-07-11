@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T05:00:17.731Z",
+  "generated_at": "2026-07-11T05:00:19.446Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 196,
     "excluded_invalid_count": 8,
     "excluded_durable_count": 0,
-    "excluded_window_count": 587,
-    "excluded_age_count": 11,
-    "included_count": 60
+    "excluded_window_count": 586,
+    "excluded_age_count": 9,
+    "included_count": 63
   },
-  "event_count": 60,
+  "event_count": 63,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -659,6 +659,23 @@
       ]
     },
     {
+      "url": "https://sannmann.com/veranstaltungen.html",
+      "name": "Tomatenfest in der Gärtnerei Sannmann",
+      "start_date": "2026/07/25",
+      "end_date": "2026/07/25",
+      "time": "14:00-18:00",
+      "age": "",
+      "min_age": 0,
+      "max_age": 12,
+      "venue": "Gärtnerei Sannmann, Ochsenwerder Norderdeich 50, 21037 Hamburg",
+      "context": "Ein Fest für die ganze Familie, für Genießer, Gärtner*innen und Neugierige! Erlebe die Vielfalt der Tomate direkt auf dem Hof.",
+      "cached_at": "2026-07-04T03:24:57.168Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
       "url": "https://www.polizei.hamburg/save-the-date--899974",
       "name": "Kinder-Hit-Tag 2026",
       "start_date": "2026/07/14",
@@ -994,6 +1011,40 @@
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "indoor"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-x-pride-week-11/",
+      "name": "FAMILIENZEIT x PRIDE WEEK",
+      "start_date": "2026/07/25",
+      "end_date": "2026/07/25",
+      "time": "11:00-13:00",
+      "age": "5 bis 13 Jahre",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Family time event",
+      "cached_at": "2026-07-08T03:16:52.785Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-x-pride-week-9/",
+      "name": "FAMILIENZEIT x PRIDE WEEK",
+      "start_date": "2026/07/25",
+      "end_date": "2026/07/25",
+      "time": "13:15-15:15",
+      "age": "children aged 5 to 13",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Family time event",
+      "cached_at": "2026-07-08T03:17:04.587Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
       ]
     },
     {
