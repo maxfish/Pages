@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T05:00:19.871Z",
+  "generated_at": "2026-07-23T05:00:18.348Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 248,
     "excluded_invalid_count": 9,
     "excluded_durable_count": 0,
-    "excluded_window_count": 750,
-    "excluded_age_count": 9,
-    "included_count": 81
+    "excluded_window_count": 757,
+    "excluded_age_count": 8,
+    "included_count": 75
   },
-  "event_count": 81,
+  "event_count": 75,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -888,23 +888,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/shift-open-kids-studio-kinder-farbe-freiheit-18/",
-      "name": "shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT",
-      "start_date": "2026/07/22",
-      "end_date": "2026/07/22",
-      "time": "15:00-17:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "KULTUR&GUT",
-      "context": "shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT",
-      "cached_at": "2026-07-20T03:19:48.421Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.bangerang.de/events/sommerspa%C3%9F/?occ_dtstart=2026-07-16T11:00",
       "name": "Sommerspaß",
       "start_date": "2026/07/07",
@@ -1187,55 +1170,6 @@
       ]
     },
     {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-07-22T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/07/22",
-      "end_date": "2026/07/22",
-      "time": "10:00-17:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-07-20T03:30:20.980Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/in-den-sommerferien-einmal-tierpfleger-sein/?occ_dtstart=2026-07-22T10:00",
-      "name": "In den Sommerferien: Einmal Tierpfleger sein",
-      "start_date": "2026/07/22",
-      "end_date": "2026/07/22",
-      "time": "10:00-17:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Arche Warder",
-      "context": "Ferien, Kinder & Familie; kleine Tierpfleger",
-      "cached_at": "2026-07-20T03:30:32.184Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/last-check-geburt-vom-wir-vorher-gewusst-hatten.../?occ_dtstart=2026-07-22T10:30",
-      "name": "Last Check vor der Geburt: \"Vom ich zum wir\" - wenn wir das vorher gewusst hätten...",
-      "start_date": "2026/07/22",
-      "end_date": "2026/07/22",
-      "time": "10:30-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "SOS-Kinderdorf Hamburg",
-      "context": "Beratung & Selbsthilfe; Raum für Schwangere",
-      "cached_at": "2026-07-20T03:30:43.999Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
       "url": "https://www.bangerang.de/events/sommerspa%C3%9F/?occ_dtstart=2026-07-22T11:00",
       "name": "Sommerspaß",
       "start_date": "2026/07/07",
@@ -1250,40 +1184,6 @@
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/speicherstadt-die-entdeckertour-f%C3%BCr-kinder/?occ_dtstart=2026-07-22T13:00",
-      "name": "Speicherstadt-Entdeckertour",
-      "start_date": "2026/07/22",
-      "end_date": "2026/07/22",
-      "time": "13:00-14:30",
-      "age": "6 bis 12 Jahren",
-      "min_age": 6,
-      "max_age": 12,
-      "venue": "Speicherstadtmuseum",
-      "context": "Ein spannender Rundgang durch die Speicherstadt mit Museumsführung für Kinder von 6 bis 12 Jahren (in Begleitung Erwachsener).",
-      "cached_at": "2026-07-20T03:31:39.186Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/familien-aktion-abenteuer-arch%C3%A4ologie/?occ_dtstart=2026-07-22T13:30",
-      "name": "Familien-Aktion: Abenteuer Archäologie",
-      "start_date": "2026/07/22",
-      "end_date": "2026/07/22",
-      "time": "13:30-15:00",
-      "age": "ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Archäologisches Museum Hamburg",
-      "context": "Kinder & Familie; Familienführung",
-      "cached_at": "2026-07-20T03:31:50.169Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
       ]
     },
     {
