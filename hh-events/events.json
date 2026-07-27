@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T05:00:19.158Z",
+  "generated_at": "2026-07-27T05:00:19.575Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 259,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 803,
+    "excluded_window_count": 818,
     "excluded_age_count": 6,
-    "included_count": 101
+    "included_count": 86
   },
-  "event_count": 101,
+  "event_count": 86,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -786,23 +786,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/ferienaktion-schnitzeljagd-im-museum-der-illusionen-0/",
-      "name": "Ferienaktion: Schnitzeljagd im Museum der Illusionen",
-      "start_date": "2026/07/20",
-      "end_date": "2026/07/26",
-      "time": "10:00-19:00",
-      "age": "ages 5–17",
-      "min_age": 5,
-      "max_age": 17,
-      "venue": "Museum der Illusionen Hamburg",
-      "context": "Summer Vacation Activity for Little Detectives at the Museum of Illusions",
-      "cached_at": "2026-07-20T03:19:04.399Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/familienzeit-9708/",
       "name": "Familienzeit",
       "start_date": "2026/08/08",
@@ -887,21 +870,6 @@
     },
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "6. internationales Spielbudenfestival",
-      "start_date": "2026/07/24",
-      "end_date": "2026/07/26",
-      "time": "11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Spielbudenplatz",
-      "context": "From July 24th to 26th, 2026, it's that time again – Spielbudenplatz will be transformed into a stage for change.",
-      "cached_at": "2026-07-20T03:16:48.649Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
       "name": "Nichts Neues - Besser Bauen mit Bestand",
       "start_date": "2026/07/27",
       "end_date": "2026/07/27",
@@ -945,23 +913,6 @@
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-20/",
-      "name": "Kinder/Jugend Spielenachmittag",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "00:00-23:45",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Moxy Finkenwerder",
-      "context": "Title mentions 'Kinder/Jugend' (Children/Youth) and play afternoon.",
-      "cached_at": "2026-07-24T03:17:22.662Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -1275,23 +1226,6 @@
       "tags": []
     },
     {
-      "url": "https://www.kindaling.de/kreatives/nichts-neues-in-der-essbaren-stadt-der-zukunft/hamburg-hafencity-speicherstadt-innenstadt",
-      "name": "Nichts Neues in der Essbaren Stadt der Zukunft",
-      "start_date": "2026/07/23",
-      "end_date": "2026/07/26",
-      "time": "10:00-15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Am Strandkai 7, 20457 Hamburg HafenCity/Speicherstadt/Innenstadt",
-      "context": "category: Kreatives",
-      "cached_at": "2026-07-24T03:28:47.479Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/offene-lernwerkstatt-in-der-botschaft-der-wildtiere/hamburg-hafencity-speicherstadt-innenstadt",
       "name": "Offene Lernwerkstatt in der Botschaft der Wildtiere",
       "start_date": "2026/07/23",
@@ -1340,24 +1274,6 @@
       "cached_at": "2026-07-24T03:27:23.458Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/feste/das-spielbudenfestival/hamburg-st-pauli",
-      "name": "Das Spielbudenfestival",
-      "start_date": "2026/07/24",
-      "end_date": "2026/07/26",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Spielbudenplatz, Spielbudenplatz 20359 Hamburg St. Pauli",
-      "context": "category: Feste",
-      "cached_at": "2026-07-24T03:28:08.867Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "outdoor",
         "free"
       ]
     },
@@ -1414,53 +1330,6 @@
       ]
     },
     {
-      "url": "https://www.bangerang.de/events/speicherstadt-die-entdeckertour-f%C3%BCr-kinder/?occ_dtstart=2026-07-26T10:30",
-      "name": "Speicherstadt-Entdeckertour",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "10:30-12:00",
-      "age": "6 bis 12 Jahren",
-      "min_age": 6,
-      "max_age": 12,
-      "venue": "Speicherstadtmuseum",
-      "context": "Mit Kindern die Speicherstadt entdecken!",
-      "cached_at": "2026-07-26T03:04:08.521Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/der-froschk%C3%B6nig_7/?occ_dtstart=2026-07-26T11:00",
-      "name": "Der Froschkönig",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "11:00-11:45",
-      "age": "0 bis 4 Jahre , 5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "Kulturschloss Wandsbek",
-      "context": "Kinder & Familie, Theater & Tanz",
-      "cached_at": "2026-07-26T03:04:14.437Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/wunder-der-wissenschaft-im-salzlabor/?occ_dtstart=2026-07-26T11:00",
-      "name": "Wunder der Wissenschaft im Salzlabor",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "11:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Deutsches Salzmuseum",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-07-26T03:04:19.893Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
       "url": "https://www.bangerang.de/events/sommerspa%C3%9F/?occ_dtstart=2026-07-26T11:00",
       "name": "Sommerspaß",
       "start_date": "2026/07/07",
@@ -1475,127 +1344,6 @@
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/familien-wild-und-waldrallye_3/?occ_dtstart=2026-07-26T11:00",
-      "name": "Familien Wild- und Waldrallye",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "11:00-17:00",
-      "age": "0 bis 4 Jahre , 5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "Wildpark Schwarze Berge",
-      "context": "Kinder & Familie, Familien gemeinsam Aufgaben lösen",
-      "cached_at": "2026-07-26T03:04:36.426Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/die-entf%C3%BChrung-aus-dem-serail/?occ_dtstart=2026-07-26T14:00",
-      "name": "Die Entführung aus dem Serail",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "14:00",
-      "age": "5 bis 9 Jahre",
-      "min_age": 5,
-      "max_age": 9,
-      "venue": "Theater für Kinder - ALLEE THEATER",
-      "context": "Theater & Tanz",
-      "cached_at": "2026-07-26T03:04:47.031Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/faszination-wolf_So/?occ_dtstart=2026-07-26T14:30",
-      "name": "Faszination Wolf",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "14:30-15:30",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Wildpark Lüneburger Heide",
-      "context": "Kinder & Familie, 5 bis 9 Jahre , ab 10 Jahren",
-      "cached_at": "2026-07-26T03:05:06.959Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/kinder-in-der-hansezeit/?occ_dtstart=2026-07-26T14:30",
-      "name": "Kinder in der Hansezeit",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "14:30-16:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Museum Lüneburg",
-      "context": "Kinder & Familie, Sommerferien",
-      "cached_at": "2026-07-26T03:05:13.444Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/steindruck-werkstatt/?occ_dtstart=2026-07-26T15:00",
-      "name": "In der Steindruck-werkstatt",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "15:00",
-      "age": "6 -12 Jahren",
-      "min_age": 6,
-      "max_age": 12,
-      "venue": "Museum der Arbeit",
-      "context": "Kreatives",
-      "cached_at": "2026-07-26T03:05:51.314Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/essen-wie-in-der-steinzeit/?occ_dtstart=2026-07-26T15:00",
-      "name": "Essen wie in der Steinzeit",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "15:00-17:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Schwedenspeicher",
-      "context": "Kinder & Familie, Sommerferien",
-      "cached_at": "2026-07-26T03:05:58.312Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/wasser-%C3%BCberall-%E2%80%93-versteckt-im-universum/?occ_dtstart=2026-07-26T16:15",
-      "name": "Wasser überall – versteckt im Universum",
-      "start_date": "2026/07/26",
-      "end_date": "2026/07/26",
-      "time": "16:15",
-      "age": "Empfohlen ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinder & Familie, 5 bis 9 Jahre , ab 10 Jahren",
-      "cached_at": "2026-07-26T03:06:09.570Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor",
-        "paid"
       ]
     },
     {
