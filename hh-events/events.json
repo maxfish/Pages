@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T05:00:19.935Z",
+  "generated_at": "2026-08-02T05:00:19.510Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 279,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 875,
+    "excluded_window_count": 887,
     "excluded_age_count": 14,
-    "included_count": 126
+    "included_count": 114
   },
-  "event_count": 126,
+  "event_count": 114,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -524,40 +524,6 @@
       "context": "Lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen",
       "cached_at": "2026-07-08T03:15:16.249Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/familienzeit-x-pride-week-8/",
-      "name": "FAMILIENZEIT x PRIDE WEEK",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-13:00",
-      "age": "children aged 5 to 13",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Title explicitly mentions 'FAMILIENZEIT' (Family Time).",
-      "cached_at": "2026-07-24T03:17:48.038Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/familienzeit-x-pride-week-10/",
-      "name": "FAMILIENZEIT x PRIDE WEEK",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "13:15-15:15",
-      "age": "children aged 5 to 13",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Title explicitly mentions 'FAMILIENZEIT' (Family Time).",
-      "cached_at": "2026-07-24T03:18:00.290Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
       ]
@@ -1426,6 +1392,23 @@
       ]
     },
     {
+      "url": "https://survivalrace.de/kinderlauf-termine/hamburg/",
+      "name": "Survival Race KIDS: Hindernislauf für Kinder in Hamburg 2026",
+      "start_date": "2026/08/16",
+      "end_date": "2026/08/16",
+      "time": "Startzeit frei buchbar",
+      "age": "zwischen 2 und 13 Jahren",
+      "min_age": 2,
+      "max_age": 13,
+      "venue": "Hamburger Polo Club",
+      "context": "Altersgerechte Strecken (2–13 Jahre)",
+      "cached_at": "2026-08-01T03:23:29.826Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
       "url": "https://www.elbsommer.com/veranstaltungen/naturtheater-parcour",
       "name": "Naturtheaterparcour in der Botschaft der Wildtiere",
       "start_date": "2026/08/15",
@@ -1632,159 +1615,6 @@
       "tags": [
         "free",
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/osdorf-termin/brettspielzimmer/datum/20260801.html",
-      "name": "Brettspielzimmer",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "10:00-14:00",
-      "age": "Ab 1 Jahr",
-      "min_age": 1,
-      "max_age": "",
-      "venue": "Bücherhalle Osdorfer Born",
-      "context": "Board game room event for children/families.",
-      "cached_at": "2026-08-01T03:18:34.438Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/langenhorn-termin/fussball-sammelbilder-tauschboerse/datum/20260801.html",
-      "name": "Fußball Sammelbilder Tauschbörse",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-13:00",
-      "age": "Für Jung und Alt",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Langenhorn",
-      "context": "Du sammelst fleißig Sticker für die Fußball Weltmeisterschaft 2026 und hast viele doppelt oder dir fehlen noch welche? Dann komm zum Tauschsamstag in die Bücherhalle und tausche mit anderen!",
-      "cached_at": "2026-08-01T03:18:58.907Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/steilshoop-termin/origami-springender-tintenfisch/datum/20260801.html",
-      "name": "Origami: Springender Tintenfisch",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
-      "context": "Nadine zeigt euch, wie ihr einen springenden Origami Tintenfisch falten könnt.",
-      "cached_at": "2026-08-01T03:19:03.694Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wandsbek-termin/mehrsprachiges-basteln/datum/20260801.html",
-      "name": "Mehrsprachiges Basteln",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg",
-      "context": "Gemeinsam basteln wir.",
-      "cached_at": "2026-08-01T03:19:08.346Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/medien-kids-am-samstag/datum/20260801.html",
-      "name": "Medien-Kids am Samstag",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Zentralbibliothek, Kinderbibliothek, E1, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
-      "context": "Können Geschichten Flügel verleihen? Können Roboter Fußball spielen? Können Papierrollen zu Schmetterlingen werden? Kommt gerne vorbei und findet es heraus.",
-      "cached_at": "2026-08-01T03:19:13.808Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/buecherflohmarkt/datum/20260801.html",
-      "name": "Bücherflohmarkt",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Zentralbibliothek, Säulenhalle, EG, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
-      "context": "Ehrenamtliche Medienbot*innen verkaufen auf dem zentralen Flohmarkt der Bücherhallen Hamburg gespendete Bücher und aussortierte Bibliotheksexemplare.",
-      "cached_at": "2026-08-01T03:19:19.340Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/bergedorf-termin/bilderbuchkino-auf-arabisch-und-deutsch-albwmt-albakyt-heule-eule/datum/20260801.html",
-      "name": "ABGESAGT Bilderbuchkino: البومة الباكية/Heule Eule",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-11:30",
-      "age": "Ab 3 Jahren",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Bücherhalle Bergedorf, Gruppenraum, Holzhude 1 (im KörberHaus), 21029 Hamburg",
-      "context": "Zweisprachiges Bilderbuchkino auf Arabisch und Deutsch",
-      "cached_at": "2026-08-01T03:19:24.927Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wilhelmsburg-termin/brick-saturday-kreativ-mit-lego-r/datum/20260801.html",
-      "name": "Brick Saturday - Kreativ mit LEGO®",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-12:30",
-      "age": "5 bis 99 Jahre",
-      "min_age": 5,
-      "max_age": 99,
-      "venue": "Bücherhalle Wilhelmsburg",
-      "context": "Wir stellen während der Sommerferien jeden Samstag für Sie und euch unser LEGO® im Gruppenraum bereit. Egal, ob der Fantasie freien Lauf lassen oder kleine Herausforderungen mit unseren LEGO®-Recreate-Aufgabenkarten meistern, jede*r wie er*sie es am liebsten mag!",
-      "cached_at": "2026-08-01T03:19:30.651Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/coole-roboter/datum/20260801.html",
-      "name": "Coole Roboter",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "14:30-16:00",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Zentralbibliothek, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
-      "context": "Heute ist Showtime für die Roboter der Zentralbibliothek. Wir laden Kinder und ihre Eltern ein, unser RoboLab kennenzulernen. Was ist das RoboLab? Welche Roboter gibt es? Die Roboter können an verschiedenen Stationen programmiert werden. Es sind keine Vorkenntnisse notwendig.",
-      "cached_at": "2026-08-01T03:19:36.574Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -2078,40 +1908,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-kreativhaus-eimsbuettel/hamburg-eimsbuettel",
-      "name": "Flohmarkt Kreativhaus Eimsbüttel",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "11:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Telemannstraße 10, 20255 Hamburg Eimsbüttel",
-      "context": "category: Flohmärkte",
-      "cached_at": "2026-08-01T03:24:31.237Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kindertheater-shows/mitspieltheater-der-froschkoenig-strandbuehne-pelzerhaken/neustadt",
-      "name": "Mitspieltheater der Froschkönig Strandbühne Pelzerhaken",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/01",
-      "time": "15:00-16:00",
-      "age": "Ab 3 Jahren",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Strandbühne Pelzerhaken Dünenweg 7 23730 Neustadt",
-      "context": "category: Kindertheater-Shows",
-      "cached_at": "2026-08-01T03:25:31.992Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
       ]
     },
     {
