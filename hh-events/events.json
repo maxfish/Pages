@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T05:00:19.510Z",
+  "generated_at": "2026-08-03T05:00:19.856Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 279,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 887,
+    "excluded_window_count": 894,
     "excluded_age_count": 14,
-    "included_count": 114
+    "included_count": 107
   },
-  "event_count": 114,
+  "event_count": 107,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -563,40 +563,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/leinen-los-vorm-maritimen-museum-2/",
-      "name": "Leinen los vorm Maritimen Museum!",
-      "start_date": "2026/08/02",
-      "end_date": "2026/08/02",
-      "time": "13:00-17:00",
-      "age": "up to the age of 9",
-      "min_age": 0,
-      "max_age": 9,
-      "venue": "Internationales Maritimes Museum Hamburg",
-      "context": "Leinen los vorm Maritimen Museum!",
-      "cached_at": "2026-07-28T03:17:19.139Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/krautschau-0/",
-      "name": "Krautschau",
-      "start_date": "2026/08/02",
-      "end_date": "2026/08/02",
-      "time": "15:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "NaturRaum HafenCIty",
-      "context": "Krautschau",
-      "cached_at": "2026-07-28T03:17:29.635Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/kinderferienprogramm-sommertagstraume-0/",
       "name": "Kinderferienprogramm: Sommertagsträume",
       "start_date": "2026/08/03",
@@ -1101,21 +1067,6 @@
       "tags": []
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=490",
-      "name": "Wasser überall – versteckt im Universum",
-      "start_date": "2026/07/24",
-      "end_date": "2026/08/02",
-      "time": "...",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-07-24T03:25:49.827Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": []
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/offene-lernwerkstatt-in-der-botschaft-der-wildtiere/hamburg-hafencity-speicherstadt-innenstadt",
       "name": "Offene Lernwerkstatt in der Botschaft der Wildtiere",
       "start_date": "2026/07/23",
@@ -1268,23 +1219,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-21/",
-      "name": "Kinder/Jugend Spielenachmittag",
-      "start_date": "2026/08/02",
-      "end_date": "2026/08/02",
-      "time": "00:00-23:45",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Moxy Finkenwerder",
-      "context": "Kinder/Jugend Spielenachmittag",
-      "cached_at": "2026-07-28T03:17:07.921Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/08/06",
@@ -1371,24 +1305,6 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.elbsommer.com/veranstaltungen/geschicklichkeitsparcours",
-      "name": "Leinen los! Vorm Maritimen Museum besteht ihr die Piratenprüfung",
-      "start_date": "2026/08/02",
-      "end_date": "2026/08/02",
-      "time": "13:00-17:00",
-      "age": "bis 9 Jahre",
-      "min_age": 0,
-      "max_age": 9,
-      "venue": "Vorplatz Internationales Maritimes Museum Hamburg",
-      "context": "Für Familien mit Kindern bis 9 Jahren; Seemannsknoten knüpern und Piratendiplom",
-      "cached_at": "2026-07-28T03:23:57.827Z",
-      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
-      "tags": [
-        "outdoor",
-        "free"
       ]
     },
     {
@@ -1615,42 +1531,6 @@
       "tags": [
         "free",
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/xxl-spielenachmittag-24227/datum/20260802.html",
-      "name": "XXL-Spielenachmittag",
-      "start_date": "2026/08/02",
-      "end_date": "2026/08/02",
-      "time": "14:00-17:00",
-      "age": "Ab 3 Jahren",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Zentralbibliothek, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
-      "context": "Erlebe einen spannenden Nachmittag voller Spaß, Freude und Neugier - und mit einer Menge XXL-Spiele!",
-      "cached_at": "2026-08-01T03:19:41.811Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/dein-sommer-dein-kinderkino-am-sonntag/datum/20260802.html",
-      "name": "Dein Sommer - dein Kinderkino am Sonntag",
-      "start_date": "2026/08/02",
-      "end_date": "2026/08/02",
-      "time": "15:00-16:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Zentralbibliothek, Kinderbibliothek - Traumhaus, Ebene 1, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
-      "context": "Sommerzeit ist Ferienzeit! Unser Kinderkino gibt es in den Sommerferien jeden Sonntag – kommt in die Zentralbibliothek und genießt unser Kinderkino-Sommerprogramm.",
-      "cached_at": "2026-08-01T03:19:47.484Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
       ]
     },
     {
