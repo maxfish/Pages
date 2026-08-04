@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T05:00:19.856Z",
+  "generated_at": "2026-08-04T05:00:19.465Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1304,
-    "excluded_error_count": 279,
+    "input_count": 1305,
+    "excluded_error_count": 278,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 894,
+    "excluded_window_count": 899,
     "excluded_age_count": 14,
-    "included_count": 107
+    "included_count": 104
   },
-  "event_count": 107,
+  "event_count": 104,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -560,23 +560,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderferienprogramm-sommertagstraume-0/",
-      "name": "Kinderferienprogramm: Sommertagsträume",
-      "start_date": "2026/08/03",
-      "end_date": "2026/08/03",
-      "time": "16:00-19:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Am Lohmühlenpark",
-      "context": "Kinderferienprogramm",
-      "cached_at": "2026-07-28T03:17:54.066Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -1531,40 +1514,6 @@
       "tags": [
         "free",
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/ferienworkshop-programmieren-mit-lego-r-education-spike/datum/20260803.html",
-      "name": "Ferienworkshop: Programmieren mit LEGO® Education Spike",
-      "start_date": "2026/08/03",
-      "end_date": "2026/08/03",
-      "time": "10:00-11:30",
-      "age": "6 bis 10 Jahre",
-      "min_age": 6,
-      "max_age": 10,
-      "venue": "Zentralbibliothek, Kinderbibliothek, Ebene 1",
-      "context": "Holiday workshop for children.",
-      "cached_at": "2026-08-01T03:20:10.982Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/zeit-fuer-mint-20864/datum/20260803.html",
-      "name": "Zeit für MINT",
-      "start_date": "2026/08/03",
-      "end_date": "2026/08/03",
-      "time": "15:30-16:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Zentralbibliothek, Kinderbibliothek Lernwerkstatt, Ebene 1",
-      "context": "Komm in die Kibi und forsche mit uns. In unserer Lernwerkstatt kannst du kleine Experimente rund um Technik und Naturwissenschaften durchführen.",
-      "cached_at": "2026-08-01T03:20:21.646Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
       ]
     },
     {
