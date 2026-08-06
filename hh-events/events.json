@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T05:00:20.192Z",
+  "generated_at": "2026-08-06T05:00:20.918Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 284,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 920,
-    "excluded_age_count": 22,
-    "included_count": 136
+    "excluded_window_count": 945,
+    "excluded_age_count": 15,
+    "included_count": 118
   },
-  "event_count": 136,
+  "event_count": 118,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -1036,6 +1036,23 @@
       ]
     },
     {
+      "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-2/",
+      "name": "match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken",
+      "start_date": "2026/08/20",
+      "end_date": "2026/08/20",
+      "time": "14:30-16:30",
+      "age": "Babies and little kids are, of course, more than welcome",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "tiny Hamburg",
+      "context": "Title mentions 'Mamas' and 'Kids-Pieces'.",
+      "cached_at": "2026-07-24T03:18:41.027Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=14",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/08/06",
@@ -1571,23 +1588,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
-      "cached_at": "2026-08-01T03:22:52.769Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=361",
       "name": "Sterntaler – Vom Universum belohnt",
       "start_date": "2026/08/02",
@@ -1809,42 +1809,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/ferienpass-sommer-rallye-auf-dem-energieberg-georgswerder-23/",
-      "name": "Ferienpass-Sommer-Rallye auf dem Energieberg Georgswerder",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "09:00-17:00",
-      "age": "explorers of all ages",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Energieberg Georgswerder",
-      "context": "Summer Vacation Pass Rally at the Georgswerder Energy Mountain. Solve puzzles together, explore the Energieberg, and win great prizes—a summer vacation full of adventure for the whole family.",
-      "cached_at": "2026-08-05T03:18:00.171Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderferienprogramm-sommertagstraume-1/",
-      "name": "Kinderferienprogramm: Sommertagsträume",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "11:00-20:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Am Lohmühlenpark",
-      "context": "Kinderferienprogramm (children's holiday program)",
-      "cached_at": "2026-08-05T03:18:10.456Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free",
-        "outdoor"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-22/",
       "name": "Kinder/Jugend Spielenachmittag",
       "start_date": "2026/08/09",
@@ -1857,258 +1821,6 @@
       "context": "Kinder/Jugend (children/youth) play afternoon",
       "cached_at": "2026-08-05T03:18:23.990Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260805.html",
-      "name": "Buchfragen",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
-      "context": "Ihr dürft euch in der Bücherhalle Steilshoop Bücher ausleihen, in denen ein Fragenbogen enthalten ist. Wenn ihr das Buch ausleiht und lest und anschließend die Fragen beantwortet, dürft ihr in unsere Überraschungskiste greifen und ein Geschenk herausnehmen.",
-      "cached_at": "2026-08-05T03:19:39.134Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/volksdorf-termin/lego-r-spike-workshop-23656/datum/20260805.html",
-      "name": "Lego® Spike Workshop",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "11:00-12:30",
-      "age": "6 bis 8 Jahre",
-      "min_age": 6,
-      "max_age": 8,
-      "venue": "Bücherhalle Volksdorf",
-      "context": "Unsere Programmierwerkstatt bietet großen Konstruktions- und Programmierspaß. Wir nutzen das LEGO® Education Spike Essentials-Set und bauen einfache LEGO®-Modelle, die wir anschließend gemeinsam in der dazugehörigen App programmieren.",
-      "cached_at": "2026-08-05T03:19:44.367Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/siebdruck-workshop-gestalte-deine-eigene-tasche/datum/20260805.html",
-      "name": "MINT-Workshop: Experimente mit Luft",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "11:00-12:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Mümmelmannsberg",
-      "context": "Science workshop for children.",
-      "cached_at": "2026-08-05T03:19:49.229Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/harburg-termin/lego-r-education-storytales/datum/20260805.html",
-      "name": "LEGO® Education StoryTales",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "11:00-12:00",
-      "age": "5 bis 7 Jahre",
-      "min_age": 5,
-      "max_age": 7,
-      "venue": "Bücherhalle Harburg",
-      "context": "Tauche ein in die kreative Welt von LEGO® Education StoryTales! In dieser spannenden Werkstatt erschaffen Kinder ihre eigenen Geschichten mit LEGO-Steinen. Gemeinsam werden Figuren, Szenen und Abenteuer gebaut, die anschließend erzählt und gespielt werden.",
-      "cached_at": "2026-08-05T03:19:54.411Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": []
-    },
-    {
-      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/mittwochs-meisterwerke-zum-selbermachen/datum/20260805.html",
-      "name": "Bastelnachmittag in der Bücherhalle",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "14:00-17:00",
-      "age": "Kinder",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Mümmelmannsberg, Feiningerstraße 8, 22115 Hamburg",
-      "context": "An die Schere, fertig, los! Jeden Mittwoch könnt ihr euch an unserem Basteltisch kreativ austoben und euer persönliches \"Mittwochs-Meisterwerk\" gestalten, das ihr anschließend mit nach Hause nehmen könnt.",
-      "cached_at": "2026-08-05T03:20:04.930Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": []
-    },
-    {
-      "url": "https://www.buecherhallen.de/fuhlsbuettel-termin/ferienkreativ-die-grosse-woerterfabrik/datum/20260805.html",
-      "name": "FerienKreativ: Die große Wörterfabrik",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "15:00-16:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Fuhlsbüttel, Ratsmühlendamm 23, 22335 Hamburg",
-      "context": "Bei unseren FerienKreativ-Terminen kannst du basteln, gestalten und Spaß haben. Und zwar ohne Anmeldung!",
-      "cached_at": "2026-08-05T03:20:33.527Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wilhelmsburg-termin/makerbib-tuefteln-mit-robotern-und-programmierung/datum/20260805.html",
-      "name": "MakerBib - Tüfteln mit Robotern und Programmierung",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "15:00-17:00",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Bücherhalle Wilhelmsburg, Vogelhüttendeich 45, 21107 Hamburg",
-      "context": "Kommt vorbei zu einem Robotik-Nachmittag und entdeckt, wie viel Spaß Programmieren machen kann! An verschiedenen Stationen könnt ihr Roboter ausprobieren, tüfteln und selbst programmieren.",
-      "cached_at": "2026-08-05T03:20:44.475Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/niendorf-termin/gedichte-fuer-wichte/datum/20260805.html",
-      "name": "Gedichte für Wichte",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "15:30",
-      "age": "0 bis 3 Jahre",
-      "min_age": 0,
-      "max_age": 3,
-      "venue": "Bücherhalle Niendorf, Gruppenraum",
-      "context": "In dieser offenen Gruppe können Eltern (oder Großeltern) jederzeit kostenlos mit ihren Babys und Kleinkindern von 0 bis 3 Jahren mitmachen. Gemeinsam werden Lieder gesungen, Finger- und Bewegungsspiele gemacht und altersgerechte Pappbilderbücher angeschaut.",
-      "cached_at": "2026-08-05T03:20:50.311Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/barmbek-termin/outdoor-kamishibai/datum/20260805.html",
-      "name": "Outdoor-Kamishibai",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:00-16:30",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Bücherhalle Barmbek, Poppenhusenstraße 12, 22305 Hamburg",
-      "context": "Wir nutzen das gute Wetter und zeigen im Hinterhof der Bücherhalle ein Kamishibai.",
-      "cached_at": "2026-08-05T03:20:55.559Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wandsbek-termin/mehrsprachiges-lesen-spielen/datum/20260805.html",
-      "name": "Mehrsprachiges Lesen & Spielen",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg",
-      "context": "Gemeinsam lesen wir spannende Geschichten und spielen Spiele. Sprachen: Arabisch, Deutsch, Russisch & Ukrainisch.",
-      "cached_at": "2026-08-05T03:21:00.815Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/harburg-termin/vorlesen-fuer-kinder-16046/datum/20260805.html",
-      "name": "Vorlesen für Kinder",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:00-17:00",
-      "age": "4 bis 10 Jahre",
-      "min_age": 4,
-      "max_age": 10,
-      "venue": "Bücherhalle Harburg, Eddelbüttelstraße 47a, 21073 Hamburg",
-      "context": "Jeden Mittwoch wird in Zusammenarbeit mit Lesewelt Hamburg e.V. in der Bücherhalle vorgelesen.",
-      "cached_at": "2026-08-05T03:21:11.017Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/barmbek-termin/kapla-nachmittag/datum/20260805.html",
-      "name": "Kapla Nachmittag",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:00-18:00",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Bücherhalle Barmbek, Poppenhusenstraße 12, 22305 Hamburg",
-      "context": "Tauche ein in die fantastische Welt der KAPLA-Steine! Gemeinsam stapeln, tüfteln, staunen – ob Türme, Brücken oder fantasievolle Tiere: Mit den leichten Holzplättchen ist (fast) alles möglich!",
-      "cached_at": "2026-08-05T03:21:16.554Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/onilo-kino-tierischer-geschichtensommer/datum/20260805.html",
-      "name": "Onilo-Kino: Tierischer Geschichtensommer",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:00-16:30",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Bücherhalle Mümmelmannsberg",
-      "context": "Sommerzeit ist Kinozeit! In den Sommerferien gibt es jeden Mittwoch um 16:00 Uhr eine neue Onilo-Boardstory im Großformat. Alle Kinder ab 4 Jahren sind herzlich eingeladen.",
-      "cached_at": "2026-08-05T03:21:38.856Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/eimsbuettel-termin/bilderbuchkino-24257/datum/20260805.html",
-      "name": "Bilderbuchkino",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:00-16:30",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Bücherhalle Eimsbüttel, Doormannsweg 12 (im Hamburg-Haus), 20259 Hamburg",
-      "context": "Jeden Mittwoch um 16:00 Uhr zeigen wir euch eine Bilderbuchkinogeschichte in unserem großen Gruppenraum.",
-      "cached_at": "2026-08-05T03:21:43.899Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/niendorf-termin/bilderbuchkino-lecker/datum/20260805.html",
-      "name": "Bilderbuchkino: \"Lecker!\"",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:30",
-      "age": "3 bis 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "Bücherhalle Niendorf",
-      "context": "Wir lesen die Geschichte \"Lecker!\" von Sara Trofa vor und zeigen die Bilder ganz groß auf dem Smartboard.",
-      "cached_at": "2026-08-05T03:21:48.742Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
       ]
@@ -2182,23 +1894,6 @@
       "tags": [
         "indoor",
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/kleiner-stern-im-grossen-all",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/05",
-      "time": "16:30",
-      "age": "Empfohlen ab 5 Jahren.",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
-      "cached_at": "2026-08-05T03:23:43.562Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor"
       ]
     },
     {
