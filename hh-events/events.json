@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T05:00:20.918Z",
+  "generated_at": "2026-08-07T05:00:20.856Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 284,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 945,
+    "excluded_window_count": 948,
     "excluded_age_count": 15,
-    "included_count": 118
+    "included_count": 115
   },
-  "event_count": 118,
+  "event_count": 115,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -1053,21 +1053,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=14",
-      "name": "Das Geheimnis der Papierrakete",
-      "start_date": "2026/08/06",
-      "end_date": "2026/08/06",
-      "time": "...",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-07-24T03:23:29.162Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": []
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/offene-lernwerkstatt-in-der-botschaft-der-wildtiere/hamburg-hafencity-speicherstadt-innenstadt",
       "name": "Offene Lernwerkstatt in der Botschaft der Wildtiere",
       "start_date": "2026/07/23",
@@ -1843,24 +1828,6 @@
       ]
     },
     {
-      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/das-geheimnis-der-papierrakete",
-      "name": "Das Geheimnis der Papierrakete",
-      "start_date": "2026/08/06",
-      "end_date": "2026/08/06",
-      "time": "15:00",
-      "age": "ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-05T03:23:10.143Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/der-kleine-tag",
       "name": "Der kleine Tag",
       "start_date": "2026/08/09",
@@ -1872,24 +1839,6 @@
       "venue": "Planetarium Hamburg",
       "context": "Das Sternenmusical - präsentiert von Rolf Zuckowski. Für Familien mit Kindern ab 6 Jahren.",
       "cached_at": "2026-08-05T03:23:16.693Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/eddie-will-ins-all-ein-hamster-hebt-ab",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/08/06",
-      "end_date": "2026/08/06",
-      "time": "16:15",
-      "age": "ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-05T03:23:35.915Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
