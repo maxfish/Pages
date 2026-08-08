@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:00:20.856Z",
+  "generated_at": "2026-08-08T05:00:19.086Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 284,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 948,
-    "excluded_age_count": 15,
-    "included_count": 115
+    "excluded_window_count": 947,
+    "excluded_age_count": 11,
+    "included_count": 120
   },
-  "event_count": 115,
+  "event_count": 120,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -187,6 +187,23 @@
       "tags": []
     },
     {
+      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
+      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
+      "start_date": "2026/08/22",
+      "end_date": "2026/09/25",
+      "time": "",
+      "age": "ab 5 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Hamburger Stadtteile",
+      "context": "Program item listed under Programm",
+      "cached_at": "2026-07-02T03:04:09.317Z",
+      "index_url": "https://www.kinderkinder.de/programm/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "url": "https://hagenbeck.de/de/_events/zoomobil.php",
       "name": "Zooschule hautnah erleben",
       "start_date": "2026/07/11",
@@ -250,23 +267,6 @@
       "context": "Riechen, sehen, hören, fühlen – mit der LI-Zooschule bei Hagenbeck lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen.",
       "cached_at": "2026-06-30T03:11:59.957Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kidz-multisport-camps-hamburg-blankenese-0/",
-      "name": "Kidz Multisport Camps @ Hamburg Blankenese",
-      "start_date": "2026/07/13",
-      "end_date": "2026/08/07",
-      "time": "07:45-17:00",
-      "age": "kids aged 5 to 13",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Ohlwöhren 22587 Hamburg",
-      "context": "Summer vacation camp in Hamburg - sport, fun & action for kids!",
-      "cached_at": "2026-06-30T03:14:51.309Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
       ]
@@ -389,6 +389,57 @@
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "tags": [
         "indoor"
+      ]
+    },
+    {
+      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
+      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
+      "start_date": "2026/08/22",
+      "end_date": "2026/09/27",
+      "time": "15:00 – 18:00 Uhr",
+      "age": "5 bis 14 Jahren",
+      "min_age": 5,
+      "max_age": 14,
+      "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
+      "context": "(Für alle von 5 bis 99 Jahren)",
+      "cached_at": "2026-07-30T03:05:29.686Z",
+      "index_url": "https://www.kinderkinder.de/programm/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
+      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
+      "start_date": "2026/08/22",
+      "end_date": "2026/09/27",
+      "time": "14:00 – 17:00 Uhr",
+      "age": "5 bis 14 Jahren",
+      "min_age": 5,
+      "max_age": 14,
+      "venue": "Mühlenschule, Jungfernstieg 6, 21244 Holm-Seppensen",
+      "context": "(Für alle von 5 bis 99 Jahren)",
+      "cached_at": "2026-07-30T03:04:46.308Z",
+      "index_url": "https://www.kinderkinder.de/programm/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
+      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
+      "start_date": "2026/08/22",
+      "end_date": "2026/09/27",
+      "time": "10:00 – 15:00 Uhr",
+      "age": "Kinder im Alter von 5 bis 14 Jahren können kostenlos an Workshops, Konzerten und kreativen Aktionen teilnehmen",
+      "min_age": 5,
+      "max_age": 14,
+      "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
+      "context": "(Für alle von 5 bis 99 Jahren)",
+      "cached_at": "2026-07-30T03:04:54.897Z",
+      "index_url": "https://www.kinderkinder.de/programm/",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -838,6 +889,23 @@
       ]
     },
     {
+      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
+      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
+      "start_date": "2026/08/22",
+      "end_date": "2026/09/27",
+      "time": "12:00 – 15:00 Uhr",
+      "age": "5 bis 14 Jahren",
+      "min_age": 5,
+      "max_age": 14,
+      "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
+      "context": "(Für alle von 5 bis 99 Jahren)",
+      "cached_at": "2026-07-29T03:03:32.702Z",
+      "index_url": "https://www.kinderkinder.de/programm/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "url": "https://heuteinhamburg.de/event/wasserlichtkonzerte-wasserlichtspiele-planten-un-blomen",
       "name": "Wasserlichtkonzerte",
       "start_date": "2026/05/01",
@@ -899,6 +967,58 @@
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "tags": [
         "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-9706/",
+      "name": "Familienzeit",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "11:00-13:00",
+      "age": "Kinder von 5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Title explicitly mentions 'Familienzeit' (Family Time).",
+      "cached_at": "2026-07-24T03:19:17.646Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-9709/",
+      "name": "Familienzeit",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "13:15-15:15",
+      "age": "Kinder von 5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Title explicitly mentions 'Familienzeit' (Family Time).",
+      "cached_at": "2026-07-24T03:19:28.786Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/fahrradtour-diversitat-auf-der-elbinsel-0/",
+      "name": "Fahrradtour: Diversität auf der Elbinsel",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "14:00-18:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Alter Elbtunnel, Hamburg",
+      "context": "Group activity, likely family-friendly.",
+      "cached_at": "2026-07-24T03:19:39.295Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -988,23 +1108,6 @@
     },
     {
       "url": "https://shop.hagenbeck.de/de",
-      "name": "Ferienaktion: Polarforscher im Einsatz!",
-      "start_date": "2026/07/20",
-      "end_date": "2026/08/07",
-      "time": "11:00 Uhr",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Tierpark Hagenbeck",
-      "context": "Für alle Entdecker, Tierfreunde und Spürnasen ab 10 Jahren",
-      "cached_at": "2026-07-24T03:15:45.111Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://shop.hagenbeck.de/de",
       "name": "Ferienaktion: Kleiner Tierpfleger 2026",
       "start_date": "2026/07/27",
       "end_date": "2026/08/14",
@@ -1017,23 +1120,6 @@
       "cached_at": "2026-07-24T03:15:59.502Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "tags": []
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kids-malzeit-0/",
-      "name": "Kids MalZeit auf dem Markt der Møglichkeiten",
-      "start_date": "2026/08/07",
-      "end_date": "2026/08/07",
-      "time": "16:15-16:45",
-      "age": "Kids and Families",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "Gleishalle Oberhafen",
-      "context": "Title mentions 'Kids MalZeit'.",
-      "cached_at": "2026-07-24T03:18:28.712Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-2/",
@@ -1188,23 +1274,6 @@
       "tags": []
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/ferientheaterkurs-55-10-jahre-5-tage-eimsbuettel/",
-      "name": "Ferientheaterkurs 5,5-10 Jahre/ 5 Tage/ Eimsbüttel Workshops",
-      "start_date": "2026/08/03",
-      "end_date": "2026/08/07",
-      "time": "10:00-14:00",
-      "age": "5,5 to 10 years",
-      "min_age": 5.5,
-      "max_age": 10,
-      "venue": "Mietergenossenschaft Falkenried",
-      "context": "Holiday theater workshop for children aged 5.5-10 years.",
-      "cached_at": "2026-08-01T03:15:55.559Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/08/06",
@@ -1273,6 +1342,23 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "paid"
+      ]
+    },
+    {
+      "url": "https://www.gut-wulksfelde.de/wulksfelde-erleben/august/",
+      "name": "Wulksfelder Kartoffelbuddeln",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/30",
+      "time": "09:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Gut Wulksfelde",
+      "context": "Kartoffeln selbst ernten; Schatzsuche auf dem Acker",
+      "cached_at": "2026-07-28T03:24:12.237Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "outdoor"
       ]
     },
     {
