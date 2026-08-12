@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:00:20.887Z",
+  "generated_at": "2026-08-12T05:01:04.459Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 290,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 972,
-    "excluded_age_count": 18,
-    "included_count": 135
+    "excluded_window_count": 986,
+    "excluded_age_count": 14,
+    "included_count": 125
   },
-  "event_count": 135,
+  "event_count": 125,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -328,12 +328,12 @@
       "start_date": "2026/08/22",
       "end_date": "2026/09/27",
       "time": "15:00 – 18:00 Uhr",
-      "age": "Kinder im Alter von 5 bis 14 Jahren können kostenlos an Workshops, Konzerten und kreativen Aktionen teilnehmen",
+      "age": "5 bis 14 Jahren",
       "min_age": 5,
       "max_age": 14,
-      "venue": "Pink Haus, 1.000 Steine, Oberer Landweg 3, 21033 Hamburg-Bergedorf",
+      "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
       "context": "(Für alle von 5 bis 99 Jahren)",
-      "cached_at": "2026-08-11T03:03:19.807Z",
+      "cached_at": "2026-08-12T03:05:21.781Z",
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
@@ -350,7 +350,7 @@
       "max_age": 14,
       "venue": "KL!CK Kindermuseum, Brandstücken 43, Hamburg-Altona",
       "context": "(Für alle von 5 bis 99 Jahren)",
-      "cached_at": "2026-07-30T03:04:38.391Z",
+      "cached_at": "2026-08-12T03:04:32.493Z",
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
@@ -367,7 +367,7 @@
       "max_age": 14,
       "venue": "Mühlenschule, Jungfernstieg 6, 21244 Holm-Seppensen",
       "context": "(Für alle von 5 bis 99 Jahren)",
-      "cached_at": "2026-07-30T03:04:46.308Z",
+      "cached_at": "2026-08-12T03:04:40.420Z",
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
@@ -384,7 +384,7 @@
       "max_age": 14,
       "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
       "context": "(Für alle von 5 bis 99 Jahren)",
-      "cached_at": "2026-07-30T03:04:54.897Z",
+      "cached_at": "2026-08-12T03:04:48.998Z",
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
@@ -950,6 +950,21 @@
       ]
     },
     {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=445",
+      "name": "Mit Juri durchs Sonnensystem",
+      "start_date": "2026/08/26",
+      "end_date": "2026/08/26",
+      "time": "...",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-07-24T03:24:51.600Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": []
+    },
+    {
       "url": "https://www.kindaling.de/tiere-natur/offene-lernwerkstatt-in-der-botschaft-der-wildtiere/hamburg-hafencity-speicherstadt-innenstadt",
       "name": "Offene Lernwerkstatt in der Botschaft der Wildtiere",
       "start_date": "2026/07/23",
@@ -1114,6 +1129,24 @@
       "venue": "Planetarium Hamburg",
       "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
       "cached_at": "2026-07-28T03:23:07.122Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=445",
+      "name": "Mit Juri durchs Sonnensystem",
+      "start_date": "2026/08/26",
+      "end_date": "2026/11/13",
+      "time": "09:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-08-01T03:23:03.570Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
@@ -1740,6 +1773,24 @@
       ]
     },
     {
+      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/mit-juri-durchs-sonnensystem",
+      "name": "Mit Juri durchs Sonnensystem",
+      "start_date": "2026/08/26",
+      "end_date": "2026/08/26",
+      "time": "09:30",
+      "age": "ab 5 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-08-05T03:23:57.167Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/sterntaler-vom-universum-belohnt",
       "name": "Sterntaler – Vom Universum belohnt",
       "start_date": "2026/08/07",
@@ -1928,194 +1979,6 @@
       ]
     },
     {
-      "url": "https://www.buecherhallen.de/langenhorn-termin/buttons-gestalten-24310/datum/20260811.html",
-      "name": "Buttons gestalten",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "10:00-12:00",
-      "age": "5 bis 10 Jahre",
-      "min_age": 5,
-      "max_age": 10,
-      "venue": "Bücherhalle Langenhorn, Langenhorner Markt 1-18 (LaHoMa Living Plaza), 22415 Hamburg",
-      "context": "Gestalte coole Ansteckbuttons mit unserer Buttonmaschine! Ohne Anmeldung, solange der Vorrat reicht.",
-      "cached_at": "2026-08-09T03:19:18.939Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/eimsbuettel-termin/perlenarmbaender-basteln-24098/datum/20260811.html",
-      "name": "Perlenarmbänder basteln",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "10:00-12:00",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Eimsbüttel",
-      "context": "Crafting workshop (Perlenarmbänder basteln).",
-      "cached_at": "2026-08-09T03:19:23.492Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/upcycling-workshop-23643/datum/20260811.html",
-      "name": "Upcycling-Workshop",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "11:00-12:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Mümmelmannsberg, Feiningerstraße 8, 22115 Hamburg",
-      "context": "Aus alt mach neu: Heute basteln wir aus Eierkartons, Klopapierrollen, Marmeladengläsern, Schraubverschlüssen, alten CDs und vielem mehr kreative Unikate!",
-      "cached_at": "2026-08-09T03:19:28.888Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wandsbek-termin/die-buttonmaschine-ist-da/datum/20260811.html",
-      "name": "Die Buttonmaschine ist da!",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "14:00-16:00",
-      "age": "Ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Bücherhalle Wandsbek",
-      "context": "Male selbst oder gestalte aus alten Mangas und Bilderbüchern einen coolen neuen Button für dich oder zum Verschenken.",
-      "cached_at": "2026-08-09T03:19:38.996Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/fuhlsbuettel-termin/ferienkrativ-der-wolf-der-seine-farbe-nicht-mochte/datum/20260811.html",
-      "name": "FerienKreativ: Der Wolf, der seine Farbe nicht mochte",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "15:00-16:30",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Bücherhalle Fuhlsbüttel",
-      "context": "FerienKreativ (holiday creative) event.",
-      "cached_at": "2026-08-09T03:19:48.484Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/elbvororte-termin/elb-spielt-tauscht-24199/datum/20260811.html",
-      "name": "ELB spielt & tauscht!",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "15:00-17:00",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Elbvororte, Sülldorfer Kirchenweg 1b, 22587 Hamburg",
-      "context": "Einfach vorbeikommen tauschen und losspielen!",
-      "cached_at": "2026-08-09T03:19:53.443Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/osdorf-termin/brettspielzimmer-osdorfer-born/datum/20260811.html",
-      "name": "Brettspielzimmer",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "15:00-18:00",
-      "age": "Ab 1 Jahr",
-      "min_age": 1,
-      "max_age": "",
-      "venue": "Bücherhalle Osdorfer Born",
-      "context": "Nachmittags öffnen wir für euch die Tür zu unserem Brettspielzimmer!",
-      "cached_at": "2026-08-09T03:19:58.626Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/horn-termin/gravitrax-bau-spass-fuer-kinder/datum/20260811.html",
-      "name": "GraviTrax-Bau-Spaß für Kinder",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "15:00-16:00",
-      "age": "6 bis 10 Jahre",
-      "min_age": 6,
-      "max_age": 10,
-      "venue": "Bücherhalle Horn",
-      "context": "Bahn frei für kleine Tüftler! Bei unserer Gravitrax Veranstaltung können Kinder spielerisch in die Welt der Schwerkraft und Bewegung eintauchen. Mit den beliebten Kugelbahnelementen von GraviTrax wird gebaut, getestet und getüftelt – ob steile Kurven, flinke Beschleuniger oder spannende Tunnel: Der Fantasie sind keine Grenzen gesetzt!",
-      "cached_at": "2026-08-09T03:20:23.382Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/niendorf-termin/kamishibai-klaus-die-buechermaus-24178/datum/20260811.html",
-      "name": "Kamishibai: \"Klaus, die Büchermaus\"",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "15:30",
-      "age": "3 bis 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "Bücherhalle Niendorf",
-      "context": "Kamishibai (storytelling) event.",
-      "cached_at": "2026-08-09T03:20:28.098Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/schnelsen-termin/bilderbuchkino-henri-und-henriette-fahren-in-die-ferien/datum/20260811.html",
-      "name": "Bilderbuchkino \"Henri und Henriette fahren in die Ferien\"",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "15:30",
-      "age": "Ab 3 Jahren",
-      "min_age": 3,
-      "max_age": "",
-      "venue": "Bücherhalle Schnelsen",
-      "context": "Bilderbuchkino (picture book cinema) event.",
-      "cached_at": "2026-08-09T03:20:32.767Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/kirchdorf-termin/vorlesen-fuer-kinder-kirchdorf/datum/20260811.html",
-      "name": "Vorlesen für Kinder",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "16:00-17:00",
-      "age": "4 bis 10 Jahre",
-      "min_age": 4,
-      "max_age": 10,
-      "venue": "Bücherhalle Kirchdorf",
-      "context": "In bunten Bilderbüchern spazieren gehen, spannende Geschichten hören, Spaß in der Gruppe haben, zuhören, fragen, erzählen…",
-      "cached_at": "2026-08-09T03:20:37.723Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/blog/open-call-wir-wollen-spielen-2027",
       "name": "WIR WOLLEN SPIELEN! 2027",
       "start_date": "2026/08/07",
@@ -2142,21 +2005,6 @@
       "venue": "Planetarium Hamburg",
       "context": "Kinderveranstaltungen",
       "cached_at": "2026-08-09T03:22:13.887Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": []
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=14",
-      "name": "Das Geheimnis der Papierrakete",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-09T03:22:25.538Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": []
     },
@@ -2286,24 +2134,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/sonstige-veranstaltungen/die-buttonmaschine-ist-da/hamburg-wandsbek",
-      "name": "Die Buttonmaschine ist da",
-      "start_date": "2026/08/11",
-      "end_date": "2026/08/11",
-      "time": "14:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg Wandsbek",
-      "context": "Sonstige Veranstaltungen / Buttonmaschine",
-      "cached_at": "2026-08-09T03:27:03.517Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor",
-        "free"
       ]
     }
   ]
