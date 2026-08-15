@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T05:00:21.027Z",
+  "generated_at": "2026-08-15T05:00:21.022Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 297,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1025,
-    "excluded_age_count": 16,
-    "included_count": 141
+    "excluded_window_count": 1041,
+    "excluded_age_count": 10,
+    "included_count": 131
   },
-  "event_count": 141,
+  "event_count": 131,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -32,23 +32,6 @@
       "cached_at": "2026-06-13T05:56:11.787Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://hagenbeck.de/de/tierpark/veranstaltungen/ferienprogramme.php",
-      "name": "Ferienaktion: Kleiner Tierpfleger 2026",
-      "start_date": "2026/07/13",
-      "end_date": "2026/08/14",
-      "time": "11:00-13:00",
-      "age": "ab 6 Jahre",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Tierpark Hagenbeck",
-      "context": "Die LI-Zooschule bei Hagenbeck bietet Kindern ab 6 Jahre in den Ferien die Möglichkeit, in einer 90-minütigen Führung spielerisch zu prüfen, ob man das Zeug zum Tierpfleger hat.",
-      "cached_at": "2026-08-05T03:16:55.434Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://www.hamburg.de/kultur/theater/kindertheater-1011116",
@@ -198,23 +181,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kidz-multisport-camps-hamburg-stadtpark-0/",
-      "name": "Kidz Multisport Camps @ Hamburg Stadtpark",
-      "start_date": "2026/07/13",
-      "end_date": "2026/08/14",
-      "time": "07:45-17:00",
-      "age": "kids aged 5 to 13",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Kidz Multisport Camps @ Hamburg Stadtpark",
-      "context": "Summer vacation camp in Hamburg - sport, fun & action for children!",
-      "cached_at": "2026-06-30T03:15:02.821Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
       ]
     },
     {
@@ -730,21 +696,6 @@
       "tags": []
     },
     {
-      "url": "https://shop.hagenbeck.de/de",
-      "name": "Ferienaktion: Kleiner Tierpfleger 2026",
-      "start_date": "2026/07/13",
-      "end_date": "2026/08/14",
-      "time": "jeweils um 11 und 13 Uhr",
-      "age": "ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "LI-Zooschule bei Hagenbeck",
-      "context": "Ferienaktion für Kinder ab 6 Jahren",
-      "cached_at": "2026-07-20T03:17:12.406Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": []
-    },
-    {
       "url": "https://rausgegangen.de/en/events/familienzeit-9706/",
       "name": "Familienzeit",
       "start_date": "2026/08/22",
@@ -864,21 +815,6 @@
       ]
     },
     {
-      "url": "https://shop.hagenbeck.de/de",
-      "name": "Ferienaktion: Kleiner Tierpfleger 2026",
-      "start_date": "2026/07/27",
-      "end_date": "2026/08/14",
-      "time": "jeweils um 11 und 13 Uhr",
-      "age": "ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Tierpark Hagenbeck",
-      "context": "Die LI-Zooschule bei Hagenbeck bietet euch ab 6 Jahren",
-      "cached_at": "2026-08-13T03:16:19.831Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": []
-    },
-    {
       "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-2/",
       "name": "match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken",
       "start_date": "2026/08/20",
@@ -926,24 +862,6 @@
       "cached_at": "2026-07-24T03:24:51.600Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": []
-    },
-    {
-      "url": "https://www.kindaling.de/tiere-natur/offene-lernwerkstatt-in-der-botschaft-der-wildtiere/hamburg-hafencity-speicherstadt-innenstadt",
-      "name": "Offene Lernwerkstatt in der Botschaft der Wildtiere",
-      "start_date": "2026/07/23",
-      "end_date": "2026/08/14",
-      "time": "14:00-16:00",
-      "age": "Alle Altersgruppen sind willkommen. Bis 14 Jahre kostenlos, ab 14 Jahre...",
-      "min_age": 0,
-      "max_age": 14,
-      "venue": "Botschaft der Wildtiere, Lucy-Borchardt-Straße 2, 20457 Hamburg",
-      "context": "category: tiere-natur / Lernwerkstatt",
-      "cached_at": "2026-08-13T03:27:50.938Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free",
-        "paid"
-      ]
     },
     {
       "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
@@ -1060,6 +978,23 @@
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familien-botaniktour-waterkant-entenwerder-0/",
+      "name": "Familien-Botaniktour: Waterkant Entenwerder",
+      "start_date": "2026/08/29",
+      "end_date": "2026/08/29",
+      "time": "11:00-13:00",
+      "age": "young and old",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "Elbpark Entenwerder",
+      "context": "title mentions Familien-Botaniktour (family botany tour)",
+      "cached_at": "2026-08-13T03:18:55.207Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -1376,6 +1311,40 @@
       ]
     },
     {
+      "url": "https://rausgegangen.de/en/events/familienzeit-im-rahmen-des-hamburger-tag-fur-familien-1/",
+      "name": "Familienzeit. Im Rahmen des Hamburger Tag für Familien",
+      "start_date": "2026/08/29",
+      "end_date": "2026/08/29",
+      "time": "11:00-13:00",
+      "age": "children aged 5 to 13",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "On Hamburg's Family Day, the Hamburger Kunsthalle takes the whole family (children aged 5 to 13) on a creative journey through 700 years of art history. When everyone has seen enough, our studio rooms offer the opportunity to put what they have experienced into practice.",
+      "cached_at": "2026-08-01T03:18:17.693Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/hamburger-tag-der-familien-lesen-tanzen-spa-haben-0/",
+      "name": "Hamburger Tag der Familien - Lesen, Tanzen, Spaß haben",
+      "start_date": "2026/08/29",
+      "end_date": "2026/08/29",
+      "time": "11:00-13:00",
+      "age": "from 4 years",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Fröbel-Buchwerkstatt",
+      "context": "For Hamburg's Family Day, the Fröbel Book Workshop is opening its doors for a lively morning of books, stories and dance. Families with children of all ages are invited to read together, move around and try out new things.",
+      "cached_at": "2026-08-01T03:18:29.427Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
       "name": "Wasser überall – versteckt im Universum",
       "start_date": "2026/08/01",
@@ -1601,23 +1570,6 @@
       ]
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/ferientheaterkurs-55-10-jahre-5-tage-eimsbuettel-1/",
-      "name": "Ferientheaterkurs 5,5-10 Jahre/ 5 Tage/ Eimsbüttel Workshops",
-      "start_date": "2026/08/10",
-      "end_date": "2026/08/14",
-      "time": "10:00-14:00",
-      "age": "5.5 to 10 years",
-      "min_age": 5,
-      "max_age": 10,
-      "venue": "Mietergenossenschaft Falkenried",
-      "context": "Based on witty and humorous scenarios (stories and modern fairy tales, sometimes including songs and music), and incorporating the children's spontaneouseas, we rehearse a play with great enthusiasm. We also practice speaking loudly and clearly, as well as stage presence. At the end, the children perform the play for their parents and relatives.",
-      "cached_at": "2026-08-09T03:14:58.877Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
       "name": "Happy Holidays: Summer special at MK&G Exhibition",
       "start_date": "2026/05/08",
@@ -1664,6 +1616,23 @@
       "venue": "Turtur",
       "context": "Kinderfest (children's festival)",
       "cached_at": "2026-08-05T03:18:33.643Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-im-rahmen-des-hamburger-tag-fur-familien-0/",
+      "name": "Familienzeit. Im Rahmen des Hamburger Tag für Familien",
+      "start_date": "2026/08/29",
+      "end_date": "2026/08/29",
+      "time": "13:15-15:15",
+      "age": "children aged 5 to 13",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "On Hamburg's Family Day, the Hamburger Kunsthalle takes the whole family (children aged 5 to 13) on a creative journey through 700 years of art history.",
+      "cached_at": "2026-08-05T03:19:06.604Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1737,6 +1706,21 @@
       "tags": [
         "indoor"
       ]
+    },
+    {
+      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bsfb/familie/familientag",
+      "name": "Hamburger Tag der Familien",
+      "start_date": "2026/08/29",
+      "end_date": "2026/08/29",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hamburg",
+      "context": "Beim Familientag können Hamburgs Familien Angebote in ihrer Nachbarschaft kennenlernen und neue Kontakte knüpfen.",
+      "cached_at": "2026-08-05T03:24:43.584Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": []
     },
     {
       "url": "https://www.hamburg.de/freizeit/aktivitaeten/elbsommer-310070",
@@ -1908,21 +1892,6 @@
       "tags": []
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=110",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Entdeckungsreise für Kinder ab 8 Jahre",
-      "cached_at": "2026-08-09T03:24:17.757Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": []
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=361",
       "name": "Sterntaler – Vom Universum belohnt",
       "start_date": "2026/08/16",
@@ -1952,24 +1921,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kino/ferienkino-ferien-auf-saltkrokan/hamburg-neustadt",
-      "name": "Ferienkino - Ferien auf Saltkrokan",
-      "start_date": "2026/08/09",
-      "end_date": "2026/08/14",
-      "time": "15:00",
-      "age": "Empfohlen ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Metropolis Kino Kleine Theaterstraße 10 20354 Hamburg Neustadt",
-      "context": "Kino / Ferienkino",
-      "cached_at": "2026-08-09T03:26:07.818Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -2074,110 +2025,6 @@
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-08-14T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie",
-      "cached_at": "2026-08-13T03:22:06.733Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/in-den-sommerferien-einmal-tierpfleger-sein/?occ_dtstart=2026-08-14T10:00",
-      "name": "In den Sommerferien: Einmal Tierpfleger sein",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "10:00-17:00",
-      "age": "5 bis 9 Jahre, ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Arche Warder",
-      "context": "5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie",
-      "cached_at": "2026-08-13T03:22:17.535Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-08-14T11:00",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "11:00-11:45",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Vorträge & Lesungen",
-      "cached_at": "2026-08-13T03:22:22.810Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/eddie-will-ins-all-%E2%80%93-ein-hamster-hebt-ab/?occ_dtstart=2026-08-14T12:15",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "12:15",
-      "age": "5 bis 9 Jahre, ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
-      "cached_at": "2026-08-13T03:22:28.478Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/sommerferienaktion-im-erlebniswald_1/?occ_dtstart=2026-08-14T14:00",
-      "name": "Sommerferienaktion im ErlebnisWald",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "14:00",
-      "age": "5 bis 9 Jahre , ab 10 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Erlebniswald Trappenkamp",
-      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
-      "cached_at": "2026-08-13T03:22:33.397Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/wasser-%C3%BCberall-%E2%80%93-versteckt-im-universum/?occ_dtstart=2026-08-14T16:15",
-      "name": "Wasser überall – versteckt im Universum",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "16:15",
-      "age": "Empfohlen ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Bangerang 5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
-      "cached_at": "2026-08-13T03:22:39.475Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
       ]
     },
     {
@@ -2296,21 +2143,6 @@
       "tags": [
         "indoor"
       ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=490",
-      "name": "Wasser überall – versteckt im Universum",
-      "start_date": "2026/08/14",
-      "end_date": "2026/08/14",
-      "time": "16:15",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-13T03:25:14.377Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": []
     },
     {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=14",
