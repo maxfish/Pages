@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T05:00:21.022Z",
+  "generated_at": "2026-08-16T05:00:20.394Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 297,
     "excluded_invalid_count": 10,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1041,
-    "excluded_age_count": 10,
-    "included_count": 131
+    "excluded_window_count": 1051,
+    "excluded_age_count": 7,
+    "included_count": 124
   },
-  "event_count": 131,
+  "event_count": 124,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -562,57 +562,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/naturtheaterparcours-0/",
-      "name": "Naturtheaterparcours",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "10:00-11:30",
-      "age": "children aged four to seven",
-      "min_age": 4,
-      "max_age": 7,
-      "venue": "Botschaft der Wildtiere",
-      "context": "The actresses Jung & Jung transform the message of wild animals into a theatrical backdrop. The audience is you: children aged four to seven and your families.",
-      "cached_at": "2026-08-01T03:17:38.804Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/familienzeit-9707/",
-      "name": "Familienzeit",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "11:00-13:00",
-      "age": "Kinder von 5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte. Wenn alle genug gesehen haben, bieten unsere Atelierräume die Möglichkeit, das Erlebte in die Praxis umzusetzen.",
-      "cached_at": "2026-08-01T03:17:51.964Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/familienzeit-9705/",
-      "name": "Familienzeit",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "13:15-15:15",
-      "age": "Kinder von 5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Title explicitly says 'Familienzeit' (family time)",
-      "cached_at": "2026-08-09T03:17:09.866Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/dadcademy-geburtsvorbereitung-fur-vater-0/",
       "name": "Dadcademy - Geburtsvorbereitung für Väter",
       "start_date": "2026/08/19",
@@ -1070,23 +1019,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
-      "name": "Wasser überall – versteckt im Universum",
-      "start_date": "2026/07/28",
-      "end_date": "2026/08/15",
-      "time": "...",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-07-28T03:23:52.902Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.gut-wulksfelde.de/wulksfelde-erleben/august/",
       "name": "Wulksfelder Kartoffelbuddeln",
       "start_date": "2026/08/22",
@@ -1135,6 +1067,23 @@
       "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "url": "https://www.tivoli.de/programm-tickets/die-razzzelbande",
+      "name": "„What’s up Hoverup?“ – Das Beatbox-Konzert für Kinder",
+      "start_date": "2026/08/30",
+      "end_date": "2026/08/30",
+      "time": "15:00",
+      "age": "Kinder bis 14 Jahre",
+      "min_age": 0,
+      "max_age": 14,
+      "venue": "Schmidtchen",
+      "context": "„What’s up Hoverup?“ – Das Beatbox-Konzert für Kinder. In ihren Songs erzählen die vier Freunde Sharkie, Ahja, Mitch und Connie von ihren Abenteuern. Freshe Beats, ein Potpourri aus verschiedensten Geräuschen und musikalische Ohrwürmer begeistern die kleinen und großen Zuschauer*innen.",
+      "cached_at": "2026-08-13T03:26:46.820Z",
+      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
+      "tags": [
+        "paid"
       ]
     },
     {
@@ -1639,6 +1588,40 @@
       ]
     },
     {
+      "url": "https://rausgegangen.de/en/events/kinderspa-im-lohsepark-5/",
+      "name": "Kinderspaß im Lohsepark",
+      "start_date": "2026/08/30",
+      "end_date": "2026/08/30",
+      "time": "13:00-17:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Lohsepark, Hamburg",
+      "context": "Building, crafting and discovering at the children's fun in Lohsepark!",
+      "cached_at": "2026-08-05T03:19:16.587Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/die-razzzelbande-9/",
+      "name": "Die Razzzelbande",
+      "start_date": "2026/08/30",
+      "end_date": "2026/08/30",
+      "time": "15:00-16:00",
+      "age": "",
+      "min_age": 0,
+      "max_age": 14,
+      "venue": "Schmidtchen",
+      "context": "The beatbox concert for children",
+      "cached_at": "2026-08-05T03:19:28.139Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/wasser-ueberall-versteckt-im-universum",
       "name": "Wasser überall – versteckt im Universum",
       "start_date": "2026/08/06",
@@ -1860,6 +1843,23 @@
       ]
     },
     {
+      "url": "https://rausgegangen.de/en/events/szenische-lesung-ein-drache-macht-theater-0/",
+      "name": "Szenische Lesung: Ein Drache macht Theater",
+      "start_date": "2026/08/30",
+      "end_date": "2026/08/30",
+      "time": "15:00",
+      "age": "6 and up",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Kellertheater Hamburg",
+      "context": "Title mentions 'Ein Drache' (a dragon) and theater, likely for kids",
+      "cached_at": "2026-08-09T03:18:05.914Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.buecherhallen.de/lokstedt-termin/onilo-kino-fuer-zuhause/datum/20260809.html",
       "name": "Onilo Kino für Zuhause",
       "start_date": "2026/08/05",
@@ -2025,123 +2025,6 @@
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/medien-kids-am-samstag_2/?occ_dtstart=2026-08-15T11:00",
-      "name": "Medien-Kid",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "11:00-11:45",
-      "age": "5 bis 9 Jahre",
-      "min_age": 5,
-      "max_age": 9,
-      "venue": "Zentralbibliothek",
-      "context": "5 bis 9 Jahre , Kreatives",
-      "cached_at": "2026-08-13T03:22:49.314Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/medien-kids_2/?occ_dtstart=2026-08-15T11:00",
-      "name": "Medien-Kids",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "11:00-11:45",
-      "age": "ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Zentralbibliothek",
-      "context": "5 bis 9 Jahre, ab 10 Jahren, drinnen",
-      "cached_at": "2026-08-13T03:22:54.484Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/familienzeit/?occ_dtstart=2026-08-15T11:00",
-      "name": "Familienzeit",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "11:00-13:15",
-      "age": "5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "5 bis 13 Jahren, Kinder & Familie",
-      "cached_at": "2026-08-13T03:23:23.465Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/nachstes-abenteuer-heisst-rugby/?occ_dtstart=2026-08-15T11:30",
-      "name": "Dein nächstes Abenteuer heißt RUGBY",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "11:30-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Hamburger Rugby-Club",
-      "context": "Sport & Bewegung",
-      "cached_at": "2026-08-13T03:23:28.167Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/speicherstadt-die-entdeckertour-f%C3%BCr-kinder/?occ_dtstart=2026-08-15T13:00",
-      "name": "Speicherstadt-Entdeckertour",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "13:00-14:30",
-      "age": "von 6 bis 12 Jahren",
-      "min_age": 6,
-      "max_age": 12,
-      "venue": "Speicherstadtmuseum",
-      "context": "Museumsführung für Kinder von 6 bis 12 Jahren (in Begleitung Erwachsener)",
-      "cached_at": "2026-08-13T03:23:34.556Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/familienzeit_Kunsthalle/?occ_dtstart=2026-08-15T13:15",
-      "name": "Familienzeit",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "11:00-13:15",
-      "age": "5 bis 13 Jahren",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "Kinder & Familie",
-      "cached_at": "2026-08-13T03:23:39.026Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/die-entf%C3%BChrung-aus-dem-serail/?occ_dtstart=2026-08-15T14:00",
-      "name": "Die Entführung aus dem Serail",
-      "start_date": "2026/08/15",
-      "end_date": "2026/08/15",
-      "time": "14:00",
-      "age": "5 bis 9 Jahre",
-      "min_age": 5,
-      "max_age": 9,
-      "venue": "Theater für Kinder - ALLEE THEATER",
-      "context": "5 bis 9 Jahre, drinnen, Theater & Tanz",
-      "cached_at": "2026-08-13T03:23:44.327Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
       ]
     },
     {
