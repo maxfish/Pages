@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T05:00:21.464Z",
+  "generated_at": "2026-08-18T05:00:21.614Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -9,14 +9,14 @@
   },
   "stats": {
     "input_count": 1540,
-    "excluded_error_count": 302,
-    "excluded_invalid_count": 10,
+    "excluded_error_count": 300,
+    "excluded_invalid_count": 11,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1061,
-    "excluded_age_count": 12,
-    "included_count": 155
+    "excluded_window_count": 1068,
+    "excluded_age_count": 11,
+    "included_count": 150
   },
-  "event_count": 155,
+  "event_count": 150,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -130,23 +130,6 @@
       "context": "Program item listed under Programm",
       "cached_at": "2026-07-02T03:04:09.317Z",
       "index_url": "https://www.kinderkinder.de/programm/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kostenloses-kinderferienprogramm-sommertagstraume-0/",
-      "name": "Kostenloses Kinderferienprogramm: Sommertagsträume",
-      "start_date": "2026/07/09",
-      "end_date": "2026/08/17",
-      "time": "16:00-19:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Am Lohmühlenpark",
-      "context": "title mentions Kinderferienprogramm (children's holiday program)",
-      "cached_at": "2026-06-26T03:17:07.771Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
       ]
@@ -1650,10 +1633,12 @@
       "min_age": "",
       "max_age": "",
       "venue": "Hamburg",
-      "context": "Beim Familientag können Hamburgs Familien Angebote in ihrer Nachbarschaft kennenlernen und neue Kontakte knüpfen.",
-      "cached_at": "2026-08-05T03:24:43.584Z",
+      "context": "Hamburger Tag der Familien; Angebote für Familien",
+      "cached_at": "2026-08-18T03:03:26.522Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
-      "tags": []
+      "tags": [
+        "free"
+      ]
     },
     {
       "url": "https://www.hamburg.de/freizeit/aktivitaeten/elbsommer-310070",
@@ -1666,7 +1651,7 @@
       "max_age": "",
       "venue": "HafenCity und Rothenburgsort",
       "context": "Veranstaltungsprogramm für jedes Interesse und Alter",
-      "cached_at": "2026-08-05T03:24:53.863Z",
+      "cached_at": "2026-08-18T03:03:36.604Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": [
         "free"
@@ -1756,24 +1741,6 @@
       "tags": [
         "free",
         "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderferienprogramm-sommertagstraume-2/",
-      "name": "Kinderferienprogramm: Sommertagsträume",
-      "start_date": "2026/08/17",
-      "end_date": "2026/08/17",
-      "time": "16:00-19:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Am Lohmühlenpark",
-      "context": "Kinderferienprogramm (Children's holiday program)",
-      "cached_at": "2026-08-17T03:15:29.455Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "outdoor",
-        "free"
       ]
     },
     {
@@ -2066,24 +2033,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/ferienpass-sommer-rallye-auf-dem-energieberg-georgswerder-35/",
-      "name": "Ferienpass-Sommer-Rallye auf dem Energieberg Georgswerder",
-      "start_date": "2026/08/17",
-      "end_date": "2026/08/17",
-      "time": "09:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Energieberg Georgswerder",
-      "context": "Ferienpass (holiday pass) summer rally",
-      "cached_at": "2026-08-17T03:15:20.057Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/krabbelgruppe-im-frobel-kindergarten-winterstrae-2/",
       "name": "Krabbelgruppe im Fröbel Kindergarten Winterstraße",
       "start_date": "2026/08/19",
@@ -2163,40 +2112,6 @@
       "venue": "Bücherhalle Lokstedt",
       "context": "Onilo ist ein Portal mit einem interessanten Lernangebot. Lesenlernen mit lustigen, und spannenden Boardstories.",
       "cached_at": "2026-08-17T03:22:06.011Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/ferienworkshop-programmieren-mit-lego-r-education-spike-23283/datum/20260817.html",
-      "name": "Ferienworkshop: Programmieren mit LEGO® Education Spike",
-      "start_date": "2026/08/17",
-      "end_date": "2026/08/17",
-      "time": "10:00-11:30",
-      "age": "6 bis 10 Jahre",
-      "min_age": 6,
-      "max_age": 10,
-      "venue": "Zentralbibliothek, Kinderbibliothek, Ebene 1",
-      "context": "Ferienworkshop (holiday workshop) for children.",
-      "cached_at": "2026-08-17T03:22:10.814Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/zeit-fuer-mint-20864/datum/20260817.html",
-      "name": "Zeit für MINT",
-      "start_date": "2026/08/17",
-      "end_date": "2026/08/17",
-      "time": "15:30-16:30",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Zentralbibliothek, Kinderbibliothek Lernwerkstatt, Ebene 1, Hühnerposten 1 (Eingang: Arno-Schmidt-Platz), 20097 Hamburg",
-      "context": "Komm in die Kibi und forsche mit uns. In unserer Lernwerkstatt kannst du kleine Experimente rund um Technik und Naturwissenschaften durchführen.",
-      "cached_at": "2026-08-17T03:22:16.059Z",
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
