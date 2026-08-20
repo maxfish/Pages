@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:00:20.701Z",
+  "generated_at": "2026-08-20T05:00:21.478Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1540,
+    "input_count": 1560,
     "excluded_error_count": 300,
     "excluded_invalid_count": 11,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1086,
-    "excluded_age_count": 8,
-    "included_count": 135
+    "excluded_window_count": 1098,
+    "excluded_age_count": 7,
+    "included_count": 144
   },
-  "event_count": 135,
+  "event_count": 144,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -184,23 +184,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "indoor",
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/lesungen/erzaehl-mir-une-histoire/hamburg-wandsbek",
-      "name": "Erzähl mir une histoire",
-      "start_date": "2026/07/01",
-      "end_date": "2026/08/19",
-      "time": "16:30-16:30",
-      "age": "3 bis 7 ans",
-      "min_age": 3,
-      "max_age": 7,
-      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg Wandsbek",
-      "context": "category: Lesungen",
-      "cached_at": "2026-06-30T03:23:10.811Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
         "free"
       ]
     },
@@ -512,23 +495,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/dadcademy-geburtsvorbereitung-fur-vater-0/",
-      "name": "Dadcademy - Geburtsvorbereitung für Väter",
-      "start_date": "2026/08/19",
-      "end_date": "2026/08/19",
-      "time": "19:00-21:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Extraraum Temple",
-      "context": "Prenatal Class? Finally, one for men. For family founders.",
-      "cached_at": "2026-07-16T03:19:44.249Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
       "name": "Minimöbel: Stühle für Kinder",
       "start_date": "2026/06/14",
@@ -675,40 +641,6 @@
       "context": "FAMILIENTAG (Family day)",
       "cached_at": "2026-08-17T03:18:05.002Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/tiere-natur/ferienpass-sommer-rallye-auf-dem-energieberg-georgswerder/hamburg-wilhelmsburg",
-      "name": "Ferienpass Sommer-Rallye auf dem Energieberg Georgswerder",
-      "start_date": "2026/07/09",
-      "end_date": "2026/08/19",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Energieberg Georgswerder, Fiskalische Str. 2, 21109 Hamburg Wilhelmsburg",
-      "context": "category: tiere-natur/ferienpass",
-      "cached_at": "2026-08-17T03:29:21.858Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/tiere-natur/ferienpass-sommer-rallye-auf-dem-energieberg-georgswerder/hamburg-wilhelmsburg",
-      "name": "Ferienpass Sommer-Rallye auf dem Energieberg Georgswerder",
-      "start_date": "2026/07/09",
-      "end_date": "2026/08/19",
-      "time": "09:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Energieberg Georgswerder, Fiskalische Str. 2, 21109 Hamburg Wilhelmsburg",
-      "context": "category: Tiere & Natur / Ferienpass",
-      "cached_at": "2026-08-01T03:24:49.473Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
       ]
@@ -1084,24 +1016,6 @@
       "tags": [
         "indoor",
         "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/sonstige-veranstaltungen/ferienspass-fuer-zeitdetektive/hamburg-harburg",
-      "name": "Ferienspass für Zeitdetektive",
-      "start_date": "2026/07/29",
-      "end_date": "2026/08/19",
-      "time": "11:00-13:00",
-      "age": "5 - 15 J",
-      "min_age": 5,
-      "max_age": 15,
-      "venue": "Archäologisches Museum Hamburg, AMH Harburger Rathausplatz Harburger Rathausplatz 5 21073 Hamburg Harburg",
-      "context": "In den Sommerferien lädt das Archäologische Museum Hamburg zu einer spannenden Entdeckungsreise ein, bei der die Vergangenheit lebendig wird. Jeden Mittwoch begeben sich die Ferienkinder auf eine abenteuerliche Reise durch die Geschichte unserer Vorfahren.",
-      "cached_at": "2026-07-28T03:26:37.424Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor",
-        "paid"
       ]
     },
     {
@@ -1657,23 +1571,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/sonstige-veranstaltungen/ferienspass-fuer-zeitdetektive/hamburg-harburg",
-      "name": "Ferienspaß für Zeitdetektive",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/19",
-      "time": "11:00-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Archäologisches Museum Hamburg, Harburger Rathausplatz 5, 21073 Hamburg Harburg",
-      "context": "category: Sonstige Veranstaltungen / Ferienspaß",
-      "cached_at": "2026-08-05T03:25:51.581Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/triff-den-tierpfleger-rosengarten/rosengarten",
       "name": "Triff den Tierpfleger",
       "start_date": "2026/08/05",
@@ -1807,23 +1704,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/ferientheaterkurs-55-10-jahre-3-tage-eimsbuettel/",
-      "name": "Ferientheaterkurs 5,5-10 Jahre/ 3 Tage/ Eimsbüttel Workshops",
-      "start_date": "2026/08/17",
-      "end_date": "2026/08/19",
-      "time": "10:00-14:00",
-      "age": "5.5 to 10 years",
-      "min_age": 5,
-      "max_age": 10,
-      "venue": "Mietergenossenschaft Falkenried",
-      "context": "A truly special holiday experience! Based on witty and humorous scenarios (stories and modern fairy tales, sometimes including songs and music), and incorporating the children's spontaneouseas, we rehearse a play with great enthusiasm. We also practice speaking loudly and clearly, as well as stage presence. At the end, the children perform the play for their parents and relatives.",
-      "cached_at": "2026-08-13T03:15:31.349Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "paid"
       ]
     },
     {
@@ -2015,23 +1895,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/krabbelgruppe-im-frobel-kindergarten-winterstrae-2/",
-      "name": "Krabbelgruppe im Fröbel Kindergarten Winterstraße",
-      "start_date": "2026/08/19",
-      "end_date": "2026/08/19",
-      "time": "09:00-11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Fröbel Kindergarten Winterstraße, Winterstraße 2, 22765 Hamburg-Altona",
-      "context": "Krabbelgruppe (Toddler group) in kindergarten",
-      "cached_at": "2026-08-17T03:15:44.978Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-24/",
       "name": "Kinder/Jugend Spielenachmittag",
       "start_date": "2026/08/23",
@@ -2097,23 +1960,6 @@
       "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/gestalte-deine-eigene-tasche-24008/datum/20260818.html",
-      "name": "Gestalte deine eigene Tasche!",
-      "start_date": "2026/08/18",
-      "end_date": "2026/08/19",
-      "time": "10:00-18:00",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Mümmelmannsberg, Feiningerstraße 8, 22115 Hamburg",
-      "context": "Am Ferienende kannst du dir bei uns einen Jutebeutel mit Stofffarben und Stempeln gestalten. Diesen kannst du anschließend mit nach Hause nehmen und z.B. als Turnbeutel für die Schule benutzen.",
-      "cached_at": "2026-08-17T03:22:26.682Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor"
       ]
     },
     {
@@ -2259,23 +2105,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/sonstige-veranstaltungen/ferienspass-fuer-zeitdetektive/hamburg-harburg",
-      "name": "Ferienspaß für Zeitdetektive",
-      "start_date": "2026/08/19",
-      "end_date": "2026/08/19",
-      "time": "11:00-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Archäologisches Museum Hamburg, AMH Harburger Rathausplatz, Harburger Rathausplatz 5, 21073 Hamburg Harburg",
-      "context": "In den Sommerferien lädt das Archäologische Museum Hamburg zu einer spannenden Entdeckungsreise ein, bei der die Vergangenheit lebendig wird. Jeden Mittwoch begeben sich die Ferienkinder auf eine abenteuerliche Reise durch die Geschichte unserer Vorfahren.",
-      "cached_at": "2026-08-17T03:29:44.347Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/kindertheater-shows/wasser-ueberall-versteckt-im-universum/hamburg-winterhude",
       "name": "Wasser überall versteckt im Universum",
       "start_date": "2026/08/19",
@@ -2324,6 +2153,320 @@
       "index_url": "https://heuteinhamburg.de/kategorie/familie",
       "tags": [
         "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/meine-heimat-unser-blauer-planet/?occ_dtstart=2026-08-20T09:30",
+      "name": "Meine Heimat - Unser blauer Planet",
+      "start_date": "2026/08/20",
+      "end_date": "2026/08/20",
+      "time": "09:30",
+      "age": "ab vier Jahren",
+      "min_age": 4,
+      "max_age": 9,
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , drinnen , Vorträge & Lesungen",
+      "cached_at": "2026-08-20T03:04:03.329Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-08-20T10:00",
+      "name": "Mit Ella durch das Museum",
+      "start_date": "2026/08/20",
+      "end_date": "2026/08/20",
+      "time": "10:00",
+      "age": "bis 7 Jahre",
+      "min_age": 0,
+      "max_age": 7,
+      "venue": "Tuch + Technik Textilmuseum Neumünster",
+      "context": "5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie",
+      "cached_at": "2026-08-20T03:04:07.839Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-08-20T16:15",
+      "name": "Kleiner Stern im großen All",
+      "start_date": "2026/08/20",
+      "end_date": "2026/08/20",
+      "time": "16:15-17:00",
+      "age": "Empfohlen ab 6 Jahren.",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , drinnen , Film & Kino",
+      "cached_at": "2026-08-20T03:04:12.890Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-08-21T10:00",
+      "name": "Mit Ella durch das Museum",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "10:00",
+      "age": "bis 7 Jahre",
+      "min_age": 0,
+      "max_age": 7,
+      "venue": "Tuch + Technik Textilmuseum Neumünster",
+      "context": "5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie",
+      "cached_at": "2026-08-20T03:04:17.383Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/wasser-%C3%BCberall-%E2%80%93-versteckt-im-universum/?occ_dtstart=2026-08-21T10:00",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "10:00",
+      "age": "Empfohlen ab 6 Jahren.",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-08-20T03:04:23.186Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/das-geheimnis-der-papierrakete/?occ_dtstart=2026-08-21T15:00",
+      "name": "Das Geheimnis der Papierrakete",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "15:00-15:45",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "ab 6J.",
+      "cached_at": "2026-08-20T03:04:28.097Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/eddie-will-ins-all-%E2%80%93-ein-hamster-hebt-ab/?occ_dtstart=2026-08-21T16:15",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:15",
+      "age": "5 bis 9 Jahre, ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-08-20T03:04:33.663Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/schiffsmodellbautage/?occ_dtstart=2026-08-22T10:00",
+      "name": "Schiffsmodellbautage",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/23",
+      "time": "10:00-18:00",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Deutsches Hafenmuseum (im Aufbau)",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-08-20T03:04:39.174Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": []
+    },
+    {
+      "url": "https://www.bangerang.de/events/familienzeit/?occ_dtstart=2026-08-22T11:00",
+      "name": "Familienzeit",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "11:00-13:15",
+      "age": "5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "5 bis 13 Jahren",
+      "cached_at": "2026-08-20T03:04:43.487Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": []
+    },
+    {
+      "url": "https://www.bangerang.de/events/nachstes-abenteuer-heisst-rugby/?occ_dtstart=2026-08-22T11:30",
+      "name": "Dein nächstes Abenteuer heißt RUGBY",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "11:30-13:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hamburger Rugby-Club",
+      "context": "Sport & Bewegung",
+      "cached_at": "2026-08-20T03:04:48.226Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": []
+    },
+    {
+      "url": "https://www.bangerang.de/events/familienzeit_Kunsthalle/?occ_dtstart=2026-08-22T13:15",
+      "name": "Familienzeit",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "11:00-13:15",
+      "age": "5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Führungen, Kinder & Familie",
+      "cached_at": "2026-08-20T03:05:39.543Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/die-entf%C3%BChrung-aus-dem-serail/?occ_dtstart=2026-08-22T14:00",
+      "name": "Die Entführung aus dem Serail",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "14:00",
+      "age": "5 bis 9 Jahre",
+      "min_age": 5,
+      "max_age": 9,
+      "venue": "Theater für Kinder - ALLEE THEATER",
+      "context": "5 bis 9 Jahre, drinnen, Theater & Tanz",
+      "cached_at": "2026-08-20T03:05:44.701Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/barmbek-schwingt/?occ_dtstart=2026-08-22T14:00",
+      "name": "Barmbek schwingt",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "14:00-23:59",
+      "age": "Freigegeben von 0-100",
+      "min_age": 0,
+      "max_age": 100,
+      "venue": "Museum der Arbeit",
+      "context": "Märkte, Sommerfest",
+      "cached_at": "2026-08-20T03:05:55.518Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": []
+    },
+    {
+      "url": "https://www.bangerang.de/events/faszination-wolf/?occ_dtstart=2026-08-22T14:30",
+      "name": "Faszination Wolf",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "14:30-15:00",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Wildpark Lüneburger Heide",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , draußen , Führungen , Kinder & Familie",
+      "cached_at": "2026-08-20T03:06:00.780Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/wasser-%C3%BCberall-%E2%80%93-versteckt-im-universum/?occ_dtstart=2026-08-22T15:00",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "15:00",
+      "age": "Empfohlen ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-08-20T03:06:06.611Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/j%C3%A4ger-der-l%C3%BCfte_1/?occ_dtstart=2026-08-22T16:00",
+      "name": "Jäger der Lüfte",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "16:00-16:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Wildpark Lüneburger Heide",
+      "context": "draußen, Kinder & Familie",
+      "cached_at": "2026-08-20T03:06:11.665Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/polaris-und-das-r%C3%A4tsel-der-polarnacht/?occ_dtstart=2026-08-22T16:15",
+      "name": "Polaris und das Rätsel der Polarnacht",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "16:15-17:00",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "5 bis 9 Jahre, ab 10 Jahren, drinnen, Vorträge & Lesungen",
+      "cached_at": "2026-08-20T03:06:17.226Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "indoor"
+      ]
+    },
+    {
+      "url": "https://www.bangerang.de/events/schiffsmodellbautage/?occ_dtstart=2026-08-23T10:00",
+      "name": "Schiffsmodellbautage",
+      "start_date": "2026/08/23",
+      "end_date": "2026/08/23",
+      "time": "10:00-18:00",
+      "age": "5 bis 9 Jahre , ab 10 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Deutsches Hafenmuseum (im Aufbau)",
+      "context": "5 bis 9 Jahre , ab 10 Jahren , Kinder & Familie",
+      "cached_at": "2026-08-20T03:06:22.873Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": []
+    },
+    {
+      "url": "https://www.bangerang.de/events/speicherstadt-die-entdeckertour-f%C3%BCr-kinder/?occ_dtstart=2026-08-23T10:30",
+      "name": "Speicherstadt-Entdeckertour",
+      "start_date": "2026/08/23",
+      "end_date": "2026/08/23",
+      "time": "10:30-12:00",
+      "age": "von 6 bis 12 Jahren",
+      "min_age": 6,
+      "max_age": 12,
+      "venue": "Speicherstadtmuseum",
+      "context": "Museumsführung für Kinder von 6 bis 12 Jahren (in Begleitung Erwachsener)",
+      "cached_at": "2026-08-20T03:06:29.422Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
+      "tags": [
+        "outdoor",
+        "paid"
       ]
     }
   ]
