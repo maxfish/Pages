@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:00:21.478Z",
+  "generated_at": "2026-08-21T05:00:21.026Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1560,
-    "excluded_error_count": 300,
-    "excluded_invalid_count": 11,
+    "input_count": 1617,
+    "excluded_error_count": 313,
+    "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1098,
-    "excluded_age_count": 7,
-    "included_count": 144
+    "excluded_window_count": 1109,
+    "excluded_age_count": 10,
+    "included_count": 172
   },
-  "event_count": 144,
+  "event_count": 172,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -43,8 +43,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Planten un Blomen (Parksee) St. Petersburger Straße 20355 Hamburg Neustadt",
-      "context": "category: kinderkonzerte/wasserspiele-und-wasserlichtkonzerte",
-      "cached_at": "2026-08-17T03:29:04.294Z",
+      "context": "kinderkonzerte wasserspiele und wasserlichtkonzerte",
+      "cached_at": "2026-08-21T03:27:53.491Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
@@ -646,23 +646,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/match-a-mom-mit-mamas-connecten-und-preloved-kids-pieces-ent-2/",
-      "name": "match a mom – Mit Mamas connecten und Preloved Kids-Pieces entdecken",
-      "start_date": "2026/08/20",
-      "end_date": "2026/08/20",
-      "time": "14:30-16:30",
-      "age": "Babies and little kids are, of course, more than welcome 🤍",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "tiny Hamburg",
-      "context": "A curated moms’ meetup in Hamburg—for genuine connections, wonderful conversations, and handpicked preloved kids’ clothing. ✨",
-      "cached_at": "2026-08-17T03:15:58.181Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/lichterkinder-live-sommer-mitmachspa-2026-hamburg-0/",
       "name": "LICHTERKINDER :: Live - Sommer Mitmachspaß 2026 :: Hamburg",
       "start_date": "2026/08/23",
@@ -722,8 +705,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Heiligengeistfeld, Hamburg St. Pauli",
-      "context": "category: feste/hamburger-sommerdom",
-      "cached_at": "2026-08-17T03:30:32.980Z",
+      "context": "feste hamburger sommerdom",
+      "cached_at": "2026-08-21T03:26:55.289Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
@@ -731,7 +714,7 @@
     },
     {
       "url": "https://www.kindaling.de/kino/sommer-im-filmraum-open-air-kino/hamburg-stellingen",
-      "name": "Sommer im Filmraum - Open-Air Kino",
+      "name": "Sommer im Filmraum - Open Air Kino",
       "start_date": "2026/07/16",
       "end_date": "2026/09/05",
       "time": "18:00",
@@ -739,8 +722,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Stadtpark Eimsbüttel Hagenbeckstraße 39 22527 Hamburg Stellingen",
-      "context": "category: Kino",
-      "cached_at": "2026-07-24T03:28:19.077Z",
+      "context": "kino sommer im filmraum open air kino",
+      "cached_at": "2026-08-21T03:28:40.859Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor"
@@ -876,7 +859,7 @@
       "max_age": "",
       "venue": "Planetarium Hamburg",
       "context": "Kinderveranstaltung",
-      "cached_at": "2026-08-17T03:26:26.892Z",
+      "cached_at": "2026-08-21T03:24:54.326Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
@@ -1116,7 +1099,7 @@
       "max_age": 13,
       "venue": "Hamburger Kunsthalle",
       "context": "On Hamburg's Family Day, the Hamburger Kunsthalle takes the whole family (children aged 5 to 13) on a creative journey through 700 years of art history.",
-      "cached_at": "2026-08-17T03:19:02.697Z",
+      "cached_at": "2026-08-21T03:17:53.174Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1128,12 +1111,12 @@
       "start_date": "2026/08/29",
       "end_date": "2026/08/29",
       "time": "11:00-13:00",
-      "age": "4 and over",
+      "age": "from 4 years",
       "min_age": 4,
       "max_age": "",
       "venue": "Fröbel-Buchwerkstatt",
-      "context": "Hamburger Tag der Familien (Hamburg Family Day)",
-      "cached_at": "2026-08-17T03:19:13.250Z",
+      "context": "For Hamburg's Family Day, the Fröbel Book Workshop is opening its doors for a lively morning of books, stories and dance. Families with children of all ages are invited to read together, move around and try out new things.",
+      "cached_at": "2026-08-21T03:18:04.251Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1229,6 +1212,23 @@
       ]
     },
     {
+      "url": "https://www.hamburg.de/freizeit/kinder/bunte-kuh-335778",
+      "name": "Wilhelmsburg Lehmbaufestival für Groß und Klein",
+      "start_date": "2026/08/12",
+      "end_date": "2026/09/20",
+      "time": "09:30-17:00",
+      "age": "Alle Kinder",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "Bahnhofspassage Wilhelmsburg",
+      "context": "Bunte Kuh e.V. lädt Hamburgs Kinder dazu ein, Baumeister von Kuppeln, Höhlen und kreativen Ideen zu werden!",
+      "cached_at": "2026-08-21T03:25:17.171Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "url": "https://www.hamburg.de/kultur/ausstellung/auf-weltreise-mit-der-maus-1157720",
       "name": "Auswanderermuseum BallinStadt Auf Weltreise mit der Maus",
       "start_date": "2026/03/31",
@@ -1254,7 +1254,7 @@
       "max_age": "",
       "venue": "HafenCity und Rothenburgsort",
       "context": "Veranstaltungsprogramm für jedes Interesse und Alter",
-      "cached_at": "2026-08-01T03:24:11.924Z",
+      "cached_at": "2026-08-21T03:25:46.276Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": [
         "free"
@@ -1409,8 +1409,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Turtur, Am Veringhof 13, 21107 Hamburg",
-      "context": "KINDERFEST (Children's festival)",
-      "cached_at": "2026-08-17T03:17:37.119Z",
+      "context": "Children's festival",
+      "cached_at": "2026-08-21T03:17:00.418Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1427,7 +1427,7 @@
       "max_age": 13,
       "venue": "Hamburger Kunsthalle",
       "context": "On Hamburg's Family Day, the Hamburger Kunsthalle takes the whole family (children aged 5 to 13) on a creative journey through 700 years of art history.",
-      "cached_at": "2026-08-17T03:19:54.368Z",
+      "cached_at": "2026-08-21T03:18:16.491Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1443,8 +1443,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Lohsepark, Hamburg",
-      "context": "Kinderspaß (Children's fun)",
-      "cached_at": "2026-08-17T03:20:04.061Z",
+      "context": "Building, crafting and discovering at the children's fun in Lohsepark!",
+      "cached_at": "2026-08-21T03:18:26.813Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1456,12 +1456,12 @@
       "start_date": "2026/08/30",
       "end_date": "2026/08/30",
       "time": "15:00-16:00",
-      "age": "Children up to 14 years",
+      "age": "",
       "min_age": 0,
       "max_age": 14,
       "venue": "Schmidtchen",
       "context": "The beatbox concert for children",
-      "cached_at": "2026-08-17T03:20:15.623Z",
+      "cached_at": "2026-08-21T03:19:05.944Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
@@ -1774,21 +1774,6 @@
       "tags": []
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=17",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/08/20",
-      "end_date": "2026/08/20",
-      "time": "16:15",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
-      "cached_at": "2026-08-13T03:25:50.309Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": []
-    },
-    {
       "url": "https://www.kindaling.de/kreatives/bauen-mit-lehm-fuer-gross-und-klein-platz-vor-der-buecherhalle-kirchdorf/hamburg-wilhelmsburg",
       "name": "Bauen mit Lehm für Groß und Klein",
       "start_date": "2026/08/13",
@@ -1904,8 +1889,8 @@
       "min_age": "",
       "max_age": "",
       "venue": "Moxy Finkenwerder",
-      "context": "Kinder/Jugend (Children/Youth) play afternoon",
-      "cached_at": "2026-08-17T03:16:47.077Z",
+      "context": "Children/Youth play afternoon",
+      "cached_at": "2026-08-21T03:16:51.703Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "free"
@@ -1921,11 +1906,12 @@
       "min_age": 5,
       "max_age": 17,
       "venue": "Museum der Illusionen Hamburg",
-      "context": "Tag der Familie (Family day)",
-      "cached_at": "2026-08-17T03:18:38.463Z",
+      "context": "Family day at museum",
+      "cached_at": "2026-08-21T03:17:40.921Z",
       "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
-        "indoor"
+        "indoor",
+        "paid"
       ]
     },
     {
@@ -1991,7 +1977,7 @@
       "max_age": "",
       "venue": "Planetarium Hamburg",
       "context": "für die ganze Familie ab 6 Jahren",
-      "cached_at": "2026-08-17T03:25:55.834Z",
+      "cached_at": "2026-08-21T03:23:58.602Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
@@ -2035,24 +2021,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=18",
-      "name": "Meine Heimat – Unser blauer Planet",
-      "start_date": "2026/08/20",
-      "end_date": "2026/08/20",
-      "time": "09:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Zuschauer ab 4 Jahren",
-      "cached_at": "2026-08-17T03:26:21.460Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
       "name": "Wasser überall – versteckt im Universum",
       "start_date": "2026/08/19",
@@ -2079,9 +2047,9 @@
       "age": "Groß und Klein",
       "min_age": 0,
       "max_age": "",
-      "venue": "Platz vor der Bücherhalle Kirchdorf, Bahnhofspassage 21109 Hamburg Wilhelmsburg",
+      "venue": "Platz vor der Bücherhalle Kirchdorf Bahnhofspassage 21109 Hamburg Wilhelmsburg",
       "context": "Lehmbau-Festival von Bunte Kuh e.V.",
-      "cached_at": "2026-08-17T03:29:31.237Z",
+      "cached_at": "2026-08-21T03:26:45.712Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
@@ -2151,57 +2119,6 @@
       "context": "Kategorie Kunst & Kultur, Indoor, Ausstellung; museum activity",
       "cached_at": "2026-08-17T03:30:45.069Z",
       "index_url": "https://heuteinhamburg.de/kategorie/familie",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/meine-heimat-unser-blauer-planet/?occ_dtstart=2026-08-20T09:30",
-      "name": "Meine Heimat - Unser blauer Planet",
-      "start_date": "2026/08/20",
-      "end_date": "2026/08/20",
-      "time": "09:30",
-      "age": "ab vier Jahren",
-      "min_age": 4,
-      "max_age": 9,
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , drinnen , Vorträge & Lesungen",
-      "cached_at": "2026-08-20T03:04:03.329Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/mit-ella-durch-das-museum/?occ_dtstart=2026-08-20T10:00",
-      "name": "Mit Ella durch das Museum",
-      "start_date": "2026/08/20",
-      "end_date": "2026/08/20",
-      "time": "10:00",
-      "age": "bis 7 Jahre",
-      "min_age": 0,
-      "max_age": 7,
-      "venue": "Tuch + Technik Textilmuseum Neumünster",
-      "context": "5 bis 9 Jahre, ab 10 Jahren, Kinder & Familie",
-      "cached_at": "2026-08-20T03:04:07.839Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.bangerang.de/events/kleiner-stern-im-gro%C3%9Fen-all/?occ_dtstart=2026-08-20T16:15",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/08/20",
-      "end_date": "2026/08/20",
-      "time": "16:15-17:00",
-      "age": "Empfohlen ab 6 Jahren.",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "5 bis 9 Jahre , ab 10 Jahren , drinnen , Film & Kino",
-      "cached_at": "2026-08-20T03:04:12.890Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "indoor"
       ]
@@ -2467,6 +2384,577 @@
       "tags": [
         "outdoor",
         "paid"
+      ]
+    },
+    {
+      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
+      "name": "Happy Holidays: Summer special at MK&G Exhibition",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/30",
+      "time": "10:00",
+      "age": "under 18 years",
+      "min_age": 0,
+      "max_age": 17,
+      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
+      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles. And best of all: adults accompanying children pay a reduced admission fee of 10 euros. Children (under 18 years) always get in for free.",
+      "cached_at": "2026-08-21T03:15:19.991Z",
+      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "tags": [
+        "indoor",
+        "free",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
+      "name": "Happy Holidays: Summer special at MK&G Exhibition",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/30",
+      "time": "10:00-",
+      "age": "under 18 years",
+      "min_age": 0,
+      "max_age": 17,
+      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
+      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles. And best of all: adults accompanying children pay a reduced admission fee of 10 euros. Children (under 18 years) always get in for free.",
+      "cached_at": "2026-08-21T03:15:10.749Z",
+      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "tags": [
+        "free",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://hagenbeck.de/de/_events/zoomobil.php",
+      "name": "Zooschule hautnah erleben",
+      "start_date": "2026/08/22",
+      "end_date": "2026/10/17",
+      "time": "12:00-15:00",
+      "age": "Kinder (4-16 Jahre)",
+      "min_age": 4,
+      "max_age": 16,
+      "venue": "Hagenbeck Tierpark / LI-Zooschule",
+      "context": "Riechen, sehen, hören, fühlen – mit der LI-Zooschule bei Hagenbeck lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen.",
+      "cached_at": "2026-08-21T03:15:29.766Z",
+      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/krabbelgruppe-im-frobel-kindergarten-winterstrae-3/",
+      "name": "Krabbelgruppe im Fröbel Kindergarten Winterstraße",
+      "start_date": "2026/08/26",
+      "end_date": "2026/08/26",
+      "time": "09:00-11:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Fröbel Kindergarten Winterstraße, Winterstraße 2, 22765 Hamburg-Altona",
+      "context": "Would you like to give your child their first experience at daycare and meet other families? Then you’re warmly invited to our playgroup! In a relaxed atmosphere, children explore the daycare rooms together, play, sing, and take part in small weekly activities. Parents have the opportunity to get to know our educational team and connect with other families.",
+      "cached_at": "2026-08-21T03:17:15.985Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/shift-open-kids-studio-kinder-farbe-freiheit-21/",
+      "name": "shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT",
+      "start_date": "2026/08/26",
+      "end_date": "2026/08/26",
+      "time": "15:00-17:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "KULTUR&GUT WORKSHOPS",
+      "context": "Kids studio activity",
+      "cached_at": "2026-08-21T03:17:29.644Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/lokstedt-termin/onilo-kino-fuer-zuhause/datum/20260821.html",
+      "name": "Onilo Kino für Zuhause",
+      "start_date": "2026/08/05",
+      "end_date": "2026/11/23",
+      "time": "",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Lokstedt",
+      "context": "Onilo ist ein Portal mit einem interessanten Lernangebot. Lesenlernen mit lustigen, und spannenden Boardstories.",
+      "cached_at": "2026-08-21T03:20:23.047Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/dehnhaide-termin/duplo-r-freitagnachmittag/datum/20260821.html",
+      "name": "DUPLO®-Nachmittag",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "14:00-18:00",
+      "age": "Ab 2 Jahren",
+      "min_age": 2,
+      "max_age": "",
+      "venue": "Bücherhalle Dehnhaide, Wohldorfer Straße 30 (im Barmbek°Basch), 22081 Hamburg",
+      "context": "Jeden Freitagnachmittag von 14 bis 18 Uhr steht unsere DUPLO®-Kiste zum Bauen und Spielen für Euch bereit.",
+      "cached_at": "2026-08-21T03:20:53.666Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/jenfelder-au-termin/Malnachmittag/datum/20260821.html",
+      "name": "Kleiner Malnachmittag in der Bücherhalle",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "14:30-17:30",
+      "age": "Ab 1 Jahr",
+      "min_age": 1,
+      "max_age": "",
+      "venue": "Bücherhalle Jenfelder Au, Wilsonstraße 77, 22045 Hamburg",
+      "context": "Jeder ist willkommen, sich bei uns kreativ auszutoben! Stifte, Malpapier und Vorlagen zum Ausmalen stellen wir euch kostenfrei im Kinderbereich zur Verfügung.",
+      "cached_at": "2026-08-21T03:20:58.662Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/wilhelmsburg-termin/spielezeit-10633/datum/20260821.html",
+      "name": "SpieleZeit",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "15:00-17:00",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Wilhelmsburg",
+      "context": "Family-friendly game time",
+      "cached_at": "2026-08-21T03:21:08.285Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/osdorf-termin/brettspielzimmer-11218/datum/20260821.html",
+      "name": "Brettspielzimmer",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "15:00-18:00",
+      "age": "Ab 1 Jahr",
+      "min_age": 1,
+      "max_age": "",
+      "venue": "Bücherhalle Osdorfer Born",
+      "context": "Board game room for families/children",
+      "cached_at": "2026-08-21T03:21:13.176Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/neuallermoehe-termin/fleetkids-freitag-sommer-sonne-seifenblasen-23839/datum/20260821.html",
+      "name": "FleetKids-Freitag: Sommer, Sonne, Seifenblasen!",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "15:00-16:30",
+      "age": "unter sechs Jahren",
+      "min_age": 0,
+      "max_age": 6,
+      "venue": "Bücherhalle Neuallermöhe",
+      "context": "Children's event (FleetKids)",
+      "cached_at": "2026-08-21T03:21:17.987Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "outdoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/fuhlsbuettel-termin/just-reading-vorlesen-fuer-kleine-und-grosse/datum/20260821.html",
+      "name": "Just Reading - Vorlesen für Kleine und Große",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00-16:20",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Fuhlsbüttel, Ratsmühlendamm 23, 22335 Hamburg",
+      "context": "Just Reading - unser Vorlesen für Alle. Jeden Freitag gibt es ein anderes Bilderbuchkino für kleine und große Bücherfreunde.",
+      "cached_at": "2026-08-21T03:21:23.222Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/wandsbek-termin/bilderbuchkino-der-marmeladenwolf-23868/datum/20260821.html",
+      "name": "Bilderbuchkino: Der Marmeladenwolf",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Wandsbek",
+      "context": "Children's picture book cinema",
+      "cached_at": "2026-08-21T03:21:27.905Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/winterhude-termin/bilderbuchkino-der-waldbuchclub-in-der-schule-24299/datum/20260821.html",
+      "name": "Bilderbuchkino: Der Waldbuchclub in der Schule",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00",
+      "age": "Ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Bücherhalle Winterhude",
+      "context": "Children's picture book cinema",
+      "cached_at": "2026-08-21T03:21:32.551Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/volksdorf-termin/vorlesen-fuer-kinder-15563/datum/20260821.html",
+      "name": "Vorlesen für Kinder",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00-17:00",
+      "age": "4 bis 10 Jahre",
+      "min_age": 4,
+      "max_age": 10,
+      "venue": "Bücherhalle Volksdorf, Eulenkrugstraße 55 (Unser Viertel), 22359 Hamburg",
+      "context": "Jeden Freitag wird in Zusammenarbeit mit Lesewelt Hamburg e.V. in der Bücherhalle Volksdorf vorgelesen.",
+      "cached_at": "2026-08-21T03:21:37.745Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/lokstedt-termin/lesefoerderung-mit-hund-mogli/datum/20260821.html",
+      "name": "Leseförderung mit Hund Mogli",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00-17:00",
+      "age": "Ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Bücherhalle Lokstedt, Kollaustraße 1, 22529 Hamburg",
+      "context": "Wir bieten ein spezielles Einzel-Lesetraining mit unserem ausgebildeten Lesehund Mogli an. Was machen wir? Tiergestützte, spielerische Leseförderung und Hilfe bei Lesehemmungen.",
+      "cached_at": "2026-08-21T03:22:00.384Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/dehnhaide-termin/spielenachmittag-fuer-kleine-baumeister-innen-grosse-spiel-fans/datum/20260821.html",
+      "name": "Spielenachmittag für kleine Baumeister*innen & große Spiel-Fans!",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00-18:00",
+      "age": "Ab 3 Jahren",
+      "min_age": 3,
+      "max_age": "",
+      "venue": "Bücherhalle Dehnhaide, Saal 1 (EG), Wohldorfer Straße 30, 22081 Hamburg",
+      "context": "Kommt vorbei und entdeckt tolle Kinderspiele oder taucht ein in LEGO®-Abenteuer und DUPLO® Spaß! Für alle Kinder ab 3 Jahren und ihre Familien – hier wird gelacht, gebaut und gemeinsam gespielt.",
+      "cached_at": "2026-08-21T03:22:06.181Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/wandsbek-termin/vorlesetraining-mit-huendin-amy/datum/20260821.html",
+      "name": "Vorlesetraining mit Hündin Amy",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:30-17:30",
+      "age": "Ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Bücherhalle Wandsbek",
+      "context": "Vorlesetraining mit Hündin Amy (family/child context)",
+      "cached_at": "2026-08-21T03:22:11.194Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/steilshoop-termin/bilderbuchkino-kaepten-knitterbart-auf-der-schatzinsel-24343/datum/20260822.html",
+      "name": "Bilderbuchkino: Käpten Knitterbart auf der Schatzinsel",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "",
+      "age": "Ab 3 Jahren",
+      "min_age": 3,
+      "max_age": "",
+      "venue": "Bücherhalle Steilshoop",
+      "context": "Children's picture book cinema",
+      "cached_at": "2026-08-21T03:22:15.857Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/osdorf-termin/brettspielzimmer/datum/20260822.html",
+      "name": "Brettspielzimmer",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "10:00-14:00",
+      "age": "Ab 1 Jahr",
+      "min_age": 1,
+      "max_age": "",
+      "venue": "Bücherhalle Osdorfer Born",
+      "context": "Board game room for families/children",
+      "cached_at": "2026-08-21T03:22:21.057Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.buecherhallen.de/osdorf-termin/lesezirkel-fuer-kinder-20687/datum/20260822.html",
+      "name": "bee4change: Lesekreis für Kinder",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "10:00-11:00",
+      "age": "6 bis 9 Jahre",
+      "min_age": 6,
+      "max_age": 9,
+      "venue": "Bücherhalle Osdorfer Born",
+      "context": "In Kooperation mit bee4change e.V. bietet die Bücherhalle Osdorfer Born einen Lesekreis für Grundschulkinder mit Flucht- & Migrationsgeschichte an. Komm dazu, lerne neue Bücher kennen und verbessere deine Lesefähigkeiten!",
+      "cached_at": "2026-08-21T03:22:37.857Z",
+      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
+      "name": "Das Geheimnis der Papierrakete",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "15:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltung",
+      "cached_at": "2026-08-21T03:23:53.157Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/08/21",
+      "end_date": "2026/09/22",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltung",
+      "cached_at": "2026-08-21T03:24:14.310Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
+      "name": "Kleiner Stern im großen All",
+      "start_date": "2026/08/26",
+      "end_date": "2026/10/14",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
+      "cached_at": "2026-08-21T03:24:43.767Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=18",
+      "name": "Meine Heimat – Unser blauer Planet",
+      "start_date": "2026/08/28",
+      "end_date": "2026/10/31",
+      "time": "",
+      "age": "ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Zuschauer ab 4 Jahren; Show mit Musik von Rolf Zuckowski",
+      "cached_at": "2026-08-21T03:24:49.110Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=361",
+      "name": "Sterntaler – Vom Universum belohnt",
+      "start_date": "2026/08/30",
+      "end_date": "2026/11/24",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltung",
+      "cached_at": "2026-08-21T03:24:59.167Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/08/21",
+      "end_date": "2026/09/27",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltung",
+      "cached_at": "2026-08-21T03:25:08.727Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/sonstige-veranstaltungen/alleinerziehenden-treff-mehrgenerationenhaus-nachbarschatz-e-v/hamburg-sternschanze",
+      "name": "Alleinerziehenden Treff Mehrgenerationenhaus Nachbarschatz e.V.",
+      "start_date": "2026/08/07",
+      "end_date": "2026/12/18",
+      "time": "15:30-17:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Mehrgenerationenhaus Nachbarschatz e.V., Amandastraße 58, 20357 Hamburg, Sternschanze",
+      "context": "Alleinerziehenden Treff",
+      "cached_at": "2026-08-21T03:27:05.623Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/sonstige-veranstaltungen/bilderbuchkino-der-marmeladenwolf/hamburg-wandsbek",
+      "name": "Bilderbuchkino der Marmeladenwolf",
+      "start_date": "2026/08/21",
+      "end_date": "2026/08/21",
+      "time": "16:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Bücherhalle Wandsbek, Wandsbeker Allee 64, 22041 Hamburg",
+      "context": "bilderbuchkino der marmeladenwolf",
+      "cached_at": "2026-08-21T03:28:14.165Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "indoor",
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
+      "name": "Eddie will ins All - Ein Hamster hebt ab",
+      "start_date": "2026/08/21",
+      "end_date": "2026/09/26",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg, Linnering 1 (Stadtpark) 22299 Hamburg Winterhude",
+      "context": "kino eddie will ins all ein hamster hebt ab im planetarium hamburg",
+      "cached_at": "2026-08-21T03:28:29.273Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/feste/family-discovery-day-am-22-august/hamburg-uhlenhorst",
+      "name": "Family Discovery Day",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "10:00-20:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Aspria Hamburg Uhlenhorst, Hofweg 40, 22085 Hamburg Uhlenhorst",
+      "context": "Tag der offenen Tür am 22. August",
+      "cached_at": "2026-08-21T03:29:01.346Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-auf-dem-hof-goldbekhaus/hamburg-winterhude",
+      "name": "Flohmarkt auf dem Hof Goldbekhaus",
+      "start_date": "2026/08/22",
+      "end_date": "2026/10/03",
+      "time": "11:00-16:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Goldbekhaus, Moorfuhrtweg 9, 22301 Hamburg Winterhude",
+      "context": "Flohmarkt auf dem Hof Goldbekhaus",
+      "cached_at": "2026-08-21T03:29:24.290Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "outdoor"
+      ]
+    },
+    {
+      "url": "https://www.kindaling.de/feste/das-blankeneser-strassenfest/hamburg-blankenese",
+      "name": "Das Blankeneser Straßenfest",
+      "start_date": "2026/08/22",
+      "end_date": "2026/08/22",
+      "time": "11:00-",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Blankeneser Bahnhofstraße 29 22587 Hamburg Blankenese",
+      "context": "feste das blankeneser strassenfest",
+      "cached_at": "2026-08-21T03:29:33.837Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
+      "tags": [
+        "free"
       ]
     }
   ]
