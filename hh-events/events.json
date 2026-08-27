@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:00:19.792Z",
+  "generated_at": "2026-08-27T05:00:21.425Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -9,14 +9,14 @@
   },
   "stats": {
     "input_count": 1671,
-    "excluded_error_count": 313,
+    "excluded_error_count": 314,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1183,
-    "excluded_age_count": 7,
-    "included_count": 155
+    "excluded_window_count": 1193,
+    "excluded_age_count": 6,
+    "included_count": 145
   },
-  "event_count": 155,
+  "event_count": 145,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -607,21 +607,6 @@
       "context": "Why are the merchants' houses built in the water? What is stored in the warehouses of the Speicherstadt? We answer these and many other questions about the port on our varied city tour, starting at the historic Deichstraße and ending at the Landungsbrücken piers on the Elbe River. Along the way, we'll see the Speicherstadt warehouse district, HafenCity, and the Elbphilharmonie concert hall, and visit the Old Elbe Tunnel. We'll illustrate the diverse world of the port with pictures, spices, and stories.",
       "cached_at": "2026-07-20T03:16:12.453Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&amp;production=445",
-      "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "...",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-07-24T03:24:51.600Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": []
     },
     {
@@ -1332,24 +1317,6 @@
       ]
     },
     {
-      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/mit-juri-durchs-sonnensystem",
-      "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "09:30",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-05T03:23:57.167Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/sterntaler-vom-universum-belohnt",
       "name": "Sterntaler – Vom Universum belohnt",
       "start_date": "2026/08/07",
@@ -2043,40 +2010,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/krabbelgruppe-im-frobel-kindergarten-winterstrae-3/",
-      "name": "Krabbelgruppe im Fröbel Kindergarten Winterstraße",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "09:00-11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Fröbel Kindergarten Winterstraße, Winterstraße 2, 22765 Hamburg-Altona",
-      "context": "Would you like to give your child their first experience at daycare and meet other families? Then you’re warmly invited to our playgroup! In a relaxed atmosphere, children explore the daycare rooms together, play, sing, and take part in small weekly activities. Parents have the opportunity to get to know our educational team and connect with other families.",
-      "cached_at": "2026-08-21T03:17:15.985Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/shift-open-kids-studio-kinder-farbe-freiheit-21/",
-      "name": "shift OPEN KIDS STUDIO – KINDER, FARBE, FREIHEIT",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "15:00-17:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "KULTUR&GUT WORKSHOPS",
-      "context": "Kids studio activity",
-      "cached_at": "2026-08-21T03:17:29.644Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/bilderbuchkino-mit-lady-sasha-4/",
       "name": "Bilderbuchkino mit Lady Sasha",
       "start_date": "2026/09/05",
@@ -2453,93 +2386,6 @@
       ]
     },
     {
-      "url": "https://www.buecherhallen.de/steilshoop-termin/buchfragen/datum/20260826.html",
-      "name": "Buchfragen",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Steilshoop, Gropiusring 43a (im Campus Steilshoop), 22309 Hamburg",
-      "context": "Ihr dürft euch in der Bücherhalle Steilshoop Bücher ausleihen, in denen ein Fragenbogen enthalten ist. Wenn ihr das Buch ausleiht und lest und anschließend die Fragen beantwortet, dürft ihr in unsere Überraschungskiste greifen und ein Geschenk herausnehmen.",
-      "cached_at": "2026-08-25T03:20:57.130Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/muemmelmannsberg-termin/mittwochs-meisterwerke-zum-selbermachen/datum/20260826.html",
-      "name": "Bastelnachmittag in der Bücherhalle",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "14:00-17:00",
-      "age": "Kinder",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Bücherhalle Mümmelmannsberg, Feiningerstraße 8, 22115 Hamburg",
-      "context": "Bastelnachmittag (Mittwochs-Meisterwerke zum Selbermachen)",
-      "cached_at": "2026-08-25T03:21:01.961Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/zentralbibliothek-termin/gedichte-fuer-wichte-7141/datum/20260826.html",
-      "name": "Gedichte für Wichte",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "15:00-15:45",
-      "age": "1 bis 3 Jahre",
-      "min_age": 1,
-      "max_age": 3,
-      "venue": "Zentralbibliothek, Kinderbibliothek - Traumhaus, Ebene 1",
-      "context": "Gedichte für Wichte (children/toddlers)",
-      "cached_at": "2026-08-25T03:21:23.853Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free",
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/wilhelmsburg-termin/makerbib-tuefteln-mit-robotern-und-programmierung/datum/20260826.html",
-      "name": "MakerBib - Tüfteln mit Robotern und Programmierung",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "15:00-17:00",
-      "age": "Ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Bücherhalle Wilhelmsburg, Vogelhüttendeich 45, 21107 Hamburg",
-      "context": "MakerBib - tinkering with robots and programming (child-oriented)",
-      "cached_at": "2026-08-25T03:21:29.075Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.buecherhallen.de/rahlstedt-termin/kinderkino-24190/datum/20260826.html",
-      "name": "Kinderkino",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "15:30-17:00",
-      "age": "Ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Bücherhalle Rahlstedt, Amtsstraße 3a, 22143 Hamburg",
-      "context": "Lust auf einen aufregenden Kinonachmittag? Dann schnapp dir deine Freunde und komm in die Bücherhalle!",
-      "cached_at": "2026-08-25T03:21:34.066Z",
-      "index_url": "https://www.buecherhallen.de/termine.html?zielgruppe[]=kinder",
-      "tags": [
-        "indoor",
-        "free"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/08/29",
@@ -2587,23 +2433,6 @@
       "venue": "Planetarium Hamburg",
       "context": "Kinderveranstaltungen",
       "cached_at": "2026-08-25T03:23:39.457Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=110",
-      "name": "Polaris und das Rätsel der Polarnacht",
-      "start_date": "2026/08/26",
-      "end_date": "2026/08/26",
-      "time": "10:45",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Entdeckungsreise für Kinder ab 8 Jahre",
-      "cached_at": "2026-08-25T03:24:07.240Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "paid"
