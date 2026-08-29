@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T05:00:22.563Z",
+  "generated_at": "2026-08-29T05:00:23.255Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1671,
-    "excluded_error_count": 313,
+    "input_count": 1678,
+    "excluded_error_count": 316,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1195,
-    "excluded_age_count": 6,
-    "included_count": 144
+    "excluded_window_count": 1188,
+    "excluded_age_count": 8,
+    "included_count": 153
   },
-  "event_count": 144,
+  "event_count": 153,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -305,6 +305,24 @@
       ]
     },
     {
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260912-1500",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/12",
+      "end_date": "2026/09/12",
+      "time": "15:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-08-25T03:22:09.485Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
       "name": "Minimöbel: Stühle für Kinder",
       "start_date": "2026/04/17",
@@ -333,23 +351,6 @@
       "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
       "context": "(Für alle von 5 bis 99 Jahren)",
       "cached_at": "2026-08-12T03:04:24.151Z",
-      "index_url": "https://www.kinderkinder.de/programm/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
-      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
-      "start_date": "2026/08/28",
-      "end_date": "2026/08/28",
-      "time": "14:00-17:00",
-      "age": "von 5 bis 14 Jahren",
-      "min_age": 5,
-      "max_age": 14,
-      "venue": "Mühlenschule, Jungfernstieg 6, 21244 Holm-Seppensen",
-      "context": "Für alle von 5 bis 99 Jahren",
-      "cached_at": "2026-08-25T03:24:24.196Z",
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
@@ -2352,6 +2353,57 @@
       ]
     },
     {
+      "url": "https://rausgegangen.de/en/events/familienzeit-9737/",
+      "name": "Familienzeit",
+      "start_date": "2026/09/12",
+      "end_date": "2026/09/12",
+      "time": "11:00-13:00",
+      "age": "5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Children & Families",
+      "cached_at": "2026-08-25T03:18:07.726Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/familienzeit-9738/",
+      "name": "Familienzeit",
+      "start_date": "2026/09/12",
+      "end_date": "2026/09/12",
+      "time": "13:15-15:15",
+      "age": "Kinder von 5 bis 13 Jahren",
+      "min_age": 5,
+      "max_age": 13,
+      "venue": "Hamburger Kunsthalle",
+      "context": "Jeden Samstag nimmt die Hamburger Kunsthalle die ganze Familie (Kinder von 5 bis 13 Jahren) mit auf eine kreative Reise durch 700 Jahre Kunstgeschichte.",
+      "cached_at": "2026-08-25T03:18:20.005Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://rausgegangen.de/en/events/der-recyclosaurus-lesung-und-kreativaktion-mit-anka-schwelgi-0/",
+      "name": "Der Recyclosaurus - Lesung und Kreativaktion mit Anka Schwelgin",
+      "start_date": "2026/09/12",
+      "end_date": "2026/09/12",
+      "time": "14:30-16:30",
+      "age": "recommended for ages 3 and up",
+      "min_age": 3,
+      "max_age": "",
+      "venue": "Fröbel-Buchwerkstatt",
+      "context": "Reading and Creative Workshop with Anka Schwelgin",
+      "cached_at": "2026-08-25T03:18:54.993Z",
+      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "url": "https://www.buecherhallen.de/lokstedt-termin/onilo-kino-fuer-zuhause/datum/20260825.html",
       "name": "Onilo Kino für Zuhause",
       "start_date": "2026/08/05",
@@ -2489,6 +2541,113 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "indoor"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=15",
+      "name": "Der kleine Tag - Das Sternenmusical",
+      "start_date": "2026/09/06",
+      "end_date": "2026/11/26",
+      "time": "",
+      "age": "ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen; für die ganze Familie ab 6 Jahren",
+      "cached_at": "2026-08-29T03:07:28.573Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/08/29",
+      "end_date": "2026/08/29",
+      "time": "13:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-08-29T03:07:33.773Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
+      "name": "Kleiner Stern im großen All",
+      "start_date": "2026/09/10",
+      "end_date": "2026/10/21",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen; audiovisuelle Sternenkunde für Ihre Kleinen",
+      "cached_at": "2026-08-29T03:07:39.037Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=18",
+      "name": "Meine Heimat – Unser blauer Planet",
+      "start_date": "2026/09/05",
+      "end_date": "2026/09/05",
+      "time": "11:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen; Zuschauer ab 4 Jahren",
+      "cached_at": "2026-08-29T03:08:00.318Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=445",
+      "name": "Mit Juri durchs Sonnensystem",
+      "start_date": "2026/09/04",
+      "end_date": "2026/11/17",
+      "time": "09:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-08-29T03:08:05.487Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/08/29",
+      "end_date": "2026/10/14",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-08-29T03:08:16.295Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
       ]
     }
   ]
