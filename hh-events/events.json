@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:00:23.255Z",
+  "generated_at": "2026-08-30T05:00:20.828Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1678,
-    "excluded_error_count": 316,
+    "input_count": 1681,
+    "excluded_error_count": 319,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1188,
-    "excluded_age_count": 8,
-    "included_count": 153
+    "excluded_window_count": 1198,
+    "excluded_age_count": 9,
+    "included_count": 142
   },
-  "event_count": 153,
+  "event_count": 142,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -323,6 +323,24 @@
       ]
     },
     {
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260913-1100",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/13",
+      "end_date": "2026/09/13",
+      "time": "11:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-08-25T03:22:16.065Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
       "name": "Minimöbel: Stühle für Kinder",
       "start_date": "2026/04/17",
@@ -351,23 +369,6 @@
       "venue": "Stadtteilfest Rothenburgsort, Marktplatz Rothenburgsort, Hamburg-Mitte",
       "context": "(Für alle von 5 bis 99 Jahren)",
       "cached_at": "2026-08-12T03:04:24.151Z",
-      "index_url": "https://www.kinderkinder.de/programm/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
-      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "10:00-15:00",
-      "age": "Kinder im Alter von 5 bis 14 Jahren können kostenlos an Workshops, Konzerten und kreativen Aktionen teilnehmen",
-      "min_age": 5,
-      "max_age": 14,
-      "venue": "Tag der Familie, ETV, Bundesstraße 96, Hamburg-Eimsbüttel",
-      "context": "Für alle von 5 bis 99 Jahren",
-      "cached_at": "2026-08-25T03:24:33.447Z",
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
@@ -694,23 +695,6 @@
       "tags": []
     },
     {
-      "url": "https://rausgegangen.de/en/events/familien-botaniktour-waterkant-entenwerder-0/",
-      "name": "Familien-Botaniktour: Waterkant Entenwerder",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "11:00-13:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Elbpark Entenwerder",
-      "context": "Familien-Botaniktour (Family botany tour)",
-      "cached_at": "2026-08-17T03:18:49.995Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/08/06",
@@ -957,40 +941,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/familienzeit-im-rahmen-des-hamburger-tag-fur-familien-1/",
-      "name": "Familienzeit. Im Rahmen des Hamburger Tag für Familien",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "11:00-13:00",
-      "age": "children aged 5 to 13",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "On Hamburg's Family Day, the Hamburger Kunsthalle takes the whole family (children aged 5 to 13) on a creative journey through 700 years of art history.",
-      "cached_at": "2026-08-21T03:17:53.174Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/hamburger-tag-der-familien-lesen-tanzen-spa-haben-0/",
-      "name": "Hamburger Tag der Familien - Lesen, Tanzen, Spaß haben",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "11:00-13:00",
-      "age": "from 4 years",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Fröbel-Buchwerkstatt",
-      "context": "For Hamburg's Family Day, the Fröbel Book Workshop is opening its doors for a lively morning of books, stories and dance. Families with children of all ages are invited to read together, move around and try out new things.",
-      "cached_at": "2026-08-21T03:18:04.251Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
       "name": "Das Geheimnis der Papierrakete",
       "start_date": "2026/08/06",
@@ -1023,23 +973,6 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/08/04",
-      "end_date": "2026/08/29",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-01T03:22:47.770Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
         "paid"
       ]
     },
@@ -1250,23 +1183,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/familienzeit-im-rahmen-des-hamburger-tag-fur-familien-0/",
-      "name": "Familienzeit. Im Rahmen des Hamburger Tag für Familien",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "13:15-15:15",
-      "age": "children aged 5 to 13",
-      "min_age": 5,
-      "max_age": 13,
-      "venue": "Hamburger Kunsthalle",
-      "context": "On Hamburg's Family Day, the Hamburger Kunsthalle takes the whole family (children aged 5 to 13) on a creative journey through 700 years of art history.",
-      "cached_at": "2026-08-21T03:18:16.491Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/kinderspa-im-lohsepark-5/",
       "name": "Kinderspaß im Lohsepark",
       "start_date": "2026/08/30",
@@ -1335,23 +1251,6 @@
       ]
     },
     {
-      "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bsfb/familie/familientag",
-      "name": "Hamburger Tag der Familien",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Hamburg",
-      "context": "Hamburger Tag der Familien; Angebote für Familien",
-      "cached_at": "2026-08-18T03:03:26.522Z",
-      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.hamburg.de/freizeit/aktivitaeten/elbsommer-310070",
       "name": "elbsommer",
       "start_date": "2026/06/01",
@@ -1366,23 +1265,6 @@
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kino/ferienkino-pippi-langstrumpf/hamburg-neustadt",
-      "name": "Ferienkino Pippi Langstrumpf",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/29",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Metropolis Kino Kleine Theaterstraße 10 20354 Hamburg Neustadt",
-      "context": "category: Kino / Ferienkino",
-      "cached_at": "2026-08-05T03:25:39.939Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
       ]
     },
     {
@@ -1677,24 +1559,6 @@
       "tags": [
         "paid",
         "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/tag-der-familie-im-museum-der-illusionen-hamburg-0/",
-      "name": "Tag der Familie im Museum der Illusionen Hamburg",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "10:00-19:00",
-      "age": "ages 5–17",
-      "min_age": 5,
-      "max_age": 17,
-      "venue": "Museum der Illusionen Hamburg",
-      "context": "Family day at museum",
-      "cached_at": "2026-08-21T03:17:40.921Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "indoor",
-        "paid"
       ]
     },
     {
@@ -2202,21 +2066,6 @@
       ]
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
-      "name": "ETSV Sommerfest 2026",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "09:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Sportplatz \"Mittlerer Landweg\"",
-      "context": "This year, we're once again hosting our popular summer and family festival.",
-      "cached_at": "2026-08-25T03:14:33.191Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": []
-    },
-    {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
       "name": "Happy Holidays: Summer special at MK&G Exhibition",
       "start_date": "2026/08/25",
@@ -2421,24 +2270,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
-      "name": "Das Geheimnis der Papierrakete",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "14:45",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-25T03:23:28.653Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=15",
       "name": "Der kleine Tag - Das Sternenmusical",
       "start_date": "2026/08/25",
@@ -2558,23 +2389,6 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/08/29",
-      "end_date": "2026/08/29",
-      "time": "13:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-29T03:07:33.773Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
         "paid"
       ]
     },
