@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T05:00:20.828Z",
+  "generated_at": "2026-08-31T05:00:23.914Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1681,
-    "excluded_error_count": 319,
+    "input_count": 1682,
+    "excluded_error_count": 320,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1198,
-    "excluded_age_count": 9,
-    "included_count": 142
+    "excluded_window_count": 1225,
+    "excluded_age_count": 6,
+    "included_count": 118
   },
-  "event_count": 142,
+  "event_count": 118,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -217,24 +217,6 @@
       "cached_at": "2026-07-04T03:16:13.138Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://www.bangerang.de/events/disc-golf-kaltehofe-1/?occ_dtstart=2026-07-04T10:00",
-      "name": "Disc Golf auf Kaltehofe",
-      "start_date": "2026/07/04",
-      "end_date": "2026/08/30",
-      "time": "10:00-18:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Stiftung Wasserkunst Elbinsel Kaltehofe",
-      "context": "Sport & Bewegung, kostenlos",
-      "cached_at": "2026-07-04T03:19:16.989Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "outdoor",
-        "free"
-      ]
     },
     {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260905-1500",
@@ -441,23 +423,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/sonstige-veranstaltungen/disc-golf-auf-kaltehofe/hamburg-rothenburgsort",
-      "name": "Disc Golf auf Kaltehofe",
-      "start_date": "2026/07/04",
-      "end_date": "2026/08/30",
-      "time": "10:00-18:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Wasserkunst Elbinsel Kaltehofe, Kaltehofe-Hauptdeich 6-7, 20539 Hamburg Rothenburgsort",
-      "context": "category: Sonstige Veranstaltungen",
-      "cached_at": "2026-07-04T03:33:41.628Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/fundberatung-mineralien-und-gesteine/hamburg-rotherbaum",
       "name": "Fundberatung Mineralien und Gesteine",
       "start_date": "2026/07/05",
@@ -629,23 +594,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/feste/hamburger-sommerdom/hamburg-st-pauli",
-      "name": "Hamburger Sommerdom",
-      "start_date": "2026/07/24",
-      "end_date": "2026/08/30",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Heiligengeistfeld, Hamburg St. Pauli",
-      "context": "feste/hamburger-sommerdom",
-      "cached_at": "2026-08-25T03:30:38.158Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/kino/sommer-im-filmraum-open-air-kino/hamburg-stellingen",
       "name": "Sommer im Filmraum - Open Air Kino",
       "start_date": "2026/07/16",
@@ -767,40 +715,6 @@
       ]
     },
     {
-      "url": "https://www.gut-wulksfelde.de/wulksfelde-erleben/august/",
-      "name": "Wulksfelder Kartoffelbuddeln",
-      "start_date": "2026/08/22",
-      "end_date": "2026/08/30",
-      "time": "09:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Gut Wulksfelde",
-      "context": "Kartoffeln selbst ernten. Die Knollen liegen unter der Erde in kleinen Gruppen und warten nur darauf, entdeckt zu werden – ein besonderes Erlebnis für die ganze Familie.",
-      "cached_at": "2026-08-13T03:26:09.716Z",
-      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.tivoli.de/programm-tickets/die-razzzelbande",
-      "name": "„What’s up Hoverup?“ – Das Beatbox-Konzert für Kinder",
-      "start_date": "2026/08/30",
-      "end_date": "2026/08/30",
-      "time": "15:00",
-      "age": "Kinder bis 14 Jahre",
-      "min_age": 0,
-      "max_age": 14,
-      "venue": "Schmidtchen",
-      "context": "„What’s up Hoverup?“ – Das Beatbox-Konzert für Kinder. In ihren Songs erzählen die vier Freunde Sharkie, Ahja, Mitch und Connie von ihren Abenteuern. Freshe Beats, ein Potpourri aus verschiedensten Geräuschen und musikalische Ohrwürmer begeistern die kleinen und großen Zuschauer*innen.",
-      "cached_at": "2026-08-13T03:26:46.820Z",
-      "index_url": "https://heuteinhamburg.de/guide/hamburg-mit-kindern-events",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/unvergessliche-ferien-im-wildpark-lueneburger-heide/hanstedt-nindorf",
       "name": "Unvergessliche Ferien im Wildpark Lüneburger Heide",
       "start_date": "2026/07/28",
@@ -885,59 +799,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://heuteinhamburg.de/event/ausstellungseroeffnung-maria-lassnig-und-edvard-munch",
-      "name": "Maria Lassnig und Edvard Munch. Malfluss = Lebensfluss",
-      "start_date": "2024/03/25",
-      "end_date": "2026/08/30",
-      "time": "19:00 - 20:30 Uhr",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Hamburger Kunsthalle, Glockengießerwall 5, 20095 Hamburg",
-      "context": "Kunst & Kultur / Indoor (art exhibition)",
-      "cached_at": "2026-07-28T03:28:09.184Z",
-      "index_url": "https://heuteinhamburg.de/kategorie/familie",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-01T03:14:16.566Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/01",
-      "end_date": "2026/08/30",
-      "time": "10:00-",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-01T03:16:06.796Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free",
-        "paid"
       ]
     },
     {
@@ -1095,77 +956,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/akrobatik-zirkus/mitmach-zirkus-im-elbecamp-sonntags-spass-fuer-alle-elbecamp/hamburg-blankenese",
-      "name": "Mitmach-Zirkus im ElbeCamp",
-      "start_date": "2026/07/05",
-      "end_date": "2026/08/30",
-      "time": "14:00-17:00",
-      "age": "ab 0 J",
-      "min_age": 0,
-      "max_age": "",
-      "venue": "ElbeCamp, Falkensteiner Ufer 101, 22587 Hamburg Blankenese",
-      "context": "Akrobatik & Zirkus / Sonntagsspaß für alle",
-      "cached_at": "2026-08-09T03:25:52.042Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/05",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-05T03:16:27.948Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/05/01",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-05T03:14:23.562Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/05/08",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-05T03:15:57.331Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "paid",
-        "free"
-      ]
-    },
-    {
       "url": "https://hagenbeck.de/de/_events/zoomobil.php",
       "name": "Zooschule hautnah erleben",
       "start_date": "2026/07/25",
@@ -1180,40 +970,6 @@
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "tags": [
         "indoor"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderspa-im-lohsepark-5/",
-      "name": "Kinderspaß im Lohsepark",
-      "start_date": "2026/08/30",
-      "end_date": "2026/08/30",
-      "time": "13:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Lohsepark, Hamburg",
-      "context": "Building, crafting and discovering at the children's fun in Lohsepark!",
-      "cached_at": "2026-08-21T03:18:26.813Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/die-razzzelbande-9/",
-      "name": "Die Razzzelbande",
-      "start_date": "2026/08/30",
-      "end_date": "2026/08/30",
-      "time": "15:00-16:00",
-      "age": "",
-      "min_age": 0,
-      "max_age": 14,
-      "venue": "Schmidtchen",
-      "context": "The beatbox concert for children",
-      "cached_at": "2026-08-21T03:19:05.944Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
       ]
     },
     {
@@ -1297,41 +1053,6 @@
       "context": "category: Tiere & Natur / Ferien im Wildpark",
       "cached_at": "2026-08-05T03:28:10.926Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/09",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-09T03:15:31.733Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/szenische-lesung-ein-drache-macht-theater-0/",
-      "name": "Szenische Lesung: Ein Drache macht Theater",
-      "start_date": "2026/08/30",
-      "end_date": "2026/08/30",
-      "time": "15:00",
-      "age": "6 and up",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Kellertheater Hamburg",
-      "context": "Children's theater/storytelling",
-      "cached_at": "2026-08-25T03:17:08.776Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
       ]
@@ -1421,24 +1142,6 @@
       ]
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/13",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Summer special for kids involving play, building, and crafting.",
-      "cached_at": "2026-08-13T03:16:09.966Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "paid",
-        "free"
-      ]
-    },
-    {
       "url": "https://rausgegangen.de/en/events/klingendes-mobil-der-klangteppich-0/",
       "name": "Klingendes Mobil „Der Klangteppich“",
       "start_date": "2026/08/31",
@@ -1522,43 +1225,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/18",
-      "end_date": "2026/08/30",
-      "time": "10:00-",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-17T03:14:26.960Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "indoor",
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/18",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-17T03:14:09.432Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "paid",
-        "free"
       ]
     },
     {
@@ -1821,43 +1487,6 @@
       ]
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/21",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles. And best of all: adults accompanying children pay a reduced admission fee of 10 euros. Children (under 18 years) always get in for free.",
-      "cached_at": "2026-08-21T03:15:19.991Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "indoor",
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/21",
-      "end_date": "2026/08/30",
-      "time": "10:00-",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles. And best of all: adults accompanying children pay a reduced admission fee of 10 euros. Children (under 18 years) always get in for free.",
-      "cached_at": "2026-08-21T03:15:10.749Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free",
-        "paid"
-      ]
-    },
-    {
       "url": "https://hagenbeck.de/de/_events/zoomobil.php",
       "name": "Zooschule hautnah erleben",
       "start_date": "2026/08/22",
@@ -2066,42 +1695,6 @@
       ]
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/happy-holidays-summer-special-at-mkg/",
-      "name": "Happy Holidays: Summer special at MK&G Exhibition",
-      "start_date": "2026/08/25",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "under 18 years",
-      "min_age": 0,
-      "max_age": 17,
-      "venue": "Museum für Kunst und Gewerbe Hamburg (MK&G)",
-      "context": "Here, kids, you’re in for an adventure! Play, build, craft, dress up, design, explore and solve puzzles.",
-      "cached_at": "2026-08-25T03:14:41.924Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "indoor",
-        "free",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/ht16-summer-festival/",
-      "name": "HT16 Summer Festival Celebrations",
-      "start_date": "2026/08/30",
-      "end_date": "2026/08/30",
-      "time": "10:00",
-      "age": "all ages",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Platz der Kinderrechte",
-      "context": "Experience a fun-filled day of sports, activity and community at the HT16 Summer Festival! Enjoy a wide range of hands-on activities for all ages, exciting sports stations, climbing, dance and martial arts performances, fitness challenges, a lively stage program with a DJ, and many more attractions. Discover the diverse sports offered by HT16 and spend an active day with family and friends at the Burgstraße Sports Centre and the Platz der Kinderrechte. Admission is free.",
-      "cached_at": "2026-08-25T03:14:49.634Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/",
       "name": "Figurentheater für Kinder - „Die Olchis bekommen ein Haustier“ von Erhad. Dietl",
       "start_date": "2026/08/31",
@@ -2131,23 +1724,6 @@
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderjugend-spielenachmittag-25/",
-      "name": "Kinder/Jugend Spielenachmittag",
-      "start_date": "2026/08/30",
-      "end_date": "2026/08/30",
-      "time": "00:00-23:45",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Moxy Finkenwerder",
-      "context": "Children/Youth play afternoon",
-      "cached_at": "2026-08-25T03:16:57.680Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
       ]
     },
     {
