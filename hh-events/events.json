@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:00:22.014Z",
+  "generated_at": "2026-09-02T05:00:21.132Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1682,
-    "excluded_error_count": 320,
+    "input_count": 1694,
+    "excluded_error_count": 321,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1230,
-    "excluded_age_count": 6,
-    "included_count": 113
+    "excluded_window_count": 1235,
+    "excluded_age_count": 7,
+    "included_count": 118
   },
-  "event_count": 113,
+  "event_count": 118,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -44,7 +44,7 @@
       "max_age": "",
       "venue": "Elbphilharmonie, Kaistudio 2",
       "context": "für Familien mit Kindern ab 6 Jahren",
-      "cached_at": "2026-08-20T03:06:55.048Z",
+      "cached_at": "2026-09-02T03:07:16.211Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "paid"
@@ -95,7 +95,7 @@
       "max_age": "",
       "venue": "Elbphilharmonie, Kaistudio 2",
       "context": "für Familien mit Kindern ab 6 Jahren",
-      "cached_at": "2026-08-20T03:07:01.685Z",
+      "cached_at": "2026-09-02T03:07:22.720Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "paid"
@@ -299,6 +299,24 @@
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
       "cached_at": "2026-08-25T03:22:16.065Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260916-1000",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/16",
+      "end_date": "2026/09/16",
+      "time": "10:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-08-25T03:22:43.939Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "indoor",
@@ -844,12 +862,12 @@
       "start_date": "2026/08/12",
       "end_date": "2026/09/20",
       "time": "09:30-17:00",
-      "age": "Alle Kinder",
+      "age": "Kinder",
       "min_age": 0,
       "max_age": "",
-      "venue": "Bahnhofspassage Wilhelmsburg",
+      "venue": "Bahnhofspassage vor der S-Bahn Wilhelmsburg",
       "context": "Bunte Kuh e.V. lädt Hamburgs Kinder dazu ein, Baumeister von Kuppeln, Höhlen und kreativen Ideen zu werden!",
-      "cached_at": "2026-08-21T03:25:17.171Z",
+      "cached_at": "2026-09-02T03:09:05.467Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": [
         "free"
@@ -1955,6 +1973,76 @@
       "tags": [
         "indoor",
         "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
+      "name": "Das Geheimnis der Papierrakete",
+      "start_date": "2026/09/10",
+      "end_date": "2026/11/27",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-02T03:08:06.887Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/09/05",
+      "end_date": "2026/10/11",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-02T03:08:11.943Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/09/04",
+      "end_date": "2026/10/15",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-02T03:08:32.313Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.hamburg.de/freizeit/strassenfeste",
+      "name": "Volksdorfer Stadtteilfest",
+      "start_date": "2026/09/04",
+      "end_date": "2026/09/06",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Volksdorf, Hamburg",
+      "context": "Stadtteilfest mit Live-Musik, Kinderprogramm und gastronomischen Angeboten",
+      "cached_at": "2026-09-02T03:08:40.386Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": [
+        "outdoor"
       ]
     }
   ]
