@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T05:00:21.348Z",
+  "generated_at": "2026-09-04T05:00:22.930Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -1066,10 +1066,10 @@
       "time": "",
       "age": "ab 2 Jahren",
       "min_age": 2,
-      "max_age": 12,
+      "max_age": "",
       "venue": "HoheLuftschiff Kindertheater",
       "context": "internationales Theaterfestival für das junge Publikum ab 2 Jahren",
-      "cached_at": "2026-08-23T03:02:43.772Z",
+      "cached_at": "2026-09-04T03:04:03.363Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": []
     },
