@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T05:00:22.930Z",
+  "generated_at": "2026-09-05T05:00:22.536Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 321,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1236,
+    "excluded_window_count": 1234,
     "excluded_age_count": 7,
-    "included_count": 117
+    "included_count": 119
   },
-  "event_count": 117,
+  "event_count": 119,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -32,6 +32,23 @@
       "cached_at": "2026-06-13T05:56:11.787Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
+    },
+    {
+      "url": "https://hagenbeck.de/de/_events/lange_nacht_der_tropen.php",
+      "name": "Lange Nacht der Tropen",
+      "start_date": "2026/09/19",
+      "end_date": "2026/09/19",
+      "time": "18:00-23:00",
+      "age": "4-16 Jahre",
+      "min_age": 4,
+      "max_age": 16,
+      "venue": "Tropen-Aquarium Hagenbeck",
+      "context": "Kinder von 4-16 Jahre 17 € Eintritt.",
+      "cached_at": "2026-08-25T03:15:44.941Z",
+      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
+      "tags": [
+        "indoor"
+      ]
     },
     {
       "url": "https://www.elbphilharmonie.de/de/programm/workshop-klassiko-orchesterinstrumente/28614",
@@ -324,6 +341,24 @@
       ]
     },
     {
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260919-1500",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/19",
+      "end_date": "2026/09/19",
+      "time": "15:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-08-28T03:02:45.096Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
       "name": "Minimöbel: Stühle für Kinder",
       "start_date": "2026/04/17",
@@ -442,18 +477,18 @@
       ]
     },
     {
-      "url": "https://hagenbeck.de/de/_events/seniorenfuehrungen.php",
-      "name": "Tierische Generationen – Sonderführungen für Senioren 2026",
-      "start_date": "2026/04/03",
-      "end_date": "2026/09/04",
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260919-15:00",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/19",
+      "end_date": "2026/09/19",
       "time": "15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Tierpark Hagenbeck",
-      "context": "Sonderführungen für Senioren, Familienstrukturen im Tierreich",
-      "cached_at": "2026-07-08T03:15:06.646Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-07-21T03:03:04.714Z",
+      "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
       ]
