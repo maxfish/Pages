@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:00:22.531Z",
+  "generated_at": "2026-09-07T05:00:21.896Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -9,14 +9,14 @@
   },
   "stats": {
     "input_count": 1700,
-    "excluded_error_count": 325,
+    "excluded_error_count": 327,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1240,
+    "excluded_window_count": 1247,
     "excluded_age_count": 7,
-    "included_count": 115
+    "included_count": 106
   },
-  "event_count": 115,
+  "event_count": 106,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -82,23 +82,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
-      ]
-    },
-    {
-      "url": "https://www.elbphilharmonie.de/de/programm/workshop-klassiko-orchesterinstrumente/28616",
-      "name": "Workshop: Klassiko Orchesterinstrumente",
-      "start_date": "2026/09/06",
-      "end_date": "2026/09/06",
-      "time": "12:00-13:30",
-      "age": "ab 6 Jahren",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Elbphilharmonie, Kaistudio 2",
-      "context": "für Familien mit Kindern ab 6 Jahren",
-      "cached_at": "2026-09-02T03:07:22.720Z",
-      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
-      "tags": [
-        "paid"
       ]
     },
     {
@@ -202,23 +185,6 @@
       "tags": []
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260906-1100",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/06",
-      "end_date": "2026/09/06",
-      "time": "11:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:21:56.316Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260909-1000",
       "name": "Unsichtbares",
       "start_date": "2026/09/09",
@@ -229,7 +195,7 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:22:02.856Z",
+      "cached_at": "2026-09-07T03:04:33.387Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -246,10 +212,9 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:22:09.485Z",
+      "cached_at": "2026-09-07T03:04:39.051Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -264,10 +229,9 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:22:16.065Z",
+      "cached_at": "2026-09-07T03:04:44.725Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -282,10 +246,9 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:22:43.939Z",
+      "cached_at": "2026-09-07T03:04:50.439Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -318,7 +281,7 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:22:50.072Z",
+      "cached_at": "2026-09-07T03:04:56.087Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -335,7 +298,7 @@
       "max_age": "",
       "venue": "HoheLuftschiff",
       "context": "3+ age tag",
-      "cached_at": "2026-08-25T03:21:38.291Z",
+      "cached_at": "2026-09-07T03:04:17.730Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": []
     },
@@ -436,24 +399,6 @@
       "cached_at": "2026-07-04T03:32:55.969Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
-        "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/tiere-natur/fundberatung-mineralien-und-gesteine/hamburg-rotherbaum",
-      "name": "Fundberatung Mineralien und Gesteine",
-      "start_date": "2026/07/05",
-      "end_date": "2026/09/06",
-      "time": "13:00-17:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Museum der Natur Hamburg - Mineralogie Grindelallee 48 20146 Hamburg Rotherbaum",
-      "context": "category: Tiere & Natur",
-      "cached_at": "2026-07-04T03:34:16.544Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor",
         "free"
       ]
     },
@@ -1008,23 +953,6 @@
       ]
     },
     {
-      "url": "https://rausgegangen.de/en/events/xletix-kids-hamburg-0/",
-      "name": "XLETIX Kids HAMBURG",
-      "start_date": "2026/09/05",
-      "end_date": "2026/09/06",
-      "time": "08:30-19:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Horner Rennbahn",
-      "context": "Kids event",
-      "cached_at": "2026-08-25T03:17:19.907Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.buecherhallen.de/lokstedt-termin/onilo-kino-fuer-zuhause/datum/20260809.html",
       "name": "Onilo Kino für Zuhause",
       "start_date": "2026/08/05",
@@ -1158,23 +1086,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/kinderkino-janosch-komm-wir-finden-einen-schatz-0/",
-      "name": "KinderKino // Janosch – Komm, wir finden einen Schatz",
-      "start_date": "2026/09/06",
-      "end_date": "2026/09/06",
-      "time": "11:00-12:15",
-      "age": "Recommended for ages 5 and up",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "HausDrei // Stadtteilkulturzentrum",
-      "context": "Animated film | Germany 2012 | 74 minutes",
-      "cached_at": "2026-08-21T03:20:05.253Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -1335,23 +1246,6 @@
       ]
     },
     {
-      "url": "https://heuteinhamburg.de/event/franki-raffles-museum-der-arbeit",
-      "name": "Geballte Girlpower: Schau dir die Fotos von Franki Raffles an!",
-      "start_date": "2026/06/06",
-      "end_date": "2026/09/06",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Museum der Arbeit",
-      "context": "Kategorie Kunst & Kultur, Indoor, Ausstellung; museum activity",
-      "cached_at": "2026-08-17T03:30:45.069Z",
-      "index_url": "https://heuteinhamburg.de/kategorie/familie",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://hagenbeck.de/de/_events/zoomobil.php",
       "name": "Zooschule hautnah erleben",
       "start_date": "2026/08/22",
@@ -1366,23 +1260,6 @@
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
       "tags": [
         "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/wir-bauen-ein-luftschloss-ab-5-jahre-0/",
-      "name": "Wir bauen ein Luftschloss (ab 5 Jahre)",
-      "start_date": "2026/09/06",
-      "end_date": "2026/09/06",
-      "time": "15:00-18:00",
-      "age": "ab 5 Jahre",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "FUNDUS THEATER",
-      "context": "Theater for children (from 5 years)",
-      "cached_at": "2026-08-21T03:20:18.215Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
-      "tags": [
-        "free"
       ]
     },
     {
@@ -1555,23 +1432,6 @@
       "context": "Riechen, sehen, hören, fühlen – mit der LI-Zooschule bei Hagenbeck lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen.",
       "cached_at": "2026-08-25T03:15:35.788Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
-      "url": "https://rausgegangen.de/en/events/pokko-und-die-trommel-1/",
-      "name": "Pokko und die Trommel",
-      "start_date": "2026/09/06",
-      "end_date": "2026/09/06",
-      "time": "11:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "KulturKlinker Barmbek",
-      "context": "Children & Families",
-      "cached_at": "2026-08-25T03:17:44.574Z",
-      "index_url": "https://rausgegangen.de/en/hamburg/category/children-and-families/",
       "tags": [
         "paid"
       ]
@@ -1907,23 +1767,6 @@
       "tags": [
         "indoor",
         "paid"
-      ]
-    },
-    {
-      "url": "https://www.hamburg.de/freizeit/strassenfeste",
-      "name": "Volksdorfer Stadtteilfest",
-      "start_date": "2026/09/04",
-      "end_date": "2026/09/06",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Volksdorf, Hamburg",
-      "context": "Stadtteilfest mit Live-Musik, Kinderprogramm und gastronomischen Angeboten",
-      "cached_at": "2026-09-02T03:08:40.386Z",
-      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
-      "tags": [
-        "outdoor"
       ]
     },
     {
