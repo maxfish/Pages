@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:00:21.270Z",
+  "generated_at": "2026-09-09T05:00:22.569Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 327,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1248,
+    "excluded_window_count": 1247,
     "excluded_age_count": 7,
-    "included_count": 105
+    "included_count": 106
   },
-  "event_count": 105,
+  "event_count": 106,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -301,6 +301,23 @@
       "cached_at": "2026-09-07T03:04:17.730Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": []
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260923-1000",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/23",
+      "end_date": "2026/09/23",
+      "time": "10:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-09-07T03:05:01.755Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
+      ]
     },
     {
       "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
