@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:00:22.569Z",
+  "generated_at": "2026-09-10T05:00:22.231Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1700,
-    "excluded_error_count": 327,
+    "input_count": 1730,
+    "excluded_error_count": 348,
     "excluded_invalid_count": 13,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1247,
+    "excluded_window_count": 1250,
     "excluded_age_count": 7,
-    "included_count": 106
+    "included_count": 112
   },
-  "event_count": 106,
+  "event_count": 112,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -185,23 +185,6 @@
       "tags": []
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260909-1000",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/09",
-      "end_date": "2026/09/09",
-      "time": "10:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-07T03:04:33.387Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260912-1500",
       "name": "Unsichtbares",
       "start_date": "2026/09/12",
@@ -263,10 +246,9 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-08-28T03:02:45.096Z",
+      "cached_at": "2026-09-10T03:08:07.213Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -1386,17 +1368,32 @@
       ]
     },
     {
+      "url": "https://www.hamburg.de/kultur/festival/filmfest-hamburg-382054",
+      "name": "FilmFest Hamburg Junior",
+      "start_date": "2026/09/24",
+      "end_date": "2026/10/03",
+      "time": "",
+      "age": "zwischen vier und 16 Jahren",
+      "min_age": 4,
+      "max_age": 16,
+      "venue": "Abaton, CinemaxX Dammtor, Metropolis, Passage und Studio-Kino",
+      "context": "Während des Festivalzeitraums lädt die Sektion junge Kinogänger*innen zwischen vier und 16 Jahren ins Kino ein.",
+      "cached_at": "2026-09-07T03:05:52.853Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": []
+    },
+    {
       "url": "https://www.kindaling.de/sonstige-veranstaltungen/alleinerziehenden-treff-mehrgenerationenhaus-nachbarschatz-e-v/hamburg-sternschanze",
-      "name": "Alleinerziehenden Treff Mehrgenerationenhaus Nachbarschatz e.V.",
+      "name": "Alleinerziehenden Treff",
       "start_date": "2026/08/07",
       "end_date": "2026/12/18",
       "time": "15:30-17:30",
       "age": "",
       "min_age": "",
       "max_age": "",
-      "venue": "Mehrgenerationenhaus Nachbarschatz e.V., Amandastraße 58, 20357 Hamburg, Sternschanze",
-      "context": "Alleinerziehenden Treff",
-      "cached_at": "2026-08-21T03:27:05.623Z",
+      "venue": "Mehrgenerationenhaus Nachbarschatz e.V., Amandastraße 58, 20357 Hamburg Sternschanze",
+      "context": "sonstige veranstaltungen alleinerziehenden treff",
+      "cached_at": "2026-09-10T03:12:15.396Z",
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "free"
@@ -1836,6 +1833,110 @@
       "context": "Kinderveranstaltungen",
       "cached_at": "2026-09-06T03:08:18.345Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/09/11",
+      "end_date": "2026/10/21",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-10T03:09:32.419Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=15",
+      "name": "Der kleine Tag - Das Sternenmusical",
+      "start_date": "2026/09/15",
+      "end_date": "2026/12/11",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "für die ganze Familie ab 6 Jahren",
+      "cached_at": "2026-09-10T03:09:37.751Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/09/13",
+      "end_date": "2026/09/13",
+      "time": "13:45",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-10T03:09:43.177Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=18",
+      "name": "Meine Heimat – Unser blauer Planet",
+      "start_date": "2026/09/20",
+      "end_date": "2026/11/29",
+      "time": "",
+      "age": "ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Zuschauer ab 4 Jahren; Show mit Musik von Rolf Zuckowski",
+      "cached_at": "2026-09-10T03:09:48.833Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.hamburg.de/freizeit/jahreszeiten/herbst/laternenumzug-hamburg-22840",
+      "name": "Übersicht Laternenumzüge in Hamburg",
+      "start_date": "2026/09/12",
+      "end_date": "2026/11/03",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hamburg",
+      "context": "Mit leuchtenden Laternen und passenden Kinderliedern kann man dann gemeinsam durch die Straßen ziehen.",
+      "cached_at": "2026-09-10T03:10:24.446Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": []
+    },
+    {
+      "url": "https://www.kindaling.de/sonstige-veranstaltungen/boulderschnupperwoche/hamburg-hammerbrook",
+      "name": "Boulderschnupperwoche",
+      "start_date": "2026/09/07",
+      "end_date": "2026/09/11",
+      "time": "",
+      "age": "ab 5 Jahren",
+      "min_age": 5,
+      "max_age": "",
+      "venue": "Boulderwelt Hamburg, Am Strohhause 17, 20097 Hamburg Hammerbrook",
+      "context": "Boulderkids Schnuppertage",
+      "cached_at": "2026-09-10T03:12:06.561Z",
+      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "indoor",
         "paid"
