@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T05:00:22.231Z",
+  "generated_at": "2026-09-11T05:00:22.810Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -1644,15 +1644,15 @@
     {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
       "name": "Kleiner Stern im großen All",
-      "start_date": "2026/09/10",
-      "end_date": "2026/10/21",
-      "time": "",
+      "start_date": "2026/09/12",
+      "end_date": "2026/09/12",
+      "time": "14:30",
       "age": "",
       "min_age": "",
       "max_age": "",
       "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen; audiovisuelle Sternenkunde für Ihre Kleinen",
-      "cached_at": "2026-08-29T03:07:39.037Z",
+      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
+      "cached_at": "2026-09-11T03:04:15.793Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
