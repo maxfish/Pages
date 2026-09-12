@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T05:00:22.810Z",
+  "generated_at": "2026-09-12T05:00:21.157Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -296,6 +296,23 @@
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
       "cached_at": "2026-09-07T03:05:01.755Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260926-1500",
+      "name": "Unsichtbares",
+      "start_date": "2026/09/26",
+      "end_date": "2026/09/26",
+      "time": "15:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-09-07T03:05:07.426Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -1923,24 +1940,6 @@
       "cached_at": "2026-09-10T03:10:24.446Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": []
-    },
-    {
-      "url": "https://www.kindaling.de/sonstige-veranstaltungen/boulderschnupperwoche/hamburg-hammerbrook",
-      "name": "Boulderschnupperwoche",
-      "start_date": "2026/09/07",
-      "end_date": "2026/09/11",
-      "time": "",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Boulderwelt Hamburg, Am Strohhause 17, 20097 Hamburg Hammerbrook",
-      "context": "Boulderkids Schnuppertage",
-      "cached_at": "2026-09-10T03:12:06.561Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
     }
   ]
 }
