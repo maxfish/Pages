@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:00:21.131Z",
+  "generated_at": "2026-09-15T05:00:21.184Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,8 +8,8 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1754,
-    "excluded_error_count": 371,
+    "input_count": 1753,
+    "excluded_error_count": 370,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
     "excluded_window_count": 1263,
