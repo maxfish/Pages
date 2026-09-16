@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T05:00:21.184Z",
+  "generated_at": "2026-09-16T05:00:20.450Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -436,23 +436,6 @@
       "tags": [
         "indoor",
         "free"
-      ]
-    },
-    {
-      "url": "https://heuteinhamburg.de/guide/haspa-joker",
-      "name": "Stadtpark Openair",
-      "start_date": "2026/05/15",
-      "end_date": "2026/09/15",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Stadtpark",
-      "context": "Freilichtkonzerte beim Stadtpark Openair",
-      "cached_at": "2026-07-12T03:30:34.415Z",
-      "index_url": "https://heuteinhamburg.de/kategorie/familie",
-      "tags": [
-        "outdoor"
       ]
     },
     {
@@ -1645,6 +1628,23 @@
       "tags": [
         "paid",
         "indoor"
+      ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/kuckuck-krake-kakerlake/20260930-1000",
+      "name": "Kuckuck, Krake, Kakerlake",
+      "start_date": "2026/09/30",
+      "end_date": "2026/09/30",
+      "time": "10:00",
+      "age": "6 – 12 Jahre",
+      "min_age": 6,
+      "max_age": 12,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "6+ age tag",
+      "cached_at": "2026-09-06T03:07:17.844Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
       ]
     },
     {
