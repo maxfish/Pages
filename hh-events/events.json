@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:00:20.450Z",
+  "generated_at": "2026-09-17T05:00:21.220Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -183,23 +183,6 @@
       "cached_at": "2026-07-04T03:16:13.138Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260916-1000",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/16",
-      "end_date": "2026/09/16",
-      "time": "10:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-07T03:04:50.439Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260919-1500",
@@ -1716,6 +1699,23 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/kuckuck-krake-kakerlake/20261001-1000",
+      "name": "Kuckuck, Krake, Kakerlake",
+      "start_date": "2026/10/01",
+      "end_date": "2026/10/01",
+      "time": "10:00",
+      "age": "6 – 12 Jahre",
+      "min_age": 6,
+      "max_age": 12,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "6+ age tag",
+      "cached_at": "2026-09-10T03:08:12.675Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
         "paid"
       ]
     },
