@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T05:00:21.220Z",
+  "generated_at": "2026-09-18T05:00:19.811Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1753,
-    "excluded_error_count": 370,
+    "input_count": 1762,
+    "excluded_error_count": 372,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1263,
-    "excluded_age_count": 5,
-    "included_count": 103
+    "excluded_window_count": 1264,
+    "excluded_age_count": 6,
+    "included_count": 108
   },
-  "event_count": 103,
+  "event_count": 108,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -1038,24 +1038,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/08/18",
-      "end_date": "2026/09/17",
-      "time": "...",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltung",
-      "cached_at": "2026-08-17T03:26:10.814Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
       "name": "Kleiner Stern im großen All",
       "start_date": "2026/08/20",
@@ -1563,14 +1545,14 @@
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=361",
       "name": "Sterntaler – Vom Universum belohnt",
       "start_date": "2026/09/20",
-      "end_date": "2026/09/20",
-      "time": "11:00",
+      "end_date": "2027/01/03",
+      "time": "",
       "age": "",
       "min_age": "",
       "max_age": "",
       "venue": "Planetarium Hamburg",
       "context": "Kinderveranstaltungen",
-      "cached_at": "2026-09-02T03:08:27.047Z",
+      "cached_at": "2026-09-18T03:09:23.116Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
@@ -1594,6 +1576,21 @@
         "indoor",
         "paid"
       ]
+    },
+    {
+      "url": "https://www.hamburg.de/freizeit/strassenfeste",
+      "name": "Kinderprogramm Straßen- und Stadtteilfesten",
+      "start_date": "2026/09/04",
+      "end_date": "2026/12/06",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Hamburg",
+      "context": "Kinderprogramm in Stadtteil- und Sommerfeste",
+      "cached_at": "2026-09-18T03:10:08.774Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": []
     },
     {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260927-1100",
@@ -1787,6 +1784,93 @@
       "cached_at": "2026-09-10T03:10:24.446Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": []
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
+      "name": "Das Geheimnis der Papierrakete",
+      "start_date": "2026/09/18",
+      "end_date": "2026/12/28",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-18T03:08:19.106Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=15",
+      "name": "Der kleine Tag - Das Sternenmusical",
+      "start_date": "2026/09/29",
+      "end_date": "2026/09/29",
+      "time": "09:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "für die ganze Familie ab 6 Jahren",
+      "cached_at": "2026-09-18T03:08:24.224Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/09/19",
+      "end_date": "2026/09/19",
+      "time": "16:00",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-18T03:09:03.029Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
+      "name": "Kleiner Stern im großen All",
+      "start_date": "2026/09/24",
+      "end_date": "2026/10/31",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
+      "cached_at": "2026-09-18T03:09:12.258Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/09/23",
+      "end_date": "2026/10/26",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-18T03:09:32.994Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
     }
   ]
 }
