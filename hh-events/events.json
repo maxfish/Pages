@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T05:00:19.811Z",
+  "generated_at": "2026-09-19T05:00:22.058Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 372,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1264,
-    "excluded_age_count": 6,
-    "included_count": 108
+    "excluded_window_count": 1262,
+    "excluded_age_count": 5,
+    "included_count": 111
   },
-  "event_count": 108,
+  "event_count": 111,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -114,6 +114,24 @@
       "index_url": "https://www.kinderkinder.de/programm/",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "url": "https://www.elbphilharmonie.de/de/programm/workshop-klassiko-schlaginstrumente/28564",
+      "name": "Workshop: Klassiko Schlaginstrumente",
+      "start_date": "2026/10/03",
+      "end_date": "2026/10/03",
+      "time": "12:00-13:30",
+      "age": "ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Elbphilharmonie Kaistudio 2",
+      "context": "für Familien mit Kindern ab 6 Jahren",
+      "cached_at": "2026-09-10T03:08:57.633Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
+      "tags": [
+        "indoor",
+        "paid"
       ]
     },
     {
@@ -1603,11 +1621,11 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-09-06T03:07:13.066Z",
+      "cached_at": "2026-09-19T03:03:53.654Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
-        "paid",
-        "indoor"
+        "indoor",
+        "paid"
       ]
     },
     {
@@ -1621,7 +1639,7 @@
       "max_age": 12,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "6+ age tag",
-      "cached_at": "2026-09-06T03:07:17.844Z",
+      "cached_at": "2026-09-19T03:03:58.445Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -1666,15 +1684,15 @@
     {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=445",
       "name": "Mit Juri durchs Sonnensystem",
-      "start_date": "2026/09/18",
-      "end_date": "2027/01/08",
+      "start_date": "2026/09/25",
+      "end_date": "2027/01/26",
       "time": "09:30",
       "age": "",
       "min_age": "",
       "max_age": "",
       "venue": "Planetarium Hamburg",
       "context": "Kinderveranstaltungen",
-      "cached_at": "2026-09-06T03:08:13.210Z",
+      "cached_at": "2026-09-19T03:04:39.459Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
@@ -1711,6 +1729,23 @@
       "venue": "HoheLuftschiff Kindertheater",
       "context": "6+ age tag",
       "cached_at": "2026-09-10T03:08:12.675Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/kuckuck-krake-kakerlake/20261003-1500",
+      "name": "Kuckuck, Krake, Kakerlake",
+      "start_date": "2026/10/03",
+      "end_date": "2026/10/03",
+      "time": "15:00",
+      "age": "6 – 12 Jahre",
+      "min_age": 6,
+      "max_age": 12,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "6+ age tag",
+      "cached_at": "2026-09-10T03:08:17.473Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -1782,6 +1817,21 @@
       "venue": "Hamburg",
       "context": "Mit leuchtenden Laternen und passenden Kinderliedern kann man dann gemeinsam durch die Straßen ziehen.",
       "cached_at": "2026-09-10T03:10:24.446Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": []
+    },
+    {
+      "url": "https://www.hamburg.de/kultur/festival/lesefest-seiteneinsteiger-382696",
+      "name": "Literaturfest für Kinder und Jugendliche Lesefest Seiteneinsteiger",
+      "start_date": "2026/10/03",
+      "end_date": "2026/10/18",
+      "time": "",
+      "age": "Kinder und Jugendliche",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "diverse Orte",
+      "context": "Literaturveranstaltungen zum Mitmachen, Zuhören und Lesen",
+      "cached_at": "2026-09-18T03:10:13.736Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": []
     },
