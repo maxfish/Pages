@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:00:22.058Z",
+  "generated_at": "2026-09-20T05:00:22.083Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 372,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1262,
+    "excluded_window_count": 1264,
     "excluded_age_count": 5,
-    "included_count": 111
+    "included_count": 109
   },
-  "event_count": 111,
+  "event_count": 109,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -32,23 +32,6 @@
       "cached_at": "2026-06-13T05:56:11.787Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://hagenbeck.de/de/_events/lange_nacht_der_tropen.php",
-      "name": "Lange Nacht der Tropen",
-      "start_date": "2026/09/19",
-      "end_date": "2026/09/19",
-      "time": "18:00-23:00",
-      "age": "4-16 Jahre",
-      "min_age": 4,
-      "max_age": 16,
-      "venue": "Tropen-Aquarium Hagenbeck",
-      "context": "Kinder von 4-16 Jahre 17 € Eintritt.",
-      "cached_at": "2026-08-25T03:15:44.941Z",
-      "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "indoor"
-      ]
     },
     {
       "url": "https://www.kindaling.de/kinderkonzerte/wasserspiele-und-wasserlichtkonzerte/hamburg-neustadt",
@@ -203,23 +186,6 @@
       "tags": []
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260919-1500",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/19",
-      "end_date": "2026/09/19",
-      "time": "15:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-10T03:08:07.213Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260920-1100",
       "name": "Unsichtbares",
       "start_date": "2026/09/20",
@@ -230,9 +196,10 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-09-07T03:04:56.087Z",
+      "cached_at": "2026-09-20T03:03:52.772Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
+        "indoor",
         "paid"
       ]
     },
@@ -247,7 +214,7 @@
       "max_age": "",
       "venue": "HoheLuftschiff",
       "context": "3+ age tag",
-      "cached_at": "2026-09-07T03:04:17.730Z",
+      "cached_at": "2026-09-20T03:03:56.905Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": []
     },
@@ -262,7 +229,7 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-09-07T03:05:01.755Z",
+      "cached_at": "2026-09-20T03:04:02.216Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -279,9 +246,10 @@
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
       "context": "3+ age tag",
-      "cached_at": "2026-09-07T03:05:07.426Z",
+      "cached_at": "2026-09-20T03:04:07.603Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
+        "indoor",
         "paid"
       ]
     },
@@ -369,20 +337,19 @@
       ]
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260919-15:00",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/19",
-      "end_date": "2026/09/19",
-      "time": "15:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-06T03:07:07.190Z",
-      "index_url": "https://hoheluftschiff.de/",
+      "url": "https://www.elbphilharmonie.de/de/programm/workshop-klassiko-schlaginstrumente/28566",
+      "name": "Workshop: Klassiko Schlaginstrumente",
+      "start_date": "2026/10/04",
+      "end_date": "2026/10/04",
+      "time": "12:00-13:30",
+      "age": "ab 6 Jahren",
+      "min_age": 6,
+      "max_age": "",
+      "venue": "Elbphilharmonie Kaistudio 2",
+      "context": "für Familien mit Kindern ab 6 Jahren",
+      "cached_at": "2026-09-15T03:04:07.182Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -504,6 +471,23 @@
       "cached_at": "2026-07-20T03:16:12.453Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
+    },
+    {
+      "url": "https://www.elbphilharmonie.de/de/programm/schrubbi-schrubber/28250",
+      "name": "»Schrubbi Schrubber«",
+      "start_date": "2026/10/04",
+      "end_date": "2026/10/04",
+      "time": "11:00-14:30",
+      "age": "ab 4 Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Laeiszhalle Kleiner Saal",
+      "context": "Märchenkonzert der Symphoniker Hamburg / ab 4 Jahren",
+      "cached_at": "2026-09-14T03:08:23.765Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
+      "tags": [
+        "paid"
+      ]
     },
     {
       "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-auf-dem-hof-goldbekhaus/hamburg-winterhude",
@@ -1868,23 +1852,6 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/09/19",
-      "end_date": "2026/09/19",
-      "time": "16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-09-18T03:09:03.029Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
         "paid"
       ]
     },
