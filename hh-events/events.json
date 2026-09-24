@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:00:21.811Z",
+  "generated_at": "2026-09-24T05:00:21.685Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 373,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1274,
+    "excluded_window_count": 1277,
     "excluded_age_count": 6,
-    "included_count": 107
+    "included_count": 104
   },
-  "event_count": 107,
+  "event_count": 104,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -184,23 +184,6 @@
       "cached_at": "2026-07-04T03:16:13.138Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260923-1000",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/23",
-      "end_date": "2026/09/23",
-      "time": "10:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-20T03:04:02.216Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
     },
     {
       "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260926-1500",
@@ -751,23 +734,6 @@
       ]
     },
     {
-      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/meine-heimat",
-      "name": "Meine Heimat – Unser blauer Planet",
-      "start_date": "2026/08/13",
-      "end_date": "2026/09/23",
-      "time": "",
-      "age": "ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Ein Ausflug in die Natur für alle Erdenbürger von 5 bis 8 Jahren.",
-      "cached_at": "2026-08-05T03:23:50.651Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
       "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/sterntaler-vom-universum-belohnt",
       "name": "Sterntaler – Vom Universum belohnt",
       "start_date": "2026/08/07",
@@ -966,24 +932,6 @@
       "venue": "Planetarium Hamburg",
       "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
       "cached_at": "2026-08-17T03:26:16.135Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
-      "name": "Wasser überall – versteckt im Universum",
-      "start_date": "2026/08/19",
-      "end_date": "2026/09/23",
-      "time": "...",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltung",
-      "cached_at": "2026-08-17T03:26:41.881Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
