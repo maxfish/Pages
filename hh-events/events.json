@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:00:21.685Z",
+  "generated_at": "2026-09-25T05:00:22.120Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 373,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1277,
+    "excluded_window_count": 1276,
     "excluded_age_count": 6,
-    "included_count": 104
+    "included_count": 105
   },
-  "event_count": 104,
+  "event_count": 105,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -298,6 +298,23 @@
       "venue": "Elbphilharmonie Kaistudio 2",
       "context": "für Familien mit Kindern ab 6 Jahren",
       "cached_at": "2026-09-15T03:04:07.182Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-s-obotaqua/28292",
+      "name": "Funkelkonzert S / Obotaqua",
+      "start_date": "2026/10/09",
+      "end_date": "2026/10/09",
+      "time": "09:30-12:00",
+      "age": "1-3 Jahre",
+      "min_age": 1,
+      "max_age": 3,
+      "venue": "Elbphilharmonie Kaistudio 1",
+      "context": "für Familien mit Kindern von 1–3 Jahren",
+      "cached_at": "2026-09-19T03:04:24.873Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "paid"
