@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T05:00:22.120Z",
+  "generated_at": "2026-09-26T05:00:23.691Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1772,
-    "excluded_error_count": 373,
+    "input_count": 1783,
+    "excluded_error_count": 374,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1276,
-    "excluded_age_count": 6,
-    "included_count": 105
+    "excluded_window_count": 1277,
+    "excluded_age_count": 7,
+    "included_count": 113
   },
-  "event_count": 105,
+  "event_count": 113,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -32,6 +32,23 @@
       "cached_at": "2026-06-13T05:56:11.787Z",
       "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
       "tags": []
+    },
+    {
+      "url": "https://www.hamburg.de/freizeit/kinder/der-achtsame-tiger-1103084",
+      "name": "Familienmusical in Hamburg Der achtsame Tiger",
+      "start_date": "2026/10/10",
+      "end_date": "2027/01/24",
+      "time": "",
+      "age": "ab vier Jahren",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Schmidts Tivoli, Spielbudenplatz 27-28",
+      "context": "Für Kinder ab vier Jahren",
+      "cached_at": "2026-09-10T03:11:19.587Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": [
+        "paid"
+      ]
     },
     {
       "url": "https://www.kindaling.de/kinderkonzerte/wasserspiele-und-wasserlichtkonzerte/hamburg-neustadt",
@@ -83,37 +100,19 @@
       "tags": []
     },
     {
-      "url": "https://www.kinderkinder.de/programm/lasterkonzerte/",
-      "name": "KinderKinder & Lasterkultur präsentieren gemeinsam die KINDERRECHTE Lasterkonzerte!",
-      "start_date": "2026/08/22",
-      "end_date": "2026/09/25",
-      "time": "",
-      "age": "ab 5 Jahren",
-      "min_age": 5,
-      "max_age": "",
-      "venue": "Hamburger Stadtteile",
-      "context": "Program item listed under Programm",
-      "cached_at": "2026-07-02T03:04:09.317Z",
-      "index_url": "https://www.kinderkinder.de/programm/",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "url": "https://www.elbphilharmonie.de/de/programm/workshop-klassiko-schlaginstrumente/28564",
       "name": "Workshop: Klassiko Schlaginstrumente",
       "start_date": "2026/10/03",
       "end_date": "2026/10/03",
-      "time": "12:00-13:30",
+      "time": "12:00-15:30",
       "age": "ab 6 Jahren",
       "min_age": 6,
       "max_age": "",
-      "venue": "Elbphilharmonie Kaistudio 2",
+      "venue": "Elbphilharmonie, Kaistudio 2",
       "context": "für Familien mit Kindern ab 6 Jahren",
-      "cached_at": "2026-09-10T03:08:57.633Z",
+      "cached_at": "2026-09-26T03:06:46.216Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
@@ -295,9 +294,9 @@
       "age": "ab 6 Jahren",
       "min_age": 6,
       "max_age": "",
-      "venue": "Elbphilharmonie Kaistudio 2",
+      "venue": "Elbphilharmonie, Kaistudio 2",
       "context": "für Familien mit Kindern ab 6 Jahren",
-      "cached_at": "2026-09-15T03:04:07.182Z",
+      "cached_at": "2026-09-26T03:06:59.985Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "paid"
@@ -312,11 +311,12 @@
       "age": "1-3 Jahre",
       "min_age": 1,
       "max_age": 3,
-      "venue": "Elbphilharmonie Kaistudio 1",
+      "venue": "Elbphilharmonie, Kaistudio 1",
       "context": "für Familien mit Kindern von 1–3 Jahren",
-      "cached_at": "2026-09-19T03:04:24.873Z",
+      "cached_at": "2026-09-26T03:07:07.202Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
+        "indoor",
         "paid"
       ]
     },
@@ -448,9 +448,9 @@
       "age": "ab 4 Jahren",
       "min_age": 4,
       "max_age": "",
-      "venue": "Laeiszhalle Kleiner Saal",
+      "venue": "Laeiszhalle, Kleiner Saal",
       "context": "Märchenkonzert der Symphoniker Hamburg / ab 4 Jahren",
-      "cached_at": "2026-09-14T03:08:23.765Z",
+      "cached_at": "2026-09-26T03:06:53.513Z",
       "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "paid"
@@ -1601,6 +1601,24 @@
       ]
     },
     {
+      "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-s-obotaqua/28294",
+      "name": "Funkelkonzert S / Obotaqua",
+      "start_date": "2026/10/10",
+      "end_date": "2026/10/10",
+      "time": "11:00-15:45",
+      "age": "1-3 Jahre",
+      "min_age": 1,
+      "max_age": 3,
+      "venue": "Elbphilharmonie, Kaistudio 1",
+      "context": "für Familien mit Kindern von 1–3 Jahren",
+      "cached_at": "2026-09-26T03:07:14.433Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
       "name": "Wasser überall – versteckt im Universum",
       "start_date": "2026/09/11",
@@ -1682,6 +1700,40 @@
       "context": "3+ age tag",
       "cached_at": "2026-09-14T03:07:52.091Z",
       "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/es-war-einmal-mit-frosch/20261010-1500",
+      "name": "Es war einmal mit Frosch…",
+      "start_date": "2026/10/10",
+      "end_date": "2026/10/10",
+      "time": "15:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-09-14T03:07:57.403Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-s-obotaqua/28294",
+      "name": "Funkelkonzert S / Obotaqua",
+      "start_date": "2026/10/10",
+      "end_date": "2026/10/10",
+      "time": "11:00-11:45",
+      "age": "1-3 Jahre",
+      "min_age": 1,
+      "max_age": 3,
+      "venue": "Elbphilharmonie Kaistudio 1",
+      "context": "für Familien mit Kindern von 1–3 Jahren",
+      "cached_at": "2026-09-14T03:08:37.906Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "paid"
       ]
@@ -1772,23 +1824,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
-      "name": "Das Geheimnis der Papierrakete",
-      "start_date": "2026/09/25",
-      "end_date": "2026/09/25",
-      "time": "15:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-09-22T03:07:57.677Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
       "name": "Eddie will ins All – Ein Hamster hebt ab",
       "start_date": "2026/09/22",
@@ -1817,6 +1852,111 @@
       "venue": "Planetarium Hamburg",
       "context": "Kinderveranstaltungen; Zuschauer ab 4 Jahren",
       "cached_at": "2026-09-22T03:08:08.099Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
+      "name": "Das Geheimnis der Papierrakete",
+      "start_date": "2026/09/30",
+      "end_date": "2027/01/19",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-26T03:07:59.615Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
+      "name": "Eddie will ins All – Ein Hamster hebt ab",
+      "start_date": "2026/09/26",
+      "end_date": "2026/11/05",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-26T03:08:04.727Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
+      "name": "Kleiner Stern im großen All",
+      "start_date": "2026/09/29",
+      "end_date": "2026/11/05",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
+      "cached_at": "2026-09-26T03:08:09.835Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=445",
+      "name": "Mit Juri durchs Sonnensystem",
+      "start_date": "2026/09/30",
+      "end_date": "2027/02/05",
+      "time": "09:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-26T03:08:20.427Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=361",
+      "name": "Sterntaler – Vom Universum belohnt",
+      "start_date": "2026/10/01",
+      "end_date": "2026/10/01",
+      "time": "09:30",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-26T03:08:31.415Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
+      "name": "Wasser überall – versteckt im Universum",
+      "start_date": "2026/09/27",
+      "end_date": "2026/10/31",
+      "time": "",
+      "age": "",
+      "min_age": "",
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Kinderveranstaltungen",
+      "cached_at": "2026-09-26T03:08:36.729Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
