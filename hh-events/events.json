@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:00:23.691Z",
+  "generated_at": "2026-09-27T05:00:20.992Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,15 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 1783,
-    "excluded_error_count": 374,
+    "input_count": 1784,
+    "excluded_error_count": 373,
     "excluded_invalid_count": 12,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1277,
+    "excluded_window_count": 1282,
     "excluded_age_count": 7,
-    "included_count": 113
+    "included_count": 110
   },
-  "event_count": 113,
+  "event_count": 110,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -35,7 +35,7 @@
     },
     {
       "url": "https://www.hamburg.de/freizeit/kinder/der-achtsame-tiger-1103084",
-      "name": "Familienmusical in Hamburg Der achtsame Tiger",
+      "name": "Der achtsame Tiger",
       "start_date": "2026/10/10",
       "end_date": "2027/01/24",
       "time": "",
@@ -43,8 +43,8 @@
       "min_age": 4,
       "max_age": "",
       "venue": "Schmidts Tivoli, Spielbudenplatz 27-28",
-      "context": "Für Kinder ab vier Jahren",
-      "cached_at": "2026-09-10T03:11:19.587Z",
+      "context": "Familienmusical in Hamburg",
+      "cached_at": "2026-09-27T03:05:30.398Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": [
         "paid"
@@ -185,24 +185,6 @@
       "tags": []
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/unsichtbares/20260926-1500",
-      "name": "Unsichtbares",
-      "start_date": "2026/09/26",
-      "end_date": "2026/09/26",
-      "time": "15:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-20T03:04:07.603Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "indoor",
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.mkg-hamburg.de/ausstellungen/minim%C3%B6bel-st%C3%BChle-f%C3%BCr-kinder",
       "name": "Minimöbel: Stühle für Kinder",
       "start_date": "2026/04/17",
@@ -335,24 +317,6 @@
       "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
       "tags": [
         "outdoor"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-auf-dem-hof-goldbekhaus/hamburg-winterhude",
-      "name": "Flohmarkt auf dem Hof Goldbekhaus",
-      "start_date": "2026/07/12",
-      "end_date": "2026/09/26",
-      "time": "11:00-16:00",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Goldbekhaus, Moorfuhrtweg 9, 22301 Hamburg Winterhude",
-      "context": "category: Familienflohmarkt",
-      "cached_at": "2026-07-12T03:28:03.846Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "outdoor",
-        "paid"
       ]
     },
     {
@@ -614,23 +578,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
-      "name": "Eddie will ins All - Ein Hamster hebt ab im Planetarium Hamburg",
-      "start_date": "2026/07/29",
-      "end_date": "2026/09/26",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg Linnering 1 (Stadtpark) 22299 Hamburg Winterhude",
-      "context": "Kino",
-      "cached_at": "2026-07-28T03:27:07.436Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/tiere-natur/triff-den-tierpfleger-rosengarten/rosengarten",
       "name": "Triff den Tierpfleger Rosengarten",
       "start_date": "2026/07/29",
@@ -886,23 +833,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
-      "name": "Eddie will ins All - Ein Hamster hebt ab",
-      "start_date": "2026/08/13",
-      "end_date": "2026/09/26",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg, Linnering 1 (Stadtpark) 22299 Hamburg Winterhude",
-      "context": "category: kino / Planetarium",
-      "cached_at": "2026-08-13T03:28:48.669Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.buecherhallen.de/lokstedt-termin/onilo-kino-fuer-zuhause/datum/20260817.html",
       "name": "Onilo Kino für Zuhause",
       "start_date": "2026/08/05",
@@ -952,23 +882,6 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
-      "name": "Eddie will ins All - Ein Hamster hebt ab",
-      "start_date": "2026/08/18",
-      "end_date": "2026/09/26",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg, Linnering 1 (Stadtpark) 22299 Hamburg Winterhude",
-      "context": "kino",
-      "cached_at": "2026-08-17T03:28:46.665Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
         "paid"
       ]
     },
@@ -1147,23 +1060,6 @@
       ]
     },
     {
-      "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
-      "name": "Eddie will ins All - Ein Hamster hebt ab",
-      "start_date": "2026/08/21",
-      "end_date": "2026/09/26",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg, Linnering 1 (Stadtpark) 22299 Hamburg Winterhude",
-      "context": "kino eddie will ins all ein hamster hebt ab im planetarium hamburg",
-      "cached_at": "2026-08-21T03:28:29.273Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://www.kindaling.de/flohmaerkte/flohmarkt-auf-dem-hof-goldbekhaus/hamburg-winterhude",
       "name": "Flohmarkt auf dem Hof Goldbekhaus",
       "start_date": "2026/08/22",
@@ -1233,23 +1129,6 @@
       ]
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
-      "name": "Eddie will ins All – Ein Hamster hebt ab",
-      "start_date": "2026/08/26",
-      "end_date": "2026/09/26",
-      "time": "",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-25T03:23:39.457Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=490",
       "name": "Wasser überall – versteckt im Universum",
       "start_date": "2026/08/27",
@@ -1300,23 +1179,6 @@
       "tags": [
         "indoor",
         "free"
-      ]
-    },
-    {
-      "url": "https://www.kindaling.de/kino/eddie-will-ins-all-ein-hamster-hebt-ab-im-planetarium-hamburg/hamburg-winterhude",
-      "name": "Eddie will ins All - Ein Hamster hebt ab",
-      "start_date": "2026/08/26",
-      "end_date": "2026/09/26",
-      "time": "16:15-13:45",
-      "age": "ab 6 J",
-      "min_age": 6,
-      "max_age": "",
-      "venue": "Planetarium Hamburg, Linnering 1 (Stadtpark) 22299 Hamburg Winterhude",
-      "context": "kino/eddie-will-ins-all-ein-hamster-hebt-ab",
-      "cached_at": "2026-08-26T03:03:43.692Z",
-      "index_url": "https://www.kindaling.de/veranstaltungen/hamburg?view=list&q%5Btitle_or_description_or_provider_name_or_location_name_or_custom_city_or_street_name_or_zip_code_cont%5D=&q%5Bfor_date_range%5D%5B%5D=&q%5Bfor_location_type%5D%5B%5D=0&q%5Bfor_voucher_code%5D=0&kategory=veranstaltungen&q%5Bopen_now%5D=0",
-      "tags": [
-        "indoor"
       ]
     },
     {
@@ -1688,6 +1550,23 @@
       "tags": []
     },
     {
+      "url": "https://hamburg.codeweek.de/",
+      "name": "Code Week Hamburg",
+      "start_date": "2026/10/10",
+      "end_date": "2026/10/25",
+      "time": "",
+      "age": "Kinder und Jugendliche",
+      "min_age": 0,
+      "max_age": "",
+      "venue": "Hamburg",
+      "context": "viele kostenfreie Angebote für Kinder und Jugendliche",
+      "cached_at": "2026-09-27T03:05:02.227Z",
+      "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "url": "https://hoheluftschiff.de/stueck/es-war-einmal-mit-frosch/20261007-1000",
       "name": "Es war einmal mit Frosch…",
       "start_date": "2026/10/07",
@@ -1697,8 +1576,8 @@
       "min_age": 3,
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-14T03:07:52.091Z",
+      "context": "child-oriented performance, age tag 3+",
+      "cached_at": "2026-09-27T03:04:38.815Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -1714,8 +1593,8 @@
       "min_age": 3,
       "max_age": 8,
       "venue": "HoheLuftschiff Kindertheater",
-      "context": "3+ age tag",
-      "cached_at": "2026-09-14T03:07:57.403Z",
+      "context": "child-oriented performance, age tag 3+",
+      "cached_at": "2026-09-27T03:04:44.263Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "paid"
@@ -1752,6 +1631,23 @@
       "cached_at": "2026-09-18T03:10:13.736Z",
       "index_url": "https://www.hamburg.de/freizeit/kinder/veranstaltungen",
       "tags": []
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/es-war-einmal-mit-frosch/20261011-1100",
+      "name": "Es war einmal mit Frosch…",
+      "start_date": "2026/10/11",
+      "end_date": "2026/10/11",
+      "time": "11:00",
+      "age": "3 – 8 Jahre",
+      "min_age": 3,
+      "max_age": 8,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "3+ age tag",
+      "cached_at": "2026-09-18T03:07:55.214Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": [
+        "paid"
+      ]
     },
     {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=14",
@@ -1824,6 +1720,23 @@
       ]
     },
     {
+      "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-s-obotaqua/28296",
+      "name": "Funkelkonzert S / Obotaqua",
+      "start_date": "2026/10/11",
+      "end_date": "2026/10/11",
+      "time": "11:00-11:45",
+      "age": "1-3 Jahre",
+      "min_age": 1,
+      "max_age": 3,
+      "venue": "Elbphilharmonie Kaistudio 1",
+      "context": "für Familien mit Kindern von 1–3 Jahren",
+      "cached_at": "2026-09-22T03:07:45.424Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
+      "tags": [
+        "paid"
+      ]
+    },
+    {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=406",
       "name": "Eddie will ins All – Ein Hamster hebt ab",
       "start_date": "2026/09/22",
@@ -1853,6 +1766,24 @@
       "context": "Kinderveranstaltungen; Zuschauer ab 4 Jahren",
       "cached_at": "2026-09-22T03:08:08.099Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
+        "paid"
+      ]
+    },
+    {
+      "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-s-obotaqua/28296",
+      "name": "Funkelkonzert S / Obotaqua",
+      "start_date": "2026/10/11",
+      "end_date": "2026/10/11",
+      "time": "11:00-15:45",
+      "age": "1-3 Jahre",
+      "min_age": 1,
+      "max_age": 3,
+      "venue": "Elbphilharmonie, Kaistudio 1",
+      "context": "für Familien mit Kindern von 1–3 Jahren",
+      "cached_at": "2026-09-26T03:07:21.729Z",
+      "index_url": "https://www.elbphilharmonie.de/de/programm/1JA/3JA/6JA/",
       "tags": [
         "indoor",
         "paid"
@@ -1907,6 +1838,24 @@
       "cached_at": "2026-09-26T03:08:09.835Z",
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
+        "paid"
+      ]
+    },
+    {
+      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=18",
+      "name": "Meine Heimat – Unser blauer Planet",
+      "start_date": "2026/10/02",
+      "end_date": "2026/10/02",
+      "time": "09:30",
+      "age": "",
+      "min_age": 4,
+      "max_age": "",
+      "venue": "Planetarium Hamburg",
+      "context": "Zuschauer ab 4 Jahren heben ab",
+      "cached_at": "2026-09-27T03:04:49.464Z",
+      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "tags": [
+        "indoor",
         "paid"
       ]
     },
