@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:00:22.216Z",
+  "generated_at": "2026-10-02T05:00:20.021Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 378,
     "excluded_invalid_count": 11,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1292,
-    "excluded_age_count": 7,
-    "included_count": 107
+    "excluded_window_count": 1296,
+    "excluded_age_count": 6,
+    "included_count": 104
   },
-  "event_count": 107,
+  "event_count": 104,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -625,23 +625,6 @@
       "context": "Riechen, sehen, hören, fühlen – mit der LI-Zooschule bei Hagenbeck lernen Kinder und Erwachsene den Tierpark mit allen Sinnen kennen.",
       "cached_at": "2026-08-05T03:16:42.606Z",
       "index_url": "https://hagenbeck.de/de/tierpark/veranstaltungen/event_uebersicht.php",
-      "tags": [
-        "indoor"
-      ]
-    },
-    {
-      "url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/details/sterntaler-vom-universum-belohnt",
-      "name": "Sterntaler – Vom Universum belohnt",
-      "start_date": "2026/08/07",
-      "end_date": "2026/10/01",
-      "time": "11:00-11:00",
-      "age": "ab 4 Jahren",
-      "min_age": 4,
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-08-05T03:24:30.049Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor"
       ]
@@ -1293,23 +1276,6 @@
       ]
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/kuckuck-krake-kakerlake/20261001-1000",
-      "name": "Kuckuck, Krake, Kakerlake",
-      "start_date": "2026/10/01",
-      "end_date": "2026/10/01",
-      "time": "10:00",
-      "age": "6 – 12 Jahre",
-      "min_age": 6,
-      "max_age": 12,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "6+ age tag",
-      "cached_at": "2026-09-23T03:03:47.612Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/kuckuck-krake-kakerlake/20261003-1500",
       "name": "Kuckuck, Krake, Kakerlake",
       "start_date": "2026/10/03",
@@ -1756,23 +1722,6 @@
       "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
       "tags": [
         "indoor",
-        "paid"
-      ]
-    },
-    {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=361",
-      "name": "Sterntaler – Vom Universum belohnt",
-      "start_date": "2026/10/01",
-      "end_date": "2026/10/01",
-      "time": "09:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "Kinderveranstaltungen",
-      "cached_at": "2026-09-26T03:08:31.415Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
-      "tags": [
         "paid"
       ]
     },
