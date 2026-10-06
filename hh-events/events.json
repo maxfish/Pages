@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T05:00:21.050Z",
+  "generated_at": "2026-10-06T05:00:20.140Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 378,
     "excluded_invalid_count": 11,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1304,
+    "excluded_window_count": 1303,
     "excluded_age_count": 7,
-    "included_count": 95
+    "included_count": 96
   },
-  "event_count": 95,
+  "event_count": 96,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -1497,6 +1497,21 @@
         "indoor",
         "paid"
       ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/muecke-macht-picknick/20261020-1000",
+      "name": "Mücke macht Picknick",
+      "start_date": "2026/10/20",
+      "end_date": "2026/10/20",
+      "time": "10:00",
+      "age": "3 – 9 Jahre",
+      "min_age": 3,
+      "max_age": 9,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "child-oriented performance, age tag 3+",
+      "cached_at": "2026-09-26T03:06:39.459Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": []
     },
     {
       "url": "https://www.elbphilharmonie.de/de/programm/funkelkonzert-s-obotaqua/28296",
