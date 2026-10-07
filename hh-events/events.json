@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:00:20.140Z",
+  "generated_at": "2026-10-07T05:00:20.121Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -13,10 +13,10 @@
     "excluded_invalid_count": 11,
     "excluded_durable_count": 0,
     "excluded_window_count": 1303,
-    "excluded_age_count": 7,
-    "included_count": 96
+    "excluded_age_count": 6,
+    "included_count": 97
   },
-  "event_count": 96,
+  "event_count": 97,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -1636,6 +1636,21 @@
         "indoor",
         "paid"
       ]
+    },
+    {
+      "url": "https://hoheluftschiff.de/stueck/muecke-macht-picknick/20261021-1000",
+      "name": "Mücke macht Picknick",
+      "start_date": "2026/10/21",
+      "end_date": "2026/10/21",
+      "time": "10:00",
+      "age": "3 – 9 Jahre",
+      "min_age": 3,
+      "max_age": 9,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "Kindertheater, age tag 3+",
+      "cached_at": "2026-09-30T03:07:00.881Z",
+      "index_url": "https://hoheluftschiff.de/",
+      "tags": []
     },
     {
       "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
