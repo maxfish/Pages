@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:00:20.121Z",
+  "generated_at": "2026-10-08T05:00:22.706Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -12,11 +12,11 @@
     "excluded_error_count": 378,
     "excluded_invalid_count": 11,
     "excluded_durable_count": 0,
-    "excluded_window_count": 1303,
-    "excluded_age_count": 6,
-    "included_count": 97
+    "excluded_window_count": 1305,
+    "excluded_age_count": 5,
+    "included_count": 96
   },
-  "event_count": 97,
+  "event_count": 96,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/familienfuehrung-der-hafen-fuer-kinder/",
@@ -1260,23 +1260,6 @@
       ]
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/es-war-einmal-mit-frosch/20261007-1000",
-      "name": "Es war einmal mit Frosch…",
-      "start_date": "2026/10/07",
-      "end_date": "2026/10/07",
-      "time": "10:00",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "child-oriented performance, age tag 3+",
-      "cached_at": "2026-09-27T03:04:38.815Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "paid"
-      ]
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/es-war-einmal-mit-frosch/20261010-1500",
       "name": "Es war einmal mit Frosch…",
       "start_date": "2026/10/10",
@@ -1653,20 +1636,19 @@
       "tags": []
     },
     {
-      "url": "https://tickets.planetarium-hamburg.de/webshop/webticket/shop?language=de&production=17",
-      "name": "Kleiner Stern im großen All",
-      "start_date": "2026/10/07",
-      "end_date": "2026/10/07",
-      "time": "12:30",
-      "age": "",
-      "min_age": "",
-      "max_age": "",
-      "venue": "Planetarium Hamburg",
-      "context": "audiovisuelle Sternenkunde für Ihre Kleinen",
-      "cached_at": "2026-09-30T03:07:21.285Z",
-      "index_url": "https://www.planetarium-hamburg.de/de/veranstaltungen-tickets/familienveranstaltungen",
+      "url": "https://hoheluftschiff.de/stueck/muecke-macht-picknick/20261022-1000",
+      "name": "Mücke macht Picknick",
+      "start_date": "2026/10/22",
+      "end_date": "2026/10/22",
+      "time": "10:00",
+      "age": "3 – 9 Jahre",
+      "min_age": 3,
+      "max_age": 9,
+      "venue": "HoheLuftschiff Kindertheater",
+      "context": "Kindertheater, age tag 3+",
+      "cached_at": "2026-09-30T03:07:06.059Z",
+      "index_url": "https://hoheluftschiff.de/",
       "tags": [
-        "indoor",
         "paid"
       ]
     },
