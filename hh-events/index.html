@@ -5,7 +5,1250 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="events-json" content="events.json">
   <title>Hamburg Family Events</title>
+  <style><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="events-json" content="events.json">
+  <title>Hamburg Family Events</title>
   <style>
+    :root {
+      --bg: #f5efe2;
+      --bg-accent: #efe4cf;
+      --card: rgba(255, 251, 244, 0.92);
+      --card-strong: #fffaf1;
+      --text: #213229;
+      --muted: #6a746e;
+      --line: rgba(33, 50, 41, 0.12);
+      --accent: #da6b2d;
+      --accent-strong: #9f3f19;
+      --accent-soft: rgba(218, 107, 45, 0.14);
+      --forest: #2b6a4b;
+      --forest-soft: rgba(43, 106, 75, 0.14);
+      --shadow: 0 18px 50px rgba(74, 51, 21, 0.12);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --radius-sm: 999px;
+      --content-width: 1160px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(218, 107, 45, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(43, 106, 75, 0.12), transparent 22%),
+        linear-gradient(180deg, var(--bg-accent) 0%, var(--bg) 42%, #faf6ee 100%);
+      min-height: 100vh;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: auto;
+      pointer-events: none;
+      z-index: 0;
+      filter: blur(10px);
+    }
+
+    body::before {
+      width: 320px;
+      height: 320px;
+      left: -100px;
+      top: 140px;
+      background: rgba(218, 107, 45, 0.08);
+      border-radius: 50%;
+    }
+
+    body::after {
+      width: 420px;
+      height: 420px;
+      right: -120px;
+      top: 360px;
+      background: rgba(43, 106, 75, 0.07);
+      border-radius: 50%;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .icon {
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+      flex: 0 0 auto;
+      vertical-align: middle;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.9;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .page {
+      position: relative;
+      z-index: 1;
+      width: min(calc(100% - 32px), var(--content-width));
+      margin: 0 auto;
+      padding: 28px 0 56px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(255, 250, 241, 0.88), rgba(255, 246, 230, 0.95)),
+        linear-gradient(135deg, rgba(218, 107, 45, 0.14), rgba(43, 106, 75, 0.10));
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius-xl);
+      padding: 22px 24px 16px;
+      animation: fadeSlide 600ms ease both;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -50px;
+      top: -70px;
+      width: 240px;
+      height: 240px;
+      background: radial-gradient(circle, rgba(218, 107, 45, 0.18), transparent 62%);
+      pointer-events: none;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Optima", "Avenir Next Condensed", "Gill Sans", sans-serif;
+      font-size: clamp(1.9rem, 4.4vw, 3.7rem);
+      line-height: 0.94;
+      letter-spacing: -0.04em;
+    }
+
+    .hero-updated {
+      margin-top: 8px;
+      text-align: right;
+      color: var(--muted);
+      font-size: 0.74rem;
+      line-height: 1.3;
+    }
+
+    .hero-filters {
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(33, 50, 41, 0.08);
+    }
+
+    .filters-primary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      align-items: flex-start;
+    }
+
+    .filter-toolbar {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-top: 6px;
+    }
+
+    .filter-toggle {
+      border: 1px solid rgba(33, 50, 41, 0.12);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--muted);
+      padding: 6px 10px;
+      font: inherit;
+      font-size: 0.78rem;
+      line-height: 1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+    }
+
+    .filter-toggle:hover {
+      transform: translateY(-1px);
+      border-color: rgba(218, 107, 45, 0.28);
+      color: var(--text);
+    }
+
+    .secondary-filters.is-hidden {
+      display: none;
+    }
+
+    .secondary-filters {
+      display: flex;
+      flex: 999 1 640px;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+    }
+
+    .results-section {
+      margin-top: 20px;
+      animation: fadeSlide 680ms ease both;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 14px;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .filter-group {
+      min-width: min(100%, 260px);
+      flex: 1 1 280px;
+    }
+
+    .filter-group--age {
+      flex: 999 1 420px;
+    }
+
+    .filter-group-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 7px;
+    }
+
+    .filter-group-head .filter-buttons {
+      flex: 1 1 auto;
+      align-items: center;
+    }
+
+    .filter-group h2,
+    .results-header h2 {
+      margin: 0;
+      font-size: 0.74rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .filter-buttons,
+    .tag-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .filter-button,
+    .tag-button {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 255, 255, 0.75);
+      color: var(--text);
+      padding: 7px 11px;
+      font: inherit;
+      font-size: 0.88rem;
+      line-height: 1.1;
+      cursor: pointer;
+      transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .filter-button:hover,
+    .tag-button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(218, 107, 45, 0.35);
+    }
+
+    .filter-button.is-active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      box-shadow: 0 12px 22px rgba(218, 107, 45, 0.24);
+    }
+
+    .tag-button.is-active {
+      background: var(--forest);
+      border-color: var(--forest);
+      color: #fff;
+      box-shadow: 0 12px 22px rgba(43, 106, 75, 0.18);
+    }
+
+    .hint {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      line-height: 1.35;
+    }
+
+    .results-header {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin: 0 4px 14px;
+    }
+
+    .results-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .events-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .event-card {
+      background: var(--card-strong);
+      border: 1px solid rgba(33, 50, 41, 0.08);
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      box-shadow: 0 14px 32px rgba(80, 62, 32, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      animation: cardIn 320ms ease both;
+    }
+
+    .event-card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .event-date {
+      display: inline-flex;
+      align-self: flex-start;
+      padding: 7px 12px;
+      border-radius: var(--radius-sm);
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+
+    .calendar-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid rgba(33, 50, 41, 0.1);
+      background: rgba(255, 255, 255, 0.86);
+      color: var(--forest);
+      text-decoration: none;
+      box-shadow: 0 8px 18px rgba(80, 62, 32, 0.08);
+      transition: transform 160ms ease, border-color 160ms ease, color 160ms ease, background-color 160ms ease;
+    }
+
+    .calendar-button .icon {
+      width: 16px;
+      height: 16px;
+      stroke-width: 2;
+    }
+
+    .calendar-button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(43, 106, 75, 0.26);
+      background: #fff;
+      color: var(--accent-strong);
+    }
+
+    .event-name {
+      margin: 0;
+      font-size: 1.22rem;
+      line-height: 1.15;
+      font-family: "Optima", "Avenir Next Condensed", "Gill Sans", sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .event-name a {
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 160ms ease, color 160ms ease;
+    }
+
+    .event-name a:hover {
+      color: var(--accent-strong);
+      border-color: currentColor;
+    }
+
+    .event-details {
+      display: grid;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      line-height: 1.45;
+    }
+
+    .event-detail strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .tag-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: var(--radius-sm);
+      background: var(--forest-soft);
+      color: var(--forest);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .status,
+    .empty-state,
+    .error-state {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      text-align: center;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.68);
+      border: 1px dashed rgba(33, 50, 41, 0.16);
+    }
+
+    .error-state {
+      color: #8b2d1f;
+      background: rgba(255, 241, 238, 0.88);
+      border-style: solid;
+      border-color: rgba(139, 45, 31, 0.16);
+    }
+
+    .footer-note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+
+    @keyframes fadeSlide {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes cardIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.985);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        width: min(calc(100% - 20px), var(--content-width));
+        padding-top: 18px;
+        padding-bottom: 32px;
+      }
+
+      .hero {
+        padding: 16px 16px;
+        border-radius: 22px;
+      }
+
+      .filter-row,
+      .results-header {
+        display: block;
+      }
+
+      .results-meta {
+        margin-top: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+    <defs>
+      <symbol id="icon-calendar-plus" viewBox="0 0 24 24">
+        <path d="M8 2v4"></path>
+        <path d="M16 2v4"></path>
+        <rect x="3" y="5" width="18" height="16" rx="3"></rect>
+        <path d="M3 10h18"></path>
+        <path d="M12 13v6"></path>
+        <path d="M9 16h6"></path>
+      </symbol>
+      <symbol id="icon-sliders" viewBox="0 0 24 24">
+        <path d="M4 6h8"></path>
+        <path d="M16 6h4"></path>
+        <path d="M4 18h4"></path>
+        <path d="M12 18h8"></path>
+        <path d="M4 12h3"></path>
+        <path d="M11 12h9"></path>
+        <circle cx="14" cy="6" r="2"></circle>
+        <circle cx="9" cy="12" r="2"></circle>
+        <circle cx="10" cy="18" r="2"></circle>
+      </symbol>
+      <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+        <path d="M6 9l6 6 6-6"></path>
+      </symbol>
+      <symbol id="icon-chevron-up" viewBox="0 0 24 24">
+        <path d="M6 15l6-6 6 6"></path>
+      </symbol>
+    </defs>
+  </svg>
+  <main class="page">
+    <section class="hero">
+      <h1>Hamburg family events</h1>
+      <div class="hero-updated">Last updated <span id="updated-at">-</span></div>
+      <div class="hero-filters">
+        <div class="filters-primary">
+          <div class="filter-group filter-group--age">
+            <div class="filter-group-head">
+              <h2>Age</h2>
+            <div class="filter-buttons" id="age-filters"></div>
+            </div>
+            <div class="filter-toolbar">
+              <button type="button" class="filter-toggle" id="filter-toggle">
+                <svg class="icon" aria-hidden="true"><use href="#icon-sliders"></use></svg>
+                <span id="filter-toggle-label">Show filters</span>
+                <svg class="icon" aria-hidden="true" id="filter-toggle-chevron"><use href="#icon-chevron-down"></use></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="secondary-filters" id="secondary-filters">
+          <div class="filter-row">
+        <div class="filter-group">
+          <h2>When</h2>
+          <div class="filter-buttons" id="when-filters"></div>
+        </div>
+        <div class="filter-group">
+          <h2>Where</h2>
+          <div class="filter-buttons" id="where-filters"></div>
+        </div>
+        <div class="filter-group">
+          <h2>Cost</h2>
+          <div class="filter-buttons" id="cost-filters"></div>
+        </div>
+        <div class="filter-group">
+          <h2>Tags</h2>
+          <div class="tag-buttons" id="tag-filters"></div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results-section" aria-labelledby="results-title">
+      <div class="results-header">
+        <h2 id="results-title">Results</h2>
+        <div class="results-meta" id="results-meta">Waiting for data</div>
+      </div>
+      <div id="results-region">
+        <div class="status">Loading events…</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const DEFAULT_JSON_FILE = "events.json";
+    const AGE_OPTIONS = [
+      { id: "none", label: "All", age: null },
+      { id: "2", label: "2y", age: 2 },
+      { id: "3", label: "3y", age: 3 },
+      { id: "4", label: "4y", age: 4 },
+      { id: "5", label: "5y", age: 5 },
+      { id: "6", label: "6y", age: 6 }
+    ];
+    const WHEN_OPTIONS = [
+      { id: "all", label: "All", mode: "all" },
+      { id: "weekend", label: "Weekend", mode: "weekend" },
+      { id: "weekday", label: "Weekday", mode: "weekday" }
+    ];
+    const WHERE_OPTIONS = [
+      { id: "all", label: "All", mode: "all" },
+      { id: "indoor", label: "Indoor", mode: "indoor" },
+      { id: "outdoor", label: "Outdoor", mode: "outdoor" }
+    ];
+    const COST_OPTIONS = [
+      { id: "all", label: "All", mode: "all" },
+      { id: "free", label: "Free", mode: "free" },
+      { id: "paid", label: "Paid", mode: "paid" }
+    ];
+    const TAG_FILTER_EXCLUSIONS = new Set([
+      "indoor",
+      "outdoor",
+      "free",
+      "paid",
+      "weekend",
+      "weekday"
+    ]);
+
+    const state = {
+      sourceUrl: "",
+      sourceLabel: "",
+      dataset: null,
+      events: [],
+      visibleEvents: [],
+      selectedAge: null,
+      whenMode: "all",
+      whereMode: "all",
+      costMode: "all",
+      filtersExpanded: false,
+      selectedTags: new Set()
+    };
+
+    const ageFiltersEl = document.getElementById("age-filters");
+    const whenFiltersEl = document.getElementById("when-filters");
+    const whereFiltersEl = document.getElementById("where-filters");
+    const costFiltersEl = document.getElementById("cost-filters");
+    const tagFiltersEl = document.getElementById("tag-filters");
+    const filterToggleEl = document.getElementById("filter-toggle");
+    const filterToggleLabelEl = document.getElementById("filter-toggle-label");
+    const filterToggleChevronEl = document.getElementById("filter-toggle-chevron");
+    const secondaryFiltersEl = document.getElementById("secondary-filters");
+    const resultsRegionEl = document.getElementById("results-region");
+    const resultsMetaEl = document.getElementById("results-meta");
+    const updatedAtEl = document.getElementById("updated-at");
+
+    function cleanText(value) {
+      if (value === undefined || value === null) return "";
+      return String(value).trim();
+    }
+
+    function normalizeDateValue(value) {
+      const text = cleanText(value);
+      if (!text) return "";
+      const flexible = text.match(/^(\d{4})[/-](\d{1,2})[/-](\d{1,2})$/);
+      if (!flexible) return text;
+      const year = flexible[1];
+      const month = String(Number(flexible[2])).padStart(2, "0");
+      const day = String(Number(flexible[3])).padStart(2, "0");
+      return year + "/" + month + "/" + day;
+    }
+
+    function parseDate(dateString) {
+      const text = normalizeDateValue(dateString);
+      if (!/^\d{4}\/\d{2}\/\d{2}$/.test(text)) return null;
+      const [year, month, day] = text.split("/").map(Number);
+      const date = new Date(Date.UTC(year, month - 1, day));
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function formatDateForDisplay(dateString) {
+      const date = parseDate(dateString);
+      if (!date) return cleanText(dateString) || "Date TBD";
+      return new Intl.DateTimeFormat("en-GB", {
+        weekday: "short",
+        day: "2-digit",
+        month: "short",
+        timeZone: "UTC"
+      }).format(date);
+    }
+
+    function formatEventDate(event) {
+      const start = normalizeDateValue(event.start_date || event.date || "");
+      const end = normalizeDateValue(event.end_date || event.start_date || event.date || "");
+      if (!start && !end) return "Date TBD";
+      if (!end || start === end) return formatDateForDisplay(start || end);
+      return formatDateForDisplay(start) + " - " + formatDateForDisplay(end);
+    }
+
+    function addDays(dateString, days) {
+      const date = parseDate(dateString);
+      if (!date) return "";
+      const next = new Date(date.getTime());
+      next.setUTCDate(next.getUTCDate() + days);
+      const year = next.getUTCFullYear();
+      const month = String(next.getUTCMonth() + 1).padStart(2, "0");
+      const day = String(next.getUTCDate()).padStart(2, "0");
+      return "" + year + month + day;
+    }
+
+    function toCalendarStamp(dateString) {
+      return normalizeDateValue(dateString).replace(/\//g, "");
+    }
+
+    function buildCalendarUrl(event) {
+      const startDate = normalizeDateValue(event.start_date || event.date || "");
+      const endDate = normalizeDateValue(event.end_date || event.start_date || event.date || "") || startDate;
+      if (!startDate || !parseDate(startDate) || !parseDate(endDate)) return "";
+
+      const timedMatch = cleanText(event.time).match(/^(\d{1,2}):(\d{2})$/);
+      let dates = "";
+
+      if (timedMatch && startDate === endDate) {
+        const startHour = String(Number(timedMatch[1])).padStart(2, "0");
+        const startMinute = timedMatch[2];
+        const endHour = String((Number(startHour) + 1) % 24).padStart(2, "0");
+        dates = toCalendarStamp(startDate) + "T" + startHour + startMinute + "00/" + toCalendarStamp(endDate) + "T" + endHour + startMinute + "00";
+      } else {
+        dates = toCalendarStamp(startDate) + "/" + addDays(endDate, 1);
+      }
+
+      const details = [cleanText(event.context), cleanText(event.url)].filter(Boolean).join("\n\n");
+      return "https://calendar.google.com/calendar/render?action=TEMPLATE"
+        + "&text=" + encodeURIComponent(cleanText(event.name || "Event"))
+        + "&dates=" + encodeURIComponent(dates)
+        + "&location=" + encodeURIComponent(cleanText(event.venue || ""))
+        + "&details=" + encodeURIComponent(details);
+    }
+
+    function formatTimestamp(value) {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "-";
+      return new Intl.DateTimeFormat("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(date);
+    }
+
+    function escapeHtml(value) {
+      return cleanText(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function normalizeTags(value) {
+      const seen = new Set();
+      const tags = [];
+
+      function pushTag(tagValue) {
+        const tag = cleanText(tagValue);
+        if (!tag) return;
+        const key = tag.toLowerCase();
+        if (seen.has(key)) return;
+        seen.add(key);
+        tags.push(tag);
+      }
+
+      function consume(rawValue) {
+        if (rawValue === undefined || rawValue === null || rawValue === "") return;
+        if (Array.isArray(rawValue)) {
+          rawValue.forEach(consume);
+          return;
+        }
+        if (typeof rawValue === "object") {
+          if (Array.isArray(rawValue.tags)) {
+            consume(rawValue.tags);
+          }
+          return;
+        }
+
+        const text = cleanText(rawValue);
+        if (!text) return;
+
+        if ((text.startsWith("[") && text.endsWith("]")) || (text.startsWith("{") && text.endsWith("}"))) {
+          try {
+            consume(JSON.parse(text));
+            return;
+          } catch (error) {
+          }
+        }
+
+        const parts = text.split(/\s*[,;\n|]\s*/).filter(Boolean);
+        if (parts.length > 1) {
+          parts.forEach(pushTag);
+          return;
+        }
+
+        pushTag(text);
+      }
+
+      consume(value);
+      return tags;
+    }
+
+    function normalizeAgeBound(value) {
+      if (value === undefined || value === null || value === "") return "";
+      if (typeof value === "number") return Number.isFinite(value) ? value : "";
+      const parsed = Number(cleanText(value).replace(",", "."));
+      return Number.isFinite(parsed) ? parsed : "";
+    }
+
+    function parseAgeRangeFromText(ageText) {
+      const original = cleanText(ageText);
+      if (!original) return { min: "", max: "" };
+
+      const text = original
+        .toLowerCase()
+        .replace(/,/g, ".")
+        .replace(/jahre|jahren|year old|years old|years|year|yrs|yr/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
+      if (/(all ages|alle altersgruppen|ohne altersbeschraenkung|ohne altersbeschränkung|no age restriction)/.test(text)) {
+        return { min: "", max: "" };
+      }
+
+      let match = text.match(/(?:under|unter)\s*(\d+(?:\.\d+)?)/);
+      if (match) {
+        const upper = Number(match[1]);
+        return { min: 0, max: Number.isFinite(upper) ? Math.max(0, upper - 1) : "" };
+      }
+
+      match = text.match(/(?:ab|from)\s*(\d+(?:\.\d+)?)/);
+      if (match) {
+        const min = Number(match[1]);
+        return { min: Number.isFinite(min) ? min : "", max: "" };
+      }
+
+      match = text.match(/(\d+(?:\.\d+)?)\s*\+/);
+      if (match) {
+        const min = Number(match[1]);
+        return { min: Number.isFinite(min) ? min : "", max: "" };
+      }
+
+      match = text.match(/(\d+(?:\.\d+)?)\s*(?:-|–|—|to|bis)\s*(\d+(?:\.\d+)?)/);
+      if (match) {
+        const min = Number(match[1]);
+        const max = Number(match[2]);
+        return {
+          min: Number.isFinite(min) ? min : "",
+          max: Number.isFinite(max) ? max : ""
+        };
+      }
+
+      return { min: "", max: "" };
+    }
+
+    function eventAgeRange(event) {
+      const explicitMin = normalizeAgeBound(event.min_age);
+      const explicitMax = normalizeAgeBound(event.max_age);
+      if (explicitMin !== "" || explicitMax !== "") {
+        return { min: explicitMin, max: explicitMax };
+      }
+      return parseAgeRangeFromText(event.age);
+    }
+
+    function overlapsTargetAge(event, targetAge) {
+      if (targetAge === null) return true;
+      const range = eventAgeRange(event);
+      if (range.min === "" && range.max === "") return true;
+      if (range.min !== "" && range.min > targetAge) return false;
+      if (range.max !== "" && range.max < targetAge) return false;
+      return true;
+    }
+
+    function compareEvents(a, b) {
+      const aStart = normalizeDateValue(a.start_date || a.date || "") || "9999/99/99";
+      const bStart = normalizeDateValue(b.start_date || b.date || "") || "9999/99/99";
+      if (aStart !== bStart) return aStart.localeCompare(bStart);
+
+      const aEnd = normalizeDateValue(a.end_date || a.start_date || a.date || "") || aStart;
+      const bEnd = normalizeDateValue(b.end_date || b.start_date || b.date || "") || bStart;
+      if (aEnd !== bEnd) return aEnd.localeCompare(bEnd);
+
+      const aTime = cleanText(a.time).toLowerCase();
+      const bTime = cleanText(b.time).toLowerCase();
+      if (aTime !== bTime) return aTime.localeCompare(bTime);
+
+      return cleanText(a.name).localeCompare(cleanText(b.name));
+    }
+
+    function normalizeEvent(rawEvent) {
+      const event = rawEvent || {};
+      return {
+        ...event,
+        name: cleanText(event.name),
+        url: cleanText(event.url),
+        start_date: normalizeDateValue(event.start_date || event.date || ""),
+        end_date: normalizeDateValue(event.end_date || event.start_date || event.date || ""),
+        time: cleanText(event.time),
+        venue: cleanText(event.venue),
+        context: cleanText(event.context),
+        age: cleanText(event.age),
+        tags: normalizeTags(event.tags || event.tag_list || event.labels || event.tags_json || "")
+      };
+    }
+
+    function buildEventSearchText(event) {
+      return [
+        event.name,
+        event.venue,
+        event.context,
+        event.age,
+        ...(event.tags || [])
+      ]
+        .map(cleanText)
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+    }
+
+    function containsAny(text, patterns) {
+      return patterns.some((pattern) => pattern.test(text));
+    }
+
+    function inferWhereMode(event) {
+      const text = buildEventSearchText(event);
+      const outdoorPatterns = [
+        /\boutdoor\b/,
+        /\bopen air\b/,
+        /\bfreiluft\b/,
+        /\bdrau(?:ß|ss)en\b/,
+        /\bau(?:ß|ss)en\b/,
+        /\bpark\b/,
+        /\bspielplatz\b/,
+        /\bwald\b/,
+        /\bstrand\b/
+      ];
+      const indoorPatterns = [
+        /\bindoor\b/,
+        /\bdrinnen\b/,
+        /\binnen\b/,
+        /\bmuseum\b/,
+        /\bhalle\b/,
+        /\btheater\b/,
+        /\bkino\b/,
+        /\bbibliothek\b/,
+        /\bworkshopraum\b/,
+        /\bstudio\b/
+      ];
+
+      const isOutdoor = containsAny(text, outdoorPatterns);
+      const isIndoor = containsAny(text, indoorPatterns);
+
+      if (isOutdoor && !isIndoor) return "outdoor";
+      if (isIndoor && !isOutdoor) return "indoor";
+      return "unknown";
+    }
+
+    function inferCostMode(event) {
+      const text = buildEventSearchText(event);
+      const freePatterns = [
+        /\bfree\b/,
+        /\bfor free\b/,
+        /\bgratis\b/,
+        /\bkostenlos\b/,
+        /\bkostenfrei\b/,
+        /\beintritt frei\b/,
+        /\bno charge\b/
+      ];
+      const paidPatterns = [
+        /\bpaid\b/,
+        /\bticket\b/,
+        /\btickets\b/,
+        /\beintritt\b/,
+        /\bgeb(?:ü|u)hr\b/,
+        /\bcost\b/,
+        /\bprice\b/,
+        /\bpreise?\b/,
+        /\bbooking\b/,
+        /\breservierung\b/,
+        /€|\beur\b/
+      ];
+
+      const isFree = containsAny(text, freePatterns);
+      const isPaid = containsAny(text, paidPatterns);
+
+      if (isFree && !isPaid) return "free";
+      if (isPaid && !isFree) return "paid";
+      if (isFree) return "free";
+      return "unknown";
+    }
+
+    function resolveDataUrl() {
+      const params = new URLSearchParams(window.location.search);
+      const queryPath = cleanText(params.get("data"));
+      const metaPath = cleanText(document.querySelector('meta[name="events-json"]')?.content);
+      const sourcePath = queryPath || metaPath || DEFAULT_JSON_FILE;
+      return {
+        url: new URL(sourcePath, window.location.href).toString(),
+        label: sourcePath
+      };
+    }
+
+    function renderAgeFilters() {
+      ageFiltersEl.innerHTML = "";
+      AGE_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.selectedAge === option.age ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.selectedAge = option.age;
+          renderAgeFilters();
+          renderResults();
+        });
+        ageFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderWhenFilters() {
+      whenFiltersEl.innerHTML = "";
+      WHEN_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.whenMode === option.mode ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.whenMode = option.mode;
+          renderWhenFilters();
+          renderResults();
+        });
+        whenFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderWhereFilters() {
+      whereFiltersEl.innerHTML = "";
+      WHERE_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.whereMode === option.mode ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.whereMode = option.mode;
+          renderWhereFilters();
+          renderResults();
+        });
+        whereFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderCostFilters() {
+      costFiltersEl.innerHTML = "";
+      COST_OPTIONS.forEach((option) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-button" + (state.costMode === option.mode ? " is-active" : "");
+        button.textContent = option.label;
+        button.addEventListener("click", () => {
+          state.costMode = option.mode;
+          renderCostFilters();
+          renderResults();
+        });
+        costFiltersEl.appendChild(button);
+      });
+    }
+
+    function renderTagFilters() {
+      const allTags = Array.from(new Set(state.events.flatMap((event) => event.tags || [])))
+        .filter((tag) => !TAG_FILTER_EXCLUSIONS.has(tag.toLowerCase()))
+        .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+
+      tagFiltersEl.innerHTML = "";
+      if (!allTags.length) {
+        tagFiltersEl.innerHTML = "<div class=\"hint\">No tags found in the JSON payload.</div>";
+        return;
+      }
+
+      allTags.forEach((tag) => {
+        const normalizedTag = tag.toLowerCase();
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "tag-button" + (state.selectedTags.has(normalizedTag) ? " is-active" : "");
+        button.textContent = tag;
+        button.addEventListener("click", () => {
+          if (state.selectedTags.has(normalizedTag)) {
+            state.selectedTags.delete(normalizedTag);
+          } else {
+            state.selectedTags.add(normalizedTag);
+          }
+          renderTagFilters();
+          renderResults();
+        });
+        tagFiltersEl.appendChild(button);
+      });
+    }
+
+    function eventMatchesTags(event) {
+      if (!state.selectedTags.size) return true;
+      return (event.tags || []).some((tag) => state.selectedTags.has(tag.toLowerCase()));
+    }
+
+    function eventMatchesWhen(event) {
+      if (state.whenMode === "all") return true;
+
+      const start = parseDate(event.start_date || event.date || "");
+      const end = parseDate(event.end_date || event.start_date || event.date || "");
+      if (!start && !end) return false;
+
+      const current = new Date((start || end).getTime());
+      const finalDate = new Date((end || start).getTime());
+
+      while (current.getTime() <= finalDate.getTime()) {
+        const day = current.getUTCDay();
+        const isWeekend = day === 0 || day === 6;
+        if (state.whenMode === "weekend" && isWeekend) return true;
+        if (state.whenMode === "weekday" && !isWeekend) return true;
+        current.setUTCDate(current.getUTCDate() + 1);
+      }
+
+      return false;
+    }
+
+    function eventMatchesWhere(event) {
+      if (state.whereMode === "all") return true;
+      return inferWhereMode(event) === state.whereMode;
+    }
+
+    function eventMatchesCost(event) {
+      if (state.costMode === "all") return true;
+      return inferCostMode(event) === state.costMode;
+    }
+
+    function renderFilterVisibility() {
+      secondaryFiltersEl.classList.toggle("is-hidden", !state.filtersExpanded);
+      filterToggleLabelEl.textContent = state.filtersExpanded ? "Hide filters" : "Show filters";
+      filterToggleChevronEl.innerHTML = state.filtersExpanded
+        ? '<use href="#icon-chevron-up"></use>'
+        : '<use href="#icon-chevron-down"></use>';
+      filterToggleEl.setAttribute("aria-expanded", String(state.filtersExpanded));
+    }
+
+    function getVisibleEvents() {
+      return state.events
+        .filter((event) => overlapsTargetAge(event, state.selectedAge))
+        .filter(eventMatchesWhen)
+        .filter(eventMatchesWhere)
+        .filter(eventMatchesCost)
+        .filter(eventMatchesTags)
+        .sort(compareEvents);
+    }
+
+    function renderEventCard(event) {
+      const details = [];
+
+      if (event.age) {
+        details.push("<div class=\"event-detail\"><strong>Age:</strong> " + escapeHtml(event.age) + "</div>");
+      }
+      if (event.time) {
+        details.push("<div class=\"event-detail\"><strong>Time:</strong> " + escapeHtml(event.time) + "</div>");
+      }
+
+      if (event.venue) {
+        details.push("<div class=\"event-detail\"><strong>Venue:</strong> " + escapeHtml(event.venue) + "</div>");
+      }
+
+      if (event.context) {
+        details.push("<div class=\"event-detail\">" + escapeHtml(event.context) + "</div>");
+      }
+
+      const tagsHtml = (event.tags || []).length
+        ? "<div class=\"tag-list\">" + event.tags.map((tag) => "<span class=\"tag-pill\">" + escapeHtml(tag) + "</span>").join("") + "</div>"
+        : "";
+
+      const title = event.url
+        ? "<a href=\"" + escapeHtml(event.url) + "\" target=\"_blank\" rel=\"noreferrer\">" + escapeHtml(event.name || "Untitled event") + "</a>"
+        : escapeHtml(event.name || "Untitled event");
+      const calendarUrl = buildCalendarUrl(event);
+      const calendarButton = calendarUrl
+        ? "<a class=\"calendar-button\" href=\"" + escapeHtml(calendarUrl) + "\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Add " + escapeHtml(event.name || "event") + " to calendar\" title=\"Add to calendar\"><svg class=\"icon\" aria-hidden=\"true\"><use href=\"#icon-calendar-plus\"></use></svg></a>"
+        : "";
+
+      return [
+        "<article class=\"event-card\">",
+        "<div class=\"event-card-top\"><div class=\"event-date\">" + escapeHtml(formatEventDate(event)) + "</div>" + calendarButton + "</div>",
+        "<h3 class=\"event-name\">" + title + "</h3>",
+        "<div class=\"event-details\">" + details.join("") + "</div>",
+        tagsHtml,
+        "</article>"
+      ].join("");
+    }
+
+    function renderResults() {
+      state.visibleEvents = getVisibleEvents();
+      const visibleCount = state.visibleEvents.length;
+      const totalCount = state.events.length;
+      resultsMetaEl.textContent = visibleCount + " of " + totalCount + " events shown" + (state.selectedTags.size ? " · tags filtered" : "");
+
+      if (!visibleCount) {
+        resultsRegionEl.innerHTML = "<div class=\"empty-state\">No events match the current filters.</div>";
+        return;
+      }
+
+      resultsRegionEl.innerHTML = "<div class=\"events-grid\">" + state.visibleEvents.map(renderEventCard).join("") + "</div>";
+    }
+
+    function renderLoadedState() {
+      updatedAtEl.textContent = formatTimestamp(state.dataset.generated_at);
+      renderAgeFilters();
+      renderWhenFilters();
+      renderWhereFilters();
+      renderCostFilters();
+      renderTagFilters();
+      renderFilterVisibility();
+      renderResults();
+    }
+
+    function renderError(message) {
+      updatedAtEl.textContent = "-";
+      resultsMetaEl.textContent = "Unable to load data";
+      resultsRegionEl.innerHTML = "<div class=\"error-state\">" + escapeHtml(message) + "</div>";
+    }
+
+    async function loadEvents() {
+      if (window.location.protocol === "file:") {
+        renderError("This page must be served from GitHub Pages or another web server. Opening index.html directly from your filesystem will block the JSON fetch.");
+        return;
+      }
+
+      const source = resolveDataUrl();
+      state.sourceUrl = source.url;
+      state.sourceLabel = source.label;
+
+      try {
+        const response = await fetch(source.url, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error("Could not load " + source.label + " (" + response.status + " " + response.statusText + ")");
+        }
+
+        const payload = await response.json();
+        const events = Array.isArray(payload.events) ? payload.events.map(normalizeEvent) : [];
+
+        state.dataset = payload;
+        state.events = events.sort(compareEvents);
+
+        updatedAtEl.textContent = formatTimestamp(payload.generated_at);
+        renderLoadedState();
+      } catch (error) {
+        renderError(error.message || "Unknown load error");
+      }
+    }
+
+    filterToggleEl.addEventListener("click", () => {
+      state.filtersExpanded = !state.filtersExpanded;
+      renderFilterVisibility();
+    });
+
+    renderAgeFilters();
+    renderWhenFilters();
+    renderWhereFilters();
+    renderCostFilters();
+    renderFilterVisibility();
+    loadEvents();
+  </script>
+</body>
+</html>
+
     :root {
       --bg: #f5efe2;
       --bg-accent: #efe4cf;
