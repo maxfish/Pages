@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:33:58.370Z",
+  "generated_at": "2026-10-11T11:52:24.920Z",
   "workflow": "Hamburg Family Events - Publish JSON to GitHub",
   "source_sheet_id": "1_iC_vEO_hdBQuA6ZPXSYMr6cZ0r87W6PB5cmy4IRbhQ",
   "filter_config": {
@@ -8,15 +8,16 @@
     "MAX_CHILD_AGE": 6
   },
   "stats": {
-    "input_count": 276,
-    "excluded_error_count": 205,
+    "input_count": 275,
+    "excluded_error_count": 207,
     "excluded_invalid_count": 0,
     "excluded_durable_count": 0,
-    "excluded_window_count": 28,
+    "excluded_window_count": 25,
     "excluded_age_count": 5,
-    "included_count": 38
+    "included_count": 30,
+    "excluded_duplicate_count": 8
   },
-  "event_count": 38,
+  "event_count": 30,
   "events": [
     {
       "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/mini-furniture-chairs-for-children/",
@@ -37,18 +38,18 @@
       "price": ""
     },
     {
-      "url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/da-gefahr-3-10-jahre-erw/",
+      "url": "https://www.bangerang.de/events/gefahr-3-10-jahre-erw.-1/?occ_dtstart=2026-10-11T16:00",
       "name": "DA GEFAHR! (3 - 10 Jahre + Erw.)",
       "start_date": "2026/10/11",
       "end_date": "2026/10/11",
-      "time": "16:00",
-      "age": "3 - 10 Jahre",
+      "time": "16:00-17:00",
+      "age": "3 - 10 Jahre + Erw.",
       "min_age": 3,
       "max_age": 10,
-      "venue": "FUNDUS THEATER | Forschungstheater",
-      "context": "Theatre performance for children aged 3-10 and adults.",
-      "cached_at": "2026-10-11T09:33:40.380Z",
-      "index_url": "https://www.hamburg-travel.com/see-explore/events/events-calendar/?filter%5Bsearchword%5D=&filter%5Bvadbcriteriagroup%5D%5B%5D=135&filter%5Bdistrict%5D=hh_all&filter%5Bdistance%5D=15",
+      "venue": "Fundus Theater",
+      "context": "Theater & Tanz for children and families.",
+      "cached_at": "2026-10-11T10:29:28.731Z",
+      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "multi-event"
       ],
@@ -92,7 +93,7 @@
       "price": "10 euros"
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-sprechstunde-im-familien-informations-zentrum?eventDateId=29808702&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-sprechstunde-im-familien-informations-zentrum?eventDateId=29808702&widgetToken=22vcqFKw4GE.&",
       "name": "Sprechstunde im Familien-Informations-Zentrum",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -108,7 +109,7 @@
       "price": ""
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-lesemaeusetreff?eventDateId=30706803&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-lesemaeusetreff?eventDateId=30706803&widgetToken=22vcqFKw4GE.&",
       "name": "Lesemäusetreff",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -126,7 +127,7 @@
       "price": ""
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-bastelvormittag-bunter-farbenspass-mit-fingermalfarbe?eventDateId=30565122&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-bastelvormittag-bunter-farbenspass-mit-fingermalfarbe?eventDateId=30565122&widgetToken=22vcqFKw4GE.&",
       "name": "Bastelvormittag - Bunter Farbenspaß mit Fingermalfarbe",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -142,7 +143,7 @@
       "price": ""
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-bastelzeit-am-meer?eventDateId=30729552&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-bastelzeit-am-meer?eventDateId=30729552&widgetToken=22vcqFKw4GE.&",
       "name": "Bastelzeit am Meer",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -160,25 +161,7 @@
       "price": "Freier Eintritt"
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-da-gefahr-3-10-jahre-erw-4?eventDateId=30633828&amp;widgetToken=22vcqFKw4GE.&amp;",
-      "name": "DA GEFAHR! (3 - 10 Jahre + Erw.)",
-      "start_date": "2026/10/12",
-      "end_date": "2026/10/12",
-      "time": "10:00-11:00",
-      "age": "3 - 10 Jahre + Erw.",
-      "min_age": 3,
-      "max_age": 10,
-      "venue": "FUNDUS THEATER | Forschungstheater, Hamburg",
-      "context": "Theater performance for children aged 3-10 and adults.",
-      "cached_at": "2026-10-11T09:36:47.311Z",
-      "index_url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/?form=search&searchType=search&query=kinder",
-      "tags": [
-        "paid"
-      ],
-      "price": "ab 6,00€ bis 11,00€"
-    },
-    {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-gedichte-fuer-wichte-1624?eventDateId=30534721&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-gedichte-fuer-wichte-1624?eventDateId=30534721&widgetToken=22vcqFKw4GE.&",
       "name": "Gedichte für Wichte",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -196,7 +179,7 @@
       "price": "frei"
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-helme-heine-es-war-einmal-ausstellung?eventDateId=30186822&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-helme-heine-es-war-einmal-ausstellung?eventDateId=30186822&widgetToken=22vcqFKw4GE.&",
       "name": "Helme Heine \"Es war einmal...\" Ausstellung",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -212,7 +195,7 @@
       "price": ""
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-herbstbasteln-im-mads-moewe-club-in-pelzerhaken?eventDateId=29847553&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-herbstbasteln-im-mads-moewe-club-in-pelzerhaken?eventDateId=29847553&widgetToken=22vcqFKw4GE.&",
       "name": "Herbstbasteln im Mads Möwe Club in Pelzerhaken",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -230,7 +213,7 @@
       "price": 7
     },
     {
-      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-herbstliche-klecks-tupfbilder?eventDateId=30781086&amp;widgetToken=22vcqFKw4GE.&amp;",
+      "url": "https://hamburgwhl.infomaxnet.de/standard_widget_de/e-herbstliche-klecks-tupfbilder?eventDateId=30781086&widgetToken=22vcqFKw4GE.&",
       "name": "Herbstliche Klecks & Tupfbilder",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -258,7 +241,7 @@
       "max_age": 12,
       "venue": "Speicherstadtmuseum",
       "context": "Guided tour for children to explore the Speicherstadt.",
-      "cached_at": "2026-10-11T10:27:43.956Z",
+      "cached_at": "2026-10-11T11:49:13.531Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "paid"
@@ -334,23 +317,7 @@
       "price": ""
     },
     {
-      "url": "https://www.bangerang.de/events/gefahr-3-10-jahre-erw.-1/?occ_dtstart=2026-10-11T16:00",
-      "name": "DA GEFAHR! (3 - 10 Jahre + Erw.)",
-      "start_date": "2026/10/11",
-      "end_date": "2026/10/11",
-      "time": "16:00-17:00",
-      "age": "3 - 10 Jahre + Erw.",
-      "min_age": 3,
-      "max_age": 10,
-      "venue": "Fundus Theater",
-      "context": "Theater & Tanz for children and families.",
-      "cached_at": "2026-10-11T10:29:28.731Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [],
-      "price": ""
-    },
-    {
-      "url": "https://www.bangerang.de/events/herbstferien-programm/?occ_dtstart=2026-10-12T09:00",
+      "url": "https://www.bangerang.de/events/herbstferien-programm/?occ_dtstart=2026-10-13T09:00",
       "name": "Herbstferien- Programm",
       "start_date": "2026/10/12",
       "end_date": "2026/10/12",
@@ -360,7 +327,7 @@
       "max_age": 12,
       "venue": "Arche Warder",
       "context": "Holiday program for children and families.",
-      "cached_at": "2026-10-11T10:29:41.327Z",
+      "cached_at": "2026-10-11T11:49:49.455Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "paid"
@@ -382,22 +349,6 @@
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [],
       "price": "Museumseintritt und Pfand"
-    },
-    {
-      "url": "https://www.bangerang.de/events/gefahr-3-10-jahre-erw.-2/?occ_dtstart=2026-10-12T10:00",
-      "name": "DA GEFAHR! (3 - 10 Jahre + Erw.)",
-      "start_date": "2026/10/12",
-      "end_date": "2026/10/12",
-      "time": "10:00-11:00",
-      "age": "3 - 10 Jahre + Erw.",
-      "min_age": 3,
-      "max_age": 10,
-      "venue": "Fundus Theater",
-      "context": "Theater & Tanz for children and families.",
-      "cached_at": "2026-10-11T10:30:08.151Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [],
-      "price": ""
     },
     {
       "url": "https://www.bangerang.de/events/handpan-start-up-einsteiger-innen-workshop/?occ_dtstart=2026-10-12T10:00",
@@ -462,30 +413,12 @@
       "max_age": 8,
       "venue": "Elternschule Osdof",
       "context": "Music course for children and families.",
-      "cached_at": "2026-10-11T10:31:00.047Z",
+      "cached_at": "2026-10-11T11:49:36.869Z",
       "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
       "tags": [
         "paid"
       ],
       "price": 45
-    },
-    {
-      "url": "https://www.bangerang.de/events/herbstferien-programm/?occ_dtstart=2026-10-13T09:00",
-      "name": "Herbstferien- Programm",
-      "start_date": "2026/10/12",
-      "end_date": "2026/10/12",
-      "time": "09:00-14:00",
-      "age": "5-12 Jahren",
-      "min_age": 5,
-      "max_age": 12,
-      "venue": "Arche Warder",
-      "context": "Holiday program for children and families.",
-      "cached_at": "2026-10-11T10:31:11.825Z",
-      "index_url": "https://www.bangerang.de/search/event/alle-veranstaltungen/",
-      "tags": [
-        "paid"
-      ],
-      "price": "25 Euro"
     },
     {
       "url": "https://www.bangerang.de/events/pilze-im-wald-familienwanderung/?occ_dtstart=2026-10-11T12:00",
@@ -525,42 +458,6 @@
       "price": 8.5
     },
     {
-      "url": "https://hoheluftschiff.de/stueck/drei-dicke-freunde/20261014-1000",
-      "name": "Drei Dicke Freunde",
-      "start_date": "2026/10/14",
-      "end_date": "2026/10/14",
-      "time": "10:00-10:45",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Child-focused theater performance for children aged 3+.",
-      "cached_at": "2026-10-11T10:32:20.918Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "multi-event"
-      ],
-      "price": ""
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/drei-dicke-freunde/20261017-1500",
-      "name": "Drei Dicke Freunde",
-      "start_date": "2026/10/14",
-      "end_date": "2026/10/14",
-      "time": "10:00-10:45",
-      "age": "3 – 8 Jahre",
-      "min_age": 3,
-      "max_age": 8,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Child-focused theater performance for children aged 3+.",
-      "cached_at": "2026-10-11T10:32:30.678Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "multi-event"
-      ],
-      "price": ""
-    },
-    {
       "url": "https://hoheluftschiff.de/stueck/drei-dicke-freunde/20261018-1100",
       "name": "Drei Dicke Freunde",
       "start_date": "2026/10/14",
@@ -572,42 +469,6 @@
       "venue": "HoheLuftschiff Kindertheater",
       "context": "Child-focused theater performance for children aged 3+.",
       "cached_at": "2026-10-11T10:32:40.585Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "multi-event"
-      ],
-      "price": ""
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/muecke-macht-picknick/20261020-1000",
-      "name": "Mücke macht Picknick",
-      "start_date": "2026/10/20",
-      "end_date": "2026/10/20",
-      "time": "10:00-10:40",
-      "age": "3 – 9 Jahre",
-      "min_age": 3,
-      "max_age": 9,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Child-focused theater performance for children aged 3+.",
-      "cached_at": "2026-10-11T10:32:50.062Z",
-      "index_url": "https://hoheluftschiff.de/",
-      "tags": [
-        "multi-event"
-      ],
-      "price": ""
-    },
-    {
-      "url": "https://hoheluftschiff.de/stueck/muecke-macht-picknick/20261021-1000",
-      "name": "Mücke macht Picknick",
-      "start_date": "2026/10/20",
-      "end_date": "2026/10/20",
-      "time": "10:00-10:40",
-      "age": "3 – 9 Jahre",
-      "min_age": 3,
-      "max_age": 9,
-      "venue": "HoheLuftschiff Kindertheater",
-      "context": "Child-focused theater performance for children aged 3+.",
-      "cached_at": "2026-10-11T10:32:59.525Z",
       "index_url": "https://hoheluftschiff.de/",
       "tags": [
         "multi-event"
