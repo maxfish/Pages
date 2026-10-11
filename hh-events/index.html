@@ -149,77 +149,12 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px 14px;
-      align-items: flex-start;
-    }
-
-    .filter-toolbar {
-      display: flex;
-      justify-content: flex-end;
-      width: 100%;
-      margin-top: 6px;
-    }
-
-    .filter-toggle {
-      border: 1px solid rgba(33, 50, 41, 0.12);
-      border-radius: var(--radius-sm);
-      background: rgba(255, 255, 255, 0.72);
-      color: var(--muted);
-      padding: 6px 10px;
-      font: inherit;
-      font-size: 0.78rem;
-      line-height: 1;
-      cursor: pointer;
-      display: inline-flex;
       align-items: center;
-      gap: 6px;
-      transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
-    }
-
-    .filter-toggle:hover {
-      transform: translateY(-1px);
-      border-color: rgba(218, 107, 45, 0.28);
-      color: var(--text);
-    }
-
-    .secondary-filters.is-hidden {
-      display: none;
-    }
-
-    .secondary-filters {
-      display: flex;
-      flex: 999 1 640px;
-      flex-wrap: wrap;
-      gap: 10px 14px;
     }
 
     .results-section {
       margin-top: 20px;
       animation: fadeSlide 680ms ease both;
-    }
-
-    .filter-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 14px;
-      align-items: flex-start;
-    }
-
-    .filter-group {
-      min-width: min(100%, 260px);
-      flex: 1 1 280px;
-    }
-
-    .filter-group--age {
-      flex: 999 1 420px;
-    }
-
-    .filter-group--select {
-      min-width: 0;
-      flex: 0 0 auto;
-    }
-
-    .filter-group--tags {
-      flex: 1 1 100%;
     }
 
     .filter-select {
@@ -267,7 +202,6 @@
       color: var(--muted);
     }
 
-    .filter-group h2,
     .results-header h2 {
       margin: 0;
       font-size: 0.74rem;
@@ -276,54 +210,13 @@
       color: var(--muted);
     }
 
-    .tag-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-    }
-
-    .tag-button {
-      border: 1px solid var(--line);
-      border-radius: var(--radius-sm);
-      background: rgba(255, 255, 255, 0.75);
-      color: var(--text);
-      padding: 7px 11px;
-      font: inherit;
-      font-size: 0.88rem;
-      line-height: 1.1;
-      cursor: pointer;
-      transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
-    }
-
-    .tag-button:hover {
-      transform: translateY(-1px);
-      border-color: rgba(218, 107, 45, 0.35);
-    }
-
-    .tag-button.is-active {
-      background: var(--forest);
-      border-color: var(--forest);
-      color: #fff;
-      box-shadow: 0 12px 22px rgba(43, 106, 75, 0.18);
-    }
-
-    .hint {
-      margin-top: 7px;
-      color: var(--muted);
-      font-size: 0.8rem;
-      line-height: 1.35;
-    }
-
     .results-header {
-      display: flex;
-      align-items: baseline;
-      gap: 14px;
-      margin: 0 4px 14px;
+      margin: 0 4px 10px;
     }
 
     .results-meta {
-      color: var(--muted);
-      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: normal;
     }
 
     .events-grid {
@@ -499,13 +392,6 @@
         border-radius: 22px;
       }
 
-      .results-header {
-        display: block;
-      }
-
-      .results-meta {
-        margin-top: 6px;
-      }
     }
   </style>
 </head>
@@ -520,22 +406,8 @@
         <path d="M12 13v6"></path>
         <path d="M9 16h6"></path>
       </symbol>
-      <symbol id="icon-sliders" viewBox="0 0 24 24">
-        <path d="M4 6h8"></path>
-        <path d="M16 6h4"></path>
-        <path d="M4 18h4"></path>
-        <path d="M12 18h8"></path>
-        <path d="M4 12h3"></path>
-        <path d="M11 12h9"></path>
-        <circle cx="14" cy="6" r="2"></circle>
-        <circle cx="9" cy="12" r="2"></circle>
-        <circle cx="10" cy="18" r="2"></circle>
-      </symbol>
       <symbol id="icon-chevron-down" viewBox="0 0 24 24">
         <path d="M6 9l6 6 6-6"></path>
-      </symbol>
-      <symbol id="icon-chevron-up" viewBox="0 0 24 24">
-        <path d="M6 15l6-6 6 6"></path>
       </symbol>
     </defs>
   </svg>
@@ -545,41 +417,24 @@
       <div class="hero-updated">Last updated <span id="updated-at">-</span></div>
       <div class="hero-filters">
         <div class="filters-primary">
-          <div class="filter-group filter-group--age">
-            <label class="filter-select">
-              <span class="filter-select-label">AGE:</span>
-              <span id="age-selection">All</span>
-              <svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
-              <select id="age-filters" aria-label="Age"></select>
-            </label>
-            <div class="filter-toolbar">
-              <button type="button" class="filter-toggle" id="filter-toggle">
-                <svg class="icon" aria-hidden="true"><use href="#icon-sliders"></use></svg>
-                <span id="filter-toggle-label">Show filters</span>
-                <svg class="icon" aria-hidden="true" id="filter-toggle-chevron"><use href="#icon-chevron-down"></use></svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="secondary-filters" id="secondary-filters">
-          <div class="filter-row">
-        <div class="filter-group filter-group--select">
+          <label class="filter-select">
+            <span class="filter-select-label">AGE:</span>
+            <span id="age-selection">All</span>
+            <svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
+            <select id="age-filters" aria-label="Age"></select>
+          </label>
           <label class="filter-select">
             <span class="filter-select-label">WHEN:</span>
             <span id="when-selection">All</span>
             <svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
             <select id="when-filters" aria-label="When"></select>
           </label>
-        </div>
-        <div class="filter-group filter-group--select">
           <label class="filter-select">
             <span class="filter-select-label">WHERE:</span>
             <span id="where-selection">All</span>
             <svg class="icon" aria-hidden="true"><use href="#icon-chevron-down"></use></svg>
             <select id="where-filters" aria-label="Where"></select>
           </label>
-        </div>
-        <div class="filter-group filter-group--select">
           <label class="filter-select">
             <span class="filter-select-label">COST:</span>
             <span id="cost-selection">All</span>
@@ -587,19 +442,12 @@
             <select id="cost-filters" aria-label="Cost"></select>
           </label>
         </div>
-        <div class="filter-group filter-group--tags">
-          <h2>Tags</h2>
-          <div class="tag-buttons" id="tag-filters"></div>
-        </div>
-          </div>
-        </div>
       </div>
     </section>
 
     <section class="results-section" aria-labelledby="results-title">
       <div class="results-header">
-        <h2 id="results-title">Results</h2>
-        <div class="results-meta" id="results-meta">Waiting for data</div>
+        <h2 id="results-title">Results <span class="results-meta" id="results-meta">(...)</span></h2>
       </div>
       <div id="results-region">
         <div class="status">Loading events…</div>
@@ -632,15 +480,6 @@
       { id: "free", label: "Free", mode: "free" },
       { id: "paid", label: "Paid", mode: "paid" }
     ];
-    const TAG_FILTER_EXCLUSIONS = new Set([
-      "indoor",
-      "outdoor",
-      "free",
-      "paid",
-      "weekend",
-      "weekday"
-    ]);
-
     const state = {
       sourceUrl: "",
       sourceLabel: "",
@@ -650,9 +489,7 @@
       selectedAge: null,
       whenMode: "all",
       whereMode: "all",
-      costMode: "all",
-      filtersExpanded: false,
-      selectedTags: new Set()
+      costMode: "all"
     };
 
     const ageFiltersEl = document.getElementById("age-filters");
@@ -663,11 +500,6 @@
     const whereSelectionEl = document.getElementById("where-selection");
     const costFiltersEl = document.getElementById("cost-filters");
     const costSelectionEl = document.getElementById("cost-selection");
-    const tagFiltersEl = document.getElementById("tag-filters");
-    const filterToggleEl = document.getElementById("filter-toggle");
-    const filterToggleLabelEl = document.getElementById("filter-toggle-label");
-    const filterToggleChevronEl = document.getElementById("filter-toggle-chevron");
-    const secondaryFiltersEl = document.getElementById("secondary-filters");
     const resultsRegionEl = document.getElementById("results-region");
     const resultsMetaEl = document.getElementById("results-meta");
     const updatedAtEl = document.getElementById("updated-at");
@@ -1066,8 +898,6 @@
       state.whenMode = WHEN_OPTIONS.find((option) => option.id === params.get("when"))?.mode || "all";
       state.whereMode = WHERE_OPTIONS.find((option) => option.id === params.get("where"))?.mode || "all";
       state.costMode = COST_OPTIONS.find((option) => option.id === params.get("cost"))?.mode || "all";
-      state.filtersExpanded = params.get("filters") === "open";
-      state.selectedTags = new Set(params.getAll("tag").map((tag) => cleanText(tag).toLowerCase()).filter(Boolean));
     }
 
     function syncFiltersToUrl() {
@@ -1076,9 +906,8 @@
       url.searchParams.set("when", state.whenMode);
       url.searchParams.set("where", state.whereMode);
       url.searchParams.set("cost", state.costMode);
-      url.searchParams.set("filters", state.filtersExpanded ? "open" : "closed");
+      url.searchParams.delete("filters");
       url.searchParams.delete("tag");
-      [...state.selectedTags].sort().forEach((tag) => url.searchParams.append("tag", tag));
       if (url.href !== window.location.href) {
         window.history.replaceState(window.history.state, "", url.href);
       }
@@ -1113,44 +942,6 @@
       renderSelect(costFiltersEl, costSelectionEl, COST_OPTIONS, state.costMode);
     }
 
-    function renderTagFilters() {
-      const allTags = Array.from(new Set(state.events.flatMap((event) => event.tags || [])))
-        .filter((tag) => !TAG_FILTER_EXCLUSIONS.has(tag.toLowerCase()))
-        .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
-      const availableTags = new Set(allTags.map((tag) => tag.toLowerCase()));
-      state.selectedTags = new Set([...state.selectedTags].filter((tag) => availableTags.has(tag)));
-
-      tagFiltersEl.innerHTML = "";
-      if (!allTags.length) {
-        tagFiltersEl.innerHTML = "<div class=\"hint\">No tags found in the JSON payload.</div>";
-        return;
-      }
-
-      allTags.forEach((tag) => {
-        const normalizedTag = tag.toLowerCase();
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "tag-button" + (state.selectedTags.has(normalizedTag) ? " is-active" : "");
-        button.textContent = tag;
-        button.addEventListener("click", () => {
-          if (state.selectedTags.has(normalizedTag)) {
-            state.selectedTags.delete(normalizedTag);
-          } else {
-            state.selectedTags.add(normalizedTag);
-          }
-          renderTagFilters();
-          renderResults();
-          syncFiltersToUrl();
-        });
-        tagFiltersEl.appendChild(button);
-      });
-    }
-
-    function eventMatchesTags(event) {
-      if (!state.selectedTags.size) return true;
-      return (event.tags || []).some((tag) => state.selectedTags.has(tag.toLowerCase()));
-    }
-
     function eventMatchesWhen(event) {
       if (state.whenMode === "all") return true;
 
@@ -1182,22 +973,12 @@
       return inferCostMode(event) === state.costMode;
     }
 
-    function renderFilterVisibility() {
-      secondaryFiltersEl.classList.toggle("is-hidden", !state.filtersExpanded);
-      filterToggleLabelEl.textContent = state.filtersExpanded ? "Hide filters" : "Show filters";
-      filterToggleChevronEl.innerHTML = state.filtersExpanded
-        ? '<use href="#icon-chevron-up"></use>'
-        : '<use href="#icon-chevron-down"></use>';
-      filterToggleEl.setAttribute("aria-expanded", String(state.filtersExpanded));
-    }
-
     function getVisibleEvents() {
       return sortEvents(state.events
         .filter((event) => overlapsTargetAge(event, state.selectedAge))
         .filter(eventMatchesWhen)
         .filter(eventMatchesWhere)
-        .filter(eventMatchesCost)
-        .filter(eventMatchesTags));
+        .filter(eventMatchesCost));
     }
 
     function renderEventCard(event) {
@@ -1244,7 +1025,7 @@
       state.visibleEvents = getVisibleEvents();
       const visibleCount = state.visibleEvents.length;
       const totalCount = state.events.length;
-      resultsMetaEl.textContent = visibleCount + " of " + totalCount + " events shown" + (state.selectedTags.size ? " · tags filtered" : "");
+      resultsMetaEl.textContent = "(" + visibleCount + "/" + totalCount + ")";
 
       if (!visibleCount) {
         resultsRegionEl.innerHTML = "<div class=\"empty-state\">No events match the current filters.</div>";
@@ -1260,15 +1041,13 @@
       renderWhenFilters();
       renderWhereFilters();
       renderCostFilters();
-      renderTagFilters();
-      renderFilterVisibility();
       renderResults();
       syncFiltersToUrl();
     }
 
     function renderError(message) {
       updatedAtEl.textContent = "-";
-      resultsMetaEl.textContent = "Unable to load data";
+      resultsMetaEl.textContent = "(unavailable)";
       resultsRegionEl.innerHTML = "<div class=\"error-state\">" + escapeHtml(message) + "</div>";
     }
 
@@ -1330,18 +1109,11 @@
       syncFiltersToUrl();
     });
 
-    filterToggleEl.addEventListener("click", () => {
-      state.filtersExpanded = !state.filtersExpanded;
-      renderFilterVisibility();
-      syncFiltersToUrl();
-    });
-
     readFiltersFromUrl();
     renderAgeFilters();
     renderWhenFilters();
     renderWhereFilters();
     renderCostFilters();
-    renderFilterVisibility();
     syncFiltersToUrl();
     loadEvents();
   </script>
